@@ -1,0 +1,13 @@
+{
+  "name": "Deco 新品巡查台",
+  "short_name": "Deco Watch",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#FAF8F4",
+  "theme_color": "#2F6F6A",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

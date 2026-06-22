@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deco 新品巡查台 · UNION VISION</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2F6F6A">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{
+    --bg:#FAF8F4;--surface:#FFFFFF;--ink:#1C2B2D;--muted:#6B7472;--line:#E7E2D8;
+    --petrol:#2F6F6A;--petrol-dk:#235552;--clay:#C77D4A;--clay-dk:#A9633A;--chip:#F1EEE6;
+    --radius:14px;--shadow:0 1px 2px rgba(28,43,45,.04),0 8px 24px rgba(28,43,45,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px 80px;}
+  header{padding:34px 0 22px;border-bottom:1px solid var(--line);margin-bottom:30px;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--petrol);margin:0 0 10px;display:flex;align-items:center;gap:9px;}
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--petrol);box-shadow:0 0 0 4px rgba(47,111,106,.14);}
+  h1{font-family:'Space Grotesk',sans-serif;font-weight:600;letter-spacing:-.02em;font-size:clamp(28px,4vw,42px);margin:0 0 6px;line-height:1.04;}
+  h1 .ru{color:var(--clay);}
+  .sub{color:var(--muted);font-size:14.5px;max-width:660px;margin:0;}
+  .controls{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:22px;}
+  .toggle-label{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+  .toggle{display:inline-flex;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;}
+  .toggle button{border:0;background:transparent;cursor:pointer;padding:7px 16px;border-radius:999px;
+    font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--muted);transition:all .18s ease;}
+  .toggle button .small{font-size:11px;opacity:.7;margin-left:5px;}
+  .toggle button[aria-pressed="true"]{background:var(--ink);color:#fff;}
+  .toggle button:focus-visible{outline:2px solid var(--petrol);outline-offset:2px;}
+  .section{margin-top:46px;}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin:0 0 18px;}
+  .sec-num{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;color:var(--clay);letter-spacing:.04em;}
+  .sec-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:19px;letter-spacing:-.01em;margin:0;}
+  .sec-note{color:var(--muted);font-size:13px;margin-left:auto;text-align:right;max-width:46ch;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:14px;}
+  .cat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;
+    box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px;transition:transform .16s ease,box-shadow .16s ease;}
+  .cat:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(28,43,45,.05),0 14px 30px rgba(28,43,45,.08);}
+  .cat-cn{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:18px;letter-spacing:-.01em;}
+  .cat-ru{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--petrol);margin-top:3px;}
+  .kw{display:flex;align-items:center;gap:8px;background:var(--chip);border:1px solid var(--line);border-radius:9px;padding:7px 9px;}
+  .kw code{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .kw button{border:0;background:transparent;cursor:pointer;color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.06em;padding:2px 4px;border-radius:5px;}
+  .kw button:hover{color:var(--petrol);}
+  .kw button:focus-visible{outline:2px solid var(--petrol);outline-offset:2px;}
+  .launch{display:grid;grid-template-columns:1fr 1fr;gap:7px;}
+  .launch a{text-decoration:none;text-align:center;padding:8px 6px;border-radius:9px;font-size:12.5px;font-weight:500;
+    border:1px solid var(--line);color:var(--ink);background:#fff;transition:all .15s ease;}
+  .launch a.prime{background:var(--petrol);color:#fff;border-color:var(--petrol);}
+  .launch a.prime:hover{background:var(--petrol-dk);}
+  .launch a.quiet:hover{border-color:var(--petrol);color:var(--petrol);}
+  .launch a:focus-visible{outline:2px solid var(--clay);outline-offset:2px;}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;
+    box-shadow:var(--shadow);display:flex;flex-direction:column;gap:11px;}
+  .card.client{border-left:3px solid var(--petrol);}
+  .card.bench{border-left:3px solid var(--clay);}
+  .card-name{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;letter-spacing:-.01em;}
+  .card-tag{font-size:11.5px;color:var(--petrol);font-weight:500;font-family:'IBM Plex Mono',monospace;letter-spacing:.04em;}
+  .card.bench .card-tag{color:var(--clay-dk);}
+  .links{display:flex;flex-wrap:wrap;gap:7px;}
+  .links a{text-decoration:none;font-size:12.5px;font-weight:500;padding:6px 11px;border-radius:8px;
+    background:var(--chip);color:var(--ink);border:1px solid var(--line);transition:all .15s ease;}
+  .links a:hover{border-color:var(--petrol);color:var(--petrol);}
+  .links a.new{background:var(--petrol);color:#fff;border-color:var(--petrol);}
+  .links a.new:hover{background:var(--petrol-dk);}
+  .links a:focus-visible{outline:2px solid var(--clay);outline-offset:2px;}
+  .card-note{font-size:12.5px;color:var(--muted);margin:2px 0 0;line-height:1.5;}
+  .tips{margin-top:46px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);}
+  .tips h3{font-family:'Space Grotesk',sans-serif;font-size:15px;margin:0 0 12px;font-weight:600;}
+  .tips ul{margin:0;padding-left:18px;color:var(--muted);font-size:13px;line-height:1.7;}
+  .tips ul strong{color:var(--ink);font-weight:600;}
+  footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);
+    font-family:'IBM Plex Mono',monospace;letter-spacing:.04em;}
+  .toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;
+    padding:10px 18px;border-radius:999px;font-size:13px;opacity:0;pointer-events:none;transition:all .25s ease;z-index:50;}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+  .err{background:#fff;border:1px solid var(--clay);border-radius:var(--radius);padding:18px 20px;color:var(--clay-dk);font-size:13.5px;}
+  .notify-btn{border:1px solid var(--petrol);background:#fff;color:var(--petrol);cursor:pointer;padding:8px 14px;
+    border-radius:999px;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;transition:all .15s ease;}
+  .notify-btn:hover{background:var(--petrol);color:#fff;}
+  .notify-btn:focus-visible{outline:2px solid var(--clay);outline-offset:2px;}
+  .notify-btn[data-state="on"]{background:var(--petrol);color:#fff;}
+  .notify-btn[data-state="blocked"]{border-color:var(--clay);color:var(--clay-dk);background:#fff;}
+  #banner{display:none;margin-top:22px;background:var(--petrol);color:#fff;border-radius:var(--radius);
+    padding:14px 18px;font-size:14px;align-items:center;gap:14px;justify-content:space-between;}
+  #banner.show{display:flex;}
+  #banner a{color:#fff;font-weight:600;text-decoration:underline;}
+  #banner button{background:rgba(255,255,255,.2);border:0;color:#fff;border-radius:8px;padding:5px 11px;cursor:pointer;font-size:12px;}
+  @media (max-width:560px){.sec-note{display:none;}#banner{flex-direction:column;align-items:flex-start;}}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow"><span class="dot"></span>UNION VISION · Russian retail deco watch</p>
+    <h1>Deco 新品巡查台 <span class="ru">/ Новинки</span></h1>
+    <p class="sub">按品类一键直达 Wildberries / Ozon 新品与热销，加客户官网新品入口与对标商超。关键词来自 <code>keywords.json</code>，改那一份文件，网页和每周推送同步更新。</p>
+    <div class="controls">
+      <span class="toggle-label">市场排序</span>
+      <div class="toggle" role="group" aria-label="排序方式">
+        <button id="btn-new" aria-pressed="true" onclick="setSort('new')">新品 <span class="small">Новинки</span></button>
+        <button id="btn-pop" aria-pressed="false" onclick="setSort('popular')">热销 <span class="small">Популярные</span></button>
+      </div>
+      <button id="notifyBtn" class="notify-btn" onclick="enableNotify()">🔔 开启桌面通知</button>
+    </div>
+  </header>
+  <div id="banner"><span id="bannerText"></span><span style="display:flex;gap:10px;align-items:center"><a id="bannerLink" href="data/latest_report.md" target="_blank" rel="noopener">查看周报</a><button onclick="dismissBanner()">知道了</button></span></div>
+
+  <section class="section">
+    <div class="sec-head"><span class="sec-num">01</span><h2 class="sec-title">品类巡查 · 电商大盘</h2>
+      <p class="sec-note">WB / Ozon 走当前排序，Я.Маркет / Мегамаркет 为普通搜索。关键词可一键复制。</p></div>
+    <div class="grid" id="catGrid"></div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head"><span class="sec-num">02</span><h2 class="sec-title">客户官网新品</h2>
+      <p class="sec-note">绿色 = 新品/Новинки 直达页。</p></div>
+    <div class="cards" id="clientCards"></div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head"><span class="sec-num">03</span><h2 class="sec-title">对标商超 · 同风格参考</h2>
+      <p class="sec-note">看同类商超的造型、定价与零开模改色。</p></div>
+    <div class="cards" id="benchCards"></div>
+  </section>
+
+  <div class="tips">
+    <h3>巡查习惯（避坑提醒）</h3>
+    <ul>
+      <li>主标题堆 <strong>Вт / GX53 / IP / встраиваемый</strong> 的是电工照明，跳过。</li>
+      <li>品类判断 <strong>WB 和 Ozon 对照</strong>，别被单平台爆款带偏。</li>
+      <li><strong>X5</strong> 自营线上薄，真正信号来自大盘 + Steve 店型矩阵；三个店型价格带分开。</li>
+      <li>客户档案别用单次询盘定型，多渠道交叉验证后再更新 client_profiles.json。</li>
+    </ul>
+  </div>
+
+  <footer id="foot"></footer>
+</div>
+<div class="toast" id="toast">已复制</div>
+
+<script>
+  const state = { sort:'new', data:null };
+
+  function mkUrls(kw){
+    const e = encodeURIComponent(kw);
+    const wbSort = state.sort==='new' ? 'newly' : 'popular';
+    const ozSort = state.sort==='new' ? 'new' : 'rating';
+    return {
+      wb:`https://www.wildberries.ru/catalog/0/search.aspx?search=${e}&sort=${wbSort}`,
+      oz:`https://www.ozon.ru/search/?text=${e}&sorting=${ozSort}`,
+      ya:`https://market.yandex.ru/search?text=${e}`,
+      mm:`https://megamarket.ru/catalog/?q=${e}`
+    };
+  }
+  function esc(s){return String(s).replace(/'/g,"\\'");}
+
+  function renderCats(){
+    if(!state.data) return;
+    document.getElementById('catGrid').innerHTML = state.data.categories.map(c=>{
+      const u = mkUrls(c.kw);
+      return `<div class="cat">
+        <div><div class="cat-cn">${c.cn}</div><div class="cat-ru">${c.ru}</div></div>
+        <div class="kw"><code title="${c.kw}">${c.kw}</code>
+          <button onclick="copyKw('${esc(c.kw)}')">复制</button></div>
+        <div class="launch">
+          <a class="prime" href="${u.wb}" target="_blank" rel="noopener">Wildberries</a>
+          <a class="prime" href="${u.oz}" target="_blank" rel="noopener">Ozon</a>
+          <a class="quiet" href="${u.ya}" target="_blank" rel="noopener">Я.Маркет</a>
+          <a class="quiet" href="${u.mm}" target="_blank" rel="noopener">Мегамаркет</a>
+        </div></div>`;
+    }).join('');
+  }
+  function renderCards(list,id,cls){
+    document.getElementById(id).innerHTML = list.map(c=>`
+      <div class="card ${cls}">
+        <div><div class="card-name">${c.name}</div><div class="card-tag">${c.tag}</div></div>
+        <div class="links">${c.links.map(l=>`<a class="${l.new?'new':''}" href="${l.u}" target="_blank" rel="noopener">${l.t}</a>`).join('')}</div>
+        <p class="card-note">${c.note}</p>
+      </div>`).join('');
+  }
+  function setSort(s){
+    state.sort = s;
+    document.getElementById('btn-new').setAttribute('aria-pressed', s==='new');
+    document.getElementById('btn-pop').setAttribute('aria-pressed', s==='popular');
+    renderCats();
+  }
+  let toastTimer;
+  function copyKw(kw){
+    navigator.clipboard?.writeText(kw).then(()=>{
+      const t=document.getElementById('toast');
+      t.textContent='已复制：'+kw; t.classList.add('show');
+      clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),1600);
+    });
+  }
+
+  fetch('keywords.json?v='+Date.now())
+    .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data=>{
+      state.data = data;
+      renderCats();
+      renderCards(data.clients,'clientCards','client');
+      renderCards(data.benchmarks,'benchCards','bench');
+      document.getElementById('foot').textContent =
+        (data.meta?.title || 'Deco 巡查台') + ' · 数据源 keywords.json · 平台排序参数偶有调整，失效时手动切 Новинки / Популярные';
+    })
+    .catch(e=>{
+      document.querySelector('.wrap').insertAdjacentHTML('beforeend',
+        `<div class="err" style="margin-top:30px">读取 keywords.json 失败（${e.message}）。如果是本地双击打开会被浏览器拦截，请部署到 GitHub Pages 后访问，或用本地服务器打开。</div>`);
+    });
+</script>
+
+<script>
+  // ===== PWA + 桌面通知 + 周报状态轮询 =====
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+
+  const STATUS_URL = 'data/status.json';
+  const POLL_MS = 10 * 60 * 1000; // 每 10 分钟检查一次
+
+  function updateNotifyBtn(){
+    const b = document.getElementById('notifyBtn');
+    if (!('Notification' in window)){ b.textContent='浏览器不支持通知'; b.disabled=true; return; }
+    if (Notification.permission==='granted'){ b.textContent='🔔 桌面通知已开启'; b.dataset.state='on'; }
+    else if (Notification.permission==='denied'){ b.textContent='通知被浏览器拦截'; b.dataset.state='blocked'; }
+    else { b.textContent='🔔 开启桌面通知'; b.dataset.state=''; }
+  }
+  function enableNotify(){
+    if (!('Notification' in window)) return;
+    Notification.requestPermission().then(()=>{ updateNotifyBtn(); checkStatus(true); });
+  }
+  function fireNotification(title, body, link){
+    if (!('Notification' in window) || Notification.permission!=='granted') return;
+    try{
+      const n = new Notification(title, { body, icon:'icon-192.png', badge:'icon-192.png', tag:'deco-weekly', renotify:true });
+      n.onclick = ()=>{ window.open(link||'.', '_blank'); n.close(); };
+    }catch(e){}
+  }
+  function showBanner(text, link){
+    document.getElementById('bannerText').textContent = text;
+    document.getElementById('bannerLink').href = link || 'data/latest_report.md';
+    document.getElementById('banner').classList.add('show');
+  }
+  function dismissBanner(){ document.getElementById('banner').classList.remove('show'); }
+
+  async function checkStatus(force){
+    try{
+      const r = await fetch(STATUS_URL + '?v=' + Date.now());
+      if (!r.ok) return;
+      const s = await r.json();
+      if (!s || !s.date) return;            // 还没跑过第一期
+      const sig = s.date + ':' + (s.total_new||0);
+      const seen = localStorage.getItem('deco_last_seen');
+      const isNew = sig !== seen;
+      if (force || isNew){
+        const link = s.report || 'data/latest_report.md';
+        showBanner(`📦 ${s.date} 新品周报已更新 · 捕捉新品约 ${s.total_new||0} 个`, link);
+        if (isNew){
+          fireNotification('Deco 新品周报', `本周捕捉新品约 ${s.total_new||0} 个，点击查看`, link);
+          localStorage.setItem('deco_last_seen', sig);
+        }
+      }
+    }catch(e){}
+  }
+
+  updateNotifyBtn();
+  checkStatus(false);
+  setInterval(()=>checkStatus(false), POLL_MS);
+  document.addEventListener('visibilitychange', ()=>{ if(!document.hidden) checkStatus(false); });
+</script>
+</body>
+</html>
