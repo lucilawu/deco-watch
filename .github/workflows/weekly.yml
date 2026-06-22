@@ -1,0 +1,38 @@
+name: weekly-deco-watch
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run weekly scraper
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          BARK_URL: ${{ secrets.BARK_URL }}
+        run: python scraper.py
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "deco-watch-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/snapshot.json data/latest_report.md data/status.json
+          git commit -m "weekly snapshot $(date -u +%F)" || echo "no changes"
+          git push || echo "nothing to push"
