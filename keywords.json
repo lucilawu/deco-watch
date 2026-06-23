@@ -1,116 +1,328 @@
 {
   "meta": {
     "title": "Deco 新品巡查台 · UNION VISION",
-    "note": "改这一份文件即可。面板和每周爬虫都读它。加词只需在 categories 里加一行。",
+    "note": "改这一份即可。社媒频道在 clients[].social，你自己填/改。追踪全部上新：new_arrivals.track；social.track 控制社媒预告追踪。",
     "top_n_per_keyword": 10,
-    "dest_region": "-1257786"
+    "dest_region": "-1257786",
+    "groups": {
+      "glass": "玻璃",
+      "ceramic": "陶瓷",
+      "resin": "树脂",
+      "metal": "金属",
+      "wood": "木质",
+      "candle": "蜡烛香薰",
+      "textile": "纺织",
+      "lighting": "灯饰",
+      "furniture": "小家具",
+      "table": "桌面装饰",
+      "party": "派对节日"
+    }
   },
   "categories": [
-    { "cn": "装饰灯具", "ru": "Освещение",  "kw": "светильник интерьерный" },
-    { "cn": "装饰夜灯", "ru": "Ночники",    "kw": "ночник декоративный" },
-    { "cn": "玻璃花瓶", "ru": "Стекло",     "kw": "ваза стеклянная декоративная" },
-    { "cn": "陶瓷",     "ru": "Керамика",   "kw": "ваза керамическая" },
-    { "cn": "树脂摆件", "ru": "Статуэтки",  "kw": "статуэтка декоративная" },
-    { "cn": "香薰蜡烛", "ru": "Свечи",      "kw": "свеча ароматическая" },
-    { "cn": "香薰扩散", "ru": "Аромат",     "kw": "аромадиффузор" },
-    { "cn": "相框",     "ru": "Фоторамки",  "kw": "фоторамка декоративная" },
-    { "cn": "装饰镜",   "ru": "Зеркала",    "kw": "зеркало декоративное" },
-    { "cn": "墙饰挂画", "ru": "Панно",      "kw": "панно настенное" },
-    { "cn": "装饰串灯", "ru": "Гирлянды",   "kw": "гирлянда декоративная" },
-    { "cn": "收纳",     "ru": "Хранение",   "kw": "корзина декоративная для хранения" },
-    { "cn": "小家具",   "ru": "Мебель",     "kw": "журнальный столик декоративный" },
-    { "cn": "节日派对", "ru": "Праздник",   "kw": "праздничный декор" }
+    {
+      "cn": "装饰灯具",
+      "ru": "Освещение",
+      "kw": "светильник интерьерный",
+      "group": "lighting"
+    },
+    {
+      "cn": "装饰夜灯",
+      "ru": "Ночники",
+      "kw": "ночник декоративный",
+      "group": "lighting"
+    },
+    {
+      "cn": "玻璃花瓶",
+      "ru": "Стекло",
+      "kw": "ваза стеклянная декоративная",
+      "group": "glass"
+    },
+    {
+      "cn": "陶瓷花瓶",
+      "ru": "Керамика",
+      "kw": "ваза керамическая",
+      "group": "ceramic"
+    },
+    {
+      "cn": "树脂摆件",
+      "ru": "Статуэтки",
+      "kw": "статуэтка декоративная",
+      "group": "resin"
+    },
+    {
+      "cn": "香薰蜡烛",
+      "ru": "Свечи",
+      "kw": "свеча ароматическая",
+      "group": "candle"
+    },
+    {
+      "cn": "香薰扩散",
+      "ru": "Аромат",
+      "kw": "аромадиффузор",
+      "group": "candle"
+    },
+    {
+      "cn": "相框",
+      "ru": "Фоторамки",
+      "kw": "фоторамка декоративная",
+      "group": "resin",
+      "note": "材质混合，可改 wood/metal"
+    },
+    {
+      "cn": "装饰镜",
+      "ru": "Зеркала",
+      "kw": "зеркало декоративное",
+      "group": "metal",
+      "note": "镜框材质混合"
+    },
+    {
+      "cn": "墙饰挂画",
+      "ru": "Панно",
+      "kw": "панно настенное",
+      "group": "wood",
+      "note": "墙饰材质混合"
+    },
+    {
+      "cn": "收纳篮",
+      "ru": "Хранение",
+      "kw": "корзина декоративная для хранения",
+      "group": "textile",
+      "note": "含藤编/塑料"
+    },
+    {
+      "cn": "小家具",
+      "ru": "Мебель",
+      "kw": "журнальный столик декоративный",
+      "group": "furniture"
+    },
+    {
+      "cn": "餐桌烛台",
+      "ru": "Подсвечник",
+      "kw": "подсвечник декоративный",
+      "group": "table"
+    },
+    {
+      "cn": "餐垫",
+      "ru": "Салфетка",
+      "kw": "салфетка сервировочная",
+      "group": "table"
+    },
+    {
+      "cn": "派对桌布",
+      "ru": "Скатерть",
+      "kw": "скатерть праздничная",
+      "group": "table"
+    },
+    {
+      "cn": "派对餐具",
+      "ru": "Посуда",
+      "kw": "одноразовая посуда праздничная",
+      "group": "table"
+    },
+    {
+      "cn": "节日装饰",
+      "ru": "Праздник",
+      "kw": "праздничный декор",
+      "group": "party"
+    },
+    {
+      "cn": "新年装饰",
+      "ru": "Новый год",
+      "kw": "новогодний декор",
+      "group": "party"
+    },
+    {
+      "cn": "装饰串灯",
+      "ru": "Гирлянды",
+      "kw": "гирлянда декоративная",
+      "group": "party"
+    },
+    {
+      "cn": "派对气球",
+      "ru": "Шары",
+      "kw": "воздушные шары праздничные",
+      "group": "party"
+    },
+    {
+      "cn": "生日装饰",
+      "ru": "День рожд.",
+      "kw": "декор на день рождения",
+      "group": "party"
+    }
   ],
   "clients": [
-    { "name": "Fix Price", "tag": "定价直采 · 你负责灯具/小家具",
+    {
+      "name": "Fix Price",
+      "tag": "定价直采 · 你主攻：新品增长",
+      "responsibility": "新品增长，全品类可看，主攻 灯饰 + 小家具",
+      "focus": [
+        "lighting",
+        "furniture"
+      ],
+      "price_band": "定价低段，按固定价位带下单",
+      "aesthetic": "主题驱动，零开模改色 + 现成形状优先",
       "new_arrivals": {
-        "track": true,
-        "source": "fix_price_api",
         "url": "https://fix-price.com/catalog/novinki",
-        "api_url": "https://api.fix-price.com/buyer/v1/product/in/novinki",
-        "city_id": "55",
-        "page_size": 100,
-        "decor_path_allow": [
-          "/dekor-dlya-doma-", "/dekor/", "/vazy/", "/svechi/",
-          "/tekstil/", "/mebel/", "/osveshenie/", "/svetilniki/",
-          "/aromaty-dlya-doma/", "/fotoramki/"
-        ],
-        "decor_path_deny": [
-          "/bytovaya-khimiya/", "/kantstovary/", "/knigi/",
-          "/produkty-i-napitki/", "/odezhda/", "/kosmetika-i-gigiena/",
-          "/igrushki/", "/avto-moto-velo/", "/sport-i-otdykh/",
-          "/dlya-zhivotnykh/", "/dlya-remonta/"
-        ],
-        "decor_path_keyword_fallback": [
-          "/dlya-doma/", "/suveniry-i-podarki/", "/novinki/"
-        ]
-      },
-      "social": {
         "track": true,
-        "telegram": "fixprice_russia",
-        "vk": "fix_price"
+        "note": "追踪全部上新（不限品类）"
       },
       "links": [
-        { "t": "Новинки 新品", "u": "https://fix-price.com/catalog/novinki", "new": true },
-        { "t": "Декор для дома 装饰品类", "u": "https://fix-price.com/catalog" },
-        { "t": "官网首页", "u": "https://fix-price.com/" }
+        {
+          "t": "Новинки 新品",
+          "u": "https://fix-price.com/catalog/novinki",
+          "new": true
+        },
+        {
+          "t": "Декор для дома 装饰品类",
+          "u": "https://fix-price.com/catalog"
+        },
+        {
+          "t": "官网首页",
+          "u": "https://fix-price.com/"
+        }
       ],
-      "note": "主题驱动下单。盯 Новинки 和「Декор для дома, товары для праздника」，零开模改色优先。" },
-    { "name": "Sela Home", "tag": "Melon Fashion · 联系人 Anastasia",
+      "note": "自动追踪上新；零开模改色优先。",
+      "social": {
+        "track": true,
+        "vk": "https://vk.com/fix_price",
+        "telegram": "https://t.me/s/fixprice_russia"
+      }
+    },
+    {
+      "name": "Sela Home",
+      "tag": "Melon Fashion · 联系人 Anastasia",
+      "responsibility": "家居装饰线（北欧/有机现代）",
+      "focus": [
+        "glass",
+        "ceramic",
+        "candle",
+        "textile"
+      ],
+      "price_band": "价格敏感，先问 Anastasia 目标价再选品",
+      "aesthetic": "北欧 / 有机现代",
       "new_arrivals": {
-        "track": true,
-        "source": "sela_html",
         "url": "https://www.sela.ru/eshop/home/new/",
-        "max_pages": 100,
-        "decor_path_allow": [
-          "/home/dekor/", "/home/tekstil/", "/home/posuda/",
-          "/home/aromaty-dlya-doma/", "/home/khranenie/", "/home/vannaya/",
-          "/home/mebel/", "/home/osveshenie/"
-        ],
-        "decor_path_deny": [
-          "/home/new/kantselyariya/", "/home/kantselyariya/"
-        ],
-        "decor_path_keyword_fallback": [
-          "/home/new/", "/home/gostinaya/", "/home/spalnya/",
-          "/home/kukhnya/", "/home/detskaya/"
-        ]
+        "track": true,
+        "note": "追踪全部上新（不限品类）"
       },
+      "links": [
+        {
+          "t": "Новинки 家居新品",
+          "u": "https://www.sela.ru/eshop/home/new/",
+          "new": true
+        },
+        {
+          "t": "Декор 装饰",
+          "u": "https://www.sela.ru/eshop/home/dekor/"
+        },
+        {
+          "t": "товары для дома",
+          "u": "https://www.sela.ru/eshop/home/"
+        },
+        {
+          "t": "Распродажа 清仓",
+          "u": "https://www.sela.ru/eshop/home/sale/"
+        }
+      ],
+      "note": "自动追踪上新；对照 Anastasia 目标价带。",
       "social": {
         "track": true,
-        "telegram": "selahome",
-        "vk": "sela_ru"
+        "vk": "https://vk.com/sela_ru",
+        "telegram": "https://t.me/s/sela_brand"
+      }
+    },
+    {
+      "name": "X5 · Перекрёсток",
+      "tag": "桌面装饰 · 联系人 Steve / RVI",
+      "responsibility": "table decoration（桌面装饰线）",
+      "focus": [
+        "table",
+        "glass"
+      ],
+      "price_band": "按店型分层 Пятёрочка/Перекрёсток/Чижик，不能合并",
+      "aesthetic": "大胆色彩、异形、玻璃；陶瓷绕过中间商",
+      "new_arrivals": {
+        "url": "https://www.perekrestok.ru/",
+        "track": false,
+        "note": "官网装饰薄，不追踪官网"
       },
       "links": [
-        { "t": "Новинки 家居新品", "u": "https://www.sela.ru/eshop/home/new/", "new": true },
-        { "t": "Декор 装饰", "u": "https://www.sela.ru/eshop/home/dekor/" },
-        { "t": "товары для дома", "u": "https://www.sela.ru/eshop/home/" },
-        { "t": "Распродажа 清仓", "u": "https://www.sela.ru/eshop/home/sale/" }
+        {
+          "t": "Перекрёсток",
+          "u": "https://www.perekrestok.ru/"
+        },
+        {
+          "t": "Vprok 配送仓",
+          "u": "https://www.vprok.ru/"
+        }
       ],
-      "note": "北欧/有机现代风，价格敏感。看 Новинки 抓新主题，对照给 Anastasia 的目标价带。" },
-    { "name": "Magnit · М.Косметик", "tag": "家居/装饰线偏薄",
+      "note": "线上装饰薄，不自动追踪；桌面装饰线第一手数据来自 Steve 店型矩阵。",
+      "social": {
+        "track": true,
+        "vk": "",
+        "telegram": "",
+        "note": "官方VK/TG待核实，确认后填"
+      }
+    },
+    {
+      "name": "Magnit · М.Косметик",
+      "tag": "外联阶段 · 家居线偏薄",
+      "responsibility": "外联开发中",
+      "focus": [
+        "candle",
+        "ceramic"
+      ],
+      "price_band": "待定（外联阶段）",
+      "aesthetic": "待补充",
+      "new_arrivals": {
+        "url": "https://cosmetic.magnit.ru/",
+        "track": false,
+        "note": "官网装饰薄，不追踪官网"
+      },
       "links": [
-        { "t": "М.Косметик 官网", "u": "https://cosmetic.magnit.ru/" },
-        { "t": "Магнит Маркет", "u": "https://market.magnit.ru/" }
+        {
+          "t": "М.Косметик 官网",
+          "u": "https://cosmetic.magnit.ru/"
+        },
+        {
+          "t": "Магнит Маркет",
+          "u": "https://market.magnit.ru/"
+        }
       ],
-      "note": "自营装饰有限。主触点仍是 Zuchex 和 LinkedIn，线上做参考。" },
-    { "name": "X5 · Перекрёсток", "tag": "生鲜为主 · 联系人 Steve / RVI",
-      "links": [
-        { "t": "Перекрёсток", "u": "https://www.perekrestok.ru/" },
-        { "t": "Vprok 配送仓", "u": "https://www.vprok.ru/" }
-      ],
-      "note": "X5 线上装饰薄，真正信号来自大盘 + Steve 店型矩阵。三个店型价格带分开看。" }
+      "note": "自营装饰有限，不自动追踪；主触点 Zuchex 和 LinkedIn。",
+      "social": {
+        "track": true,
+        "vk": "",
+        "telegram": "https://t.me/s/magnit_retail"
+      }
+    }
   ],
   "benchmarks": [
-    { "name": "Галамарт", "tag": "定价店 · 最贴近 Fix Price",
+    {
+      "name": "Галамарт",
+      "tag": "定价店 · 最贴近 Fix Price",
       "links": [
-        { "t": "Декор и интерьер", "u": "https://galamart.ru/catalog/tovary-dlia-doma/dekor-i-interer/" },
-        { "t": "Товары для дома", "u": "https://galamart.ru/catalog/tovary-dlia-doma/" }
+        {
+          "t": "Декор и интерьер",
+          "u": "https://galamart.ru/catalog/tovary-dlia-doma/dekor-i-interer/"
+        },
+        {
+          "t": "Товары для дома",
+          "u": "https://galamart.ru/catalog/tovary-dlia-doma/"
+        }
       ],
-      "note": "低价定位，деко子类齐全。看怎么用现成形状做造型。" },
-    { "name": "Hoff", "tag": "家居专营 · 风格更高一档",
+      "note": "低价定位，деко子类齐全。看怎么用现成形状做造型。"
+    },
+    {
+      "name": "Hoff",
+      "tag": "家居专营 · 风格更高一档",
       "links": [
-        { "t": "Товары для дома", "u": "https://hoff.ru/catalog/tovary_dlya_doma/" }
+        {
+          "t": "Товары для дома",
+          "u": "https://hoff.ru/catalog/tovary_dlya_doma/"
+        }
       ],
-      "note": "定价和风格高一档，看趋势和款式上探方向。" }
+      "note": "定价和风格高一档，看趋势和款式上探方向。"
+    }
   ]
 }
