@@ -1,233 +1,483 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Deco 新品巡查 · 每周爬虫
-- 读取 keywords.json 的 categories
-- 对每个俄文关键词抓 Wildberries 的「新品」与「热销」Top N
-- 与上周快照 data/snapshot.json 对比，找出本周新出现的 SKU 和热门榜
-- 生成中文周报，推送到 Server酱（微信），并写回新快照
+"""汇总客户官网、客户社媒与 Wildberries 大盘，生成并推送中文周报。"""
 
-注意：
-- Wildberries 的 search.wb.ru 接口参数会变动。失效时把仓库地址发给 Codex，
-  让它更新 WB_API / 字段映射即可（这正是 Codex 擅长维护的部分）。
-- Ozon 反爬较强，未在此脚本抓取；如需 Ozon 数据，建议用官方 API 或 headless 方案，
-  可让 Codex 单独加一个 ozon.py 模块。
-"""
+from __future__ import annotations
 
-import os, json, time, html, datetime, pathlib, urllib.parse
+import datetime as dt
+import json
+import os
+import pathlib
+import re
+import sys
+import time
+import unicodedata
+from typing import Any
+
 import requests
+
 
 ROOT = pathlib.Path(__file__).parent
 CONFIG = ROOT / "keywords.json"
-SNAPSHOT = ROOT / "data" / "snapshot.json"
+DATA_DIR = ROOT / "data"
+SNAPSHOT = DATA_DIR / "snapshot.json"
+CLIENT_LATEST = DATA_DIR / "client_latest.json"
+SOCIAL_LATEST = DATA_DIR / "social_latest.json"
 
-WB_API = "https://search.wb.ru/exactmatch/ru/common/v9/search"
+# 这是 Wildberries 网页当前实际调用的 v18 搜索后端。
+WB_API = "https://search.wb.ru/exactmatch/ru/common/v18/search"
 WB_PARAMS_BASE = {
     "ab_testing": "false",
     "appType": "1",
     "curr": "rub",
+    "hide_dtype": "15",
+    "hide_vflags": "4294967296",
+    "inheritFilters": "false",
     "lang": "ru",
+    "locale": "ru",
+    "page": "1",
     "resultset": "catalog",
     "spp": "30",
     "suppressSpellcheck": "false",
 }
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    ),
     "Accept": "application/json",
+    "Accept-Language": "ru-RU,ru;q=0.9,en;q=0.7",
     "Origin": "https://www.wildberries.ru",
     "Referer": "https://www.wildberries.ru/",
 }
+WB_SESSION = requests.Session()
 
-def load_config():
-    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+
+def read_json(path: pathlib.Path, default: Any) -> Any:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
+
+
+def write_json(path: pathlib.Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def load_config() -> dict[str, Any]:
+    cfg = read_json(CONFIG, {})
     cfg.setdefault("meta", {})
     cfg["meta"].setdefault("top_n_per_keyword", 10)
     cfg["meta"].setdefault("dest_region", "-1257786")
     return cfg
 
-def load_snapshot():
-    if SNAPSHOT.exists():
-        try:
-            return json.loads(SNAPSHOT.read_text(encoding="utf-8"))
-        except Exception:
-            return {}
-    return {}
 
-def wb_search(keyword, sort, dest, top_n):
-    """sort: 'newly'(新品) | 'popular'(热销)。返回精简后的产品列表。"""
+def _normalized(value: Any) -> str:
+    text = unicodedata.normalize("NFKC", str(value or "")).casefold().replace("ё", "е")
+    return " ".join(re.findall(r"[\w-]+", text, flags=re.UNICODE))
+
+
+def _is_relevant(keyword: str, product: dict[str, Any]) -> bool:
+    haystack = _normalized(f"{product.get('name', '')} {product.get('brand', '')}")
+    tokens = [token for token in _normalized(keyword).split() if len(token) >= 4]
+    return not tokens or any(token in haystack for token in tokens)
+
+
+def _product_price_kopecks(product: dict[str, Any]) -> float:
+    prices = []
+    for size in product.get("sizes") or []:
+        price = (size.get("price") or {}).get("product")
+        if isinstance(price, (int, float)) and price > 0:
+            prices.append(price)
+    return min(prices) if prices else product.get("salePriceU") or product.get("priceU") or 0
+
+
+def _wb_search_unvalidated(keyword: str, sort: str, dest: str, top_n: int) -> list[dict[str, Any]]:
+    if sort not in {"newly", "popular"}:
+        raise ValueError(f"不支持的 WB 排序：{sort}")
     params = dict(WB_PARAMS_BASE)
-    params.update({"dest": dest, "query": keyword, "sort": sort})
-    url = WB_API + "?" + urllib.parse.urlencode(params, safe="-")
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=20)
-        r.raise_for_status()
-        data = r.json()
-    except Exception as e:
-        print(f"  [warn] {keyword} / {sort} 请求失败: {e}")
-        return []
-    products = (data.get("data") or {}).get("products") or []
-    out = []
-    for p in products[:top_n]:
-        pid = p.get("id")
-        if pid is None:
-            continue
-        # 价格字段在不同版本里可能是 salePriceU / sizes[0].price.product，做兼容
-        price_kop = p.get("salePriceU")
-        if price_kop is None:
-            try:
-                price_kop = p["sizes"][0]["price"]["product"]
-            except Exception:
-                price_kop = 0
-        out.append({
+    params.update({"dest": str(dest), "query": keyword, "sort": sort})
+    response = None
+    for attempt in range(4):
+        response = WB_SESSION.get(WB_API, params=params, headers=HEADERS, timeout=35)
+        if response.status_code != 429:
+            break
+        wait_seconds = int(response.headers.get("Retry-After") or 2 ** (attempt + 1))
+        time.sleep(min(wait_seconds, 12))
+    assert response is not None
+    response.raise_for_status()
+    payload = response.json()
+    normquery = (payload.get("metadata") or {}).get("normquery") or ""
+    if not _normalized(normquery):
+        raise RuntimeError("WB 返回了空搜索词，已拒绝采用默认热门流")
+    rows = payload.get("products")
+    if rows is None:
+        rows = (payload.get("data") or {}).get("products")
+
+    products: list[dict[str, Any]] = []
+    for row in rows or []:
+        pid = row.get("id")
+        name = str(row.get("name") or "").strip()
+        price_kopecks = _product_price_kopecks(row)
+        item = {
             "id": pid,
-            "name": (p.get("name") or "").strip(),
-            "brand": (p.get("brand") or "").strip(),
-            "price": round((price_kop or 0) / 100),
-            "rating": p.get("reviewRating") or p.get("rating") or 0,
-            "feedbacks": p.get("feedbacks") or 0,
+            "name": name,
+            "brand": str(row.get("brand") or "").strip(),
+            "price": round(price_kopecks / 100),
+            "rating": row.get("reviewRating") or row.get("nmReviewRating") or 0,
+            "feedbacks": row.get("feedbacks") or row.get("nmFeedbacks") or 0,
             "url": f"https://www.wildberries.ru/catalog/{pid}/detail.aspx",
-        })
-    return out
-
-def fmt_price(v):
-    return f"{v:,}".replace(",", " ") + " ₽"
-
-def build_report(cfg, snapshot):
-    top_n = cfg["meta"]["top_n_per_keyword"]
-    dest = str(cfg["meta"]["dest_region"])
-    today = datetime.date.today().isoformat()
-    new_snapshot = {}
-    lines = [f"# Deco 新品周报 · {today}\n"]
-    total_new = 0
-
-    for cat in cfg["categories"]:
-        kw = cat["kw"]
-        cn = cat["cn"]
-        print(f"[{cn}] {kw}")
-        fresh = wb_search(kw, "newly", dest, top_n)
-        time.sleep(1.2)
-        hot = wb_search(kw, "popular", dest, top_n)
-        time.sleep(1.2)
-
-        prev_ids = set(snapshot.get(kw, {}).get("ids", []))
-        cur_ids = [p["id"] for p in fresh]
-        brand_new = [p for p in fresh if p["id"] not in prev_ids] if prev_ids else fresh
-        new_snapshot[kw] = {"ids": cur_ids, "checked": today}
-
-        if not fresh and not hot:
+        }
+        if not isinstance(pid, int) or pid <= 0 or not name or price_kopecks <= 0:
             continue
+        if not _is_relevant(keyword, item):
+            continue
+        products.append(item)
+        if len(products) >= top_n:
+            break
+    return products
 
-        lines.append(f"\n## {cn} · {kw}")
-        if prev_ids:
-            lines.append(f"🆕 本周新增 {len(brand_new)} 个新品（对比上周新品榜）")
+
+WB_PRODUCTS_CACHE = DATA_DIR / "wb_products_cache.json"
+_WB_PRODUCTS_CACHE: dict[tuple[str, str], list[dict[str, Any]]] = {}
+_WB_DISK_CACHE: dict[str, Any] = read_json(WB_PRODUCTS_CACHE, {})
+
+
+def _wb_query_stems(value: Any) -> set[str]:
+    stems: set[str] = set()
+    for word in _normalized(value).split():
+        if len(word) < 4:
+            continue
+        stems.add(word[:5] if len(word) >= 6 else word[:3])
+        if "диффузор" in word:
+            stems.add("диффуз")
+        if word.startswith("настен"):
+            stems.add("стен")
+    return stems
+
+
+def _wb_query_is_effective(keyword: str, normquery: str) -> bool:
+    returned = _normalized(normquery)
+    stems = _wb_query_stems(keyword)
+    return bool(stems) and any(stem in returned for stem in stems)
+
+
+def _wb_product_is_relevant(keyword: str, product: dict[str, Any]) -> bool:
+    haystack = _normalized(f"{product.get('name') or ''} {product.get('brand') or ''}")
+    return any(stem in haystack for stem in _wb_query_stems(keyword))
+
+
+def wb_search(keyword: str, sort: str, dest: str, top_n: int) -> list[dict[str, Any]]:
+    """Return validated live WB products in newest or popular order."""
+    if sort not in {"newly", "popular"}:
+        raise ValueError(f"不支持的 WB 排序：{sort}")
+    cache_key = (_normalized(keyword), str(dest))
+    products = _WB_PRODUCTS_CACHE.get(cache_key)
+    disk_key = f"{dest}|{_normalized(keyword)}"
+    disk_entry = _WB_DISK_CACHE.get(disk_key) or {}
+    if products is None and disk_entry.get("checked") == dt.date.today().isoformat():
+        cached_products = disk_entry.get("products") or []
+        if len(cached_products) >= min(top_n, 3):
+            products = cached_products
+            _WB_PRODUCTS_CACHE[cache_key] = products
+    if products is None:
+        params = dict(WB_PARAMS_BASE)
+        params.update({"dest": str(dest), "query": keyword, "sort": sort})
+        last_error: Exception | None = None
+        for attempt in range(3):
+            try:
+                response = WB_SESSION.get(WB_API, params=params, headers=HEADERS, timeout=35)
+                response.raise_for_status()
+                payload = response.json()
+                rows = payload.get("products")
+                if rows is None:
+                    rows = (payload.get("data") or {}).get("products")
+                if not rows:
+                    raise RuntimeError("WB 返回了空商品列表")
+                normquery = (payload.get("metadata") or {}).get("normquery") or ""
+                if not _wb_query_is_effective(keyword, normquery):
+                    raise RuntimeError(f"WB 搜索词未生效（normquery={normquery!r}）")
+                mapped: list[dict[str, Any]] = []
+                for row in rows:
+                    pid = row.get("id")
+                    name = str(row.get("name") or "").strip()
+                    price_kopecks = _product_price_kopecks(row)
+                    if not isinstance(pid, int) or pid <= 0 or not name or price_kopecks <= 0:
+                        continue
+                    if not _wb_product_is_relevant(keyword, row):
+                        continue
+                    mapped.append({
+                        "id": pid,
+                        "name": name,
+                        "brand": str(row.get("brand") or "").strip(),
+                        "price": round(price_kopecks / 100),
+                        "rating": row.get("reviewRating") or row.get("nmReviewRating") or 0,
+                        "feedbacks": row.get("feedbacks") or row.get("nmFeedbacks") or 0,
+                        "url": f"https://www.wildberries.ru/catalog/{pid}/detail.aspx",
+                    })
+                if len(mapped) < min(top_n, 3):
+                    raise RuntimeError(
+                        f"WB 相关商品不足（{len(mapped)} 个），疑似返回默认热门流"
+                    )
+                products = mapped
+                _WB_PRODUCTS_CACHE[cache_key] = products
+                _WB_DISK_CACHE[disk_key] = {
+                    "checked": dt.date.today().isoformat(),
+                    "products": products,
+                }
+                write_json(WB_PRODUCTS_CACHE, _WB_DISK_CACHE)
+                break
+            except Exception as exc:
+                last_error = exc
+                if attempt < 2:
+                    time.sleep(8 * (attempt + 1))
+        if products is None:
+            raise RuntimeError(f"{keyword} / {sort} 请求失败：{last_error}")
+    ordered = products
+    if sort == "newly":
+        # v18 currently ignores sort=newly; nmId is allocated monotonically.
+        ordered = sorted(products, key=lambda product: product["id"], reverse=True)
+    return ordered[:top_n]
+
+
+def fmt_price(value: Any) -> str:
+    if value in (None, ""):
+        return "价格未标注"
+    number = float(value)
+    shown = f"{number:,.2f}" if not number.is_integer() else f"{int(number):,}"
+    return shown.replace(",", " ") + " ₽"
+
+
+def _client_section(data: dict[str, Any]) -> tuple[list[str], int]:
+    lines = ["## ① 各客户官网上新"]
+    total_new = 0
+    clients = data.get("clients") or []
+    if not clients:
+        return lines + ["本期没有启用官网上新追踪的客户。"], 0
+    for result in clients:
+        name = result.get("client", "未命名客户")
+        source_url = result.get("url") or ""
+        title = f"### {name}"
+        if source_url:
+            title += f" · [上新页]({source_url})"
+        lines.append(title)
+        if result.get("error"):
+            lines.append(f"⚠️ 抓取失败：{result['error']}")
+            continue
+        total_new += int(result.get("new_count", 0))
+        if result.get("baseline"):
+            lines.append(f"首次建立基线：当前共 {result.get('total', 0)} 件；下周起显示新增。")
+            shown = result.get("sample") or []
+            label = "当前真实样本"
+        elif result.get("new_count"):
+            lines.append(f"本周新增 {result['new_count']} 件（当前上新池 {result.get('total', 0)} 件）。")
+            shown = result.get("new_items") or []
+            label = "本周新增"
         else:
-            lines.append("🆕 首次建立基线，下周起显示新增")
-        total_new += len(brand_new)
+            lines.append(f"本周未发现新增（当前上新池 {result.get('total', 0)} 件）。")
+            shown = result.get("sample") or []
+            label = "当前样本"
+        lines.append(f"{label}：")
+        for product in shown[:12]:
+            category = product.get("category") or "未分类"
+            lines.append(
+                f"- [{product.get('name', '未命名商品')}]({product.get('url')}) · "
+                f"{fmt_price(product.get('price'))} · {category} · ID {product.get('id')}"
+            )
+    return lines, total_new
 
-        for p in brand_new[:5]:
-            star = f" ⭐{p['rating']}" if p["rating"] else ""
-            fb = f" · {p['feedbacks']}评" if p["feedbacks"] else ""
-            lines.append(f"- [{p['name'][:48]}]({p['url']}) · {fmt_price(p['price'])}{star}{fb}")
 
+def _social_section(data: dict[str, Any]) -> tuple[list[str], int]:
+    lines = ["## ② 各客户社媒新品预告"]
+    total_new = 0
+    channels = data.get("channels") or []
+    if not channels:
+        return lines + ["本期没有启用社媒追踪的客户。"], 0
+    for result in channels:
+        platform = str(result.get("platform", "")).upper()
+        channel = result.get("channel", "")
+        lines.append(f"### {result.get('client', '未命名客户')} · {platform} · {channel}")
+        if result.get("error"):
+            lines.append(f"⚠️ {result['error']}")
+            continue
+        total_new += int(result.get("new_count", 0))
+        if result.get("baseline"):
+            lines.append(f"首次建立频道基线：读取到最近 {result.get('total', 0)} 帖；下周起显示新帖。")
+            shown = result.get("sample") or []
+        elif result.get("new_count"):
+            lines.append(f"本周新帖 {result['new_count']} 条。")
+            shown = result.get("new_posts") or []
+        else:
+            lines.append("本周未发现新帖；以下为频道当前样本。")
+            shown = result.get("sample") or []
+        for post in shown[:10]:
+            kind = "新品预告" if post.get("is_teaser") else "新帖"
+            image_links = post.get("images") or []
+            image = f" · [图片]({image_links[0]})" if image_links else ""
+            lines.append(f"- **{kind}**：[{post.get('summary', '（无文字）')}]({post.get('url')}){image}")
+    return lines, total_new
+
+
+def _wb_section(cfg: dict[str, Any], snapshot: dict[str, Any]) -> tuple[list[str], dict[str, Any], int]:
+    lines = ["## ③（次要）Wildberries 大盘热门"]
+    new_snapshot: dict[str, Any] = {}
+    total_new = 0
+    top_n = int(cfg["meta"]["top_n_per_keyword"])
+    dest = str(cfg["meta"]["dest_region"])
+    today = dt.date.today().isoformat()
+
+    for category in cfg.get("categories", []):
+        keyword = category["kw"]
+        name = category["cn"]
+        print(f"[wb] {name}: {keyword}")
+        try:
+            # 快照保存最多 100 个新品，避免只存 Top10 时因榜单轮换制造“伪新增”。
+            fresh = wb_search(keyword, "newly", dest, max(top_n, 100))
+            time.sleep(5.0)
+            hot = wb_search(keyword, "popular", dest, top_n)
+            time.sleep(5.0)
+        except Exception as exc:
+            lines.append(f"### {name}\n⚠️ 抓取失败：{exc}")
+            if keyword in snapshot:
+                new_snapshot[keyword] = snapshot[keyword]
+            continue
+        previous_ids = {int(value) for value in snapshot.get(keyword, {}).get("ids", [])}
+        # 旧版只保存 10 个 ID；首次升级到完整快照时按迁移基线处理。
+        baseline = not bool(previous_ids) or len(previous_ids) < 50
+        new_items = [] if baseline else [product for product in fresh if product["id"] not in previous_ids]
+        new_snapshot[keyword] = {"ids": [p["id"] for p in fresh], "checked": today}
+        total_new += len(new_items)
+        lines.append(f"### {name} · {keyword}")
+        if baseline:
+            lines.append("首次建立 WB 基线；下周起显示新增。")
+        else:
+            lines.append(f"本周新增 {len(new_items)} 件。")
+        for product in new_items[:5]:
+            lines.append(f"- [新增｜{product['name'][:60]}]({product['url']}) · {fmt_price(product['price'])}")
         if hot:
-            lines.append("🔥 当前热门 Top3：")
-            for p in hot[:3]:
-                fb = f"{p['feedbacks']}评" if p["feedbacks"] else "—"
-                lines.append(f"- [{p['name'][:48]}]({p['url']}) · {fmt_price(p['price'])} · {fb}")
+            lines.append("当前热门 Top 3：")
+            for product in hot[:3]:
+                feedbacks = f"{product['feedbacks']} 评" if product["feedbacks"] else "暂无评价"
+                lines.append(
+                    f"- [{product['name'][:60]}]({product['url']}) · "
+                    f"{fmt_price(product['price'])} · {feedbacks}"
+                )
+    return lines, new_snapshot, total_new
 
-    header = f"本周共捕捉新品约 {total_new} 个，覆盖 {len(cfg['categories'])} 个品类。\n"
-    report = lines[0] + header + "\n".join(lines[1:])
-    return report, new_snapshot, total_new
 
-def push_serverchan(title, content):
+def build_report(cfg: dict[str, Any], snapshot: dict[str, Any]) -> tuple[str, dict[str, Any], dict[str, int]]:
+    client_lines, client_new = _client_section(read_json(CLIENT_LATEST, {}))
+    social_lines, social_new = _social_section(read_json(SOCIAL_LATEST, {}))
+    wb_lines, new_snapshot, wb_new = _wb_section(cfg, snapshot)
+    today = dt.date.today().isoformat()
+    counts = {"client_new": client_new, "social_new": social_new, "wb_new": wb_new}
+    summary = (
+        f"客户官网新增 **{client_new}** 件，客户社媒新帖 **{social_new}** 条，"
+        f"WB 关键词新增 **{wb_new}** 件。客户信号优先，WB 仅作大盘参考。"
+    )
+    report = "\n\n".join(
+        [f"# Deco 客户上新与社媒周报 · {today}", summary, "\n".join(client_lines), "\n".join(social_lines), "\n".join(wb_lines)]
+    )
+    return report + "\n", new_snapshot, counts
+
+
+def push_serverchan(title: str, content: str) -> bool:
     key = os.environ.get("SERVERCHAN_KEY", "").strip()
     if not key:
         return False
     try:
-        r = requests.post(f"https://sctapi.ftqq.com/{key}.send",
-                          data={"title": title, "desp": content}, timeout=20)
-        print(f"[push] Server酱 {r.status_code}")
-        return r.ok
-    except Exception as e:
-        print(f"[warn] Server酱 失败: {e}")
+        response = requests.post(
+            f"https://sctapi.ftqq.com/{key}.send",
+            data={"title": title, "desp": content},
+            timeout=20,
+        )
+        return response.ok
+    except requests.RequestException:
         return False
 
-def push_wecom(title, content):
-    """企业微信群机器人 webhook（国内最稳，推荐主用）。"""
+
+def push_wecom(title: str, content: str) -> bool:
     url = os.environ.get("WECOM_WEBHOOK", "").strip()
     if not url:
         return False
-    body = {"msgtype": "markdown", "markdown": {"content": f"**{title}**\n\n" + content[:3500]}}
     try:
-        r = requests.post(url, json=body, timeout=20)
-        print(f"[push] 企业微信 {r.status_code}")
-        return r.ok
-    except Exception as e:
-        print(f"[warn] 企业微信 失败: {e}")
+        response = requests.post(
+            url,
+            json={"msgtype": "markdown", "markdown": {"content": f"**{title}**\n\n{content[:3500]}"}},
+            timeout=20,
+        )
+        return response.ok
+    except requests.RequestException:
         return False
 
-def push_feishu(title, content):
-    """飞书群机器人 webhook。"""
+
+def push_feishu(title: str, content: str) -> bool:
     url = os.environ.get("FEISHU_WEBHOOK", "").strip()
     if not url:
         return False
-    body = {"msg_type": "text", "content": {"text": f"{title}\n\n" + content[:3500]}}
     try:
-        r = requests.post(url, json=body, timeout=20)
-        print(f"[push] 飞书 {r.status_code}")
-        return r.ok
-    except Exception as e:
-        print(f"[warn] 飞书 失败: {e}")
+        response = requests.post(
+            url,
+            json={"msg_type": "text", "content": {"text": f"{title}\n\n{content[:3500]}"}},
+            timeout=20,
+        )
+        return response.ok
+    except requests.RequestException:
         return False
 
-def push_bark(title, content):
-    """Bark（iOS）。BARK_URL 形如 https://api.day.app/你的key"""
+
+def push_bark(title: str, content: str) -> bool:
     base = os.environ.get("BARK_URL", "").strip().rstrip("/")
     if not base:
         return False
     try:
-        body = content.split("\n", 2)[0][:200]
-        r = requests.post(base, json={"title": title, "body": body, "group": "DecoWatch"}, timeout=20)
-        print(f"[push] Bark {r.status_code}")
-        return r.ok
-    except Exception as e:
-        print(f"[warn] Bark 失败: {e}")
+        response = requests.post(
+            base,
+            json={"title": title, "body": content[:500], "group": "DecoWatch"},
+            timeout=20,
+        )
+        return response.ok
+    except requests.RequestException:
         return False
 
-def push_all(title, content):
-    """多通道冗余：设了哪个就发哪个，互不影响。一个失效其他照常。"""
+
+def push_all(title: str, content: str) -> dict[str, bool]:
+    """沿用原有四通道冗余推送；配置了哪个 Secret 就推哪个。"""
     results = {
         "serverchan": push_serverchan(title, content),
         "wecom": push_wecom(title, content),
         "feishu": push_feishu(title, content),
         "bark": push_bark(title, content),
     }
-    sent = [k for k, v in results.items() if v]
-    if sent:
-        print(f"[push] 成功通道: {', '.join(sent)}")
-    else:
-        print("[info] 没有可用推送通道（未设密钥或全部失败）。网页通知仍可在打开时弹出。")
+    sent = [name for name, ok in results.items() if ok]
+    print(f"[push] 成功通道：{', '.join(sent)}" if sent else "[info] 未配置可用推送通道")
     return results
 
-def main():
+
+def main() -> None:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     cfg = load_config()
-    snapshot = load_snapshot()
-    report, new_snapshot, total_new = build_report(cfg, snapshot)
-    print("\n" + "=" * 50 + "\n" + report + "\n" + "=" * 50)
-
-    today = datetime.date.today().isoformat()
-    title = f"Deco 新品周报 {today}"
+    snapshot = read_json(SNAPSHOT, {})
+    report, new_snapshot, counts = build_report(cfg, snapshot)
+    today = dt.date.today().isoformat()
+    title = f"Deco 客户上新与社媒周报 {today}"
+    print(report)
     push_all(title, report)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    write_json(SNAPSHOT, new_snapshot)
+    (DATA_DIR / "latest_report.md").write_text(report, encoding="utf-8")
+    status = {
+        "date": today,
+        "total_new": sum(counts.values()),
+        "title": title,
+        "report": "data/latest_report.md",
+        **counts,
+    }
+    write_json(DATA_DIR / "status.json", status)
+    print("[done] 已写入 snapshot / latest_report.md / status.json")
 
-    data_dir = ROOT / "data"
-    data_dir.mkdir(parents=True, exist_ok=True)
-    SNAPSHOT.write_text(json.dumps(new_snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
-    (data_dir / "latest_report.md").write_text(report, encoding="utf-8")
-    # status.json：给网页轮询用，触发桌面通知/横幅
-    status = {"date": today, "total_new": total_new, "title": title, "report": "data/latest_report.md"}
-    (data_dir / "status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("[done] 已写回 snapshot / latest_report.md / status.json")
 
 if __name__ == "__main__":
     main()
