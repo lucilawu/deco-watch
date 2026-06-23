@@ -9,25 +9,8 @@
       "total": 4,
       "fetched_total": 120,
       "filtered_count": 116,
-      "new_count": 2,
-      "new_items": [
-        {
-          "id": "5024959",
-          "name": "Салфетки бумажные, MARABU, 2 слоя, 250 шт.",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht",
-          "category": "Для кухни",
-          "path": "/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht"
-        },
-        {
-          "id": "5040666",
-          "name": "Салфетки универсальные, BonHome, 34х38 см, 5 шт., в ассортименте",
-          "price": 69,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente"
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5024959",
@@ -72,113 +55,8 @@
       "total": 1222,
       "fetched_total": 1413,
       "filtered_count": 191,
-      "new_count": 13,
-      "new_items": [
-        {
-          "id": "215169",
-          "name": "Салфетка под столовые приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6807226613_23/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6807226613_23/"
-        },
-        {
-          "id": "215162",
-          "name": "Салфетка под столовые приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6807226613_40/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6807226613_40/"
-        },
-        {
-          "id": "215166",
-          "name": "Салфетка под столовые приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6807226613_20/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6807226613_20/"
-        },
-        {
-          "id": "215220",
-          "name": "Настенный органайзер для заметок детский",
-          "price": 2299,
-          "url": "https://www.sela.ru/eshop/home/khranenie/korziny/SL6807226314_99/",
-          "category": "khranenie / korziny",
-          "path": "/eshop/home/khranenie/korziny/SL6807226314_99/"
-        },
-        {
-          "id": "210283",
-          "name": "Салфетка под приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226608_20/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6803226608_20/"
-        },
-        {
-          "id": "210285",
-          "name": "Салфетка под приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226608_23/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6803226608_23/"
-        },
-        {
-          "id": "210287",
-          "name": "Салфетка под приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226608_40/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6803226608_40/"
-        },
-        {
-          "id": "210257",
-          "name": "Сервировочная салфетка из хлопка",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226601_98/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6803226601_98/"
-        },
-        {
-          "id": "205765",
-          "name": "Салфетка под столовые приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL5811226603_23/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL5811226603_23/"
-        },
-        {
-          "id": "205767",
-          "name": "Салфетка под столовые приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL5811226603_40/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL5811226603_40/"
-        },
-        {
-          "id": "205769",
-          "name": "Салфетка под столовые приборы",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL5811226603_20/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL5811226603_20/"
-        },
-        {
-          "id": "215063",
-          "name": "Пуф детский",
-          "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/dekor/pufy/SL6807227203_12/",
-          "category": "dekor / pufy",
-          "path": "/eshop/home/dekor/pufy/SL6807227203_12/"
-        },
-        {
-          "id": "215110",
-          "name": "Стакан из фарфора",
-          "price": 899,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807227113_40/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6807227113_40/"
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "212195",

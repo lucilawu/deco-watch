@@ -7,17 +7,8 @@
       "channel": "fixprice_russia",
       "baseline": false,
       "total": 15,
-      "new_count": 1,
-      "new_posts": [
-        {
-          "id": "59709",
-          "summary": "Автомобилисты, этот товар для Вас! 🚙 🕶️ Держатель для очков (199 рублей) крепится при помощи магнита на козырёк. Подходит для всех авто! 📌 Простой в использовании. 😎 Арт: 6030343 😏 Подписывайтесь на нас: 🤗 во ВКонтакте ; 🤗 в Max ; 🤗 в Одноклассниках ; 🤗 в Дзене ; 🤗 в Likee . #fi…",
-          "images": [],
-          "url": "https://t.me/fixprice_russia/59709",
-          "published": "2026-06-23T07:00:15+00:00",
-          "is_teaser": false
-        }
-      ],
+      "new_count": 0,
+      "new_posts": [],
       "sample": [
         {
           "id": "59709",
@@ -86,7 +77,7 @@
       "client": "Sela Home",
       "platform": "telegram",
       "channel": "sela_brand",
-      "baseline": true,
+      "baseline": false,
       "total": 5,
       "new_count": 0,
       "new_posts": [],
@@ -181,16 +172,47 @@
       "client": "Magnit · М.Косметик",
       "platform": "telegram",
       "channel": "magnit_retail",
-      "baseline": true,
-      "total": 11,
-      "new_count": 0,
-      "new_posts": [],
+      "baseline": false,
+      "total": 10,
+      "new_count": 1,
+      "new_posts": [
+        {
+          "id": "6241",
+          "summary": "Для курортного настроения нужно совсем немного: 🛒 холодный напиток 🛒 солнечные зайчики в комнате 🛒 красивая посуда на столе Собирайте Магнитики и обменивайте их на стильные предметы коллекции Luminarc. Стаканы и кружки с двойными стенками можно получить всего за 1 ₽. А чайник, к…",
+          "images": [
+            "https://cdn4.telesco.pe/file/Junp4zOJYBtZK5MpQoIcFA0SusCGnGh1NiLkBY92dkcZOOXfQgDp8XnV1hB3ObpIRC7DcueX8O-sW-IqDsrCEqBwKBLx3cHpkaM7d5-dFbC9t-p3amR_9OjLu9TaRg0lDpHpFjiCmBwegCAxsPQkdWOt9hQ8xjWyzgCjt-ZI7WUSwciSwvvwbxXWfaguamC3fj9p7oYc0R2ZFfv0Pp72iY3ZUEVPeiQvKUN9Ant7Va01y8-Tak4H3cHlk3pXnm8Jxww1X9-jZ_1kIs9slN983QziLO1PyFagJAri0O393FFCig-hYCVI88EpH8iz95pAbxBE3DjvDrQNgiTKWj0chA.jpg",
+            "https://cdn4.telesco.pe/file/nN-FMU4tJUADmyhUuWjB5WJtKLHUl8cJDod0BmexoOBHCzTA5azDfeoUX2R3JZ_hGJz7geK1d7w9IahT2CUk5EiVKj7hvmkJNsrndqZLPRfp0glkO_tMuAMTN2_9pkPfMau4KyX_e5u40zohypDWBBXqXf37id38rrLrprXKfeMCN3PUZboUZlMhXPFOctXTOWDOkCishx5bIP9OMIp5mwAjKO9TG6HaWa0syI3Bgy_Y12d2WX3i2FIo0ODmQ5vVh3IASuxBf8uABB8nN0BJO5ppRYmGGxiQpvL-FEkYmIHt-_C-gi51CInfYHf9FNuba_D3hhHd8BpIScFIZBjVkw.jpg",
+            "https://cdn4.telesco.pe/file/vpPNWgyjS-Kmm9qhKfzpv3vvMyHJ3MalWoI_0TBcMbpHaPMkZfrLqx-GmqtdqhbYR35gRYIdbQDVDpt9w_QgkFGTSpjFY0Fu5nPBbkvROeCAJGj1v4on9nc8fz-J59516grSsURAwxwuzfGqUwsKkixtUyYh9JfwmvAMr9qH9CLYAgPsGQYkbzNlg2LhnS5j4KQEdF-rcwtySly3VcdkN1dJDZl1ay0Bui69HrYIxB0FFgC8RTG10fsA2cH9nvK1yT67UYsXtsnDeUjooz1Lxu0c4yGU4A3LWd7lv0lLAtEhNet7g4ZjoRl-HXEXFe5Fxc6K1a719yUvODWRdExvvg.jpg",
+            "https://cdn4.telesco.pe/file/Z4-x-ZD9cUyGPV4e5J4DKsxk6aCF4-PuOrazqk4wrLNrAkfq-6spWadqskDDky8huvPLK0oFmIXhn-siZoMx4Nbb8_iUUzZAqy77Tq9YAdBuwbJjlYh0Dbv2ewe7UjM_1p0XkEqMZlZUifZHlhhSp6I2wcn-IwELnGDvV-Yu-zVtepWHFwAXYdOfHyWLGqh95Miqi0oZ_Z82ypwDTxuPti_S2ZlXPloAJLeo_TUY5nnQbUWDHZY4EsCFXIrzChJ93WTKXeRE5XY1VDWAwGA9XcXOAef9TRQ4IUWtzQuqWVXqw4ni1lNw7uekmFhNleOp3X1_BBPxTA4ZhdNjwuSc7A.jpg",
+            "https://cdn4.telesco.pe/file/ELfjFQYk3dLydHrmJVV_rz9tpDFRy1KUYCXlE7RzuUpAOr5K7Wbr9k1-M3VlgR5hMCDxWRX3fXTtx8UexVdi18E1vBryuwrPpXwCwm-M-27EaRyk9OL5d1TV1GCKhNwsbCN8NFJxfn7ZHHNzkV2mgLu04H1nbIuH_ZCNjHke_95CvlDVZkyevp71Uy7sbu4R_XjfN-3totANoVMO5gUbbvG_EOquCveCUwfudEzdX0UH-naxFmMebtasKNqSCa2V7SRYPJtJbPR6nqMBeHSM82Rzlyso38F1-r_sk6RAP3ty9gaD8i-Qs6w_oQwbP6lDocJUTyNMdbPawD1sI2892w.jpg",
+            "https://cdn4.telesco.pe/file/Sv7Lyo19UmDQ4tCQAQzOg_015o1OokU6XT1sqGr2oAack5Ez1RUy99LrkNs8P0TdeHxLYSqQrlVIHU4K5MwJrt-piJE8yh7XU5AOkOGKFHRtup6lmzmL0JQssfGNKDQVcaSAGWNzRFblNu69Kdlcze1O8v35MfGD51Ita_v1DNiA-0k5lE2kI5jcMam14phFZi0x8TMtM8whXdr-ukWeLa-jB3RVDQfyNOuEmqmOKc5OOS3Jb3oybPem0lKKHTnjK4jgFv_GNxRcU2I8gi6-jtTk_3VI0LU4nMIk3DY_YyJS4ioXDExHPZ-rm5mvLZMWW_k0mX-SHvVJijJyQWeQ-A.jpg"
+          ],
+          "url": "https://t.me/magnit_retail/6241",
+          "published": "2026-06-23T07:43:03+00:00",
+          "is_teaser": true
+        }
+      ],
       "sample": [
+        {
+          "id": "6241",
+          "summary": "Для курортного настроения нужно совсем немного: 🛒 холодный напиток 🛒 солнечные зайчики в комнате 🛒 красивая посуда на столе Собирайте Магнитики и обменивайте их на стильные предметы коллекции Luminarc. Стаканы и кружки с двойными стенками можно получить всего за 1 ₽. А чайник, к…",
+          "images": [
+            "https://cdn4.telesco.pe/file/Junp4zOJYBtZK5MpQoIcFA0SusCGnGh1NiLkBY92dkcZOOXfQgDp8XnV1hB3ObpIRC7DcueX8O-sW-IqDsrCEqBwKBLx3cHpkaM7d5-dFbC9t-p3amR_9OjLu9TaRg0lDpHpFjiCmBwegCAxsPQkdWOt9hQ8xjWyzgCjt-ZI7WUSwciSwvvwbxXWfaguamC3fj9p7oYc0R2ZFfv0Pp72iY3ZUEVPeiQvKUN9Ant7Va01y8-Tak4H3cHlk3pXnm8Jxww1X9-jZ_1kIs9slN983QziLO1PyFagJAri0O393FFCig-hYCVI88EpH8iz95pAbxBE3DjvDrQNgiTKWj0chA.jpg",
+            "https://cdn4.telesco.pe/file/nN-FMU4tJUADmyhUuWjB5WJtKLHUl8cJDod0BmexoOBHCzTA5azDfeoUX2R3JZ_hGJz7geK1d7w9IahT2CUk5EiVKj7hvmkJNsrndqZLPRfp0glkO_tMuAMTN2_9pkPfMau4KyX_e5u40zohypDWBBXqXf37id38rrLrprXKfeMCN3PUZboUZlMhXPFOctXTOWDOkCishx5bIP9OMIp5mwAjKO9TG6HaWa0syI3Bgy_Y12d2WX3i2FIo0ODmQ5vVh3IASuxBf8uABB8nN0BJO5ppRYmGGxiQpvL-FEkYmIHt-_C-gi51CInfYHf9FNuba_D3hhHd8BpIScFIZBjVkw.jpg",
+            "https://cdn4.telesco.pe/file/vpPNWgyjS-Kmm9qhKfzpv3vvMyHJ3MalWoI_0TBcMbpHaPMkZfrLqx-GmqtdqhbYR35gRYIdbQDVDpt9w_QgkFGTSpjFY0Fu5nPBbkvROeCAJGj1v4on9nc8fz-J59516grSsURAwxwuzfGqUwsKkixtUyYh9JfwmvAMr9qH9CLYAgPsGQYkbzNlg2LhnS5j4KQEdF-rcwtySly3VcdkN1dJDZl1ay0Bui69HrYIxB0FFgC8RTG10fsA2cH9nvK1yT67UYsXtsnDeUjooz1Lxu0c4yGU4A3LWd7lv0lLAtEhNet7g4ZjoRl-HXEXFe5Fxc6K1a719yUvODWRdExvvg.jpg",
+            "https://cdn4.telesco.pe/file/Z4-x-ZD9cUyGPV4e5J4DKsxk6aCF4-PuOrazqk4wrLNrAkfq-6spWadqskDDky8huvPLK0oFmIXhn-siZoMx4Nbb8_iUUzZAqy77Tq9YAdBuwbJjlYh0Dbv2ewe7UjM_1p0XkEqMZlZUifZHlhhSp6I2wcn-IwELnGDvV-Yu-zVtepWHFwAXYdOfHyWLGqh95Miqi0oZ_Z82ypwDTxuPti_S2ZlXPloAJLeo_TUY5nnQbUWDHZY4EsCFXIrzChJ93WTKXeRE5XY1VDWAwGA9XcXOAef9TRQ4IUWtzQuqWVXqw4ni1lNw7uekmFhNleOp3X1_BBPxTA4ZhdNjwuSc7A.jpg",
+            "https://cdn4.telesco.pe/file/ELfjFQYk3dLydHrmJVV_rz9tpDFRy1KUYCXlE7RzuUpAOr5K7Wbr9k1-M3VlgR5hMCDxWRX3fXTtx8UexVdi18E1vBryuwrPpXwCwm-M-27EaRyk9OL5d1TV1GCKhNwsbCN8NFJxfn7ZHHNzkV2mgLu04H1nbIuH_ZCNjHke_95CvlDVZkyevp71Uy7sbu4R_XjfN-3totANoVMO5gUbbvG_EOquCveCUwfudEzdX0UH-naxFmMebtasKNqSCa2V7SRYPJtJbPR6nqMBeHSM82Rzlyso38F1-r_sk6RAP3ty9gaD8i-Qs6w_oQwbP6lDocJUTyNMdbPawD1sI2892w.jpg",
+            "https://cdn4.telesco.pe/file/Sv7Lyo19UmDQ4tCQAQzOg_015o1OokU6XT1sqGr2oAack5Ez1RUy99LrkNs8P0TdeHxLYSqQrlVIHU4K5MwJrt-piJE8yh7XU5AOkOGKFHRtup6lmzmL0JQssfGNKDQVcaSAGWNzRFblNu69Kdlcze1O8v35MfGD51Ita_v1DNiA-0k5lE2kI5jcMam14phFZi0x8TMtM8whXdr-ukWeLa-jB3RVDQfyNOuEmqmOKc5OOS3Jb3oybPem0lKKHTnjK4jgFv_GNxRcU2I8gi6-jtTk_3VI0LU4nMIk3DY_YyJS4ioXDExHPZ-rm5mvLZMWW_k0mX-SHvVJijJyQWeQ-A.jpg"
+          ],
+          "url": "https://t.me/magnit_retail/6241",
+          "published": "2026-06-23T07:43:03+00:00",
+          "is_teaser": true
+        },
         {
           "id": "6240",
           "summary": "Клик-клик — и у вас хет-трик 🛒 В приложении Магнита стартовала большая футбольная игра. Об офсайде знать не нужно: просто гоняете мяч, забиваете голы и забираете подарки. Как играть? До 19 июля: 🛍️ Совершайте покупки от 700 ₽ с виртуальной картой Магнит Плюс 🛍️ Покупайте товары-…",
           "images": [
-            "https://cdn4.telesco.pe/file/IVp29tDIrUYXCYrrhM4358RlJVAxqlnINccde0NK2fKfVdhK49ka6ySBLLbbD2ZtFc_jq9bbP3lJrTxPen9pMi_RPxS6FGa4wXqMyeNXVPl7OcZMLTh7NXaCrguJkdRMb90sXJvfBcWLh23tqE91PEVC3hNl3be2WGlPnHVyMhi1IVOGFnFmA8yemihbms1qyI7Y7jwQZ_tB4j8HpCVHu6YgwOBs6EmSwJoD0Q4D1Gw_uLlgJmT7pN50nhzb8xcvVo1gHszgRtiwRmhKeW3y4ivTZbW4KtWrQ57wsU8y2vyBVqaznrG0Qyuy93ZUoXygvxJp8mJxenRF-C3EnqUkwQ.jpg"
+            "https://cdn4.telesco.pe/file/nrxw0RRErXv3-eeWeEW9jxwFPpG-09xseRrF89u5N1weyGjYphT5TxoHUfvESAoEjbB7ZofS5fBOmC_OnpiXpB0-4G8Y5nHVoE9irCkHkAAOLDLpkvi1uLMnnIs-iEzYn6PzHdBxPh5YHIg7U-6iazD1vrbD3ZzKOfq51QkKHOAg9fSvtoMTmJuQgSInF7KaAFKJ492HGWqErlGjgetDTWSRY7xcuc7qHyvkXrHpjzdfj6K_B_0CaTG8vqN3K01uIEflf6V2k9ifa6N8GZw_zyhgHXDURjHrLlK6ZsyAp8obtjQ_rh_4IE9A1nUouqq6CJ4rKooj_hpYlP7LNg5Wqg.jpg"
           ],
           "url": "https://t.me/magnit_retail/6240",
           "published": "2026-06-22T08:00:36+00:00",
@@ -220,16 +242,6 @@
           "images": [],
           "url": "https://t.me/magnit_retail/6237",
           "published": "2026-06-19T12:02:37+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "6236",
-          "summary": "Заруливайте за призами! Врываемся в лето вместе с клубом «pro.мам и пап». Покупайте продукцию Nuts ® и Бон Пари ® и участвуйте врозыгрыше для участников клуба. На кону — крутые подарки для активных каникул: 🛍️ Велосипеды Stels Navigator 🛍️ Крутые сапборды и скейтборды для активн…",
-          "images": [
-            "https://cdn4.telesco.pe/file/tbQkHJdlV_SOle7yLGrpyDGQ2iDrYxRWU4vdI4UUp4I3CzNHKbq1ZUu-k2sQRdUaba-Aextkp943OzhpNbt93Q5wZS3rDgv0OO0kgmcHIqQ9YKvVfJqDdMXuQkkPr1N5m0uLYwXA0t5oas1wAi2HZukBO-51Gh9Hza5IMsnzjdCIBj23mMNuSgUtOC1ehuXW47xHd9ZEm0QFzWihXlWNzvXWjPbVOTvM4IrafvrmkVwxFVvPVzEVPrnl_4sIUnB0LaKkKES3UPXdaObi_IBrSqCQVWF6VpXAN8KUqv1ByCpwYRPZeKe0xfqmujmceci8hjZt0PiBcMjE-oHZxrAokA.jpg"
-          ],
-          "url": "https://t.me/magnit_retail/6236",
-          "published": "2026-06-19T11:05:32+00:00",
           "is_teaser": false
         }
       ],
