@@ -3,111 +3,29 @@
   "clients": [
     {
       "client": "Fix Price",
-      "source": "fix_price_api",
+      "source": null,
       "url": "https://fix-price.com/catalog/novinki",
-      "baseline": true,
-      "total": 2,
-      "fetched_total": 120,
-      "filtered_count": 118,
+      "baseline": false,
+      "total": 0,
+      "fetched_total": 0,
+      "filtered_count": 0,
       "new_count": 0,
       "new_items": [],
-      "sample": [
-        {
-          "id": "5310446",
-          "name": "Набор воздушных шаров для создания праздничной декорации \"Пастель\", PARTY, в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente"
-        },
-        {
-          "id": "5246304",
-          "name": "Настольная декорация для релаксации \"Магия песка\", в ассортименте",
-          "price": 279,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente"
-        }
-      ],
-      "error": null
+      "sample": [],
+      "error": "None"
     },
     {
       "client": "Sela Home",
-      "source": "sela_html",
+      "source": null,
       "url": "https://www.sela.ru/eshop/home/new/",
-      "baseline": true,
-      "total": 1209,
-      "fetched_total": 1409,
-      "filtered_count": 200,
+      "baseline": false,
+      "total": 0,
+      "fetched_total": 0,
+      "filtered_count": 0,
       "new_count": 0,
       "new_items": [],
-      "sample": [
-        {
-          "id": "212195",
-          "name": "Жаккардовый плед 130х170 см",
-          "price": 5999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226546_99/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6804226546_99/"
-        },
-        {
-          "id": "212433",
-          "name": "Ваза из стекла",
-          "price": 1699,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6804227011_99/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6804227011_99/"
-        },
-        {
-          "id": "208743",
-          "name": "Комплект постельного белья без простыни 2-х спальный 200х220 см",
-          "price": 4199,
-          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226220_99/",
-          "category": "tekstil / postelnoe-bele",
-          "path": "/eshop/home/tekstil/postelnoe-bele/SL6801226220_99/"
-        },
-        {
-          "id": "208785",
-          "name": "Стеганое покрывало 220x240 см",
-          "price": 4999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6801226225_20/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6801226225_20/"
-        },
-        {
-          "id": "212303",
-          "name": "Комплект постельного белья без простыни 2-х спальный 200х220 см",
-          "price": 6999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6804226206_99/",
-          "category": "tekstil / postelnoe-bele",
-          "path": "/eshop/home/tekstil/postelnoe-bele/SL6804226206_99/"
-        },
-        {
-          "id": "212203",
-          "name": "Комплект постельного белья без простыни 1,5 спальный 140х200 см",
-          "price": 4999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6804226205_99/",
-          "category": "tekstil / postelnoe-bele",
-          "path": "/eshop/home/tekstil/postelnoe-bele/SL6804226205_99/"
-        },
-        {
-          "id": "208763",
-          "name": "Комплект постельного белья без простыни 1,5 спальный 140х200 см",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226207_99/",
-          "category": "tekstil / postelnoe-bele",
-          "path": "/eshop/home/tekstil/postelnoe-bele/SL6801226207_99/"
-        },
-        {
-          "id": "208740",
-          "name": "Комплект постельного белья без простыни 2-х спальный 200х220 см",
-          "price": 3999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226217_99/",
-          "category": "tekstil / postelnoe-bele",
-          "path": "/eshop/home/tekstil/postelnoe-bele/SL6801226217_99/"
-        }
-      ],
-      "error": null
+      "sample": [],
+      "error": "None"
     }
   ]
 }
