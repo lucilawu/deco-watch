@@ -155,6 +155,26 @@ def run() -> dict[str, Any]:
         if social.get("track") is not True:
             continue
         client_name = client.get("name", "未命名客户")
+        configured_channels = [
+            platform for platform in ("telegram", "vk")
+            if str(social.get(platform) or "").strip()
+        ]
+        if not configured_channels:
+            results.append(
+                {
+                    "client": client_name,
+                    "platform": "未配置",
+                    "channel": "",
+                    "baseline": False,
+                    "total": 0,
+                    "new_count": 0,
+                    "new_posts": [],
+                    "sample": [],
+                    "error": "social.track 已开启，但尚未配置公开 Telegram/VK 频道",
+                }
+            )
+            print(f"[social] {client_name}: 已启用，但未配置公开频道")
+            continue
         for platform in ("telegram", "vk"):
             channel = str(social.get(platform) or "").strip().lstrip("@")
             if not channel:
