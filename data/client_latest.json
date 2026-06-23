@@ -1,14 +1,22 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 119,
-      "new_count": 0,
-      "new_items": [],
+      "total": 120,
+      "new_count": 1,
+      "new_items": [
+        {
+          "id": "5040648",
+          "name": "Тряпка для уборки, BonHome, 35х35 см, 3 шт., в ассортименте",
+          "price": 59,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5040648-tryapka-dlya-uborki-onome-35h35-sm-3-sht-v-assortimente",
+          "category": "Для дома"
+        }
+      ],
       "sample": [
         {
           "id": "5025344",
