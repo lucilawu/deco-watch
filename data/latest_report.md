@@ -1,24 +1,55 @@
 # Deco 客户上新与社媒周报 · 2026-06-23
 
-客户官网新增 **0** 件，客户社媒新帖 **0** 条，WB 关键词新增 **91** 件。客户信号优先，WB 仅作大盘参考。
+客户官网新增 **15** 件，客户社媒新帖 **1** 条，WB 关键词新增 **91** 件。客户信号优先，WB 仅作大盘参考。
 
 ## ① 各客户官网上新
 ### Fix Price · [上新页](https://fix-price.com/catalog/novinki)
-⚠️ 抓取失败：None
+本周新增 2 件（当前上新池 4 件）。
+本周新增：
+- [Салфетки бумажные, MARABU, 2 слоя, 250 шт.](https://fix-price.com/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht) · 199 ₽ · Для кухни · ID 5024959
+- [Салфетки универсальные, BonHome, 34х38 см, 5 шт., в ассортименте](https://fix-price.com/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente) · 69 ₽ · Для дома · ID 5040666
+另有 116 件非装饰品类已过滤。
 ### Sela Home · [上新页](https://www.sela.ru/eshop/home/new/)
-⚠️ 抓取失败：None
+本周新增 13 件（当前上新池 1222 件）。
+本周新增：
+- [Салфетка под столовые приборы](https://www.sela.ru/eshop/home/kukhnya/SL6807226613_23/) · 499 ₽ · kukhnya · ID 215169
+- [Салфетка под столовые приборы](https://www.sela.ru/eshop/home/kukhnya/SL6807226613_40/) · 499 ₽ · kukhnya · ID 215162
+- [Салфетка под столовые приборы](https://www.sela.ru/eshop/home/kukhnya/SL6807226613_20/) · 499 ₽ · kukhnya · ID 215166
+- [Настенный органайзер для заметок детский](https://www.sela.ru/eshop/home/khranenie/korziny/SL6807226314_99/) · 2 299 ₽ · khranenie / korziny · ID 215220
+- [Салфетка под приборы](https://www.sela.ru/eshop/home/kukhnya/SL6803226608_20/) · 499 ₽ · kukhnya · ID 210283
+- [Салфетка под приборы](https://www.sela.ru/eshop/home/kukhnya/SL6803226608_23/) · 499 ₽ · kukhnya · ID 210285
+- [Салфетка под приборы](https://www.sela.ru/eshop/home/kukhnya/SL6803226608_40/) · 499 ₽ · kukhnya · ID 210287
+- [Сервировочная салфетка из хлопка](https://www.sela.ru/eshop/home/kukhnya/SL6803226601_98/) · 699 ₽ · kukhnya · ID 210257
+- [Салфетка под столовые приборы](https://www.sela.ru/eshop/home/kukhnya/SL5811226603_23/) · 499 ₽ · kukhnya · ID 205765
+- [Салфетка под столовые приборы](https://www.sela.ru/eshop/home/kukhnya/SL5811226603_40/) · 499 ₽ · kukhnya · ID 205767
+- [Салфетка под столовые приборы](https://www.sela.ru/eshop/home/kukhnya/SL5811226603_20/) · 499 ₽ · kukhnya · ID 205769
+- [Пуф детский](https://www.sela.ru/eshop/home/dekor/pufy/SL6807227203_12/) · 2 199 ₽ · dekor / pufy · ID 215063
+另有 191 件非装饰品类已过滤。
 
 ## ② 各客户社媒新品预告
-### Fix Price · TELEGRAM · https://t.me/s/fixprice_russia
-⚠️ Telegram @https://t.me/s/fixprice_russia 未解析到公开帖
-### Fix Price · VK · https://vk.com/fix_price
+### Fix Price · TELEGRAM · fixprice_russia
+本周新帖 1 条。
+- **新帖**：[Автомобилисты, этот товар для Вас! 🚙 🕶️ Держатель для очков (199 рублей) крепится при помощи магнита на козырёк. Подходит для всех авто! 📌 Простой в использовании. 😎 Арт: 6030343 😏 Подписывайтесь на нас: 🤗 во ВКонтакте ; 🤗 в Max ; 🤗 в Одноклассниках ; 🤗 в Дзене ; 🤗 в Likee . #fi…](https://t.me/fixprice_russia/59709)
+### Fix Price · VK · fix_price
 ⚠️ 缺少 VK_TOKEN；Telegram 仍会正常追踪
-### Sela Home · TELEGRAM · https://t.me/s/sela_brand
-⚠️ Telegram @https://t.me/s/sela_brand 未解析到公开帖
-### Sela Home · VK · https://vk.com/sela_ru
+### Sela Home · TELEGRAM · sela_brand
+首次建立频道基线：读取到最近 5 帖；下周起显示新帖。
+- **新帖**：[Джинсы-баллоны неожиданно точно вписались в базовый летний гардероб. Секрет их обаяния — раздутый силуэт, который при этом подчёркивает хрупкость щиколоток. Носите баллоны с кедами для долгих комфортных прогулок или с изящными лоферами, если ваш маршрут предполагает чуть больше…](https://t.me/sela_brand/9893) · [图片](https://cdn4.telesco.pe/file/EZRPcdR4sCsM5pJqEOQeXHC58KESVmEP9-1R3EwUI0rpJlcySO1Kf6W-WYRp6nsEUdxIAUMgaC3du-iODCvnSA6zAd_QubLgMTs8DVeOV2_fN-QaZQd_oyMYfMxjMTRc8iKiBAA-KEjr5w-6jlBihPlHYT_3mvABRY0ALkRz8fVD_i0dLc0EgaWGaR6MLpsqGne447sib-8kfVarNYnD6hVWIplf-GB-MIdmRUo-REfGYBF-ijQF7qypTfoK3PtHg0mMDr_uCjlpEPEDrhcGeJMNG7sjLhSn9UFAU0Y42r4zQnyqovXD3ny3-zKUvBpDEQUIpOkVwy9h5pcfuLqkHA.jpg)
+- **新帖**：[Три цвета для летнего мужского гардероба: шоколадный, молочный и белый Стилист Кирилл Бонапарт использует их как основу капсулы: первый добавляет глубину, второй смягчает контраст, третий мгновенно подсвечивает и разгружает плотность коричневого. Минимум вещей — максимум комбина…](https://t.me/sela_brand/9887) · [图片](https://cdn4.telesco.pe/file/JOrpFlU04ZniZ8eUpdK9Q7uEq8aQleAGgVIvtmmQyYSE5kgYRTQuOuvjZgM69apjiI4XJMiTw9gdmG5cxYvrE86O5gypmIOfLcO4buMuni2YJc8LVkUCEtwCfsS9lW2YON057ZDpqmxHOmJu_cvGOgJtkb-T_TubtkxqMnC2TR1dBtqRxREIiYVx7vvcNAjjIYkMzoBZ1yH1p_n5khI1W9abqNbT4F15YPjOvAF0XlTW6ROtOvuDLhCZKMZXmKchZKjp9WkjVUfBmOxlAtdD6J6nba3JRN1R7dV_QWD4-7P9Soa3jGMFymWYo0HY_aKCm5WHbQ2a4Iy58MgZXVdjow.jpg)
+- **新帖**：[Красный продолжает занимать модные позиции сезона. Особенно уверенно — в верхнем слое. Трикотажная оверсайз-толстовка с воротником-стойкой — выбор стилистов бренда и Марии Козыревой. Носите застегнутой под горло с широкими брюками или романтичной контрастной юбкой. Уже на сайте…](https://t.me/sela_brand/9881) · [图片](https://cdn4.telesco.pe/file/PijkWlgG43aQQsAWZvZ1RJPxOk02QO4pcdxjs0y-MgZoXebLhyu-cOoGnwt4jEGHErBKRQa1rIJFQINGBBLz2-yIdlrXfUCnvKkgDAxSaZ9JT3IMk0dNMK4-u6n7AVjhBqX1Qcz3cGpJn9GI5JNPVKdFoGe80ZbKsDFAJethqZEOGO5-9Et-RKuYW83zq2uDax_iZnz62ng3Rb3rNz1Bd8kG68cEng6iobuyo39lK53LOZlntYJbv0ZYXHbPLJ68dL7_M5sWtesa1AanKxjYypJSv397H-WEEnOCLlgi2w2krKkw5dwep-4nBeg2ejeNSD6NL-ymTQN5bv9Jf5s6Tw.jpg)
+- **新帖**：[Встретимся на этих выходных в SELA? Там скидки до 50% На сайте , в приложении и магазинах](https://t.me/sela_brand/9880)
+- **新品预告**：[До прямого эфира SELA х «Золотое яблоко» с телеведущей и теоретиком искусств Викой Чумой осталось полчаса! Обсудим новую коллекцию SELA YOUNG, подберём макияж вместе с визажистом, а также разыграем бьюти-бокс и промокод на покупки в SELA 👉 Ждём вас в 16:00 по ссылке](https://t.me/sela_brand/9879)
+### Sela Home · VK · sela_ru
 ⚠️ 缺少 VK_TOKEN；Telegram 仍会正常追踪
-### Magnit · М.Косметик · TELEGRAM · https://t.me/s/magnit_retail
-⚠️ Telegram @https://t.me/s/magnit_retail 未解析到公开帖
+### X5 · Перекрёсток · 未配置
+⚠️ social.track 已开启，但尚未配置公开 Telegram/VK 频道
+### Magnit · М.Косметик · TELEGRAM · magnit_retail
+首次建立频道基线：读取到最近 11 帖；下周起显示新帖。
+- **新帖**：[Клик-клик — и у вас хет-трик 🛒 В приложении Магнита стартовала большая футбольная игра. Об офсайде знать не нужно: просто гоняете мяч, забиваете голы и забираете подарки. Как играть? До 19 июля: 🛍️ Совершайте покупки от 700 ₽ с виртуальной картой Магнит Плюс 🛍️ Покупайте товары-…](https://t.me/magnit_retail/6240) · [图片](https://cdn4.telesco.pe/file/IVp29tDIrUYXCYrrhM4358RlJVAxqlnINccde0NK2fKfVdhK49ka6ySBLLbbD2ZtFc_jq9bbP3lJrTxPen9pMi_RPxS6FGa4wXqMyeNXVPl7OcZMLTh7NXaCrguJkdRMb90sXJvfBcWLh23tqE91PEVC3hNl3be2WGlPnHVyMhi1IVOGFnFmA8yemihbms1qyI7Y7jwQZ_tB4j8HpCVHu6YgwOBs6EmSwJoD0Q4D1Gw_uLlgJmT7pN50nhzb8xcvVo1gHszgRtiwRmhKeW3y4ivTZbW4KtWrQ57wsU8y2vyBVqaznrG0Qyuy93ZUoXygvxJp8mJxenRF-C3EnqUkwQ.jpg)
+- **新帖**：[А вы знали? 😳 Что можно играть в приложении Магнит и выигрывать: - скидки - сертификаты на покупки - ценные призы - годовые запасы продуктов и бытовой химии - или даже дополнительные Категории кешбэка на весь месяц! Да-да, увлекательно проводить время с несложной игрой или голов…](https://t.me/magnit_retail/6239) · [图片](https://cdn4.telesco.pe/file/HuR9tf90L8NznzHIMKG1yOjp-mDXKUrkUuz-Ik-fvOrSyeJmDIt8ZitfFZmGIQ687J9nBTIXgNTF10R7bmPdRCCMg1evGg97mlT7leGRSVMEHkr0u1t5rnX9Y7eVPA_20lGe63g1RiUYVkjMiDZcCeodhkgDW1Peh2SeSJHItbnwXS35oBzZjERwP8OTGM6-Wwcusmx1ZO6LPCJ6m_pN8kN5zmbR26Es0xRNUu3rR4O3XrM_CjEtB3mCGJl2kOk26BGYORjnfw-vg-7jsFBQ1k5FmOIXwdWowl_Xjm2CHPKpFtSJIPpgjpwxdG5IsQlIbfrsWtEjOkY1BuaslGEzrA.jpg)
+- **新帖**：[Летние романы случаются неожиданно… Например, между свёклой и черешней! Сохраняйте рецепт яркого салата с ароматной заправкой и свежей зеленью 🛍️ ❤️ Ещё больше рецептов найдёте в новом номере журнала Мой Магнит . Время приготовления: 30 минут Количество: 4 порции Вам понадобятся…](https://t.me/magnit_retail/6238)
+- **新帖**：[Экипаж, приё-ё-ё-ё-ё-ё-ё-ё-ём 🛒 На каком вы сейчас уровне исследования чёрной дыры? Розыгрыши призов в игре «Затянучка» проходят каждую неделю, а значит, пора наращивать мощности. Чтобы собрать максимум кристаллов, забирайте дополнительные ходы: 🌶️ Выполняйте задания в игре «Зат…](https://t.me/magnit_retail/6237)
+- **新帖**：[Заруливайте за призами! Врываемся в лето вместе с клубом «pro.мам и пап». Покупайте продукцию Nuts ® и Бон Пари ® и участвуйте врозыгрыше для участников клуба. На кону — крутые подарки для активных каникул: 🛍️ Велосипеды Stels Navigator 🛍️ Крутые сапборды и скейтборды для активн…](https://t.me/magnit_retail/6236) · [图片](https://cdn4.telesco.pe/file/tbQkHJdlV_SOle7yLGrpyDGQ2iDrYxRWU4vdI4UUp4I3CzNHKbq1ZUu-k2sQRdUaba-Aextkp943OzhpNbt93Q5wZS3rDgv0OO0kgmcHIqQ9YKvVfJqDdMXuQkkPr1N5m0uLYwXA0t5oas1wAi2HZukBO-51Gh9Hza5IMsnzjdCIBj23mMNuSgUtOC1ehuXW47xHd9ZEm0QFzWihXlWNzvXWjPbVOTvM4IrafvrmkVwxFVvPVzEVPrnl_4sIUnB0LaKkKES3UPXdaObi_IBrSqCQVWF6VpXAN8KUqv1ByCpwYRPZeKe0xfqmujmceci8hjZt0PiBcMjE-oHZxrAokA.jpg)
 
 ## ③（次要）Wildberries 大盘热门
 ### 装饰灯具

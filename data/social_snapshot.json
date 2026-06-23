@@ -5,7 +5,6 @@
       "platform": "telegram",
       "channel": "fixprice_russia",
       "ids": [
-        "59688",
         "59689",
         "59690",
         "59691",
@@ -19,7 +18,8 @@
         "59701",
         "59703",
         "59704",
-        "59705"
+        "59705",
+        "59709"
       ],
       "checked": "2026-06-23"
     },
@@ -34,6 +34,38 @@
         "2756",
         "2761",
         "2768"
+      ],
+      "checked": "2026-06-23"
+    },
+    "telegram:sela_brand": {
+      "client": "Sela Home",
+      "platform": "telegram",
+      "channel": "sela_brand",
+      "ids": [
+        "9879",
+        "9880",
+        "9881",
+        "9887",
+        "9893"
+      ],
+      "checked": "2026-06-23"
+    },
+    "telegram:magnit_retail": {
+      "client": "Magnit · М.Косметик",
+      "platform": "telegram",
+      "channel": "magnit_retail",
+      "ids": [
+        "6221",
+        "6224",
+        "6225",
+        "6229",
+        "6234",
+        "6235",
+        "6236",
+        "6237",
+        "6238",
+        "6239",
+        "6240"
       ],
       "checked": "2026-06-23"
     }

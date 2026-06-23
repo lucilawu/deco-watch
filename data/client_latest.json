@@ -3,29 +3,249 @@
   "clients": [
     {
       "client": "Fix Price",
-      "source": null,
+      "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 0,
-      "fetched_total": 0,
-      "filtered_count": 0,
-      "new_count": 0,
-      "new_items": [],
-      "sample": [],
-      "error": "None"
+      "total": 4,
+      "fetched_total": 120,
+      "filtered_count": 116,
+      "new_count": 2,
+      "new_items": [
+        {
+          "id": "5024959",
+          "name": "Салфетки бумажные, MARABU, 2 слоя, 250 шт.",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht",
+          "category": "Для кухни",
+          "path": "/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht"
+        },
+        {
+          "id": "5040666",
+          "name": "Салфетки универсальные, BonHome, 34х38 см, 5 шт., в ассортименте",
+          "price": 69,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente"
+        }
+      ],
+      "sample": [
+        {
+          "id": "5024959",
+          "name": "Салфетки бумажные, MARABU, 2 слоя, 250 шт.",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht",
+          "category": "Для кухни",
+          "path": "/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht"
+        },
+        {
+          "id": "5040666",
+          "name": "Салфетки универсальные, BonHome, 34х38 см, 5 шт., в ассортименте",
+          "price": 69,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente"
+        },
+        {
+          "id": "5310446",
+          "name": "Набор воздушных шаров для создания праздничной декорации \"Пастель\", PARTY, в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente"
+        },
+        {
+          "id": "5246304",
+          "name": "Настольная декорация для релаксации \"Магия песка\", в ассортименте",
+          "price": 279,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente"
+        }
+      ],
+      "error": null
     },
     {
       "client": "Sela Home",
-      "source": null,
+      "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 0,
-      "fetched_total": 0,
-      "filtered_count": 0,
-      "new_count": 0,
-      "new_items": [],
-      "sample": [],
-      "error": "None"
+      "total": 1222,
+      "fetched_total": 1413,
+      "filtered_count": 191,
+      "new_count": 13,
+      "new_items": [
+        {
+          "id": "215169",
+          "name": "Салфетка под столовые приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6807226613_23/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6807226613_23/"
+        },
+        {
+          "id": "215162",
+          "name": "Салфетка под столовые приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6807226613_40/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6807226613_40/"
+        },
+        {
+          "id": "215166",
+          "name": "Салфетка под столовые приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6807226613_20/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6807226613_20/"
+        },
+        {
+          "id": "215220",
+          "name": "Настенный органайзер для заметок детский",
+          "price": 2299,
+          "url": "https://www.sela.ru/eshop/home/khranenie/korziny/SL6807226314_99/",
+          "category": "khranenie / korziny",
+          "path": "/eshop/home/khranenie/korziny/SL6807226314_99/"
+        },
+        {
+          "id": "210283",
+          "name": "Салфетка под приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226608_20/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6803226608_20/"
+        },
+        {
+          "id": "210285",
+          "name": "Салфетка под приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226608_23/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6803226608_23/"
+        },
+        {
+          "id": "210287",
+          "name": "Салфетка под приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226608_40/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6803226608_40/"
+        },
+        {
+          "id": "210257",
+          "name": "Сервировочная салфетка из хлопка",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6803226601_98/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6803226601_98/"
+        },
+        {
+          "id": "205765",
+          "name": "Салфетка под столовые приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL5811226603_23/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL5811226603_23/"
+        },
+        {
+          "id": "205767",
+          "name": "Салфетка под столовые приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL5811226603_40/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL5811226603_40/"
+        },
+        {
+          "id": "205769",
+          "name": "Салфетка под столовые приборы",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL5811226603_20/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL5811226603_20/"
+        },
+        {
+          "id": "215063",
+          "name": "Пуф детский",
+          "price": 2199,
+          "url": "https://www.sela.ru/eshop/home/dekor/pufy/SL6807227203_12/",
+          "category": "dekor / pufy",
+          "path": "/eshop/home/dekor/pufy/SL6807227203_12/"
+        },
+        {
+          "id": "215110",
+          "name": "Стакан из фарфора",
+          "price": 899,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807227113_40/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6807227113_40/"
+        }
+      ],
+      "sample": [
+        {
+          "id": "212195",
+          "name": "Жаккардовый плед 130х170 см",
+          "price": 5999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226546_99/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6804226546_99/"
+        },
+        {
+          "id": "212433",
+          "name": "Ваза из стекла",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6804227011_99/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6804227011_99/"
+        },
+        {
+          "id": "208743",
+          "name": "Комплект постельного белья без простыни 2-х спальный 200х220 см",
+          "price": 4199,
+          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226220_99/",
+          "category": "tekstil / postelnoe-bele",
+          "path": "/eshop/home/tekstil/postelnoe-bele/SL6801226220_99/"
+        },
+        {
+          "id": "208785",
+          "name": "Стеганое покрывало 220x240 см",
+          "price": 4999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6801226225_20/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6801226225_20/"
+        },
+        {
+          "id": "212303",
+          "name": "Комплект постельного белья без простыни 2-х спальный 200х220 см",
+          "price": 6999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6804226206_99/",
+          "category": "tekstil / postelnoe-bele",
+          "path": "/eshop/home/tekstil/postelnoe-bele/SL6804226206_99/"
+        },
+        {
+          "id": "212203",
+          "name": "Комплект постельного белья без простыни 1,5 спальный 140х200 см",
+          "price": 4999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6804226205_99/",
+          "category": "tekstil / postelnoe-bele",
+          "path": "/eshop/home/tekstil/postelnoe-bele/SL6804226205_99/"
+        },
+        {
+          "id": "208763",
+          "name": "Комплект постельного белья без простыни 1,5 спальный 140х200 см",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226207_99/",
+          "category": "tekstil / postelnoe-bele",
+          "path": "/eshop/home/tekstil/postelnoe-bele/SL6801226207_99/"
+        },
+        {
+          "id": "208740",
+          "name": "Комплект постельного белья без простыни 2-х спальный 200х220 см",
+          "price": 3999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226217_99/",
+          "category": "tekstil / postelnoe-bele",
+          "path": "/eshop/home/tekstil/postelnoe-bele/SL6801226217_99/"
+        }
+      ],
+      "error": null
     }
   ]
 }

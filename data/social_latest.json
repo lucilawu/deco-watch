@@ -4,18 +4,77 @@
     {
       "client": "Fix Price",
       "platform": "telegram",
-      "channel": "https://t.me/s/fixprice_russia",
+      "channel": "fixprice_russia",
       "baseline": false,
-      "total": 0,
-      "new_count": 0,
-      "new_posts": [],
-      "sample": [],
-      "error": "Telegram @https://t.me/s/fixprice_russia 未解析到公开帖"
+      "total": 15,
+      "new_count": 1,
+      "new_posts": [
+        {
+          "id": "59709",
+          "summary": "Автомобилисты, этот товар для Вас! 🚙 🕶️ Держатель для очков (199 рублей) крепится при помощи магнита на козырёк. Подходит для всех авто! 📌 Простой в использовании. 😎 Арт: 6030343 😏 Подписывайтесь на нас: 🤗 во ВКонтакте ; 🤗 в Max ; 🤗 в Одноклассниках ; 🤗 в Дзене ; 🤗 в Likee . #fi…",
+          "images": [],
+          "url": "https://t.me/fixprice_russia/59709",
+          "published": "2026-06-23T07:00:15+00:00",
+          "is_teaser": false
+        }
+      ],
+      "sample": [
+        {
+          "id": "59709",
+          "summary": "Автомобилисты, этот товар для Вас! 🚙 🕶️ Держатель для очков (199 рублей) крепится при помощи магнита на козырёк. Подходит для всех авто! 📌 Простой в использовании. 😎 Арт: 6030343 😏 Подписывайтесь на нас: 🤗 во ВКонтакте ; 🤗 в Max ; 🤗 в Одноклассниках ; 🤗 в Дзене ; 🤗 в Likee . #fi…",
+          "images": [],
+          "url": "https://t.me/fixprice_russia/59709",
+          "published": "2026-06-23T07:00:15+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "59705",
+          "summary": "Все будет оФИППенно! 😁 Украсьте вещи забавными стикерами с любимым ёжиком! 🦔 😍 Набор 3D-стикеров «Фипи» (99 рублей) — наклейки для гаджетов, блокнотов и других поверхностей. 🦔 4 стикера в наборе. 🦔 Варианты в ассортименте. 💙 Арт: 5364010 👉 Подписывайтесь на нас: 🤗 во ВКонтакте ;…",
+          "images": [
+            "https://cdn4.telesco.pe/file/jwQaod_S84qg_Z0lAA8r2O-aog9NOfYQotX9pqlnl8omQTgBJgSq719rARUSKXuImJjsaXSx3culcy7mFD9hiOTevmk_3kxRUk29XqFvd0u-0sv_1eGgHbbE7nkLIiw3ahL6y3mp1A9-meDRvdFns_aRofB6DjaUHJ6D3Judzjn4YjB_W5JK434pf_dUhfhig1jQMY21ivG1MSTkBVi1j3XUjQdV5g-uGPH5YWajUSmmjvdDsmIpjU2pofdlXBjWSOShE4dq17_GdUz8EDfAA1DrI5CoOFpTN76ltatdoTCoS4eW0tix3YhqKLgX_UArhaCsA2lAu-lg4P4SBCAKlw.jpg",
+            "https://cdn4.telesco.pe/file/A1voTIX3JS1PWqx5Sy4Lpba8Oiu8FTXv0xAiVABdvY5IkZ6m_u-ny__c2GdSF_LbgBCkWxNSBJVG4rbu6sdqk03bF3S8F3Bve3w9DEm60ae6kZjPG_sriE9mopMaggXurq4Q1Xp7jJp5TayMtUevwyYznL-aUN-ykjxKuIIQnF5j7c4ugmm1ntqL8k9lbK79vHmCwxLarEi-u8lOs4yQ3WVT_5GMzDQvaVLdVinl7aOY3xV3rwnC_VbMwFbneEbwwTwxxMKhgSSeGqK0y8dD0nKEoTU6qQJybQ5dtkI1rK7_ANC0IfDqmT_pROxE9Js7tXe21UC6zz6pKJy_9_LedA.jpg",
+            "https://cdn4.telesco.pe/file/LXfGZU2L3hCLCdVHMBMktJW5XOhU5WVhm-4EzEO9QbPh05GJRrDq0rQvT8GXPwnrDKyIb9a6rHyFhBoUu8deXkLsvkAEq3ogMt1dCeW0GknwjFQOOj0Xe208uyRJiV5YP52MNo8sqQr9Z_Zu8sCfWIultjCROp4dNBfYf7Pp3_B0SPtSOzQP41R-9AvzEJAVex3taiJj7SQW93qEgpchJn4eNf9p595Yf9J3QaRkkf48do11e_2-3amhSCLcJDNMfbC9BxpJuNcZsUrWOsXYEhdiWJ-Svs-dWUGtaWCHO8Rk_KSt2Xo2jIYjebxbtLVEcegk2SdbKwSXXj4DII0SbA.jpg",
+            "https://cdn4.telesco.pe/file/jk3oxNFynwOxXdfA2F89bk5gu8B6yiFT4FfUOrWSuQpzL-d2pZq7VZpLG1srrdABE2lokqkiAmZ6TEyyXPglVuIvvTtJeKT4-wH-YQJn7g4D4jHm3_u8CifMsMimvL-QIRxlb8t15WVOQ_ik04LlpMaln0KxdOT4MwnB7z-RWda62NbovFKOqSTK36w2XW0F7EUvO-5KFpAQXCZDJUf2U35-TjKSzxEzsy_ulGaEw2VtdXb0D-L8HuDde6DzQtbKSU_KvfEqGB1Bcnx2S6wZRnv2ArV3QgXxonBUuTtQ6CsNEfO49yNLcNRK8L62GnDG73HFhCKEnn9cufyN5a_Kzw.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/59705",
+          "published": "2026-06-22T18:00:15+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "59704",
+          "summary": "Игрушка для кошек «Плюшевая удочка» (279 рублей) способствует поддержанию физической активности питомцев 🐈 К палочке прикреплена пушистая шуршащая змейка — стимулирует охотничьи инстинкты Ваших усатых компаньонов 😍 💚 Длина: 110 см. 💙 В ассортименте. 🐈 Арт: 6100169 🛍️ Сделайте за…",
+          "images": [
+            "https://cdn4.telesco.pe/file/JGWVyytK5Hsejm9z_jfN9LDsLQlNNtOeRobKmuNXdLmjETwwyBhzrvhFBUyxbcGKbBhwmv-J-WTc82Igun98EBkJ18wSPB2lyRUBd_GixzvpPnCE5ALX_K67P7Z0XQMvj4bekNlVUBi0_qwuClhb6HUbEmZtnuWlClBRJ_e-gCnQkbMmPqmJmxMUTCd7QuIAFs-hUDrRYI0VrSL7VS-emalLBN94wml23becYD-__VCr884uBRWl_maGfyF4n15pybXYH5kv6rynKbn9mYYiRWhc_ppHPq819GSU3r8GKJI7dHbqZnh8UYXhlInYXoDAB65kQhIcxrPw01z8-hEqsg.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/59704",
+          "published": "2026-06-22T17:00:09+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "59703",
+          "summary": "БОЛЬШЕ ВЫГОДЫ СО СПЕЦ ЦЕНОЙ ПО КАРТЕ! 🤗 Квас «Очаковский» – традиционный напиток с кисло-сладким вкусом и ароматом ржаного хлеба. 😋 Не содержит ГМО и консервантов. 😋 Объём: 2 л. 💳 ЦЕНА ПО КАРТЕ FIX PRICE: 139 рублей Цена без карты: 149 рублей 📲 Арт: 1550062 #fixprice #фикспрайс…",
+          "images": [
+            "https://cdn4.telesco.pe/file/ESWRZiI4EvneebLZ8gOQKD1h2kXD8S_CKCuHuR_pHJhUO3FYlpzXgyyCReTqXnzOJpawl3XZYXpinw-UJMyKqgENwKYicO5LWV8gqoDBogs3KilwsAdayjHMz3fSg4sx0BKreK1VhYDDITnTWJsQBaJVIZy_Dko-hKsHO-pCKYV1pHBcY-uE6CzOFdefyJCkT4xdrGxICghlDof7xGmMWcnob-N2i5ITZ7uvZe4y5WvL5mXTeyIfyQpoYPjUDNexlhCHEBayqtppjNbwW-ZWYrYzXxATgAnIILauXUbD2rbzxHfwgHjF_288nGwvL8ycL6WJfIa6_Ql9WvKtQEM3aw.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/59703",
+          "published": "2026-06-22T16:00:08+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "59701",
+          "summary": "Друзья, время ловить подарки 🎁 Присоединяйтесь к новому конкурсу в честь Дня рождения Fix Price и выигрывайте 300 баллов на покупки 🛍 📌 Правила участия просты: ✔️ включайте видео выше и «ловите» 3 изображения подарка в один ряд; ✔️ присылайте скриншот полностью собранного ряда в…",
+          "images": [],
+          "url": "https://t.me/fixprice_russia/59701",
+          "published": "2026-06-22T15:10:43+00:00",
+          "is_teaser": false
+        }
+      ],
+      "error": null
     },
     {
       "client": "Fix Price",
       "platform": "vk",
-      "channel": "https://vk.com/fix_price",
+      "channel": "fix_price",
       "baseline": false,
       "total": 0,
       "new_count": 0,
@@ -26,18 +85,80 @@
     {
       "client": "Sela Home",
       "platform": "telegram",
-      "channel": "https://t.me/s/sela_brand",
-      "baseline": false,
-      "total": 0,
+      "channel": "sela_brand",
+      "baseline": true,
+      "total": 5,
       "new_count": 0,
       "new_posts": [],
-      "sample": [],
-      "error": "Telegram @https://t.me/s/sela_brand 未解析到公开帖"
+      "sample": [
+        {
+          "id": "9893",
+          "summary": "Джинсы-баллоны неожиданно точно вписались в базовый летний гардероб. Секрет их обаяния — раздутый силуэт, который при этом подчёркивает хрупкость щиколоток. Носите баллоны с кедами для долгих комфортных прогулок или с изящными лоферами, если ваш маршрут предполагает чуть больше…",
+          "images": [
+            "https://cdn4.telesco.pe/file/EZRPcdR4sCsM5pJqEOQeXHC58KESVmEP9-1R3EwUI0rpJlcySO1Kf6W-WYRp6nsEUdxIAUMgaC3du-iODCvnSA6zAd_QubLgMTs8DVeOV2_fN-QaZQd_oyMYfMxjMTRc8iKiBAA-KEjr5w-6jlBihPlHYT_3mvABRY0ALkRz8fVD_i0dLc0EgaWGaR6MLpsqGne447sib-8kfVarNYnD6hVWIplf-GB-MIdmRUo-REfGYBF-ijQF7qypTfoK3PtHg0mMDr_uCjlpEPEDrhcGeJMNG7sjLhSn9UFAU0Y42r4zQnyqovXD3ny3-zKUvBpDEQUIpOkVwy9h5pcfuLqkHA.jpg",
+            "https://cdn4.telesco.pe/file/fY_4ArfcLvBVFYyMDezzbZzf6RT_Cwp9xH_i-mC6H1H1Qf82paIGTb8_7SUsC-3wg9sqvy588T-fm91hsImdcJ1Qs6b7drHvktLd82dJicauZpIGvdba_-whlWz9luIdwVDxgWjgUvDgoDi7XDveqrW6JnQZfOAS2Clt0OwbSh6aj3HvxW2N2z9EMUwHDHaFWqzcqmHI4mxgSHrLUq_s_HOj8UQeB4dv4SU1aXPaWtUjhXP9vZfgSEWb6iJfxoJUWmMtvPZjSU9svVxUNN0JnO6ofRmxNHG9h7IsqTHNONGJ15XlFI1YwusdTLaXamz5KyxzmT8oSjguam6Y4WM8kA.jpg",
+            "https://cdn4.telesco.pe/file/Fz0Dzb2A1wNtVdyhxcxc7c_FmrCPOaL2GdzUl-WnTgI1nMyczl9dtA3pYaszuz3A50MWGtfyWozv-oGraVizq3qRM5t6Vgd4RiuPPalr4b-xbZGS7EzWuP1xVxUz4Orphllh3Ocvmp9H3zi8irGMwmEqoVwk-jYNERyIjEr4WvfLFwQuEokJiDjcmItoSY8-MsgaETzpZpnMy4kjAoAbXc_b4JKR_sL-Kpdg31pLInprYoZK8sPkGI3zmIRbz0BKlhDGSiPQ51AUFHNVSWuKt_nmDhIhST8jZVqKGMQS95ph5r3tyd1nsIBsd93Xb6jscK8RRfujCtaFJUGXI-KbAw.jpg",
+            "https://cdn4.telesco.pe/file/HRaVLVFzGq9vKmXOGOBVSSg7t9dLNUysz6UPeuY9pOXxtTPbEL4BANiH1bmRUXr318AsxX4yWDwhtc_598UWE4RL2arLc8F9E6Y2YpWsiITHmMbdYf-ewepg3e_mYFlpEm-pvGsKNEC_ZepKnfuIJSWmCOZFCtX2p6oldHNPU1_0BvP85mnquVJHFWoQqarlyz4x7xQe2WF0E2Pr4a9l0McgQSU--hRZha9bFmaX28E9cE9BrZNI7GamvoKv5c-PY13sE3iOIPXiNRLr8JOI-UMZEwoc9HF4lrzvAS7A7-V8Y5I_lXiW-Q-Gq2zo2cO1FSrkt-vJS3S75kuU3788SQ.jpg",
+            "https://cdn4.telesco.pe/file/bGCBSBEMdlrYHL4v-d0kEh_JoJHXn1tzB1XZSOcp87meURQGGWTODd_qmZ62BTM22GoMlsssemVKMgswCzAXWx6Iz8U7VeRV0nSZ1dKMaDxGLZe4h0F_Lpg-TeTmLJVL9Jz1OlvqhI1l6mPN8PToUgzir85-QJD-MKNMQTMQsHQlNrOEiixZv-8VUbfFRW9luzh6cTsVxv-M_NrS9ckNEB3ZfTR3FsInW-AuE3lQVY7HMQJ_ah5SaZMoJKJWe-5s1oAOZgMG7eRPUQ-ikNfgRzQJpgtCSrQ1dKFiKa42627Mp5Qe0XFmHAt2TEZVZvoTewnHsSOGa9fRAOmBNu2IAg.jpg",
+            "https://cdn4.telesco.pe/file/AzmfaonQCuCsTBSxvGZeiLaezrmblVloUUrYtAVPtYBTLCe1WERETKnfAVCSLurfNgSfLCPPF6122G27on7DR0YHRFv05lh1m9dd8alm1Y_YDha6C3uimGT3K1Vm16LW3T75nM-DrdtAc65rTDPrAnqj7HkjsZHQ-4S4ihQZoLS3FeAK_CxQUyPUotq3OOpJ81fihs6qQoBA4OWQqnBi0drv1ozrHGVKhhfMacL8VkZ5qPuo1pk6zvwb8LF5LRuKI9_PwxO0C8ZKFfQq95MawWr7ZYG39ZO25-i5KhQ5ACR8W6gIAeuTEsrsdpoEy7auqHRfKkgeDCsSq7QNFpqzfw.jpg"
+          ],
+          "url": "https://t.me/sela_brand/9893",
+          "published": "2026-06-23T06:58:01+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "9887",
+          "summary": "Три цвета для летнего мужского гардероба: шоколадный, молочный и белый Стилист Кирилл Бонапарт использует их как основу капсулы: первый добавляет глубину, второй смягчает контраст, третий мгновенно подсвечивает и разгружает плотность коричневого. Минимум вещей — максимум комбина…",
+          "images": [
+            "https://cdn4.telesco.pe/file/JOrpFlU04ZniZ8eUpdK9Q7uEq8aQleAGgVIvtmmQyYSE5kgYRTQuOuvjZgM69apjiI4XJMiTw9gdmG5cxYvrE86O5gypmIOfLcO4buMuni2YJc8LVkUCEtwCfsS9lW2YON057ZDpqmxHOmJu_cvGOgJtkb-T_TubtkxqMnC2TR1dBtqRxREIiYVx7vvcNAjjIYkMzoBZ1yH1p_n5khI1W9abqNbT4F15YPjOvAF0XlTW6ROtOvuDLhCZKMZXmKchZKjp9WkjVUfBmOxlAtdD6J6nba3JRN1R7dV_QWD4-7P9Soa3jGMFymWYo0HY_aKCm5WHbQ2a4Iy58MgZXVdjow.jpg",
+            "https://cdn4.telesco.pe/file/BXX8xR8fhi2uk29ssaFOEDqKhCHkwr6uA7AesYgcPrf42oALXHDzU67mdAv7-47GdOJmMipNarlCkk39cSVmhGyVBRZY39BYCsx0tsNHO6nssooegYJ-oAAoVqshvGyDRgNbxGJu6Qpny_QbLJ1vIcHDgaWXS22lNEgGou3S0hbzqGDLqVAb3rkc8j_IJoPH7pcegWivPbmxiNxadszd95yk3-XjyOvV3HJLN3JAzitftWSZG77ATmQo-g-Sm7DAOzewrVDgQyvthis9UmueeAn-44K91arwyajMhThmnPD1qYkUJkPmS2XTCB9NxgNijoJjMY3sQ-MiXLVeTHppfw.jpg",
+            "https://cdn4.telesco.pe/file/M0ngZJMG5SGwa0eFLDD8MZyNRNywBoVUPtHQaWORvJWr-hMNYJAUWzWppeGI-QQtolWiiH6enQt4nn54Rh1fhPii8patnlqTRbaSl_n_6gZIIdyrZJsCti8XBxA0yg0M5WOzEmAirhq6eCfW96IcIy6qLxlELyS6aUGW6I3EUsmNrm43iSn7OHBkiHOq2noLSNKYXGwd_ZLp_ZzR5VUkwy_kJit9h-ZQSCYNJ3Ubg66WgqI1nHz7I1PF7i46MKWXAI92euLvXjWpEAXgR8NH04qtlJnd_M-BoEmDVlnj3U9BfAwwGqnLExC6Qlc_e1e7tclzfloWrXUOPN99SNBYnw.jpg",
+            "https://cdn4.telesco.pe/file/mK2F31rAOsMiTohB9CZ-UvHzd-wgJyjUtFL_BYJCsLPcHnThUc4YGX2LYxiHOcCgfG9yGCZLRkCHKL7SK-NJO-RBUzgABMKXlKqhNzGxjSsNno85PSqS6z1r-yqbEMMkT4l_9tpnT_iW0M2DMRwFm79siv9bZynEG4dfSszMaP4at454Zr-eG_l7aaUDrWxvZTX5vwV-tMga9Kjvb7g46cgOE1yUJezsLDYWnC_rDLWO81wbUgVw6YqeeGUFMZHoU8SLMExUOY5OPvgf6YEQoGt_hhCiyjeFdGAm_QHzbNOVxBqN5-HekoQfw4E7dJ5qDfqseik0b4nMlmvwpqCMMQ.jpg",
+            "https://cdn4.telesco.pe/file/B86n4I5WDuECISZVpPAjutQp2Hq0Rtw3Qwv0zIOi0jgf8bCLTIMh91aFCwATIxk6xiT5ojsiTdEJVl7Y05jycPHembxSO2u6hjuZhRTWzjWH8GtgdVY_CLdJZ1YKT04QYJbCAa82Tjg1rakIeTNMNpM1gykURbJKVOKUw8sb-mh25_UQmqvk9y_OZqs5cd9Ey5-myXUfDbGo2pv1DRccBfkKd7vxbLCIsCh3w0SuM3o7X_4A4u-k3jG8KbeoOtagEW5gXPkxDszVGGoD5rNrC1yyU_SOSvnXa12g1QSUJmYiFguxDS5MO3Q9UZVlgrrGj-_B-uQ-reMIgF2wp4BCGA.jpg",
+            "https://cdn4.telesco.pe/file/Pys-EecEzdCZj5PfeluE9REh31biRv4vw0QKOba1abw4D7oTkcuTG7wy96Lxl8X6lVA0iYp4Vu42BQxmRisTmtcXpeJp0MlI3jk4960CPdMgrtJmn_iqcckr4Eww9TIVI_D7SY4Hv2yoyxGz6KBV57vhp2SymBTNp7B0c_3oV-Qwt7lsglxGnik1ttZ6GAyB87wrFnsSMNcqJ-DqGgHLq0nu_QA2YcgXyckY-y9O6OdY_9WVEdc9NSXtv0JclUQbcAxec2YO-_NUYCEOZtpnluv-ZodfGMHj02jUYMNxsgNuQwm0a4P48e0YG_JJ5qi_KtkQp8TXd4MNXr697HW-yQ.jpg"
+          ],
+          "url": "https://t.me/sela_brand/9887",
+          "published": "2026-06-21T08:03:46+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "9881",
+          "summary": "Красный продолжает занимать модные позиции сезона. Особенно уверенно — в верхнем слое. Трикотажная оверсайз-толстовка с воротником-стойкой — выбор стилистов бренда и Марии Козыревой. Носите застегнутой под горло с широкими брюками или романтичной контрастной юбкой. Уже на сайте…",
+          "images": [
+            "https://cdn4.telesco.pe/file/PijkWlgG43aQQsAWZvZ1RJPxOk02QO4pcdxjs0y-MgZoXebLhyu-cOoGnwt4jEGHErBKRQa1rIJFQINGBBLz2-yIdlrXfUCnvKkgDAxSaZ9JT3IMk0dNMK4-u6n7AVjhBqX1Qcz3cGpJn9GI5JNPVKdFoGe80ZbKsDFAJethqZEOGO5-9Et-RKuYW83zq2uDax_iZnz62ng3Rb3rNz1Bd8kG68cEng6iobuyo39lK53LOZlntYJbv0ZYXHbPLJ68dL7_M5sWtesa1AanKxjYypJSv397H-WEEnOCLlgi2w2krKkw5dwep-4nBeg2ejeNSD6NL-ymTQN5bv9Jf5s6Tw.jpg",
+            "https://cdn4.telesco.pe/file/LAE9Dg4FseCeA0ZuHSFaCfB2GOLMKoHXjF6G6XUxA6p8GgFO0Gb4lpQG9eYcIX-HB-xkgtIiMMxnr7BDVJ_gfxTKUNXYG_Yj6kw3BqRGwh2T3oW20ZfuGeOIHM10E_gKqsXI6jkVof6gfkvcKHmPjKOvjGoH9UetPwG-VE_BNQL54vyY9fdELiq7LVzmyUZ2LvLOpM517cAYU13FIvJ3BpiJKCO_4JbIt4nQKIoZOrCEUIG1aLA8mS726i8IZ2wc9f1SkfW3ijyFi-fiRoR0RCqyZ_4e2eTir8jexscxLQTV5HH4M1YN8kFoAQmRAqiK5rsD4bTSh8sm0aLVtn_1XA.jpg",
+            "https://cdn4.telesco.pe/file/IpcKybKGolw5fXn6jbarfsjYX1xuPeEOyCc7jPuROth_-g3PNIoZNRrjf8_e72ndbH5iNgCsVY12tOJyzSW38dnnvtIn2Kbb7TnGFNsbPIrXKQNrHrSTUAmxEBFFUyjc8TBkMBxv_l3mFgxcbG7MgeRaSfbdr8Zr6IHz1LbHrGI9KSfaFQYtHQhQ6MiU41HcjsINRXncaZO2F1MWnAes3yslQGr6YsIteL3_S1ebaeZGrBfREAFEPRxnVMPyDUHtrzFzf8mQtzQDJNmjWHb2ZQIOMr4IgAu2F0J-Y8HWVNQkAbKTeaQ7OhBJZJdnDhyfQzrJeGK-H3S-QA6JQdGJpw.jpg",
+            "https://cdn4.telesco.pe/file/NWscL4LHAjbrzpbQBMp8mOM8NMhx4BNEzNkM30HFU5YULK-zLKJp9bYpMmZItqPlHXPP2_JeE-58OHztfVWEDWZkQireleEdYbyK54QH0gc8kGStNy05Pq0nj2aILq1MRT_KdXiLkvg0DUAWE6nTOBUnPE1GUB5-mUWc3kKryPJePrRlMcLsk4bELPDFt1qqmdEbxerZcs0SZgN_QmL_XrbFGHp8f9hcxJjcsJWL1Jyu1fA65qcmI1qUINLumJWS-DAsx2FHcXxNwYXYEOy4TKmErNYp06c5B9Okt1vuvvmx6IckUrQNj17NTY2kqhxPunpBMQJKvUj1CCBTfpdgWw.jpg",
+            "https://cdn4.telesco.pe/file/usQTNMeHrlHOaMS3ma_k8MagHWujkA3y-O_yXE5sF_Us2ZnrkBrZvXLJj5GRsipbm7BwKFiuhQLieIE41kAxNidhwRHcPETCJ_d9uQK9AEPuJAtlj1KaSso6OKZDJLCAWYPRpjyTUV2qSSMTEDZ_XS4mVYj9_1OklgALSFf6g3LvPmyDLHui_zW_uEESS422IRMxjQ1ZqWR0TEohyYEOGxdB8JvvgeYxVM5gPiiesV1-tmkFbTrOXdq9CdSuwzbjukOs3567IWgex_xLhpfdBDS019kukMJfBX86-4lsEh2EKOyyCGuN2D67WR6AANWVa2WG0MjvmdhXTm_NshaR3A.jpg",
+            "https://cdn4.telesco.pe/file/PUSxCwAMAlA9xFBg3dAzZlwP0OqgFUaXMSDz70AqoVc4OZtKOT2stKRu50KFrdIsXWbsqlkUk8IRktnPJjZDrQXAdeLvg-htwUhSPqgt75VkfpAGYmZZJqYLEtas_cUV6yOcJ686JEUtAoo51iKhVZt5w9zM_nUtoC1OlnzxlNjJhR4Rr5S8bIa2PffEqsNo9JlDcbI-fHUduNGpT95zZqjJiZ9I_lW7gGYACpxNFFJTZCt7O3WZPwUjns7wtqsd8xZvUrfMqwFXEPOXP75ZWFtlEWzB9JbCySYwdHYaNiskPZwT5vQmjfamaIuSRfO3SFeylq-r2-vTm-lp7vPvqg.jpg"
+          ],
+          "url": "https://t.me/sela_brand/9881",
+          "published": "2026-06-20T08:03:31+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "9880",
+          "summary": "Встретимся на этих выходных в SELA? Там скидки до 50% На сайте , в приложении и магазинах",
+          "images": [],
+          "url": "https://t.me/sela_brand/9880",
+          "published": "2026-06-19T16:01:17+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "9879",
+          "summary": "До прямого эфира SELA х «Золотое яблоко» с телеведущей и теоретиком искусств Викой Чумой осталось полчаса! Обсудим новую коллекцию SELA YOUNG, подберём макияж вместе с визажистом, а также разыграем бьюти-бокс и промокод на покупки в SELA 👉 Ждём вас в 16:00 по ссылке",
+          "images": [],
+          "url": "https://t.me/sela_brand/9879",
+          "published": "2026-06-19T12:31:01+00:00",
+          "is_teaser": true
+        }
+      ],
+      "error": null
     },
     {
       "client": "Sela Home",
       "platform": "vk",
-      "channel": "https://vk.com/sela_ru",
+      "channel": "sela_ru",
       "baseline": false,
       "total": 0,
       "new_count": 0,
@@ -46,15 +167,73 @@
       "error": "缺少 VK_TOKEN；Telegram 仍会正常追踪"
     },
     {
-      "client": "Magnit · М.Косметик",
-      "platform": "telegram",
-      "channel": "https://t.me/s/magnit_retail",
+      "client": "X5 · Перекрёсток",
+      "platform": "未配置",
+      "channel": "",
       "baseline": false,
       "total": 0,
       "new_count": 0,
       "new_posts": [],
       "sample": [],
-      "error": "Telegram @https://t.me/s/magnit_retail 未解析到公开帖"
+      "error": "social.track 已开启，但尚未配置公开 Telegram/VK 频道"
+    },
+    {
+      "client": "Magnit · М.Косметик",
+      "platform": "telegram",
+      "channel": "magnit_retail",
+      "baseline": true,
+      "total": 11,
+      "new_count": 0,
+      "new_posts": [],
+      "sample": [
+        {
+          "id": "6240",
+          "summary": "Клик-клик — и у вас хет-трик 🛒 В приложении Магнита стартовала большая футбольная игра. Об офсайде знать не нужно: просто гоняете мяч, забиваете голы и забираете подарки. Как играть? До 19 июля: 🛍️ Совершайте покупки от 700 ₽ с виртуальной картой Магнит Плюс 🛍️ Покупайте товары-…",
+          "images": [
+            "https://cdn4.telesco.pe/file/IVp29tDIrUYXCYrrhM4358RlJVAxqlnINccde0NK2fKfVdhK49ka6ySBLLbbD2ZtFc_jq9bbP3lJrTxPen9pMi_RPxS6FGa4wXqMyeNXVPl7OcZMLTh7NXaCrguJkdRMb90sXJvfBcWLh23tqE91PEVC3hNl3be2WGlPnHVyMhi1IVOGFnFmA8yemihbms1qyI7Y7jwQZ_tB4j8HpCVHu6YgwOBs6EmSwJoD0Q4D1Gw_uLlgJmT7pN50nhzb8xcvVo1gHszgRtiwRmhKeW3y4ivTZbW4KtWrQ57wsU8y2vyBVqaznrG0Qyuy93ZUoXygvxJp8mJxenRF-C3EnqUkwQ.jpg"
+          ],
+          "url": "https://t.me/magnit_retail/6240",
+          "published": "2026-06-22T08:00:36+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "6239",
+          "summary": "А вы знали? 😳 Что можно играть в приложении Магнит и выигрывать: - скидки - сертификаты на покупки - ценные призы - годовые запасы продуктов и бытовой химии - или даже дополнительные Категории кешбэка на весь месяц! Да-да, увлекательно проводить время с несложной игрой или голов…",
+          "images": [
+            "https://cdn4.telesco.pe/file/HuR9tf90L8NznzHIMKG1yOjp-mDXKUrkUuz-Ik-fvOrSyeJmDIt8ZitfFZmGIQ687J9nBTIXgNTF10R7bmPdRCCMg1evGg97mlT7leGRSVMEHkr0u1t5rnX9Y7eVPA_20lGe63g1RiUYVkjMiDZcCeodhkgDW1Peh2SeSJHItbnwXS35oBzZjERwP8OTGM6-Wwcusmx1ZO6LPCJ6m_pN8kN5zmbR26Es0xRNUu3rR4O3XrM_CjEtB3mCGJl2kOk26BGYORjnfw-vg-7jsFBQ1k5FmOIXwdWowl_Xjm2CHPKpFtSJIPpgjpwxdG5IsQlIbfrsWtEjOkY1BuaslGEzrA.jpg"
+          ],
+          "url": "https://t.me/magnit_retail/6239",
+          "published": "2026-06-21T19:08:38+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "6238",
+          "summary": "Летние романы случаются неожиданно… Например, между свёклой и черешней! Сохраняйте рецепт яркого салата с ароматной заправкой и свежей зеленью 🛍️ ❤️ Ещё больше рецептов найдёте в новом номере журнала Мой Магнит . Время приготовления: 30 минут Количество: 4 порции Вам понадобятся…",
+          "images": [],
+          "url": "https://t.me/magnit_retail/6238",
+          "published": "2026-06-21T12:02:15+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "6237",
+          "summary": "Экипаж, приё-ё-ё-ё-ё-ё-ё-ё-ём 🛒 На каком вы сейчас уровне исследования чёрной дыры? Розыгрыши призов в игре «Затянучка» проходят каждую неделю, а значит, пора наращивать мощности. Чтобы собрать максимум кристаллов, забирайте дополнительные ходы: 🌶️ Выполняйте задания в игре «Зат…",
+          "images": [],
+          "url": "https://t.me/magnit_retail/6237",
+          "published": "2026-06-19T12:02:37+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "6236",
+          "summary": "Заруливайте за призами! Врываемся в лето вместе с клубом «pro.мам и пап». Покупайте продукцию Nuts ® и Бон Пари ® и участвуйте врозыгрыше для участников клуба. На кону — крутые подарки для активных каникул: 🛍️ Велосипеды Stels Navigator 🛍️ Крутые сапборды и скейтборды для активн…",
+          "images": [
+            "https://cdn4.telesco.pe/file/tbQkHJdlV_SOle7yLGrpyDGQ2iDrYxRWU4vdI4UUp4I3CzNHKbq1ZUu-k2sQRdUaba-Aextkp943OzhpNbt93Q5wZS3rDgv0OO0kgmcHIqQ9YKvVfJqDdMXuQkkPr1N5m0uLYwXA0t5oas1wAi2HZukBO-51Gh9Hza5IMsnzjdCIBj23mMNuSgUtOC1ehuXW47xHd9ZEm0QFzWihXlWNzvXWjPbVOTvM4IrafvrmkVwxFVvPVzEVPrnl_4sIUnB0LaKkKES3UPXdaObi_IBrSqCQVWF6VpXAN8KUqv1ByCpwYRPZeKe0xfqmujmceci8hjZt0PiBcMjE-oHZxrAokA.jpg"
+          ],
+          "url": "https://t.me/magnit_retail/6236",
+          "published": "2026-06-19T11:05:32+00:00",
+          "is_teaser": false
+        }
+      ],
+      "error": null
     }
   ]
 }

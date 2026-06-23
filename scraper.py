@@ -300,7 +300,10 @@ def _social_section(data: dict[str, Any]) -> tuple[list[str], int]:
     for result in channels:
         platform = str(result.get("platform", "")).upper()
         channel = result.get("channel", "")
-        lines.append(f"### {result.get('client', '未命名客户')} · {platform} · {channel}")
+        title = f"### {result.get('client', '未命名客户')} · {platform}"
+        if channel:
+            title += f" · {channel}"
+        lines.append(title)
         if result.get("error"):
             lines.append(f"⚠️ {result['error']}")
             continue

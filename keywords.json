@@ -164,7 +164,41 @@
       "new_arrivals": {
         "url": "https://fix-price.com/catalog/novinki",
         "track": true,
-        "note": "追踪全部上新（不限品类）"
+        "note": "先抓全部上新，再保留家居装饰相关品类",
+        "source": "fix_price_api",
+        "api_url": "https://api.fix-price.com/buyer/v1/product/in/novinki",
+        "city_id": "55",
+        "page_size": 100,
+        "decor_path_allow": [
+          "/dekor-dlya-doma-",
+          "/dekor/",
+          "/vazy/",
+          "/svechi/",
+          "/tekstil/",
+          "/mebel/",
+          "/osveshenie/",
+          "/svetilniki/",
+          "/aromaty-dlya-doma/",
+          "/fotoramki/"
+        ],
+        "decor_path_deny": [
+          "/bytovaya-khimiya/",
+          "/kantstovary/",
+          "/knigi/",
+          "/produkty-i-napitki/",
+          "/odezhda/",
+          "/kosmetika-i-gigiena/",
+          "/igrushki/",
+          "/avto-moto-velo/",
+          "/sport-i-otdykh/",
+          "/dlya-zhivotnykh/",
+          "/dlya-remonta/"
+        ],
+        "decor_path_keyword_fallback": [
+          "/dlya-doma/",
+          "/suveniry-i-podarki/",
+          "/novinki/"
+        ]
       },
       "links": [
         {
@@ -184,8 +218,8 @@
       "note": "自动追踪上新；零开模改色优先。",
       "social": {
         "track": true,
-        "vk": "https://vk.com/fix_price",
-        "telegram": "https://t.me/s/fixprice_russia"
+        "vk": "fix_price",
+        "telegram": "fixprice_russia"
       }
     },
     {
@@ -203,7 +237,30 @@
       "new_arrivals": {
         "url": "https://www.sela.ru/eshop/home/new/",
         "track": true,
-        "note": "追踪全部上新（不限品类）"
+        "note": "先抓全部上新，再保留家居装饰相关品类",
+        "source": "sela_html",
+        "max_pages": 100,
+        "decor_path_allow": [
+          "/home/dekor/",
+          "/home/tekstil/",
+          "/home/posuda/",
+          "/home/aromaty-dlya-doma/",
+          "/home/khranenie/",
+          "/home/vannaya/",
+          "/home/mebel/",
+          "/home/osveshenie/"
+        ],
+        "decor_path_deny": [
+          "/home/new/kantselyariya/",
+          "/home/kantselyariya/"
+        ],
+        "decor_path_keyword_fallback": [
+          "/home/new/",
+          "/home/gostinaya/",
+          "/home/spalnya/",
+          "/home/kukhnya/",
+          "/home/detskaya/"
+        ]
       },
       "links": [
         {
@@ -227,8 +284,8 @@
       "note": "自动追踪上新；对照 Anastasia 目标价带。",
       "social": {
         "track": true,
-        "vk": "https://vk.com/sela_ru",
-        "telegram": "https://t.me/s/sela_brand"
+        "vk": "sela_ru",
+        "telegram": "sela_brand"
       }
     },
     {
@@ -293,7 +350,7 @@
       "social": {
         "track": true,
         "vk": "",
-        "telegram": "https://t.me/s/magnit_retail"
+        "telegram": "magnit_retail"
       }
     }
   ],
