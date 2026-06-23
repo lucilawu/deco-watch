@@ -1,7 +1,5 @@
 # Deco 客户上新与社媒周报 · 2026-06-23
-
-客户官网新增 **0** 件，客户社媒新帖 **0** 条，WB 关键词新增 **0** 件。客户信号优先，WB 仅作大盘参考。
-
+客户官网新增 **1** 件，客户社媒新帖 **8** 条，WB 关键词新增 **0** 件。客户信号优先，WB 仅作大盘参考。
 ## ① 各客户官网上新
 ### Fix Price · [上新页](https://fix-price.com/catalog/novinki)
 本周未发现新增（当前上新池 2 件）。
@@ -9,6 +7,10 @@
 - [Набор воздушных шаров для создания праздничной декорации "Пастель", PARTY, в ассортименте](https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente) · 249 ₽ · Декор для дома, товары для праздника · ID 5310446
 - [Настольная декорация для релаксации "Магия песка", в ассортименте](https://fix-price.com/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente) · 279 ₽ · Сувениры и подарки · ID 5246304
 另有 118 件非装饰品类已过滤。
+=======
+本周新增 1 件（当前上新池 120 件）。
+本周新增：
+- [Тряпка для уборки, BonHome, 35х35 см, 3 шт., в ассортименте](https://fix-price.com/catalog/dlya-doma/p-5040648-tryapka-dlya-uborki-onome-35h35-sm-3-sht-v-assortimente) · 59 ₽ · Для дома · ID 5040648
 ### Sela Home · [上新页](https://www.sela.ru/eshop/home/new/)
 本周未发现新增（当前上新池 1243 件）。
 当前样本：
@@ -24,12 +26,15 @@
 
 ## ② 各客户社媒新品预告
 ### Fix Price · TELEGRAM · fixprice_russia
-本周未发现新帖；以下为频道当前样本。
-- **新帖**：[Дайджест акций Fix Price — это яркие эмоции и классные возможности для экономии 💸 Встречайте свежий выпуск 😎 📆 Финальный день акции! Бесплатная доставка покупок на сумму от 1300 рублей 🚘 📆 До 24 июня включительно: начисляем баллы за заказ с самовывозом! ✔️ 400 баллов — за покупк…](https://t.me/fixprice_russia/59696) · [图片](https://cdn4.telesco.pe/file/pnOvBF0_pk9xqi6jujL-7cc6yhWKeYnt7b4iAxMXwqqTSFDpnLk6bkG4JcT44O-LNkfSEpQSjyL_fUo2aDN0uDCmaq8Z-j-l91pl9DEvqCex4pF9CpXr-v3T6LT2d65MNwUA_toJjJs0nKlB2cSaDsApKFXRrK8C0yCN5A2jEUcGFi2ZL7Ivasj261ZKiHvzhQYDD5zmvJJAaVzj2uRwT_DPWt0cj3Dgg_YYattOaQfBXaCeEubdTLOQddfUjwMrGIKiZ6YjTke0kVaPnvA0K3hDavXlZgQpTdHQFTsUCbUyMNJjaqAna5ncRDj-s_EnThBuHzfgszHsNdnBcf7adw.jpg)
-- **新帖**：[Друзья! 🤗 На нашем сайте сейчас проводится важный опрос ☝️ Пожалуйста, примите в нём участие по ссылке . Это займёт совсем немного Вашего времени, но очень поможет нам стать лучше для Вас 🥰 #fixprice #фикспрайс](https://t.me/fixprice_russia/59695) · [图片](https://cdn4.telesco.pe/file/I4OfDExTJbBuv8zbyu5eU16vQKYoyE8UQeOpTNTOWkgrl4WIjttjRf0ZnUsADsfqLXu5Sw-1p1JIb9pnyoSuIysivZ44jR71cqx3GaVBFgwb4mafZX9U0Ij6S9uXRY1-jEX2R68YEU4lRawbxYxTjKJZHdITSFSkXfDzhqckt8TtfnygYVHMJ5sxogKrRM3Qe-GTiTEIvEIVELAVw4xUwrLc2QpOe5MPaM7nHXXkKGthdWs7n7A9DzbfrPsHjJgKJrszpyZ6imzKOANMiUaqZJIGQFWAIU_wZHzPAV3i-XtPzLqDe1K_t2IkwGtbS29cqeix0UM05XRXbu_42kAYZA.jpg)
-- **新帖**：[Для Вашей домашней аптечки 👍 🤍 Бактерицидный универсальный лейкопластырь (149 рублей) помогает защитить мелкие порезы и ссадины от внешних воздействий и загрязнений. 🧑‍⚕️ Надёжно фиксируется на коже. 🧑‍⚕️ В упаковке 100 пластырей. 📲 Арт: 6210070 💵 Сделайте заказ на дом, в пункт…](https://t.me/fixprice_russia/59693) · [图片](https://cdn4.telesco.pe/file/vhCVycdtSEv4VvTyTgTk-A8Uh0FEc7Gb_am3fOusxAMkgnTgsUidpS4vof_kSKNYzWUo-Jmho4TMLmfga8pcKWZmwVDpwSOjyufQnhlkYhOwmbCdORls0la_Ef0nRDHNF2pJI8T-fs4baTYH25znev6yQNk2_D_ScfojkZ2hkP4TST7yFEBZJJyE9lkScrnsi8EF6qgKt8K7m5s5wRFMU7B9CigMmAIhwZ-QVIadh87dFL3PbAgjI7_sq0UxDoUuwQkhlgvPCaOIzc9QgPhT44HaljXa15HJz5YsnRpaCGeTuo-Ek58OPwIs1ly0V8b9bGENtDDaxtk_V-I4DVvaEg.jpg)
-- **新帖**：[Сочный акцент на кухне 🍋 Мини-подборка для летнего чаепития ☕ 😉 💛 Заварочный чайник (399 рублей) выполнен из прозрачного стекла и дополнен яркой керамической колбой для заваривания. Объём: 870 мл. Арт: 5095110 💛 Кружка из тонкого стекла (174,5 рублей) украшена милым узором. Объё…](https://t.me/fixprice_russia/59691) · [图片](https://cdn4.telesco.pe/file/f9LfKBENaB2aWxz4a_uuaKuqHQ9xpTalFzrl6XUpqzWgcUzFku_bDpmXqvIHgJsdbtDP0Vl-XRyo7_2VMzqy80K3lebqiY7ldrWvbLcxssgvUqnMpu8zFtiAnvX7n_PlkJwJ31izzzXryJNeIHHstqnzFzWEx6j3oCVmN5VjQEsn9Acg9S6rP9s7rnhgONX1RyFzb92Vd_2rmL8hTiA-WLWk1OkCaXIaH2OBZhvZy6z79ypSlfY6XDotZTn3fY8TtH0-CikhIse0K5wR9pKFsJ8VzBoFIaliiIP8BeGy9mgEgE2-C0sDu6HJX5BeXVjgi15rUs2cOFtO6UxlDK3v6w.jpg)
-- **新帖**：[Освежаем интерьер вместе 🤗 🌺 Искусственный цветок «Букет роз» ( 199 рублей) — изящный элемент декора, который добавит красок. 📲 Арт: 5240231 👉 Подписывайтесь на нас: 🤗 во ВКонтакте ; 🤗 в Max ; 🤗 в Одноклассниках ; 🤗 в Дзене ; 🤗 в Likee . #fixprice #фикспрайс](https://t.me/fixprice_russia/59690) · [图片](https://cdn4.telesco.pe/file/IL1pEDeNGTSPoCaeZUyZ8h2TRPK0F7PG5L7sNbTM5iBNH4mAvvIPPRPBY7ystowBa8v0rvTm7HEMci4nXAZqlpcM9gsIbnMbF78ttWymAN5BEKaOvkH5lyfhIeKxjW_jTR0wag6c43Jh4Kp5VnQrWopha_SsCxtgnJuvg9wBAntB7OjOX7quE4141wUp7BDi_Q7OneNzARBKeI_HW8capgOBLl44EK-ryWWWpLiWPRJTNZKy3DEQeFTwPPVL6Se3OT_vfYaYNUwwWpTficirehr7oDGI3EXZ0MdcXFEOWsjKHyRGTCfAXrbIipyplIYleOT5DhICfIKXpFZaSE-FSQ.jpg)
+本周新帖 8 条。
+- **新帖**：[Покупки в FIx Price — это прекрасная возможность обновить интерьер и сделать обстановку более уютной, найти новое хобби и добавить жизни ярких красок 🎨 Ставьте ❤️ , если согласны! #fixprice #фикспрайс](https://t.me/fixprice_russia/59697)
+- **新帖**：[Удобный вариант для хранения различных мелочей 👐 И всего за 35 рублей 😍 🏠 Коробка выполнена в стильном дизайне. 🤎 Размер: 20х20х10 см. 🤳 Арт: 5079063 Количество товаров по 35 рублей ограничено запасами магазинов 💙 💚 #fixprice #фикспрайс Реклама. ООО «Бэст Прайс». ИНН 5047085094](https://t.me/fixprice_russia/59698) · [图片](https://cdn4.telesco.pe/file/NUx_yi55wvgg1BEFWA2cxHkDlUeJGgbXN28cGrejqPgLtAZjBLPOx44ku40siYq3I3ronwjTrFjZBscN4hgcdiLRtjbqjpaLP3P0AQKARMdjWaseftUMDwMdKzmDEYaeHz6CpFCARqPnBlDLydfMH8LL7cNEw8mNOq6DeEnJCdWpx-4XaWibAJlRDCujPVlWWmTG3WRSYQwYA-m11wEsNr75RSlaNP8kvTPmF3p5CMmArwMgv7CD2Gx3IFbPPaWfW958bS_x2JUEjoeLXn5e9tDbWpmRNCIhHP5Hg-YnU2iIsHvQiIXsyB5exGYTwlO0h5IjdnQ660WhYvv8rsUiqQ.jpg)
+- **新帖**：[😋 Вкусный десерт на огне — это... ... воздушный зефир «BBQ Marshmallow» (99 рублей) 😋 Мягкий и нежный зефир с ароматом пломбира буквально тает во рту после запекания. 😉 Внутри пакета есть деревянные шпажки. 😉 Масса нетто: 200 г. 🥰 Арт: 1912087 👉 Подписывайтесь на нас: 🤗 во ВКонт…](https://t.me/fixprice_russia/59699)
+- **新帖**：[（图片帖/无文字）](https://t.me/fixprice_russia/59700)
+- **新帖**：[Друзья, время ловить подарки 🎁 Присоединяйтесь к новому конкурсу в честь Дня рождения Fix Price и выигрывайте 300 баллов на покупки 🛍 📌 Правила участия просты: ✔️ включайте видео выше и «ловите» 3 изображения подарка в один ряд; ✔️ присылайте скриншот полностью собранного ряда в…](https://t.me/fixprice_russia/59701)
+- **新帖**：[БОЛЬШЕ ВЫГОДЫ СО СПЕЦ ЦЕНОЙ ПО КАРТЕ! 🤗 Квас «Очаковский» – традиционный напиток с кисло-сладким вкусом и ароматом ржаного хлеба. 😋 Не содержит ГМО и консервантов. 😋 Объём: 2 л. 💳 ЦЕНА ПО КАРТЕ FIX PRICE: 139 рублей Цена без карты: 149 рублей 📲 Арт: 1550062 #fixprice #фикспрайс…](https://t.me/fixprice_russia/59703) · [图片](https://cdn4.telesco.pe/file/ESWRZiI4EvneebLZ8gOQKD1h2kXD8S_CKCuHuR_pHJhUO3FYlpzXgyyCReTqXnzOJpawl3XZYXpinw-UJMyKqgENwKYicO5LWV8gqoDBogs3KilwsAdayjHMz3fSg4sx0BKreK1VhYDDITnTWJsQBaJVIZy_Dko-hKsHO-pCKYV1pHBcY-uE6CzOFdefyJCkT4xdrGxICghlDof7xGmMWcnob-N2i5ITZ7uvZe4y5WvL5mXTeyIfyQpoYPjUDNexlhCHEBayqtppjNbwW-ZWYrYzXxATgAnIILauXUbD2rbzxHfwgHjF_288nGwvL8ycL6WJfIa6_Ql9WvKtQEM3aw.jpg)
+- **新帖**：[Игрушка для кошек «Плюшевая удочка» (279 рублей) способствует поддержанию физической активности питомцев 🐈 К палочке прикреплена пушистая шуршащая змейка — стимулирует охотничьи инстинкты Ваших усатых компаньонов 😍 💚 Длина: 110 см. 💙 В ассортименте. 🐈 Арт: 6100169 🛍️ Сделайте за…](https://t.me/fixprice_russia/59704) · [图片](https://cdn4.telesco.pe/file/JGWVyytK5Hsejm9z_jfN9LDsLQlNNtOeRobKmuNXdLmjETwwyBhzrvhFBUyxbcGKbBhwmv-J-WTc82Igun98EBkJ18wSPB2lyRUBd_GixzvpPnCE5ALX_K67P7Z0XQMvj4bekNlVUBi0_qwuClhb6HUbEmZtnuWlClBRJ_e-gCnQkbMmPqmJmxMUTCd7QuIAFs-hUDrRYI0VrSL7VS-emalLBN94wml23becYD-__VCr884uBRWl_maGfyF4n15pybXYH5kv6rynKbn9mYYiRWhc_ppHPq819GSU3r8GKJI7dHbqZnh8UYXhlInYXoDAB65kQhIcxrPw01z8-hEqsg.jpg)
+- **新帖**：[Все будет оФИППенно! 😁 Украсьте вещи забавными стикерами с любимым ёжиком! 🦔 😍 Набор 3D-стикеров «Фипи» (99 рублей) — наклейки для гаджетов, блокнотов и других поверхностей. 🦔 4 стикера в наборе. 🦔 Варианты в ассортименте. 💙 Арт: 5364010 👉 Подписывайтесь на нас: 🤗 во ВКонтакте ;…](https://t.me/fixprice_russia/59705) · [图片](https://cdn4.telesco.pe/file/jwQaod_S84qg_Z0lAA8r2O-aog9NOfYQotX9pqlnl8omQTgBJgSq719rARUSKXuImJjsaXSx3culcy7mFD9hiOTevmk_3kxRUk29XqFvd0u-0sv_1eGgHbbE7nkLIiw3ahL6y3mp1A9-meDRvdFns_aRofB6DjaUHJ6D3Judzjn4YjB_W5JK434pf_dUhfhig1jQMY21ivG1MSTkBVi1j3XUjQdV5g-uGPH5YWajUSmmjvdDsmIpjU2pofdlXBjWSOShE4dq17_GdUz8EDfAA1DrI5CoOFpTN76ltatdoTCoS4eW0tix3YhqKLgX_UArhaCsA2lAu-lg4P4SBCAKlw.jpg)
 ### Fix Price · VK · fix_price
 ⚠️ 缺少 VK_TOKEN；Telegram 仍会正常追踪
 ### Sela Home · TELEGRAM · selahome
@@ -41,7 +46,6 @@
 - **新帖**：[Окошки в летнюю атмосферу — на вашем кресле, кровати или диване Из смесового или 100% хлопка, с объемной вышивкой или графичным принтом. А для утоления жажды — стаканы с красной каёмкой, продолжающие тему освежающего летнего купания. Ищите на сайте в приложении и магазинах МАКС…](https://t.me/selahome/2749) · [图片](https://cdn4.telesco.pe/file/F7rJg7bAfW_EXWIG4H0K_R2iefEdXLBx5TpJeLO3WlJuO7f3_UQd0YDY7OK8I03_Xxv3E2O_SjASN75eAQskrUaFu5HdK6MAJ5MJMbHVm1xcO151X_46G8ve1xaGwQ1zNYhvfS5sF_EA83YABM005xmBZKLmx95ce_uAaUb_gcvxhEoCs6XXj3k6eS5FT21ONjHcXbUI-8tCHzlsspiPrQFhhP96mZNISUSE-NB-fzI1cdMrW7Aq66KseTz5_SpOGRUU_pnGsz8bQ5oNI_lkt-rNbX87noEamxvci38M5mjDm4dEry_kr_UyzXrooI4eMIOBnE-Uk4sNtGMun1rGuQ.jpg)
 ### Sela Home · VK · sela_ru
 ⚠️ 缺少 VK_TOKEN；Telegram 仍会正常追踪
-
 ## ③（次要）Wildberries 大盘热门
 ### 装饰灯具 · светильник интерьерный
 本周新增 0 件。
@@ -127,3 +131,31 @@
 - [Бабочки для декора воздушных шаров](https://www.wildberries.ru/catalog/424841425/detail.aspx) · 142 ₽ · 20 评
 - [Дождик для фотозоны занавес на праздник для оформления 2 шт](https://www.wildberries.ru/catalog/499533833/detail.aspx) · 126 ₽ · 1509 评
 - [клеевые точки для шаров все для праздника](https://www.wildberries.ru/catalog/20928143/detail.aspx) · 149 ₽ · 25905 评
+### 装饰灯具
+⚠️ 抓取失败：светильник интерьерный / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D1%81%D0%B2%D0%B5%D1%82%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%BD%D1%8B%D0%B9&sort=newly
+### 装饰夜灯
+⚠️ 抓取失败：ночник декоративный / newly 请求失败：WB 相关商品不足（0 个），疑似返回默认热门流
+### 玻璃花瓶
+⚠️ 抓取失败：ваза стеклянная декоративная / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%B2%D0%B0%D0%B7%D0%B0+%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D1%8F%D0%BD%D0%BD%D0%B0%D1%8F+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F&sort=newly
+### 陶瓷
+⚠️ 抓取失败：ваза керамическая / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%B2%D0%B0%D0%B7%D0%B0+%D0%BA%D0%B5%D1%80%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F&sort=newly
+### 树脂摆件
+⚠️ 抓取失败：статуэтка декоративная / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%8D%D1%82%D0%BA%D0%B0+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F&sort=newly
+### 香薰蜡烛
+⚠️ 抓取失败：свеча ароматическая / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D1%81%D0%B2%D0%B5%D1%87%D0%B0+%D0%B0%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F&sort=newly
+### 香薰扩散
+⚠️ 抓取失败：аромадиффузор / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%B0%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D0%B8%D1%84%D1%84%D1%83%D0%B7%D0%BE%D1%80&sort=newly
+### 相框
+⚠️ 抓取失败：фоторамка декоративная / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D1%84%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%BC%D0%BA%D0%B0+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F&sort=newly
+### 装饰镜
+⚠️ 抓取失败：зеркало декоративное / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B5&sort=newly
+### 墙饰挂画
+⚠️ 抓取失败：панно настенное / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%BF%D0%B0%D0%BD%D0%BD%D0%BE+%D0%BD%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5&sort=newly
+### 装饰串灯
+⚠️ 抓取失败：гирлянда декоративная / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%B3%D0%B8%D1%80%D0%BB%D1%8F%D0%BD%D0%B4%D0%B0+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F&sort=newly
+### 收纳
+⚠️ 抓取失败：корзина декоративная для хранения / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F+%D0%B4%D0%BB%D1%8F+%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F&sort=newly
+### 小家具
+⚠️ 抓取失败：журнальный столик декоративный / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D0%BA+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9&sort=newly
+### 节日派对
+⚠️ 抓取失败：праздничный декор / newly 请求失败：429 Client Error: Too Many Requests for url: https://search.wb.ru/exactmatch/ru/common/v18/search?ab_testing=false&appType=1&curr=rub&hide_dtype=15&hide_vflags=4294967296&inheritFilters=false&lang=ru&locale=ru&page=1&resultset=catalog&spp=30&suppressSpellcheck=false&dest=-1257786&query=%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80&sort=newly
