@@ -23,6 +23,19 @@
   ],
   "clients": [
     { "name": "Fix Price", "tag": "定价直采 · 你负责灯具/小家具",
+      "new_arrivals": {
+        "track": true,
+        "source": "fix_price_api",
+        "url": "https://fix-price.com/catalog/novinki",
+        "api_url": "https://api.fix-price.com/buyer/v1/product/in/novinki",
+        "city_id": "55",
+        "page_size": 100
+      },
+      "social": {
+        "track": true,
+        "telegram": "fixprice_russia",
+        "vk": "fix_price"
+      },
       "links": [
         { "t": "Новинки 新品", "u": "https://fix-price.com/catalog/novinki", "new": true },
         { "t": "Декор для дома 装饰品类", "u": "https://fix-price.com/catalog" },
@@ -30,6 +43,17 @@
       ],
       "note": "主题驱动下单。盯 Новинки 和「Декор для дома, товары для праздника」，零开模改色优先。" },
     { "name": "Sela Home", "tag": "Melon Fashion · 联系人 Anastasia",
+      "new_arrivals": {
+        "track": true,
+        "source": "sela_html",
+        "url": "https://www.sela.ru/eshop/home/new/",
+        "max_pages": 100
+      },
+      "social": {
+        "track": true,
+        "telegram": "selahome",
+        "vk": "sela_ru"
+      },
       "links": [
         { "t": "Новинки 家居新品", "u": "https://www.sela.ru/eshop/home/new/", "new": true },
         { "t": "Декор 装饰", "u": "https://www.sela.ru/eshop/home/dekor/" },
