@@ -62,7 +62,8 @@
 }
 ```
 
-- `new_arrivals.track == true` 才追踪官网，且追踪上新页全部商品，不按品类过滤。
+- `new_arrivals.track == true` 才追踪官网；先抓完整上新页，再按商品路径/分类保留家居装饰品。宽泛分类或无分类时，使用 `categories[].kw` 的俄文品类核心词兜底。
+- `decor_path_allow`、`decor_path_deny` 和 `decor_path_keyword_fallback` 分别配置明确保留、明确排除和需要关键词判断的实际站点路径；周报会统计被过滤的非装饰商品数。
 - `social.track == true` 才追踪社媒；缺少某个平台时可以省略对应字段。
 - Telegram 读取 `https://t.me/s/{频道}` 公开页，无需 token。
 - VK 使用官方 `wall.get`，需要 `VK_TOKEN`。

@@ -1,21 +1,16 @@
-# Deco 客户上新与社媒周报 · 2026-06-22
+# Deco 客户上新与社媒周报 · 2026-06-23
 
 客户官网新增 **0** 件，客户社媒新帖 **0** 条，WB 关键词新增 **0** 件。客户信号优先，WB 仅作大盘参考。
 
 ## ① 各客户官网上新
 ### Fix Price · [上新页](https://fix-price.com/catalog/novinki)
-本周未发现新增（当前上新池 119 件）。
+本周未发现新增（当前上新池 2 件）。
 当前样本：
-- [Пакеты для мусора, BonHome, с ручками, 35 л, 20 шт.](https://fix-price.com/catalog/dlya-doma/p-5025344-pakety-dlya-musora-onome-s-ruchkami-35-l-20-sht) · 83 ₽ · Для дома · ID 5025344
-- [Серия раскрасок "Моя большая раскраска", в ассортименте](https://fix-price.com/catalog/knigi/p-4000541-seriya-raskrasok-moya-bolshaya-raskraska-v-assortimente) · 79 ₽ · Книги, раскраски · ID 4000541
-- [Защита от вредителей "Фитоверм", Щёлково Агрохим, 2 мл](https://fix-price.com/catalog/sad-i-ogorod/p-5120206-zaschita-ot-vrediteley-fitoverm-schlkovo-agrohim-2-ml) · 29.50 ₽ · Сад и огород · ID 5120206
-- [Микс хрустящего драже в кислой оболочке, 25 г](https://fix-price.com/catalog/produkty-i-napitki/p-1923152-miks-hrustyaschego-draje-v-kisloy-obolochke-25-g) · 43.50 ₽ · Продукты и напитки · ID 1923152
-- [Серия художественных книг, ЭКСМО, в ассортименте](https://fix-price.com/catalog/knigi/p-4000563-seriya-hudojestvennyh-knig-eksmo-v-assortimente) · 299 ₽ · Книги, раскраски · ID 4000563
-- [Снек пшеничный с побегами бамбука, 72 г, в ассортименте](https://fix-price.com/catalog/produkty-i-napitki/p-1600764-snek-pshenichnyy-s-pobegami-bambuka-72-g-v-assortimente) · 79 ₽ · Продукты и напитки · ID 1600764
-- [Носки женские, DAZ, 5 пар, в ассортименте](https://fix-price.com/catalog/odezhda/p-5510839-noski-jenskie--5-par-v-assortimente) · 299 ₽ · Одежда и обувь · ID 5510839
-- [Носки женские, Seniora, в ассортименте](https://fix-price.com/catalog/odezhda/p-5510493-noski-jenskie-eniora-v-assortimente) · 62 ₽ · Одежда и обувь · ID 5510493
+- [Набор воздушных шаров для создания праздничной декорации "Пастель", PARTY, в ассортименте](https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente) · 249 ₽ · Декор для дома, товары для праздника · ID 5310446
+- [Настольная декорация для релаксации "Магия песка", в ассортименте](https://fix-price.com/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente) · 279 ₽ · Сувениры и подарки · ID 5246304
+另有 118 件非装饰品类已过滤。
 ### Sela Home · [上新页](https://www.sela.ru/eshop/home/new/)
-本周未发现新增（当前上新池 1409 件）。
+本周未发现新增（当前上新池 1243 件）。
 当前样本：
 - [Жаккардовый плед 130х170 см](https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226546_99/) · 5 999 ₽ · tekstil / pledy · ID 212195
 - [Ваза из стекла](https://www.sela.ru/eshop/home/dekor/vazy/SL6804227011_99/) · 1 699 ₽ · dekor / vazy · ID 212433
@@ -25,6 +20,7 @@
 - [Комплект постельного белья без простыни 1,5 спальный 140х200 см](https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6804226205_99/) · 4 999 ₽ · tekstil / postelnoe-bele · ID 212203
 - [Комплект постельного белья без простыни 1,5 спальный 140х200 см](https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226207_99/) · 2 999 ₽ · tekstil / postelnoe-bele · ID 208763
 - [Комплект постельного белья без простыни 2-х спальный 200х220 см](https://www.sela.ru/eshop/home/tekstil/postelnoe-bele/SL6801226217_99/) · 3 999 ₽ · tekstil / postelnoe-bele · ID 208740
+另有 166 件非装饰品类已过滤。
 
 ## ② 各客户社媒新品预告
 ### Fix Price · TELEGRAM · fixprice_russia
@@ -48,79 +44,79 @@
 
 ## ③（次要）Wildberries 大盘热门
 ### 装饰灯具 · светильник интерьерный
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Лампа настольная с абажуром - светильник интерьерный](https://www.wildberries.ru/catalog/234047388/detail.aspx) · 568 ₽ · 1995 评
 - [Светильник настольный беспроводной прикроватный ночник](https://www.wildberries.ru/catalog/728893910/detail.aspx) · 621 ₽ · 368 评
 - [Светильник настольный для спальни](https://www.wildberries.ru/catalog/864487019/detail.aspx) · 474 ₽ · 222 评
 ### 装饰夜灯 · ночник декоративный
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Ночник настольный сфера 3D Луна от USB](https://www.wildberries.ru/catalog/434480654/detail.aspx) · 313 ₽ · 181 评
 - [Ночник детский прикроватный](https://www.wildberries.ru/catalog/182271771/detail.aspx) · 512 ₽ · 24898 评
 - [Ночник единорог настольный, беспроводной светильник декор](https://www.wildberries.ru/catalog/484336440/detail.aspx) · 223 ₽ · 1 评
 ### 玻璃花瓶 · ваза стеклянная декоративная
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Ваза для цветов стеклянная 1 л для тюльпанов](https://www.wildberries.ru/catalog/11229880/detail.aspx) · 320 ₽ · 16423 评
 - [Ваза для цветов и сухоцветов стеклянная прозрачная мини 3 шт](https://www.wildberries.ru/catalog/435696555/detail.aspx) · 300 ₽ · 5296 评
 - [Ваза для цветов и сухоцветов стеклянная](https://www.wildberries.ru/catalog/906968111/detail.aspx) · 305 ₽ · 422 评
 ### 陶瓷 · ваза керамическая
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Керамическая ваза для цветов и сухоцветов декоративная](https://www.wildberries.ru/catalog/837733404/detail.aspx) · 490 ₽ · 34 评
 - [Керамическая ваза для цветов и сухоцветов декоративная](https://www.wildberries.ru/catalog/837733461/detail.aspx) · 518 ₽ · 49 评
 - [Керамическая ваза для цветов и сухоцветов декоративная](https://www.wildberries.ru/catalog/837733425/detail.aspx) · 555 ₽ · 50 评
 ### 树脂摆件 · статуэтка декоративная
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Статуэтки для интерьера на полку](https://www.wildberries.ru/catalog/706499409/detail.aspx) · 245 ₽ · 960 评
 - [Статуэтка ангела декор на полку в интерьер](https://www.wildberries.ru/catalog/418202499/detail.aspx) · 93 ₽ · 123 评
 - [Фигурки статуэтки зайчиков декоративные кролики](https://www.wildberries.ru/catalog/1137191306/detail.aspx) · 166 ₽ · 19 评
 ### 香薰蜡烛 · свеча ароматическая
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Свеча ароматическая](https://www.wildberries.ru/catalog/778808175/detail.aspx) · 115 ₽ · 190 评
 - [Свечи ароматические набор в подарок 3 шт](https://www.wildberries.ru/catalog/315873124/detail.aspx) · 307 ₽ · 8212 评
 - [свеча ароматическая](https://www.wildberries.ru/catalog/772821769/detail.aspx) · 117 ₽ · 163 评
 ### 香薰扩散 · аромадиффузор
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Диффузор для дома](https://www.wildberries.ru/catalog/210895312/detail.aspx) · 141 ₽ · 95504 评
 - [Диффузор для дома с палочками набор](https://www.wildberries.ru/catalog/370406489/detail.aspx) · 390 ₽ · 37883 评
 - [Диффузор для дома с фибровыми палочками ароматизатор](https://www.wildberries.ru/catalog/192181377/detail.aspx) · 138 ₽ · 102860 评
 ### 相框 · фоторамка декоративная
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Фоторамка пластик 10х15 см Эклектика](https://www.wildberries.ru/catalog/17957240/detail.aspx) · 183 ₽ · 1669 评
 - [Фоторамки на стену набор декора для праздника растяжка](https://www.wildberries.ru/catalog/206956392/detail.aspx) · 181 ₽ · 1775 评
 - [Фоторамка для фото 10х15](https://www.wildberries.ru/catalog/106441257/detail.aspx) · 165 ₽ · 1688 评
 ### 装饰镜 · зеркало декоративное
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Наклейка зеркальная интерьерная на стену кольцо 40 серебро](https://www.wildberries.ru/catalog/619960319/detail.aspx) · 241 ₽ · 177 评
 - [Наклейка зеркальная интерьерная на стену круг 32 серебро](https://www.wildberries.ru/catalog/619960322/detail.aspx) · 215 ₽ · 128 评
 - [Наклейки зеркальные для декора круги](https://www.wildberries.ru/catalog/851111875/detail.aspx) · 235 ₽ · 1040 评
 ### 墙饰挂画 · панно настенное
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Пано настенное "ЛИСТЬЯ", молочный оливковый](https://www.wildberries.ru/catalog/905659975/detail.aspx) · 175 ₽ · 18 评
 - [Панно на стену с зеркальными наклейками](https://www.wildberries.ru/catalog/1128890488/detail.aspx) · 306 ₽ · 3 评
 - [Панно на стену для интерьера](https://www.wildberries.ru/catalog/960535648/detail.aspx) · 307 ₽ · 55 评
 ### 装饰串灯 · гирлянда декоративная
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Гирлянда на батарейках роса 2м](https://www.wildberries.ru/catalog/221286983/detail.aspx) · 98 ₽ · 4833 评
 - [Гирлянда на батарейках роса 5м](https://www.wildberries.ru/catalog/148766664/detail.aspx) · 110 ₽ · 18823 评
 - [Гирлянда на батарейках роса маленькая новогодняя 2м](https://www.wildberries.ru/catalog/375644905/detail.aspx) · 103 ₽ · 17584 评
 ### 收纳 · корзина декоративная для хранения
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Корзинка для хранения плетеная](https://www.wildberries.ru/catalog/100749020/detail.aspx) · 317 ₽ · 2122 评
 - [Корзинка для хранения плетеная](https://www.wildberries.ru/catalog/153358857/detail.aspx) · 330 ₽ · 708 评
 - [Плетеная корзина для хранения набор органайзер из джута](https://www.wildberries.ru/catalog/333174981/detail.aspx) · 854 ₽ · 3852 评
 ### 小家具 · журнальный столик декоративный
-首次建立 WB 基线；下周起显示新增。
+本周新增 0 件。
 当前热门 Top 3：
 - [Журнальный столик круглый](https://www.wildberries.ru/catalog/294297034/detail.aspx) · 983 ₽ · 1173 评
 - [Столик журнальный круглый маленький](https://www.wildberries.ru/catalog/232416643/detail.aspx) · 1 714 ₽ · 1748 评

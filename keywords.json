@@ -29,7 +29,21 @@
         "url": "https://fix-price.com/catalog/novinki",
         "api_url": "https://api.fix-price.com/buyer/v1/product/in/novinki",
         "city_id": "55",
-        "page_size": 100
+        "page_size": 100,
+        "decor_path_allow": [
+          "/dekor-dlya-doma-", "/dekor/", "/vazy/", "/svechi/",
+          "/tekstil/", "/mebel/", "/osveshenie/", "/svetilniki/",
+          "/aromaty-dlya-doma/", "/fotoramki/"
+        ],
+        "decor_path_deny": [
+          "/bytovaya-khimiya/", "/kantstovary/", "/knigi/",
+          "/produkty-i-napitki/", "/odezhda/", "/kosmetika-i-gigiena/",
+          "/igrushki/", "/avto-moto-velo/", "/sport-i-otdykh/",
+          "/dlya-zhivotnykh/", "/dlya-remonta/"
+        ],
+        "decor_path_keyword_fallback": [
+          "/dlya-doma/", "/suveniry-i-podarki/", "/novinki/"
+        ]
       },
       "social": {
         "track": true,
@@ -47,7 +61,19 @@
         "track": true,
         "source": "sela_html",
         "url": "https://www.sela.ru/eshop/home/new/",
-        "max_pages": 100
+        "max_pages": 100,
+        "decor_path_allow": [
+          "/home/dekor/", "/home/tekstil/", "/home/posuda/",
+          "/home/aromaty-dlya-doma/", "/home/khranenie/", "/home/vannaya/",
+          "/home/mebel/", "/home/osveshenie/"
+        ],
+        "decor_path_deny": [
+          "/home/new/kantselyariya/", "/home/kantselyariya/"
+        ],
+        "decor_path_keyword_fallback": [
+          "/home/new/", "/home/gostinaya/", "/home/spalnya/",
+          "/home/kukhnya/", "/home/detskaya/"
+        ]
       },
       "social": {
         "track": true,

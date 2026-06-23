@@ -11,7 +11,7 @@ import json
 import pathlib
 import re
 from typing import Any
-from urllib.parse import urljoin, urlparse
+from urllib.parse import unquote, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -32,6 +32,17 @@ HEADERS = {
     "Accept-Language": "ru-RU,ru;q=0.9,en;q=0.7",
 }
 
+RU_STOP_WORDS = {"в", "для", "и", "из", "на", "по", "с"}
+UNKNOWN_CATEGORIES = {"", "未分类", "uncategorized", "без категории"}
+RU_SUFFIXES = (
+    "ическими", "ический", "ическая", "ические", "ического",
+    "ениями", "енный", "енная", "енные", "ового", "овая", "овые",
+    "иями", "ами", "ями", "ого", "ему", "ому", "ыми", "ими",
+    "ая", "яя", "ое", "ее", "ые", "ие", "ый", "ий", "ой",
+    "ам", "ям", "ах", "ях", "ов", "ев", "ом", "ем", "ами",
+    "а", "я", "ы", "и", "у", "ю", "е", "о",
+)
+
 
 def read_json(path: pathlib.Path, default: Any) -> Any:
     try:
@@ -51,6 +62,84 @@ def _number(value: Any) -> float | int | None:
     except (TypeError, ValueError):
         return None
     return int(result) if result.is_integer() else round(result, 2)
+
+
+def _normalize_words(value: Any) -> list[str]:
+    text = str(value or "").casefold().replace("ё", "е")
+    return re.findall(r"[a-zа-я0-9]+", text)
+
+
+def _russian_root(word: str) -> str:
+    if word.startswith("декор"):
+        return "декор"
+    for suffix in RU_SUFFIXES:
+        if word.endswith(suffix) and len(word) - len(suffix) >= 4:
+            return word[: -len(suffix)]
+    return word
+
+
+def keyword_roots(categories: list[dict[str, Any]]) -> set[str]:
+    """提取每个搜索短语的品类核心词，并保留“装饰”这一通用强信号。"""
+    roots: set[str] = set()
+    for category in categories:
+        words = [
+            word for word in _normalize_words(category.get("kw"))
+            if word not in RU_STOP_WORDS and len(word) >= 4
+        ]
+        if words:
+            roots.add(_russian_root(words[0]))
+        if any(word.startswith("декор") for word in words):
+            roots.add("декор")
+    return roots
+
+
+def _matches_decor_keywords(product: dict[str, Any], roots: set[str]) -> bool:
+    product_roots = {
+        _russian_root(word)
+        for word in _normalize_words(f"{product.get('name', '')} {product.get('category', '')}")
+        if word not in RU_STOP_WORDS and len(word) >= 4
+    }
+    return any(
+        left == right or (len(left) >= 5 and (left in right or right in left))
+        for left in roots
+        for right in product_roots
+    )
+
+
+def filter_decor_products(
+    products: list[dict[str, Any]],
+    settings: dict[str, Any],
+    categories: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], int]:
+    """分类/路径优先；宽泛分类或缺少分类时用 categories[].kw 兜底。"""
+    allow = [str(value).casefold() for value in settings.get("decor_path_allow", [])]
+    deny = [str(value).casefold() for value in settings.get("decor_path_deny", [])]
+    keyword_fallback = [
+        str(value).casefold() for value in settings.get("decor_path_keyword_fallback", [])
+    ]
+    roots = keyword_roots(categories)
+    kept: list[dict[str, Any]] = []
+
+    for product in products:
+        path = unquote(str(product.get("path") or "")).casefold()
+        category = str(product.get("category") or "").casefold().strip()
+        if category in UNKNOWN_CATEGORIES:
+            category = ""
+        classification = f"{path} {category}".strip()
+
+        if classification and any(fragment in classification for fragment in deny):
+            accepted = False
+        elif classification and any(fragment in classification for fragment in allow):
+            accepted = True
+        elif not classification or any(fragment in classification for fragment in keyword_fallback):
+            accepted = _matches_decor_keywords(product, roots)
+        else:
+            accepted = False
+
+        if accepted:
+            kept.append(product)
+
+    return kept, len(products) - len(kept)
 
 
 def fetch_fix_price(settings: dict[str, Any]) -> list[dict[str, Any]]:
@@ -107,6 +196,7 @@ def fetch_fix_price(settings: dict[str, Any]) -> list[dict[str, Any]]:
                     "price": _number(row.get("price") or row.get("minPrice")),
                     "url": urljoin("https://fix-price.com/catalog/", relative_url),
                     "category": str(category.get("title") or "未分类"),
+                    "path": f"/catalog/{relative_url}",
                 }
             )
         # 该接口目前会把 limit=100 截成约 28 条，不能用 page_size 判断末页。
@@ -148,6 +238,7 @@ def _parse_sela_page(text: str, base_url: str) -> list[dict[str, Any]]:
                 "price": _number(row.get("price")),
                 "url": product_url,
                 "category": _sela_category(product_url, str(row.get("category") or "")),
+                "path": urlparse(product_url).path,
             }
         )
     return products
@@ -207,9 +298,12 @@ def run() -> dict[str, Any]:
         print(f"[client] {name}: {source}")
         try:
             fetcher = FETCHERS[source]
-            products = fetcher(settings)
-            if not products:
+            fetched_products = fetcher(settings)
+            if not fetched_products:
                 raise RuntimeError("数据源返回 0 个商品，已拒绝覆盖快照")
+            products, filtered_count = filter_decor_products(
+                fetched_products, settings, cfg.get("categories", [])
+            )
             previous = old_clients.get(name, {})
             previous_ids = {str(value) for value in previous.get("ids", [])}
             baseline = not bool(previous_ids)
@@ -218,6 +312,7 @@ def run() -> dict[str, Any]:
                 "ids": [p["id"] for p in products],
                 "checked": today,
                 "count": len(products),
+                "filtered_count": filtered_count,
             }
             results.append(
                 {
@@ -226,13 +321,18 @@ def run() -> dict[str, Any]:
                     "url": settings.get("url"),
                     "baseline": baseline,
                     "total": len(products),
+                    "fetched_total": len(fetched_products),
+                    "filtered_count": filtered_count,
                     "new_count": len(new_items),
                     "new_items": new_items,
                     "sample": products[:8],
                     "error": None,
                 }
             )
-            print(f"  抓到 {len(products)} 件；新增 {len(new_items)} 件")
+            print(
+                f"  抓到 {len(fetched_products)} 件；保留装饰 {len(products)} 件；"
+                f"过滤 {filtered_count} 件；新增 {len(new_items)} 件"
+            )
         except Exception as exc:
             results.append(
                 {
@@ -241,6 +341,8 @@ def run() -> dict[str, Any]:
                     "url": settings.get("url"),
                     "baseline": False,
                     "total": 0,
+                    "fetched_total": 0,
+                    "filtered_count": 0,
                     "new_count": 0,
                     "new_items": [],
                     "sample": [],

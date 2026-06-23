@@ -285,6 +285,9 @@ def _client_section(data: dict[str, Any]) -> tuple[list[str], int]:
                 f"- [{product.get('name', '未命名商品')}]({product.get('url')}) · "
                 f"{fmt_price(product.get('price'))} · {category} · ID {product.get('id')}"
             )
+        filtered_count = int(result.get("filtered_count", 0))
+        if filtered_count:
+            lines.append(f"另有 {filtered_count} 件非装饰品类已过滤。")
     return lines, total_new
 
 
