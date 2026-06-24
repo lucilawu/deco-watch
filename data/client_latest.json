@@ -6,31 +6,18 @@
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 6,
-      "fetched_total": 115,
-      "filtered_count": 109,
-      "new_count": 2,
+      "total": 5,
+      "fetched_total": 93,
+      "filtered_count": 88,
+      "new_count": 1,
       "new_items": [
         {
-          "id": "5079371",
-          "name": "Набор корзинок, Уника Пласт, 20x10x5 см, 3 шт., в ассортименте",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5079349",
-          "name": "Корзина с ручкой, Home Time, 25х24х17 см, в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5079349-korzina-s-ruchkoy-ome-ime-25h24h17-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5079349-korzina-s-ruchkoy-ome-ime-25h24h17-sm-v-assortimente",
+          "id": "5310100",
+          "name": "Насос для воздушных шаров, PARTY, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -40,25 +27,12 @@
       ],
       "sample": [
         {
-          "id": "5310446",
-          "name": "Набор воздушных шаров для создания праздничной декорации \"Пастель\", PARTY, в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente",
+          "id": "5310100",
+          "name": "Насос для воздушных шаров, PARTY, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
           "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310446-nabor-vozdushnyh-sharov-dlya-sozdaniya-prazdnichnoy-dekoratsii-pastel--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246304",
-          "name": "Настольная декорация для релаксации \"Магия песка\", в ассортименте",
-          "price": 279,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -119,7 +93,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0522,
+      "decor_ratio": 0.0538,
       "error": null
     },
     {
