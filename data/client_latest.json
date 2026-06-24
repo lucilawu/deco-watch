@@ -1,16 +1,33 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 2,
-      "fetched_total": 120,
-      "filtered_count": 118,
-      "new_count": 0,
-      "new_items": [],
+      "total": 4,
+      "fetched_total": 127,
+      "filtered_count": 123,
+      "new_count": 2,
+      "new_items": [
+        {
+          "id": "5364011",
+          "name": "Набор 3D-стикеров, PrankBank, в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364011-nabor-3-stikerov-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364011-nabor-3-stikerov-rankank-v-assortimente"
+        },
+        {
+          "id": "5364010",
+          "name": "Набор 3D-стикеров \"Фиппи\", в ассортименте",
+          "price": 116,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364010-nabor-3-stikerov-fippi-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364010-nabor-3-stikerov-fippi-v-assortimente"
+        }
+      ],
       "sample": [
         {
           "id": "5310446",
@@ -27,10 +44,26 @@
           "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente",
           "category": "Сувениры и подарки",
           "path": "/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente"
+        },
+        {
+          "id": "5364011",
+          "name": "Набор 3D-стикеров, PrankBank, в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364011-nabor-3-stikerov-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364011-nabor-3-stikerov-rankank-v-assortimente"
+        },
+        {
+          "id": "5364010",
+          "name": "Набор 3D-стикеров \"Фиппи\", в ассортименте",
+          "price": 116,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364010-nabor-3-stikerov-fippi-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364010-nabor-3-stikerov-fippi-v-assortimente"
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0167,
+      "decor_ratio": 0.0315,
       "error": null
     },
     {
@@ -38,9 +71,9 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1213,
+      "total": 1212,
       "fetched_total": 1413,
-      "filtered_count": 200,
+      "filtered_count": 201,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -110,7 +143,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.8585,
+      "decor_ratio": 0.8577,
       "error": null
     },
     {
