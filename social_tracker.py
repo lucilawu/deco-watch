@@ -9,10 +9,14 @@ import json
 import os
 import pathlib
 import re
+import sys
 from typing import Any
 
 import requests
 from bs4 import BeautifulSoup
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from history_archive import update_history
 
 
 ROOT = pathlib.Path(__file__).parent
@@ -226,6 +230,7 @@ def run() -> dict[str, Any]:
     output = {"date": today, "channels": results}
     write_json(SNAPSHOT, {"channels": new_channels})
     write_json(LATEST, output)
+    update_history(today, "social", output)
     return output
 
 

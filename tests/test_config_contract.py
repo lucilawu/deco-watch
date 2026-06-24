@@ -56,6 +56,15 @@ class ConfigContractTests(unittest.TestCase):
         self.assertTrue(x5["new_arrivals"]["track"])
         self.assertIn("装饰品类占比低", x5["new_arrivals"]["quality_note"])
 
+    def test_global_blacklist_and_numeric_price_bands_are_configured(self):
+        blacklist = self.config["meta"]["exclude_name_keywords_ru"]
+        self.assertIn("тряпка", blacklist)
+        self.assertIn("салфетки бумажные", blacklist)
+        self.assertIn("подгузник", blacklist)
+        for name in ("Fix Price", "Sela Home", "X5 · Перекрёсток"):
+            client = next(item for item in self.config["clients"] if item["name"] == name)
+            self.assertRegex(client["price_band"], r"\d+\s*[–—-]\s*\d+\s*₽")
+
     def test_tracked_client_without_channels_is_reported(self):
         fixture = {
             "clients": [{

@@ -10,12 +10,16 @@ import html
 import json
 import pathlib
 import re
+import sys
 from typing import Any
 from urllib.parse import unquote, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 from curl_cffi import requests as curl_requests
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from history_archive import update_history
 
 
 ROOT = pathlib.Path(__file__).parent
@@ -81,6 +85,31 @@ def _russian_root(word: str) -> str:
     return word
 
 
+def _word_roots(value: Any) -> set[str]:
+    return {
+        _russian_root(word)
+        for word in _normalize_words(value)
+        if word not in RU_STOP_WORDS and len(word) >= 4
+    }
+
+
+def _root_matches(left: str, right: str) -> bool:
+    return left == right or (min(len(left), len(right)) >= 5 and (left in right or right in left))
+
+
+def _phrase_matches(text: Any, phrase: Any) -> bool:
+    text_roots = _word_roots(text)
+    phrase_roots = _word_roots(phrase)
+    return bool(phrase_roots) and all(
+        any(_root_matches(expected, actual) for actual in text_roots)
+        for expected in phrase_roots
+    )
+
+
+def _matches_any_phrase(text: Any, phrases: list[Any]) -> bool:
+    return any(_phrase_matches(text, phrase) for phrase in phrases if phrase)
+
+
 def keyword_roots(categories: list[dict[str, Any]]) -> set[str]:
     """提取每个搜索短语的品类核心词，并保留“装饰”这一通用强信号。"""
     roots: set[str] = set()
@@ -97,11 +126,7 @@ def keyword_roots(categories: list[dict[str, Any]]) -> set[str]:
 
 
 def _matches_decor_keywords(product: dict[str, Any], roots: set[str]) -> bool:
-    product_roots = {
-        _russian_root(word)
-        for word in _normalize_words(f"{product.get('name', '')} {product.get('category', '')}")
-        if word not in RU_STOP_WORDS and len(word) >= 4
-    }
+    product_roots = _word_roots(f"{product.get('name', '')} {product.get('category', '')}")
     for left in roots:
         matched = any(
             left == right or (len(left) >= 5 and (left in right or right in left))
@@ -124,17 +149,24 @@ def filter_decor_products(
     products: list[dict[str, Any]],
     settings: dict[str, Any],
     categories: list[dict[str, Any]],
+    exclude_keywords: list[str] | None = None,
 ) -> tuple[list[dict[str, Any]], int]:
-    """分类/路径优先；宽泛分类或缺少分类时用 categories[].kw 兜底。"""
+    """商品名排除词优先；其后才按分类/路径和装饰关键词判断。"""
     allow = [str(value).casefold() for value in settings.get("decor_path_allow", [])]
     deny = [str(value).casefold() for value in settings.get("decor_path_deny", [])]
     keyword_fallback = [
         str(value).casefold() for value in settings.get("decor_path_keyword_fallback", [])
     ]
-    roots = keyword_roots(categories)
+    supplemental = [{"kw": value} for value in settings.get("decor_name_keywords", [])]
+    roots = keyword_roots(categories + supplemental)
+    name_excludes = list(exclude_keywords or []) + list(
+        settings.get("exclude_name_keywords_ru", [])
+    )
     kept: list[dict[str, Any]] = []
 
     for product in products:
+        if _matches_any_phrase(product.get("name", ""), name_excludes):
+            continue
         path = unquote(str(product.get("path") or "")).casefold()
         category = str(product.get("category") or "").casefold().strip()
         if category in UNKNOWN_CATEGORIES:
@@ -154,6 +186,59 @@ def filter_decor_products(
             kept.append(product)
 
     return kept, len(products) - len(kept)
+
+
+def _price_range(price_band: Any) -> tuple[float, float] | None:
+    if isinstance(price_band, dict):
+        low = price_band.get("min_rub", price_band.get("min"))
+        high = price_band.get("max_rub", price_band.get("max"))
+        try:
+            return float(low), float(high)
+        except (TypeError, ValueError):
+            return None
+    text = str(price_band or "").replace(" ", " ")
+    match = re.search(r"(\d[\d ]*)\s*[–—-]\s*(\d[\d ]*)\s*(?:₽|руб|rub)", text, re.IGNORECASE)
+    if not match:
+        return None
+    return float(match.group(1).replace(" ", "")), float(match.group(2).replace(" ", ""))
+
+
+def annotate_and_rank_products(
+    products: list[dict[str, Any]],
+    client: dict[str, Any],
+    cfg: dict[str, Any],
+) -> list[dict[str, Any]]:
+    price_range = _price_range(client.get("price_band"))
+    focus = set(client.get("focus") or [])
+    focus_keywords = (cfg.get("meta") or {}).get("focus_match_keywords") or {}
+
+    ranked: list[dict[str, Any]] = []
+    for position, original in enumerate(products):
+        product = dict(original)
+        price = product.get("price")
+        price_match = False
+        if price_range and isinstance(price, (int, float)):
+            price_match = price_range[0] <= float(price) <= price_range[1]
+        haystack = f"{product.get('name', '')} {product.get('category', '')} {product.get('path', '')}"
+        focus_match = any(
+            _matches_any_phrase(haystack, list(focus_keywords.get(group) or []))
+            for group in focus
+        )
+        tags = []
+        if price_match:
+            tags.append("🎯 价位匹配")
+        if focus_match:
+            tags.append("✨ 品类对口")
+        product["price_match"] = price_match
+        product["focus_match"] = focus_match
+        product["match_tags"] = tags
+        product["_rank"] = (int(price_match) + int(focus_match), -position)
+        ranked.append(product)
+
+    ranked.sort(key=lambda item: item["_rank"], reverse=True)
+    for product in ranked:
+        product.pop("_rank", None)
+    return ranked
 
 
 def fetch_fix_price(settings: dict[str, Any]) -> list[dict[str, Any]]:
@@ -422,8 +507,12 @@ def run() -> dict[str, Any]:
             if not fetched_products:
                 raise RuntimeError("数据源返回 0 个商品，已拒绝覆盖快照")
             products, filtered_count = filter_decor_products(
-                fetched_products, settings, cfg.get("categories", [])
+                fetched_products,
+                settings,
+                cfg.get("categories", []),
+                (cfg.get("meta") or {}).get("exclude_name_keywords_ru", []),
             )
+            products = annotate_and_rank_products(products, client, cfg)
             previous = old_clients.get(name, {})
             previous_ids = {str(value) for value in previous.get("ids", [])}
             baseline = not bool(previous_ids)
@@ -478,6 +567,7 @@ def run() -> dict[str, Any]:
     output = {"date": today, "clients": results}
     write_json(SNAPSHOT, {"clients": new_clients})
     write_json(LATEST, output)
+    update_history(today, "clients", output)
     return output
 
 
