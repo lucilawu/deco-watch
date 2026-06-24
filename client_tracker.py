@@ -23,6 +23,8 @@ CONFIG = ROOT / "keywords.json"
 DATA_DIR = ROOT / "data"
 SNAPSHOT = DATA_DIR / "client_snapshot.json"
 LATEST = DATA_DIR / "client_latest.json"
+PEREKRESTOK_CACHE = DATA_DIR / "perekrestok_products_cache.json"
+SOURCE_META: dict[str, dict[str, Any]] = {}
 
 HEADERS = {
     "User-Agent": (
@@ -34,6 +36,7 @@ HEADERS = {
 
 RU_STOP_WORDS = {"в", "для", "и", "из", "на", "по", "с"}
 UNKNOWN_CATEGORIES = {"", "未分类", "uncategorized", "без категории"}
+RU_AMBIGUOUS_QUALIFIERS = {"салфетк": {"сервировочн"}}
 RU_SUFFIXES = (
     "ическими", "ический", "ическая", "ические", "ического",
     "ениями", "енный", "енная", "енные", "ового", "овая", "овые",
@@ -99,11 +102,22 @@ def _matches_decor_keywords(product: dict[str, Any], roots: set[str]) -> bool:
         for word in _normalize_words(f"{product.get('name', '')} {product.get('category', '')}")
         if word not in RU_STOP_WORDS and len(word) >= 4
     }
-    return any(
-        left == right or (len(left) >= 5 and (left in right or right in left))
-        for left in roots
-        for right in product_roots
-    )
+    for left in roots:
+        matched = any(
+            left == right or (len(left) >= 5 and (left in right or right in left))
+            for right in product_roots
+        )
+        if not matched:
+            continue
+        qualifiers = RU_AMBIGUOUS_QUALIFIERS.get(left)
+        if qualifiers and not any(
+            qualifier == right or qualifier in right or right in qualifier
+            for qualifier in qualifiers
+            for right in product_roots
+        ):
+            continue
+        return True
+    return False
 
 
 def filter_decor_products(
@@ -268,9 +282,115 @@ def fetch_sela(settings: dict[str, Any]) -> list[dict[str, Any]]:
     return _dedupe(products)
 
 
+def _perekrestok_category_nodes(
+    items: list[dict[str, Any]], targets: set[str]
+) -> list[dict[str, Any]]:
+    matched: list[dict[str, Any]] = []
+    for item in items:
+        category = item.get("category") or {}
+        if str(category.get("title") or "").casefold() in targets:
+            matched.append(category)
+        matched.extend(_perekrestok_category_nodes(item.get("children") or [], targets))
+    return matched
+
+
+def _perekrestok_products(payload: dict[str, Any], parent_title: str) -> list[dict[str, Any]]:
+    products: list[dict[str, Any]] = []
+    for group in (payload.get("content") or {}).get("items") or []:
+        group_category = group.get("category") or group.get("group") or {}
+        group_title = str(group_category.get("title") or "").strip()
+        for row in group.get("products") or []:
+            master = row.get("masterData") or {}
+            primary = row.get("primaryCategory") or row.get("catalogPrimaryCategory") or {}
+            product_id = str(master.get("plu") or row.get("id") or "").strip()
+            title = str(row.get("title") or "").strip()
+            slug = str(master.get("slug") or "").strip()
+            category_id = primary.get("id") or group_category.get("id")
+            if not product_id or not title or not slug or not category_id:
+                continue
+            price_kopecks = (row.get("priceTag") or {}).get("price") or row.get("medianPrice")
+            category_parts = [parent_title, group_title, str(primary.get("title") or "")]
+            category = " / ".join(dict.fromkeys(part for part in category_parts if part))
+            products.append(
+                {
+                    "id": product_id,
+                    "name": title,
+                    "price": _number(float(price_kopecks) / 100) if price_kopecks else None,
+                    "url": (
+                        f"https://www.perekrestok.ru/cat/{category_id}/p/"
+                        f"{slug}-{product_id}"
+                    ),
+                    "category": category or "未分类",
+                    "path": f"/cat/c/{category_id}/{str(primary.get('slug') or '')}",
+                }
+            )
+    return products
+
+
+def fetch_perekrestok(settings: dict[str, Any]) -> list[dict[str, Any]]:
+    """读取 Перекрёсток 目录树与分类预览；受反爬限制时使用最近成功缓存。"""
+    api_url = str(settings.get("api_url") or "").rstrip("/")
+    if not api_url:
+        raise RuntimeError("缺少 Перекрёсток api_url")
+    target_titles = {
+        str(value).casefold() for value in settings.get("category_titles", []) if value
+    }
+    if not target_titles:
+        raise RuntimeError("缺少 Перекрёсток category_titles")
+
+    cache = read_json(PEREKRESTOK_CACHE, {})
+    session = curl_requests.Session(impersonate="chrome")
+    headers = {
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": HEADERS["Accept-Language"],
+        "Origin": "https://www.perekrestok.ru",
+        "Referer": settings["url"],
+    }
+    try:
+        tree_response = session.post(f"{api_url}/catalog/tree", headers=headers, timeout=35)
+        if tree_response.status_code == 403:
+            raise RuntimeError("目录触发网站人机验证（HTTP 403）")
+        tree_response.raise_for_status()
+        tree_payload = tree_response.json()
+        nodes = _perekrestok_category_nodes(
+            (tree_payload.get("content") or {}).get("items") or [], target_titles
+        )
+        if not nodes:
+            raise RuntimeError("目录树中未找到配置的家居分类")
+
+        products: list[dict[str, Any]] = []
+        for node in nodes:
+            response = session.get(
+                f"{api_url}/catalog/category/feed/{node['id']}",
+                headers=headers,
+                timeout=35,
+            )
+            response.raise_for_status()
+            products.extend(_perekrestok_products(response.json(), str(node.get("title") or "")))
+        products = _dedupe(products)
+        if not products:
+            raise RuntimeError("家居分类返回 0 个商品")
+        today = dt.date.today().isoformat()
+        write_json(PEREKRESTOK_CACHE, {"checked": today, "products": products})
+        SOURCE_META["perekrestok_api"] = {"cached": False, "cache_date": today}
+        return products
+    except Exception as exc:
+        cached_products = cache.get("products") or []
+        cache_date = str(cache.get("checked") or "")
+        if cached_products:
+            SOURCE_META["perekrestok_api"] = {
+                "cached": True,
+                "cache_date": cache_date,
+                "source_warning": f"官网实时目录不可用：{exc}",
+            }
+            return cached_products
+        raise RuntimeError(f"Перекрёсток 官网目录不可用且无缓存：{exc}") from exc
+
+
 FETCHERS = {
     "fix_price_api": fetch_fix_price,
     "sela_html": fetch_sela,
+    "perekrestok_api": fetch_perekrestok,
 }
 
 
@@ -326,6 +446,9 @@ def run() -> dict[str, Any]:
                     "new_count": len(new_items),
                     "new_items": new_items,
                     "sample": products[:8],
+                    "quality_note": settings.get("quality_note"),
+                    "decor_ratio": round(len(products) / len(fetched_products), 4),
+                    **SOURCE_META.get(str(source), {}),
                     "error": None,
                 }
             )
@@ -346,6 +469,7 @@ def run() -> dict[str, Any]:
                     "new_count": 0,
                     "new_items": [],
                     "sample": [],
+                    "quality_note": settings.get("quality_note"),
                     "error": str(exc),
                 }
             )

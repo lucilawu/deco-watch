@@ -299,9 +299,26 @@
       "price_band": "按店型分层 Пятёрочка/Перекрёсток/Чижик，不能合并",
       "aesthetic": "大胆色彩、异形、玻璃；陶瓷绕过中间商",
       "new_arrivals": {
-        "url": "https://www.perekrestok.ru/",
-        "track": false,
-        "note": "官网装饰薄，不追踪官网"
+        "url": "https://www.perekrestok.ru/cat",
+        "track": true,
+        "note": "总目录中仅追踪家居装饰相关商品",
+        "source": "perekrestok_api",
+        "api_url": "https://www.perekrestok.ru/api/customer/1.4.1.0",
+        "category_titles": [
+          "Для дома и дачи",
+          "Посуда"
+        ],
+        "decor_path_allow": [
+          "декор и интерьер",
+          "домашний текстиль"
+        ],
+        "decor_path_deny": [],
+        "decor_path_keyword_fallback": [
+          "для дома и дачи",
+          "мелочи для дома",
+          "посуда"
+        ],
+        "quality_note": "X5 官网装饰品类占比低，建议主要参考其 Telegram 和线下店型数据"
       },
       "links": [
         {
@@ -317,8 +334,8 @@
       "social": {
         "track": true,
         "vk": "",
-        "telegram": "",
-        "note": "官方VK/TG待核实，确认后填"
+        "telegram": "perekrestok_store",
+        "note": "官方 Telegram 已核实；VK 仅有客服联系方式，不配置"
       }
     },
     {

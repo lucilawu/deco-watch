@@ -32,6 +32,7 @@ class ConfigContractTests(unittest.TestCase):
         required = {
             "fix_price_api": {"url", "api_url", "city_id", "page_size"},
             "sela_html": {"url", "max_pages"},
+            "perekrestok_api": {"url", "api_url", "category_titles"},
         }
         for client in self.config["clients"]:
             settings = client.get("new_arrivals") or {}
@@ -47,6 +48,13 @@ class ConfigContractTests(unittest.TestCase):
             for platform in ("telegram", "vk"):
                 channel = str(social.get(platform) or "")
                 self.assertFalse(channel.startswith(("http://", "https://", "@")))
+
+    def test_x5_official_telegram_and_quality_note_are_configured(self):
+        x5 = next(client for client in self.config["clients"] if client["name"].startswith("X5"))
+        self.assertEqual(x5["social"]["telegram"], "perekrestok_store")
+        self.assertTrue(x5["social"]["track"])
+        self.assertTrue(x5["new_arrivals"]["track"])
+        self.assertIn("装饰品类占比低", x5["new_arrivals"]["quality_note"])
 
     def test_tracked_client_without_channels_is_reported(self):
         fixture = {

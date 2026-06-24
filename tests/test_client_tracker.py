@@ -4,7 +4,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
-from client_tracker import filter_decor_products
+from client_tracker import _perekrestok_products, filter_decor_products
 from scraper import _client_section
 
 
@@ -14,6 +14,7 @@ CATEGORIES = [
     {"kw": "светильник интерьерный"},
     {"kw": "корзина декоративная для хранения"},
     {"kw": "праздничный декор"},
+    {"kw": "салфетка сервировочная"},
 ]
 
 SETTINGS = {
@@ -48,6 +49,16 @@ class DecorFilteringTests(unittest.TestCase):
         self.assertEqual(kept, [])
         self.assertEqual(filtered, 1)
 
+    def test_broad_home_path_rejects_cleaning_and_paper_napkins(self):
+        products = [
+            {"name": "Салфетки универсальные для уборки", "path": "/catalog/dlya-doma/item"},
+            {"name": "Салфетки бумажные 250 шт.", "path": "/catalog/dlya-doma/item2"},
+            {"name": "Салфетка сервировочная на стол", "path": "/catalog/dlya-doma/item3"},
+        ]
+        kept, filtered = filter_decor_products(products, SETTINGS, CATEGORIES)
+        self.assertEqual([item["name"] for item in kept], ["Салфетка сервировочная на стол"])
+        self.assertEqual(filtered, 2)
+
     def test_missing_category_uses_keywords(self):
         products = [{"name": "Ваза керамическая", "category": "未分类"}]
         kept, filtered = filter_decor_products(products, SETTINGS, CATEGORIES)
@@ -80,6 +91,31 @@ class DecorFilteringTests(unittest.TestCase):
         self.assertIn("Ваза", report)
         self.assertIn("另有 18 件非装饰品类已过滤。", report)
         self.assertNotIn("Тряпка", report)
+
+    def test_perekrestok_payload_uses_category_before_keyword_fallback(self):
+        payload = {
+            "content": {"items": [{
+                "category": {"id": 45, "title": "Декор и интерьер"},
+                "products": [{
+                    "id": 100,
+                    "title": "Ваза стеклянная",
+                    "masterData": {"plu": "4000100", "slug": "vaza-steklannaa"},
+                    "primaryCategory": {"id": 45, "title": "Декор и интерьер", "slug": "dekor-i-interer"},
+                    "priceTag": {"price": 39999},
+                }],
+            }]}
+        }
+        products = _perekrestok_products(payload, "Для дома и дачи")
+        settings = {
+            "decor_path_allow": ["декор и интерьер"],
+            "decor_path_deny": [],
+            "decor_path_keyword_fallback": ["для дома и дачи"],
+        }
+        kept, filtered = filter_decor_products(products, settings, CATEGORIES)
+        self.assertEqual(len(kept), 1)
+        self.assertEqual(filtered, 0)
+        self.assertEqual(kept[0]["price"], 399.99)
+        self.assertIn("/cat/45/p/vaza-steklannaa-4000100", kept[0]["url"])
 
 
 if __name__ == "__main__":
