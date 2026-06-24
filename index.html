@@ -249,7 +249,7 @@
 </script>
 
 <script>
-  // ===== PWA + 桌面通知 + 周报状态轮询 =====
+  // ===== PWA + 桌面通知 + 日报状态轮询 =====
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 
   const STATUS_URL = 'data/status.json';
@@ -286,15 +286,17 @@
       if (!r.ok) return;
       const s = await r.json();
       if (!s || !s.date) return;            // 还没跑过第一期
-      const sig = s.date + ':' + (s.total_new||0);
+      const customerSignal = Number(s.customer_signal_new ?? s.total_new ?? 0);
+      const sig = s.date + ':' + customerSignal;
       const seen = localStorage.getItem('deco_last_seen');
       const isNew = sig !== seen;
-      if (force || isNew){
+      if (isNew) localStorage.setItem('deco_last_seen', sig);
+      // 0 新增时报告和面板照常刷新，但不弹横幅或桌面通知。
+      if (customerSignal > 0 && (force || isNew)){
         const link = s.report || 'data/latest_report.md';
-        showBanner(`📦 ${s.date} 新品周报已更新 · 捕捉新品约 ${s.total_new||0} 个`, link);
+        showBanner(`📦 ${s.date} 客户新品日报已更新 · 今日新增 ${customerSignal} 个`, link);
         if (isNew){
-          fireNotification('Deco 新品周报', `本周捕捉新品约 ${s.total_new||0} 个，点击查看`, link);
-          localStorage.setItem('deco_last_seen', sig);
+          fireNotification('Deco 客户新品日报', `今日官网与社媒新增 ${customerSignal} 个，点击查看`, link);
         }
       }
     }catch(e){}

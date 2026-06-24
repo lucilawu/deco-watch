@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""汇总客户官网、客户社媒与 Wildberries 大盘，生成并推送中文周报。"""
+"""汇总每日客户信号与每周 Wildberries 大盘，生成中文报告并按需推送。"""
 
 from __future__ import annotations
 
@@ -26,6 +26,8 @@ DATA_DIR = ROOT / "data"
 SNAPSHOT = DATA_DIR / "snapshot.json"
 CLIENT_LATEST = DATA_DIR / "client_latest.json"
 SOCIAL_LATEST = DATA_DIR / "social_latest.json"
+WB_LATEST = DATA_DIR / "wb_latest.json"
+HISTORY_DIR = DATA_DIR / "history"
 
 # 这是 Wildberries 网页当前实际调用的 v18 搜索后端。
 WB_API = "https://search.wb.ru/exactmatch/ru/common/v18/search"
@@ -314,15 +316,15 @@ def _client_section(data: dict[str, Any]) -> tuple[list[str], int]:
             continue
         total_new += int(result.get("new_count", 0))
         if result.get("baseline"):
-            lines.append(f"首次建立基线：当前共 {result.get('total', 0)} 件；下周起显示新增。")
+            lines.append(f"首次建立基线：当前共 {result.get('total', 0)} 件；明日起显示新增。")
             shown = result.get("sample") or []
             label = "当前真实样本"
         elif result.get("new_count"):
-            lines.append(f"本周新增 {result['new_count']} 件（当前上新池 {result.get('total', 0)} 件）。")
+            lines.append(f"今日新增 {result['new_count']} 件（当前上新池 {result.get('total', 0)} 件）。")
             shown = result.get("new_items") or []
-            label = "本周新增"
+            label = "今日新增"
         else:
-            lines.append(f"本周未发现新增（当前上新池 {result.get('total', 0)} 件）。")
+            lines.append(f"今日未发现新增（当前上新池 {result.get('total', 0)} 件）。")
             shown = result.get("sample") or []
             label = "当前样本"
         lines.append(f"{label}：")
@@ -364,13 +366,13 @@ def _social_section(data: dict[str, Any]) -> tuple[list[str], int]:
             continue
         total_new += int(result.get("new_count", 0))
         if result.get("baseline"):
-            lines.append(f"首次建立频道基线：读取到最近 {result.get('total', 0)} 帖；下周起显示新帖。")
+            lines.append(f"首次建立频道基线：读取到最近 {result.get('total', 0)} 帖；明日起显示新帖。")
             shown = result.get("sample") or []
         elif result.get("new_count"):
-            lines.append(f"本周新帖 {result['new_count']} 条。")
+            lines.append(f"今日新帖 {result['new_count']} 条。")
             shown = result.get("new_posts") or []
         else:
-            lines.append("本周未发现新帖；以下为频道当前样本。")
+            lines.append("今日未发现新帖；以下为频道当前样本。")
             shown = result.get("sample") or []
         for post in shown[:10]:
             kind = "新品预告" if post.get("is_teaser") else "新帖"
@@ -381,7 +383,7 @@ def _social_section(data: dict[str, Any]) -> tuple[list[str], int]:
 
 
 def _wb_section(cfg: dict[str, Any], snapshot: dict[str, Any]) -> tuple[list[str], dict[str, Any], int]:
-    lines = ["## ③（次要）Wildberries 大盘热门"]
+    lines = ["## ④（次要，每周更新）Wildberries 大盘热门"]
     new_snapshot: dict[str, Any] = {}
     total_new = 0
     top_n = int(cfg["meta"]["top_n_per_keyword"])
@@ -419,12 +421,12 @@ def _wb_section(cfg: dict[str, Any], snapshot: dict[str, Any]) -> tuple[list[str
             cache_date = result_meta.get("cache_date") or "日期未知"
             lines.append(
                 f"⚠️ WB 实时接口限流或不可用，使用缓存（{cache_date}）；"
-                "缓存数据不计算本周新增。"
+                "缓存数据不计算本次周度新增。"
             )
         elif baseline:
             lines.append("首次建立 WB 基线；下周起显示新增。")
         else:
-            lines.append(f"本周新增 {len(new_items)} 件。")
+            lines.append(f"本次周度更新新增 {len(new_items)} 件。")
         for product in new_items[:5]:
             lines.append(f"- [新增｜{product['name'][:60]}]({product['url']}) · {fmt_price(product['price'])}")
         if hot:
@@ -438,18 +440,103 @@ def _wb_section(cfg: dict[str, Any], snapshot: dict[str, Any]) -> tuple[list[str
     return lines, new_snapshot, total_new
 
 
-def build_report(cfg: dict[str, Any], snapshot: dict[str, Any]) -> tuple[str, dict[str, Any], dict[str, int]]:
+def _recent_history_section(today: dt.date | None = None) -> tuple[list[str], dict[str, int]]:
+    """滚动汇总最近 7 个自然日的官网和社媒新增，并按 ID 去重。"""
+    end = today or dt.date.today()
+    start = end - dt.timedelta(days=6)
+    client_items: dict[tuple[str, str], dict[str, Any]] = {}
+    social_items: dict[tuple[str, str, str], dict[str, Any]] = {}
+    client_counts: dict[str, int] = {}
+    social_counts: dict[str, int] = {}
+
+    for offset in range(7):
+        day = start + dt.timedelta(days=offset)
+        archive = read_json(HISTORY_DIR / f"{day.isoformat()}.json", {})
+        runs = [archive]
+        runs.extend(
+            archive.get(name) or {} for name in ("daily", "weekly")
+            if isinstance(archive.get(name), dict)
+        )
+        for run in runs:
+            client_payload = run.get("clients") or {}
+            for result in client_payload.get("clients") or []:
+                client = str(result.get("client") or "未命名客户")
+                for item in result.get("new_items") or []:
+                    key = (client, str(item.get("id") or item.get("url") or item.get("name")))
+                    if key not in client_items:
+                        client_items[key] = item
+                        client_counts[client] = client_counts.get(client, 0) + 1
+            social_payload = run.get("social") or {}
+            for result in social_payload.get("channels") or []:
+                client = str(result.get("client") or "未命名客户")
+                platform = str(result.get("platform") or "").upper()
+                for post in result.get("new_posts") or []:
+                    key = (client, platform, str(post.get("id") or post.get("url")))
+                    if key not in social_items:
+                        social_items[key] = post
+                        label = f"{client} · {platform}"
+                        social_counts[label] = social_counts.get(label, 0) + 1
+
+    counts = {"client_7d": len(client_items), "social_7d": len(social_items)}
+    lines = [
+        "## ③ 近7天累计",
+        f"统计区间：{start.isoformat()} 至 {end.isoformat()}。官网上新 **{counts['client_7d']}** 件，"
+        f"社媒新帖 **{counts['social_7d']}** 条。",
+    ]
+    if client_counts:
+        lines.append("官网新增：" + "；".join(f"{name} {count} 件" for name, count in client_counts.items()) + "。")
+    if social_counts:
+        lines.append("社媒新增：" + "；".join(f"{name} {count} 条" for name, count in social_counts.items()) + "。")
+    if not client_counts and not social_counts:
+        lines.append("近7天暂无已记录的官网或社媒新增。")
+    return lines, counts
+
+
+def _cached_wb_section(snapshot: dict[str, Any]) -> tuple[list[str], dict[str, Any], int]:
+    cached = read_json(WB_LATEST, {})
+    lines = cached.get("lines") or [
+        "## ④（次要，每周更新）Wildberries 大盘热门",
+        "尚未生成周度 WB 数据；客户官网与社媒日报不受影响。",
+    ]
+    return lines, snapshot, int(cached.get("new_count", 0))
+
+
+def build_report(
+    cfg: dict[str, Any],
+    snapshot: dict[str, Any],
+    refresh_wb: bool = True,
+) -> tuple[str, dict[str, Any], dict[str, int]]:
     client_lines, client_new = _client_section(read_json(CLIENT_LATEST, {}))
     social_lines, social_new = _social_section(read_json(SOCIAL_LATEST, {}))
-    wb_lines, new_snapshot, wb_new = _wb_section(cfg, snapshot)
+    recent_lines, recent_counts = _recent_history_section()
+    if refresh_wb:
+        wb_lines, new_snapshot, wb_new = _wb_section(cfg, snapshot)
+        write_json(
+            WB_LATEST,
+            {"date": dt.date.today().isoformat(), "lines": wb_lines, "new_count": wb_new},
+        )
+    else:
+        wb_lines, new_snapshot, wb_new = _cached_wb_section(snapshot)
     today = dt.date.today().isoformat()
-    counts = {"client_new": client_new, "social_new": social_new, "wb_new": wb_new}
+    counts = {
+        "client_new": client_new,
+        "social_new": social_new,
+        "wb_new": wb_new,
+        **recent_counts,
+    }
     summary = (
-        f"客户官网新增 **{client_new}** 件，客户社媒新帖 **{social_new}** 条，"
-        f"WB 关键词新增 **{wb_new}** 件。客户信号优先，WB 仅作大盘参考。"
+        f"今日客户官网新增 **{client_new}** 件，今日客户社媒新帖 **{social_new}** 条，"
+        f"最近一次 WB 周度更新新增 **{wb_new}** 件。客户信号优先，WB 仅作大盘参考。"
     )
     report = "\n\n".join(
-        [f"# Deco 客户上新与社媒周报 · {today}", summary, "\n".join(client_lines), "\n".join(social_lines), "\n".join(wb_lines)]
+        [
+            f"# Deco 客户上新与社媒日报 · {today}",
+            summary,
+            "\n".join(client_lines),
+            "\n".join(social_lines),
+            "\n".join(recent_lines),
+            "\n".join(wb_lines),
+        ]
     )
     return report + "\n", new_snapshot, counts
 
@@ -527,22 +614,36 @@ def push_all(title: str, content: str) -> dict[str, bool]:
     return results
 
 
-def main() -> None:
+def _should_push(counts: dict[str, int]) -> bool:
+    """WB 是次要周度信号；只有当天客户官网或社媒真正新增才通知。"""
+    return int(counts.get("client_new", 0)) + int(counts.get("social_new", 0)) > 0
+
+
+def run_report(refresh_wb: bool = True, allow_push: bool = True) -> dict[str, Any]:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     cfg = load_config()
     snapshot = read_json(SNAPSHOT, {})
-    report, new_snapshot, counts = build_report(cfg, snapshot)
+    report, new_snapshot, counts = build_report(cfg, snapshot, refresh_wb=refresh_wb)
     today = dt.date.today().isoformat()
-    title = f"Deco 客户上新与社媒周报 {today}"
+    title = f"Deco 客户上新与社媒日报 {today}"
     print(report)
-    push_all(title, report)
+    pushed = False
+    if not allow_push:
+        print("[push] 本次周度 WB 刷新不发送通知；通知由每日客户信号任务统一处理")
+    elif _should_push(counts):
+        pushed = any(push_all(title, report).values())
+    else:
+        print("[push] 当天官网和社媒新增均为 0，静默更新面板，不发送通知")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     write_json(SNAPSHOT, new_snapshot)
     (DATA_DIR / "latest_report.md").write_text(report, encoding="utf-8")
     status = {
         "date": today,
-        "total_new": sum(counts.values()),
+        # 面板通知也只看当天客户信号；周度 WB 数量单独保存在 wb_new。
+        "total_new": counts["client_new"] + counts["social_new"],
+        "customer_signal_new": counts["client_new"] + counts["social_new"],
+        "pushed": pushed,
         "title": title,
         "report": "data/latest_report.md",
         **counts,
@@ -550,7 +651,7 @@ def main() -> None:
     write_json(DATA_DIR / "status.json", status)
     update_history(
         today,
-        "weekly",
+        "weekly" if refresh_wb else "daily",
         {
             "status": status,
             "clients": read_json(CLIENT_LATEST, {}),
@@ -559,6 +660,11 @@ def main() -> None:
         },
     )
     print("[done] 已写入 snapshot / latest_report.md / status.json")
+    return status
+
+
+def main() -> None:
+    run_report(refresh_wb=True, allow_push="--no-push" not in sys.argv[1:])
 
 
 if __name__ == "__main__":
