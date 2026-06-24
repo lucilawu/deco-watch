@@ -6,25 +6,11 @@
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 5,
+      "total": 3,
       "fetched_total": 93,
-      "filtered_count": 88,
-      "new_count": 1,
-      "new_items": [
-        {
-          "id": "5310100",
-          "name": "Насос для воздушных шаров, PARTY, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "filtered_count": 90,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5310100",
@@ -64,36 +50,10 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
-        },
-        {
-          "id": "5364011",
-          "name": "Набор 3D-стикеров, PrankBank, в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364011-nabor-3-stikerov-rankank-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364011-nabor-3-stikerov-rankank-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5364010",
-          "name": "Набор 3D-стикеров \"Фиппи\", в ассортименте",
-          "price": 116,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364010-nabor-3-stikerov-fippi-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5364010-nabor-3-stikerov-fippi-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0538,
+      "decor_ratio": 0.0323,
       "error": null
     },
     {
@@ -108,68 +68,12 @@
       "new_items": [],
       "sample": [
         {
-          "id": "212195",
-          "name": "Жаккардовый плед 130х170 см",
-          "price": 5999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226546_99/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6804226546_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "212433",
-          "name": "Ваза из стекла",
-          "price": 1699,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6804227011_99/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6804227011_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "208785",
-          "name": "Стеганое покрывало 220x240 см",
-          "price": 4999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6801226225_20/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6801226225_20/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "208787",
-          "name": "Стеганое покрывало 220x240 см",
-          "price": 4999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6801226225_41/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6801226225_41/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215121",
-          "name": "Бокал из цветного стекла",
+          "id": "209035",
+          "name": "Чайная пара из каменной керамики с рисунком",
           "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226906_40/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226906_40/",
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6801226945_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6801226945_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -178,12 +82,12 @@
           ]
         },
         {
-          "id": "215054",
-          "name": "Бокал из цветного стекла с фактурным декором",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226907_9/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226907_9/",
+          "id": "209033",
+          "name": "Чайная пара из каменной керамики с рисунком",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6801226945_75/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6801226945_75/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -192,26 +96,82 @@
           ]
         },
         {
-          "id": "215059",
-          "name": "Бокал из цветного стекла с фактурным декором",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226907_99/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226907_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215188",
-          "name": "Бокал из стекла с цветной ножкой",
+          "id": "215137",
+          "name": "Набор десертных ложек из стекла, 4 шт.",
           "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226905_99/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226905_99/",
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6807227125_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6807227125_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215042",
+          "name": "Плед из хлопка с бахромой и рисунком",
+          "price": 5999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6807226512_99/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6807226512_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215068",
+          "name": "Коврик для ванной с принтом",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6807226507_99/",
+          "category": "tekstil / kovry",
+          "path": "/eshop/home/tekstil/kovry/SL6807226507_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "214960",
+          "name": "Вязаный плед 130x170 см",
+          "price": 3599,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226560_99/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6804226560_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "214975",
+          "name": "Вязаный плед 130x170 см",
+          "price": 3599,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226559_99/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6804226559_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215139",
+          "name": "Детская кружка из стекла с декором",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807227102_55/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6807227102_55/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [

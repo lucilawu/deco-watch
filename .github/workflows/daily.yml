@@ -1,0 +1,50 @@
+name: daily-client-signals
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deco-watch-data
+  cancel-in-progress: false
+
+jobs:
+  clients:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Track client new arrivals
+        run: python client_tracker.py
+
+      - name: Track client social previews
+        env:
+          VK_TOKEN: ${{ secrets.VK_TOKEN }}
+        run: python social_tracker.py
+
+      - name: Build daily report and push only real client signals
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          BARK_URL: ${{ secrets.BARK_URL }}
+        run: python daily_report.py
+
+      - name: Commit daily snapshots and report
+        run: |
+          git config user.name "deco-watch-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/client_snapshot.json data/client_latest.json data/social_snapshot.json data/social_latest.json data/latest_report.md data/status.json data/history/
+          git commit -m "daily client signals $(date -u +%F)" || echo "no changes"
+          git push || echo "nothing to push"

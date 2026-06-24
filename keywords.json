@@ -193,6 +193,30 @@
         "api_url": "https://api.fix-price.com/buyer/v1/product/in/novinki",
         "city_id": "55",
         "page_size": 100,
+        "require_decor_keyword_for_allowed_path": true,
+        "decor_name_keywords": [
+          "ваза",
+          "свеча",
+          "подсвечник",
+          "светильник",
+          "гирлянда",
+          "воздушный шар",
+          "лента праздничная",
+          "скатерть праздничная",
+          "посуда праздничная",
+          "набор шаров с насосом"
+        ],
+        "exclude_name_keywords_ru": [
+          "наклейка",
+          "наклейки",
+          "стикер",
+          "стикеры",
+          "игрушка",
+          "игрушки",
+          "игра",
+          "военная техника",
+          "раскраска"
+        ],
         "decor_path_allow": [
           "/dekor-dlya-doma-",
           "/dekor/",

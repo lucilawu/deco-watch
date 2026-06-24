@@ -151,7 +151,7 @@ def filter_decor_products(
     categories: list[dict[str, Any]],
     exclude_keywords: list[str] | None = None,
 ) -> tuple[list[dict[str, Any]], int]:
-    """商品名排除词优先；其后才按分类/路径和装饰关键词判断。"""
+    """商品名排除词优先；其后按分类/路径和装饰关键词共同判断。"""
     allow = [str(value).casefold() for value in settings.get("decor_path_allow", [])]
     deny = [str(value).casefold() for value in settings.get("decor_path_deny", [])]
     keyword_fallback = [
@@ -159,6 +159,7 @@ def filter_decor_products(
     ]
     supplemental = [{"kw": value} for value in settings.get("decor_name_keywords", [])]
     roots = keyword_roots(categories + supplemental)
+    require_allowed_keyword = settings.get("require_decor_keyword_for_allowed_path") is True
     name_excludes = list(exclude_keywords or []) + list(
         settings.get("exclude_name_keywords_ru", [])
     )
@@ -176,7 +177,11 @@ def filter_decor_products(
         if classification and any(fragment in classification for fragment in deny):
             accepted = False
         elif classification and any(fragment in classification for fragment in allow):
-            accepted = True
+            accepted = (
+                _matches_decor_keywords(product, roots)
+                if require_allowed_keyword
+                else True
+            )
         elif not classification or any(fragment in classification for fragment in keyword_fallback):
             accepted = _matches_decor_keywords(product, roots)
         else:

@@ -52,6 +52,50 @@ class DecorFilteringTests(unittest.TestCase):
         self.assertEqual(kept, [])
         self.assertEqual(filtered, 1)
 
+    def test_fix_price_child_stickers_are_rejected_inside_decor_path(self):
+        settings = {
+            **SETTINGS,
+            "require_decor_keyword_for_allowed_path": True,
+            "decor_name_keywords": ["воздушный шар", "набор шаров с насосом"],
+            "exclude_name_keywords_ru": [
+                "наклейка", "наклейки", "стикер", "стикеры", "игрушка", "игра",
+                "военная техника", "раскраска",
+            ],
+        }
+        products = [{
+            "name": "Многоразовые наклейки 'Военная техника'",
+            "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/item",
+            "category": "Товары для декора",
+        }]
+        kept, filtered = filter_decor_products(products, settings, CATEGORIES)
+        self.assertEqual(kept, [])
+        self.assertEqual(filtered, 1)
+
+        sticker_products = [{
+            "name": "Набор 3D-стикеров детский",
+            "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/item2",
+            "category": "Товары для декора",
+        }]
+        kept, filtered = filter_decor_products(sticker_products, settings, CATEGORIES)
+        self.assertEqual(kept, [])
+        self.assertEqual(filtered, 1)
+
+    def test_fix_price_party_decor_with_pump_is_kept(self):
+        settings = {
+            **SETTINGS,
+            "require_decor_keyword_for_allowed_path": True,
+            "decor_name_keywords": ["воздушный шар", "набор шаров с насосом"],
+            "exclude_name_keywords_ru": ["наклейка", "стикер", "игрушка", "игра", "раскраска"],
+        }
+        products = [{
+            "name": "Набор воздушных шаров с насосом для праздника",
+            "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/item",
+            "category": "Товары для праздника",
+        }]
+        kept, filtered = filter_decor_products(products, settings, CATEGORIES)
+        self.assertEqual(kept, products)
+        self.assertEqual(filtered, 0)
+
     def test_broad_home_path_rejects_cleaning_rag(self):
         products = [{"name": "Тряпка для уборки", "path": "/catalog/dlya-doma/item"}]
         kept, filtered = filter_decor_products(products, SETTINGS, CATEGORIES)
@@ -106,6 +150,7 @@ class DecorFilteringTests(unittest.TestCase):
         self.assertIn("Ваза", report)
         self.assertIn("另有 18 件非装饰品类已过滤。", report)
         self.assertNotIn("Тряпка", report)
+        self.assertIn("今日新增", report)
 
     def test_perekrestok_payload_uses_category_before_keyword_fallback(self):
         payload = {

@@ -65,6 +65,15 @@ class ConfigContractTests(unittest.TestCase):
             client = next(item for item in self.config["clients"] if item["name"] == name)
             self.assertRegex(client["price_band"], r"\d+\s*[–—-]\s*\d+\s*₽")
 
+    def test_fix_price_uses_keyword_recheck_and_child_content_blacklist(self):
+        fix_price = next(client for client in self.config["clients"] if client["name"] == "Fix Price")
+        settings = fix_price["new_arrivals"]
+        self.assertTrue(settings["require_decor_keyword_for_allowed_path"])
+        blacklist = settings["exclude_name_keywords_ru"]
+        for phrase in ("наклейка", "стикер", "игрушка", "игра", "военная техника", "раскраска"):
+            self.assertIn(phrase, blacklist)
+        self.assertIn("набор шаров с насосом", settings["decor_name_keywords"])
+
     def test_tracked_client_without_channels_is_reported(self):
         fixture = {
             "clients": [{
@@ -82,6 +91,7 @@ class ConfigContractTests(unittest.TestCase):
                 patch.object(social_tracker, "CONFIG", config),
                 patch.object(social_tracker, "SNAPSHOT", snapshot),
                 patch.object(social_tracker, "LATEST", latest),
+                patch.object(social_tracker, "update_history"),
             ):
                 result = social_tracker.run()
         entry = result["channels"][0]

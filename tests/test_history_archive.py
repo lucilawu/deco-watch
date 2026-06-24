@@ -32,6 +32,33 @@ class HistoryArchiveTests(unittest.TestCase):
             self.assertEqual(old.read_bytes(), old_before)
             self.assertEqual(listing["dates"], ["2026-06-24", "2026-06-23"])
 
+    def test_same_day_zero_rerun_keeps_previously_found_social_posts(self):
+        with tempfile.TemporaryDirectory() as folder:
+            history_dir = pathlib.Path(folder)
+            index = history_dir / "index.json"
+            with (
+                patch.object(history_archive, "HISTORY_DIR", history_dir),
+                patch.object(history_archive, "INDEX", index),
+            ):
+                history_archive.update_history("2026-06-24", "social", {
+                    "date": "2026-06-24",
+                    "channels": [{
+                        "client": "Fix Price", "platform": "telegram", "channel": "fix",
+                        "new_count": 1, "new_posts": [{"id": "100", "url": "https://t.me/fix/100"}],
+                    }],
+                })
+                history_archive.update_history("2026-06-24", "social", {
+                    "date": "2026-06-24",
+                    "channels": [{
+                        "client": "Fix Price", "platform": "telegram", "channel": "fix",
+                        "new_count": 0, "new_posts": [],
+                    }],
+                })
+            archive = json.loads((history_dir / "2026-06-24.json").read_text(encoding="utf-8"))
+            channel = archive["social"]["channels"][0]
+            self.assertEqual(channel["new_count"], 1)
+            self.assertEqual([post["id"] for post in channel["new_posts"]], ["100"])
+
 
 if __name__ == "__main__":
     unittest.main()
