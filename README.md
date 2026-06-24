@@ -64,6 +64,8 @@
 
 - `new_arrivals.track == true` 才追踪官网；先抓完整上新页，再按商品路径/分类保留家居装饰品。宽泛分类或无分类时，使用 `categories[].kw` 的俄文品类核心词兜底。
 - `decor_path_allow`、`decor_path_deny` 和 `decor_path_keyword_fallback` 分别配置明确保留、明确排除和需要关键词判断的实际站点路径；周报会统计被过滤的非装饰商品数。
+- `meta.exclude_name_keywords_ru` 是所有客户共用的商品名黑名单，优先级高于分类和包含词；客户还可在 `new_arrivals.exclude_name_keywords_ru` 追加专属排除词。
+- `price_band` 可写成 `1000–7000 ₽ · 描述` 或 `{min_rub, max_rub, label}`；`focus` 通过 `meta.focus_match_keywords` 判断，并生成“🎯 价位匹配 / ✨ 品类对口”标记。
 - `social.track == true` 才追踪社媒；缺少某个平台时可以省略对应字段。
 - Telegram 读取 `https://t.me/s/{频道}` 公开页，无需 token。
 - VK 使用官方 `wall.get`，需要 `VK_TOKEN`。
@@ -132,6 +134,8 @@ data/social_snapshot.json     # 社媒频道快照
 data/snapshot.json            # WB 关键词快照
 data/latest_report.md         # 最近一期周报
 data/status.json              # 面板读取的周报状态
+data/history/YYYY-MM-DD.json  # 当周客户、社媒、WB 结构化历史归档
+data/history/index.json       # 已归档日期与文件清单
 .github/workflows/weekly.yml  # 每周定时任务
 ```
 

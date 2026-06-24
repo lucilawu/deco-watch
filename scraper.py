@@ -16,6 +16,9 @@ from typing import Any
 
 import requests
 
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from history_archive import update_history
+
 
 ROOT = pathlib.Path(__file__).parent
 CONFIG = ROOT / "keywords.json"
@@ -325,9 +328,12 @@ def _client_section(data: dict[str, Any]) -> tuple[list[str], int]:
         lines.append(f"{label}：")
         for product in shown[:12]:
             category = product.get("category") or "未分类"
+            tags = " · ".join(product.get("match_tags") or [])
+            tag_suffix = f" · {tags}" if tags else ""
             lines.append(
                 f"- [{product.get('name', '未命名商品')}]({product.get('url')}) · "
-                f"{fmt_price(product.get('price'))} · {category} · ID {product.get('id')}"
+                f"{fmt_price(product.get('price'))} · {category}{tag_suffix} · "
+                f"ID {product.get('id')}"
             )
         filtered_count = int(result.get("filtered_count", 0))
         if filtered_count:
@@ -542,6 +548,16 @@ def main() -> None:
         **counts,
     }
     write_json(DATA_DIR / "status.json", status)
+    update_history(
+        today,
+        "weekly",
+        {
+            "status": status,
+            "clients": read_json(CLIENT_LATEST, {}),
+            "social": read_json(SOCIAL_LATEST, {}),
+            "wb_snapshot": new_snapshot,
+        },
+    )
     print("[done] 已写入 snapshot / latest_report.md / status.json")
 
 

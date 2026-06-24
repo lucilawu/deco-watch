@@ -4,7 +4,11 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
-from client_tracker import _perekrestok_products, filter_decor_products
+from client_tracker import (
+    _perekrestok_products,
+    annotate_and_rank_products,
+    filter_decor_products,
+)
 from scraper import _client_section
 
 
@@ -34,6 +38,17 @@ class DecorFilteringTests(unittest.TestCase):
     def test_explicit_irrelevant_path_wins_over_keyword(self):
         products = [{"name": "Тетрадь с декоративной обложкой", "path": "/catalog/kantstovary/item"}]
         kept, filtered = filter_decor_products(products, SETTINGS, CATEGORIES)
+        self.assertEqual(kept, [])
+        self.assertEqual(filtered, 1)
+
+    def test_name_blacklist_wins_over_explicit_decor_path(self):
+        products = [{
+            "name": "Губка декоративная для кухни",
+            "path": "/catalog/dekor-dlya-doma-/item",
+        }]
+        kept, filtered = filter_decor_products(
+            products, SETTINGS, CATEGORIES, ["губка", "салфетки бумажные"]
+        )
         self.assertEqual(kept, [])
         self.assertEqual(filtered, 1)
 
@@ -116,6 +131,42 @@ class DecorFilteringTests(unittest.TestCase):
         self.assertEqual(filtered, 0)
         self.assertEqual(kept[0]["price"], 399.99)
         self.assertIn("/cat/45/p/vaza-steklannaa-4000100", kept[0]["url"])
+
+    def test_sela_keeps_decorative_textile_but_rejects_plain_bedding(self):
+        settings = {
+            "decor_path_allow": ["/home/dekor/"],
+            "decor_path_deny": [],
+            "decor_path_keyword_fallback": ["/home/tekstil/"],
+            "decor_name_keywords": ["плед", "покрывало", "декоративная подушка"],
+            "exclude_name_keywords_ru": [
+                "комплект постельного белья", "пододеяльник", "коврик для кормления"
+            ],
+        }
+        products = [
+            {"name": "Жаккардовый плед", "path": "/eshop/home/tekstil/pledy/1"},
+            {"name": "Комплект постельного белья", "path": "/eshop/home/tekstil/2"},
+            {"name": "Покрывало декоративное", "path": "/eshop/home/tekstil/3"},
+            {"name": "Коврик для кормления детский", "path": "/eshop/home/tekstil/4"},
+        ]
+        kept, filtered = filter_decor_products(products, settings, CATEGORIES)
+        self.assertEqual([item["name"] for item in kept], [
+            "Жаккардовый плед", "Покрывало декоративное"
+        ])
+        self.assertEqual(filtered, 2)
+
+    def test_price_and_focus_matches_are_ranked_first(self):
+        client = {"price_band": "1000–7000 ₽ · 测试", "focus": ["glass"]}
+        cfg = {"meta": {"focus_match_keywords": {"glass": ["стекло", "ваза"]}}}
+        products = [
+            {"id": "1", "name": "Стеклянная ваза", "price": 9000, "category": "dekor"},
+            {"id": "2", "name": "Стеклянная ваза", "price": 1699, "category": "dekor"},
+            {"id": "3", "name": "Поднос", "price": 1500, "category": "posuda"},
+        ]
+        ranked = annotate_and_rank_products(products, client, cfg)
+        self.assertEqual([item["id"] for item in ranked], ["2", "1", "3"])
+        self.assertEqual(ranked[0]["match_tags"], ["🎯 价位匹配", "✨ 品类对口"])
+        self.assertEqual(ranked[1]["match_tags"], ["✨ 品类对口"])
+        self.assertEqual(ranked[2]["match_tags"], ["🎯 价位匹配"])
 
 
 if __name__ == "__main__":
