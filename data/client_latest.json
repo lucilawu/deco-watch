@@ -6,28 +6,12 @@
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 4,
+      "total": 2,
       "fetched_total": 120,
-      "filtered_count": 116,
+      "filtered_count": 118,
       "new_count": 0,
       "new_items": [],
       "sample": [
-        {
-          "id": "5024959",
-          "name": "Салфетки бумажные, MARABU, 2 слоя, 250 шт.",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht",
-          "category": "Для кухни",
-          "path": "/catalog/dlya-doma/dlya-kukhni/p-5024959-salfetki-bumajnye--2-sloya-250-sht"
-        },
-        {
-          "id": "5040666",
-          "name": "Салфетки универсальные, BonHome, 34х38 см, 5 шт., в ассортименте",
-          "price": 69,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5040666-salfetki-universalnye-onome-34h38-sm-5-sht-v-assortimente"
-        },
         {
           "id": "5310446",
           "name": "Набор воздушных шаров для создания праздничной декорации \"Пастель\", PARTY, в ассортименте",
@@ -45,6 +29,8 @@
           "path": "/catalog/suveniry-i-podarki/p-5246304-nastolnaya-dekoratsiya-dlya-relaksatsii-magiya-peska-v-assortimente"
         }
       ],
+      "quality_note": null,
+      "decor_ratio": 0.0167,
       "error": null
     },
     {
@@ -52,9 +38,9 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1222,
+      "total": 1213,
       "fetched_total": 1413,
-      "filtered_count": 191,
+      "filtered_count": 200,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -123,7 +109,23 @@
           "path": "/eshop/home/tekstil/postelnoe-bele/SL6801226217_99/"
         }
       ],
+      "quality_note": null,
+      "decor_ratio": 0.8585,
       "error": null
+    },
+    {
+      "client": "X5 · Перекрёсток",
+      "source": "perekrestok_api",
+      "url": "https://www.perekrestok.ru/cat",
+      "baseline": false,
+      "total": 0,
+      "fetched_total": 0,
+      "filtered_count": 0,
+      "new_count": 0,
+      "new_items": [],
+      "sample": [],
+      "quality_note": "X5 官网装饰品类占比低，建议主要参考其 Telegram 和线下店型数据",
+      "error": "Перекрёсток 官网目录不可用且无缓存：目录触发网站人机验证（HTTP 403）"
     }
   ]
 }

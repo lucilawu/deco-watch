@@ -142,6 +142,11 @@ def _wb_search_unvalidated(keyword: str, sort: str, dest: str, top_n: int) -> li
 WB_PRODUCTS_CACHE = DATA_DIR / "wb_products_cache.json"
 _WB_PRODUCTS_CACHE: dict[tuple[str, str], list[dict[str, Any]]] = {}
 _WB_DISK_CACHE: dict[str, Any] = read_json(WB_PRODUCTS_CACHE, {})
+_WB_RESULT_META: dict[tuple[str, str], dict[str, Any]] = {}
+_WB_RATE_LIMITED = False
+_WB_LAST_LIVE_REQUEST = 0.0
+WB_MIN_REQUEST_INTERVAL = 1.2
+WB_RETRY_DELAY = 2.0
 
 
 def _wb_query_stems(value: Any) -> set[str]:
@@ -169,25 +174,51 @@ def _wb_product_is_relevant(keyword: str, product: dict[str, Any]) -> bool:
 
 
 def wb_search(keyword: str, sort: str, dest: str, top_n: int) -> list[dict[str, Any]]:
-    """Return validated live WB products in newest or popular order."""
+    """Return validated WB products; rate limits trigger a fast persistent-cache fallback."""
+    global _WB_LAST_LIVE_REQUEST, _WB_RATE_LIMITED
     if sort not in {"newly", "popular"}:
         raise ValueError(f"不支持的 WB 排序：{sort}")
     cache_key = (_normalized(keyword), str(dest))
     products = _WB_PRODUCTS_CACHE.get(cache_key)
     disk_key = f"{dest}|{_normalized(keyword)}"
     disk_entry = _WB_DISK_CACHE.get(disk_key) or {}
-    if products is None and disk_entry.get("checked") == dt.date.today().isoformat():
-        cached_products = disk_entry.get("products") or []
-        if len(cached_products) >= min(top_n, 3):
-            products = cached_products
-            _WB_PRODUCTS_CACHE[cache_key] = products
+    cached_products = disk_entry.get("products") or []
+    cache_date = str(disk_entry.get("checked") or "日期未知")
+    today = dt.date.today().isoformat()
+
+    if products is None and disk_entry.get("checked") == today and cached_products:
+        products = cached_products
+        _WB_PRODUCTS_CACHE[cache_key] = products
+        _WB_RESULT_META[cache_key] = {
+            "cached": True,
+            "cache_date": cache_date,
+            "reason": "复用当天缓存，避免重复请求",
+        }
+    if products is None and _WB_RATE_LIMITED and cached_products:
+        products = cached_products
+        _WB_PRODUCTS_CACHE[cache_key] = products
+        _WB_RESULT_META[cache_key] = {
+            "cached": True,
+            "cache_date": cache_date,
+            "reason": "WB 本轮已触发 429，跳过后续实时请求",
+        }
+    if products is None and _WB_RATE_LIMITED:
+        raise RuntimeError(f"{keyword} / {sort}：WB 本轮已触发 429，且无可用缓存")
+
     if products is None:
         params = dict(WB_PARAMS_BASE)
         params.update({"dest": str(dest), "query": keyword, "sort": sort})
         last_error: Exception | None = None
-        for attempt in range(3):
+        for attempt in range(2):
             try:
-                response = WB_SESSION.get(WB_API, params=params, headers=HEADERS, timeout=35)
+                wait_seconds = WB_MIN_REQUEST_INTERVAL - (time.monotonic() - _WB_LAST_LIVE_REQUEST)
+                if wait_seconds > 0:
+                    time.sleep(wait_seconds)
+                _WB_LAST_LIVE_REQUEST = time.monotonic()
+                response = WB_SESSION.get(WB_API, params=params, headers=HEADERS, timeout=20)
+                if response.status_code == 429:
+                    _WB_RATE_LIMITED = True
+                    raise RuntimeError("WB 返回 429 Too Many Requests")
                 response.raise_for_status()
                 payload = response.json()
                 rows = payload.get("products")
@@ -222,16 +253,27 @@ def wb_search(keyword: str, sort: str, dest: str, top_n: int) -> list[dict[str, 
                     )
                 products = mapped
                 _WB_PRODUCTS_CACHE[cache_key] = products
-                _WB_DISK_CACHE[disk_key] = {
-                    "checked": dt.date.today().isoformat(),
-                    "products": products,
+                _WB_RESULT_META[cache_key] = {
+                    "cached": False,
+                    "cache_date": today,
+                    "reason": "实时接口",
                 }
+                _WB_DISK_CACHE[disk_key] = {"checked": today, "products": products}
                 write_json(WB_PRODUCTS_CACHE, _WB_DISK_CACHE)
                 break
             except Exception as exc:
                 last_error = exc
-                if attempt < 2:
-                    time.sleep(8 * (attempt + 1))
+                if attempt == 0:
+                    time.sleep(WB_RETRY_DELAY)
+
+        if products is None and cached_products:
+            products = cached_products
+            _WB_PRODUCTS_CACHE[cache_key] = products
+            _WB_RESULT_META[cache_key] = {
+                "cached": True,
+                "cache_date": cache_date,
+                "reason": f"实时请求失败：{last_error}",
+            }
         if products is None:
             raise RuntimeError(f"{keyword} / {sort} 请求失败：{last_error}")
     ordered = products
@@ -264,6 +306,8 @@ def _client_section(data: dict[str, Any]) -> tuple[list[str], int]:
         lines.append(title)
         if result.get("error"):
             lines.append(f"⚠️ 抓取失败：{result['error']}")
+            if result.get("quality_note"):
+                lines.append(result["quality_note"])
             continue
         total_new += int(result.get("new_count", 0))
         if result.get("baseline"):
@@ -288,6 +332,11 @@ def _client_section(data: dict[str, Any]) -> tuple[list[str], int]:
         filtered_count = int(result.get("filtered_count", 0))
         if filtered_count:
             lines.append(f"另有 {filtered_count} 件非装饰品类已过滤。")
+        if result.get("cached"):
+            cache_date = result.get("cache_date") or "日期未知"
+            lines.append(f"⚠️ 官网实时目录不可用，当前展示缓存（{cache_date}）。")
+        if result.get("quality_note"):
+            lines.append(result["quality_note"])
     return lines, total_new
 
 
@@ -340,22 +389,33 @@ def _wb_section(cfg: dict[str, Any], snapshot: dict[str, Any]) -> tuple[list[str
         try:
             # 快照保存最多 100 个新品，避免只存 Top10 时因榜单轮换制造“伪新增”。
             fresh = wb_search(keyword, "newly", dest, max(top_n, 100))
-            time.sleep(5.0)
             hot = wb_search(keyword, "popular", dest, top_n)
-            time.sleep(5.0)
         except Exception as exc:
             lines.append(f"### {name}\n⚠️ 抓取失败：{exc}")
             if keyword in snapshot:
                 new_snapshot[keyword] = snapshot[keyword]
             continue
         previous_ids = {int(value) for value in snapshot.get(keyword, {}).get("ids", [])}
+        result_meta = _WB_RESULT_META.get((_normalized(keyword), dest), {})
+        cached = bool(result_meta.get("cached"))
         # 旧版只保存 10 个 ID；首次升级到完整快照时按迁移基线处理。
         baseline = not bool(previous_ids) or len(previous_ids) < 50
-        new_items = [] if baseline else [product for product in fresh if product["id"] not in previous_ids]
-        new_snapshot[keyword] = {"ids": [p["id"] for p in fresh], "checked": today}
+        new_items = [] if baseline or cached else [
+            product for product in fresh if product["id"] not in previous_ids
+        ]
+        if cached and keyword in snapshot:
+            new_snapshot[keyword] = snapshot[keyword]
+        else:
+            new_snapshot[keyword] = {"ids": [p["id"] for p in fresh], "checked": today}
         total_new += len(new_items)
         lines.append(f"### {name} · {keyword}")
-        if baseline:
+        if cached:
+            cache_date = result_meta.get("cache_date") or "日期未知"
+            lines.append(
+                f"⚠️ WB 实时接口限流或不可用，使用缓存（{cache_date}）；"
+                "缓存数据不计算本周新增。"
+            )
+        elif baseline:
             lines.append("首次建立 WB 基线；下周起显示新增。")
         else:
             lines.append(f"本周新增 {len(new_items)} 件。")
