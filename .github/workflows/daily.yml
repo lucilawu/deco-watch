@@ -48,3 +48,4 @@ jobs:
           git add data/client_snapshot.json data/client_latest.json data/social_snapshot.json data/social_latest.json data/latest_report.md data/status.json data/history/
           git commit -m "daily client signals $(date -u +%F)" || echo "no changes"
           git push || echo "nothing to push"
+# re-registered 2026-06-25
