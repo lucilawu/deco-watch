@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "clients": [
     {
       "client": "Fix Price",
@@ -61,19 +61,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1001,
-      "fetched_total": 1413,
-      "filtered_count": 412,
-      "new_count": 0,
-      "new_items": [],
-      "sample": [
+      "total": 1009,
+      "fetched_total": 1423,
+      "filtered_count": 414,
+      "new_count": 8,
+      "new_items": [
         {
-          "id": "209035",
-          "name": "Чайная пара из каменной керамики с рисунком",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6801226945_99/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6801226945_99/",
+          "id": "215111",
+          "name": "Детская декоративная подушка в форме цветка",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/detskaya/SL6807224402_90/",
+          "category": "detskaya",
+          "path": "/eshop/home/detskaya/SL6807224402_90/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -82,12 +81,127 @@
           ]
         },
         {
-          "id": "209033",
-          "name": "Чайная пара из каменной керамики с рисунком",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6801226945_75/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6801226945_75/",
+          "id": "215163",
+          "name": "Чехол для декоративной подушки из хлопка с принтом",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226555_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6804226555_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215179",
+          "name": "Чехол для декоративной подушки из хлопка с принтом и вышивкой",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226553_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6804226553_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215088",
+          "name": "Круглый подсвечник из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6807227007_12/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6807227007_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218821",
+          "name": "Подставка под кружку с принтом",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/pleysmaty/SL6804227029_12/",
+          "category": "posuda / pleysmaty",
+          "path": "/eshop/home/posuda/pleysmaty/SL6804227029_12/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "218820",
+          "name": "Подставка под кружку с принтом",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/pleysmaty/SL6804227029_23/",
+          "category": "posuda / pleysmaty",
+          "path": "/eshop/home/posuda/pleysmaty/SL6804227029_23/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "218823",
+          "name": "Подставка под кружку с принтом",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/pleysmaty/SL6804227028_42/",
+          "category": "posuda / pleysmaty",
+          "path": "/eshop/home/posuda/pleysmaty/SL6804227028_42/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "218822",
+          "name": "Подставка под кружку с принтом",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/pleysmaty/SL6804227028_8/",
+          "category": "posuda / pleysmaty",
+          "path": "/eshop/home/posuda/pleysmaty/SL6804227028_8/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        }
+      ],
+      "sample": [
+        {
+          "id": "215111",
+          "name": "Детская декоративная подушка в форме цветка",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/detskaya/SL6807224402_90/",
+          "category": "detskaya",
+          "path": "/eshop/home/detskaya/SL6807224402_90/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215163",
+          "name": "Чехол для декоративной подушки из хлопка с принтом",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226555_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6804226555_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215179",
+          "name": "Чехол для декоративной подушки из хлопка с принтом и вышивкой",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226553_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6804226553_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -164,24 +278,10 @@
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "215139",
-          "name": "Детская кружка из стекла с декором",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807227102_55/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6807227102_55/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7084,
+      "decor_ratio": 0.7091,
       "error": null
     },
     {

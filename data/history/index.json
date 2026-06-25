@@ -1,8 +1,13 @@
 {
   "dates": [
+    "2026-06-25",
     "2026-06-24"
   ],
   "items": [
+    {
+      "date": "2026-06-25",
+      "file": "data/history/2026-06-25.json"
+    },
     {
       "date": "2026-06-24",
       "file": "data/history/2026-06-24.json"
