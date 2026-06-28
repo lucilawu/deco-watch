@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,82 +9,16 @@
       "total": 8,
       "fetched_total": 106,
       "filtered_count": 98,
-      "new_count": 5,
-      "new_items": [
-        {
-          "id": "5246351",
-          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246349",
-          "name": "Корзина для мелочей \"Марокко\", в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231475",
-          "name": "Набор свечей для торта \"Ванильная сказка\", PARTY, 6 шт., в ассортименте",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231475-nabor-svechey-dlya-torta-vanilnaya-skazka--6-sht-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231475-nabor-svechey-dlya-torta-vanilnaya-skazka--6-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231484",
-          "name": "Свеча \"Цветные слёзы\", 2 шт.",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231484-svecha-tsvetnye-slzy-2-sht",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231484-svecha-tsvetnye-slzy-2-sht",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231485",
-          "name": "Свеча \"Цветные слёзы\", конус",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
-          "id": "5310100",
-          "name": "Насос для воздушных шаров, PARTY, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
+          "id": "5079371",
+          "name": "Набор корзинок, Уника Пласт, 20x10x5 см, 3 шт., в ассортименте",
+          "price": 79,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -105,12 +39,12 @@
           ]
         },
         {
-          "id": "5246351",
-          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "id": "5310100",
+          "name": "Насос для воздушных шаров, PARTY, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310100-nasos-dlya-vozdushnyh-sharov--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -118,12 +52,12 @@
           ]
         },
         {
-          "id": "5079371",
-          "name": "Набор корзинок, Уника Пласт, 20x10x5 см, 3 шт., в ассортименте",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
+          "id": "5246351",
+          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -192,18 +126,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 675,
-      "fetched_total": 962,
+      "total": 673,
+      "fetched_total": 960,
       "filtered_count": 287,
       "new_count": 1,
       "new_items": [
         {
-          "id": "206354",
-          "name": "Обеденная тарелка из керамики",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL5811227156_188/",
+          "id": "210336",
+          "name": "Десертная тарелка из фарфора с рисунком",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6803227107_204/",
           "category": "posuda / tarelki",
-          "path": "/eshop/home/posuda/tarelki/SL5811227156_188/",
+          "path": "/eshop/home/posuda/tarelki/SL6803227107_204/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -326,7 +260,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7017,
+      "decor_ratio": 0.701,
       "error": null
     },
     {
