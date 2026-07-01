@@ -1,16 +1,43 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 7,
-      "fetched_total": 104,
-      "filtered_count": 97,
-      "new_count": 0,
-      "new_items": [],
+      "total": 8,
+      "fetched_total": 93,
+      "filtered_count": 85,
+      "new_count": 2,
+      "new_items": [
+        {
+          "id": "5246351",
+          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5079349",
+          "name": "Корзина с ручкой, Home Time, 25х24х17 см, в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5079349-korzina-s-ruchkoy-ome-ime-25h24h17-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5079349-korzina-s-ruchkoy-ome-ime-25h24h17-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5079371",
@@ -19,6 +46,32 @@
           "url": "https://fix-price.com/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
           "category": "Для дома",
           "path": "/catalog/dlya-doma/p-5079371-nabor-korzinok-unika-plast-20105-sm-3-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246351",
+          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5079349",
+          "name": "Корзина с ручкой, Home Time, 25х24х17 см, в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5079349-korzina-s-ruchkoy-ome-ime-25h24h17-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5079349-korzina-s-ruchkoy-ome-ime-25h24h17-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -78,19 +131,6 @@
           ]
         },
         {
-          "id": "5231475",
-          "name": "Набор свечей для торта \"Ванильная сказка\", PARTY, 6 шт., в ассортименте",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231475-nabor-svechey-dlya-torta-vanilnaya-skazka--6-sht-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231475-nabor-svechey-dlya-torta-vanilnaya-skazka--6-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5351003",
           "name": "Ситечко для чая \"Приколюха\", Prank Bank, в ассортименте",
           "price": 124,
@@ -105,7 +145,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0673,
+      "decor_ratio": 0.086,
       "error": null
     },
     {
@@ -113,18 +153,32 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 679,
-      "fetched_total": 972,
-      "filtered_count": 293,
-      "new_count": 1,
+      "total": 651,
+      "fetched_total": 943,
+      "filtered_count": 292,
+      "new_count": 2,
       "new_items": [
         {
-          "id": "206493",
-          "name": "Банка для хранения в ванной",
+          "id": "205802",
+          "name": "Покрывало из хлопка 200х220 см",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL5811226244_41/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL5811226244_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206287",
+          "name": "Деревянная доска для сервировки",
           "price": 899,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL5811226417_99/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL5811226417_99/",
+          "url": "https://www.sela.ru/eshop/home/posuda/servirovochnye-doski/SL5811226906_27/",
+          "category": "posuda / servirovochnye-doski",
+          "path": "/eshop/home/posuda/servirovochnye-doski/SL5811226906_27/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -245,7 +299,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6986,
+      "decor_ratio": 0.6903,
       "error": null
     },
     {
