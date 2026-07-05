@@ -1,96 +1,16 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 10,
-      "fetched_total": 76,
-      "filtered_count": 66,
-      "new_count": 6,
-      "new_items": [
-        {
-          "id": "5246233",
-          "name": "Интерьерный светильник \"Бохо\", в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246233-interernyy-svetilnik-boho-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246233-interernyy-svetilnik-boho-v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5310463",
-          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5006340",
-          "name": "Набор строительных маркеров, Master Hand, 4 шт.",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5006340-nabor-stroitelnyh-markerov-aster-and-4-sht",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5006340-nabor-stroitelnyh-markerov-aster-and-4-sht",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310462",
-          "name": "Набор воздушных шаров \"Бантики\", PARTY, 20 шт., в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5071185",
-          "name": "Салфетка декоративная, 38 см, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5071184",
-          "name": "Коврик для посуды, Home Time, 30х40 см, в ассортименте",
-          "price": 83,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "total": 9,
+      "fetched_total": 74,
+      "filtered_count": 65,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5246233",
@@ -107,19 +27,6 @@
           ]
         },
         {
-          "id": "5246351",
-          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5231484",
           "name": "Свеча \"Цветные слёзы\", 2 шт.",
           "price": 174.5,
@@ -133,12 +40,12 @@
           ]
         },
         {
-          "id": "5231485",
-          "name": "Свеча \"Цветные слёзы\", конус",
+          "id": "5310463",
+          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
           "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -146,12 +53,12 @@
           ]
         },
         {
-          "id": "5310463",
-          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
+          "id": "5231485",
+          "name": "Свеча \"Цветные слёзы\", конус",
           "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -196,10 +103,23 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
+        },
+        {
+          "id": "5071184",
+          "name": "Коврик для посуды, Home Time, 30х40 см, в ассортименте",
+          "price": 83,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1316,
+      "decor_ratio": 0.1216,
       "error": null
     },
     {
@@ -207,105 +127,103 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 709,
-      "fetched_total": 1052,
+      "total": 710,
+      "fetched_total": 1053,
       "filtered_count": 343,
       "new_count": 8,
       "new_items": [
         {
-          "id": "218565",
-          "name": "Бокал из стекла с цветной ножкой",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6808226907_99/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6808226907_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "206394",
-          "name": "Ковер",
+          "id": "208903",
+          "name": "Термос с круглой крышкой",
           "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/spalnya/SL5811226543_1/",
-          "category": "spalnya",
-          "path": "/eshop/home/spalnya/SL5811226543_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "218660",
-          "name": "Набор из стеганого покрывала и чехлов для подушки",
-          "price": 11999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6808226204_62/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6808226204_62/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "206392",
-          "name": "Ковер",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL5811226545_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL5811226545_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "218613",
-          "name": "Набор столовых свечей, 2 шт.",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6808227010_99/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6808227010_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "206120",
-          "name": "Термокружка с трубочкой",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL5811226908_31/",
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6801226916_12/",
           "category": "posuda / chajniki-i-termosy",
-          "path": "/eshop/home/posuda/chajniki-i-termosy/SL5811226908_31/",
-          "price_match": false,
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6801226916_12/",
+          "price_match": true,
           "focus_match": false,
-          "match_tags": []
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         },
         {
-          "id": "206491",
-          "name": "Мыльница",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL5811226412_99/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL5811226412_99/",
+          "id": "208863",
+          "name": "Кружка из каменной керамики",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6801227121_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6801227121_99/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "206492",
-          "name": "Дозатор для жидкого мыла",
+          "id": "206924",
+          "name": "Стеклянный контейнер для хранения продуктов",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL5811226913_413/",
+          "category": "khranenie / dlya-kukhni",
+          "path": "/eshop/home/khranenie/dlya-kukhni/SL5811226913_413/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "207008",
+          "name": "Кружка из стекла с рельефным узором",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL5811227188_413/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL5811227188_413/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208798",
+          "name": "Набор фигурных столовых свечей, 4 шт.",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL5811226406_99/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL5811226406_99/",
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6801227065_99/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6801227065_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "208934",
+          "name": "Большой пластиковый органайзер для хранения",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/khranenie/organayzery/SL6801226302_1/",
+          "category": "khranenie / organayzery",
+          "path": "/eshop/home/khranenie/organayzery/SL6801226302_1/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "208919",
+          "name": "Средний пластиковый органайзер для хранения",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/khranenie/organayzery/SL6801226301_1/",
+          "category": "khranenie / organayzery",
+          "path": "/eshop/home/khranenie/organayzery/SL6801226301_1/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "207013",
+          "name": "Постер детский",
+          "price": 99,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL58112270112_65/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL58112270112_65/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -426,7 +344,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.674,
+      "decor_ratio": 0.6743,
       "error": null
     },
     {
