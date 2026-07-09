@@ -1,16 +1,69 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 7,
-      "fetched_total": 61,
-      "filtered_count": 54,
-      "new_count": 0,
-      "new_items": [],
+      "total": 11,
+      "fetched_total": 78,
+      "filtered_count": 67,
+      "new_count": 4,
+      "new_items": [
+        {
+          "id": "5246351",
+          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310463",
+          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246349",
+          "name": "Корзина для мелочей \"Марокко\", в ассортименте",
+          "price": 499,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231475",
+          "name": "Набор свечей для торта \"Ванильная сказка\", PARTY, 6 шт., в ассортименте",
+          "price": 79,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231475-nabor-svechey-dlya-torta-vanilnaya-skazka--6-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231475-nabor-svechey-dlya-torta-vanilnaya-skazka--6-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5246233",
@@ -24,6 +77,32 @@
           "match_tags": [
             "🎯 价位匹配",
             "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "5246351",
+          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310463",
+          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
           ]
         },
         {
@@ -53,19 +132,6 @@
           ]
         },
         {
-          "id": "5231485",
-          "name": "Свеча \"Цветные слёзы\", конус",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5351003",
           "name": "Ситечко для чая \"Приколюха\", Prank Bank, в ассортименте",
           "price": 124,
@@ -79,12 +145,12 @@
           ]
         },
         {
-          "id": "5310462",
-          "name": "Набор воздушных шаров \"Бантики\", PARTY, 20 шт., в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
+          "id": "5246349",
+          "name": "Корзина для мелочей \"Марокко\", в ассортименте",
+          "price": 499,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -92,12 +158,12 @@
           ]
         },
         {
-          "id": "5071185",
-          "name": "Салфетка декоративная, 38 см, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
+          "id": "5231485",
+          "name": "Свеча \"Цветные слёзы\", конус",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -106,7 +172,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1148,
+      "decor_ratio": 0.141,
       "error": null
     },
     {
@@ -114,11 +180,495 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 660,
-      "fetched_total": 983,
-      "filtered_count": 323,
-      "new_count": 0,
-      "new_items": [],
+      "total": 695,
+      "fetched_total": 1036,
+      "filtered_count": 341,
+      "new_count": 37,
+      "new_items": [
+        {
+          "id": "218647",
+          "name": "Чайная пара из фарфора",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6808226904_165/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6808226904_165/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218651",
+          "name": "Чайная пара из фарфора",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6808226904_170/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6808226904_170/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218643",
+          "name": "Чайная пара из фарфора",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6808226904_36/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6808226904_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215207",
+          "name": "Салатник из фарфора",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6807227130_41/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6807227130_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215209",
+          "name": "Салатник из фарфора",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6807227130_60/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6807227130_60/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215175",
+          "name": "Десертная тарелка из фарфора",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6807227120_60/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6807227120_60/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215172",
+          "name": "Десертная тарелка из фарфора",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6807227120_41/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6807227120_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215046",
+          "name": "Обеденная тарелка из фарфора",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6807227121_41/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6807227121_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215041",
+          "name": "Обеденная тарелка из фарфора",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6807227121_60/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6807227121_60/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "212260",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226537_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6804226537_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "211512",
+          "name": "Ароматический спрей для текстиля «Мятное рами»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210635",
+          "name": "Ароматический диффузор «Золотистый дамаск»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218715",
+          "name": "Рамка для фото",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6808227021_20/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL6808227021_20/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "218680",
+          "name": "Набор стеклянных трубочек с ершиком",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6808226909_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6808226909_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218636",
+          "name": "Деревянная рамка для фото",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6808227002_20/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL6808227002_20/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "218581",
+          "name": "Деревянная рамка для фото",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6808227001_20/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL6808227001_20/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "218568",
+          "name": "Набор столовых приборов, 16 шт.",
+          "price": 5999,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6808227106_50/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6808227106_50/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "218554",
+          "name": "Набор стеклянных трубочек с ершиком",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6808226910_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6808226910_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218559",
+          "name": "Набор столовых приборов, 4 шт.",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6808227107_7/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6808227107_7/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "218548",
+          "name": "Кружка из стекла",
+          "price": 899,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6808227105_20/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6808227105_20/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218543",
+          "name": "Кружка из стекла",
+          "price": 899,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6808227105_32/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6808227105_32/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215190",
+          "name": "Десертная тарелка из фарфора",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6807227129_60/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6807227129_60/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215192",
+          "name": "Десертная тарелка из фарфора",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6807227129_41/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6807227129_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215109",
+          "name": "Кружка из фарфора",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807227118_12/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6807227118_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215075",
+          "name": "Кружка из фарфора",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807227123_60/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6807227123_60/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215070",
+          "name": "Кружка из фарфора",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807227123_41/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6807227123_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208903",
+          "name": "Термос с круглой крышкой",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6801226916_12/",
+          "category": "posuda / chajniki-i-termosy",
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6801226916_12/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "208998",
+          "name": "Десертная тарелка из костяного фарфора в полоску",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227188_26/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL6801227188_26/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206387",
+          "name": "Чехол для декоративной подушки из 100% льна",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL5811226537_79/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL5811226537_79/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206481",
+          "name": "Чехол для декоративной подушки с объемной вышивкой",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL5811226535_1/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL5811226535_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206482",
+          "name": "Чехол для декоративной подушки в полоску",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL5811226536_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL5811226536_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206400",
+          "name": "Чехол для декоративной подушки из хлопка с новогодним принтом",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL5811226560_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL5811226560_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210584",
+          "name": "Набор фигурных столовых свечей, 2 шт.",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6801227058_90/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6801227058_90/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "206195",
+          "name": "Набор детских столовых приборов, 3 шт.",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL5811227161_15/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL5811227161_15/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "206196",
+          "name": "Набор детских столовых приборов, 3 шт.",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL5811227161_95/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL5811227161_95/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "220118",
+          "name": "Набор карандашей с декором для детей",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/detskaya/SL6807226307_99/",
+          "category": "detskaya",
+          "path": "/eshop/home/detskaya/SL6807226307_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "220129",
+          "name": "Набор карандашей с декором для детей",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/detskaya/SL6807226308_99/",
+          "category": "detskaya",
+          "path": "/eshop/home/detskaya/SL6807226308_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        }
+      ],
       "sample": [
         {
           "id": "215068",
@@ -234,7 +784,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6714,
+      "decor_ratio": 0.6708,
       "error": null
     },
     {
