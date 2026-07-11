@@ -1,23 +1,49 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 12,
-      "fetched_total": 81,
-      "filtered_count": 69,
-      "new_count": 1,
+      "total": 7,
+      "fetched_total": 68,
+      "filtered_count": 61,
+      "new_count": 3,
       "new_items": [
         {
-          "id": "5071184",
-          "name": "Коврик для посуды, Home Time, 30х40 см, в ассортименте",
-          "price": 83,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
+          "id": "5361015",
+          "name": "Постер, PrankBank, 3 шт., в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361015-poster-rankank-3-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361015-poster-rankank-3-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5092868",
+          "name": "Коврик для сушки посуды, O'Kitchen, 40,5х30 см, в ассортименте",
+          "price": 174.5,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
           "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
+          "path": "/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231480",
+          "name": "Свечи ДР \"Мозаика\", PARTY, 13 шт., в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -41,32 +67,6 @@
           ]
         },
         {
-          "id": "5246351",
-          "name": "Декоративная тарелка для мелочей \"Марракеш\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246351-dekorativnaya-tarelka-dlya-melochey-marrakesh-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310463",
-          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5006340",
           "name": "Набор строительных маркеров, Master Hand, 4 шт.",
           "price": 79,
@@ -80,12 +80,12 @@
           ]
         },
         {
-          "id": "5231484",
-          "name": "Свеча \"Цветные слёзы\", 2 шт.",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231484-svecha-tsvetnye-slzy-2-sht",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231484-svecha-tsvetnye-slzy-2-sht",
+          "id": "5361015",
+          "name": "Постер, PrankBank, 3 шт., в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361015-poster-rankank-3-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361015-poster-rankank-3-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -106,12 +106,12 @@
           ]
         },
         {
-          "id": "5246349",
-          "name": "Корзина для мелочей \"Марокко\", в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246349-korzina-dlya-melochey-marokko-v-assortimente",
+          "id": "5071185",
+          "name": "Салфетка декоративная, 38 см, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -119,12 +119,25 @@
           ]
         },
         {
-          "id": "5231485",
-          "name": "Свеча \"Цветные слёзы\", конус",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
+          "id": "5092868",
+          "name": "Коврик для сушки посуды, O'Kitchen, 40,5х30 см, в ассортименте",
+          "price": 174.5,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231480",
+          "name": "Свечи ДР \"Мозаика\", PARTY, 13 шт., в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231485-svecha-tsvetnye-slzy-konus",
+          "path": "/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -133,7 +146,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1481,
+      "decor_ratio": 0.1029,
       "error": null
     },
     {
@@ -141,9 +154,9 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 682,
-      "fetched_total": 1025,
-      "filtered_count": 343,
+      "total": 679,
+      "fetched_total": 1019,
+      "filtered_count": 340,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -261,7 +274,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6654,
+      "decor_ratio": 0.6663,
       "error": null
     },
     {
