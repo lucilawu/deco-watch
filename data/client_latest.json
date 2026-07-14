@@ -1,16 +1,69 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 6,
-      "fetched_total": 61,
-      "filtered_count": 55,
-      "new_count": 0,
-      "new_items": [],
+      "total": 9,
+      "fetched_total": 78,
+      "filtered_count": 69,
+      "new_count": 4,
+      "new_items": [
+        {
+          "id": "5230212",
+          "name": "Подсвечник \"Касабланка\", в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5230209",
+          "name": "Набор подсвечников, 3 шт., в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310462",
+          "name": "Набор воздушных шаров \"Бантики\", PARTY, 20 шт., в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5071184",
+          "name": "Коврик для посуды, Home Time, 30х40 см, в ассортименте",
+          "price": 83,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5246233",
@@ -40,12 +93,12 @@
           ]
         },
         {
-          "id": "5361015",
-          "name": "Постер, PrankBank, 3 шт., в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361015-poster-rankank-3-sht-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361015-poster-rankank-3-sht-v-assortimente",
+          "id": "5092868",
+          "name": "Коврик для сушки посуды, O'Kitchen, 40,5х30 см, в ассортименте",
+          "price": 174.5,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -53,12 +106,51 @@
           ]
         },
         {
-          "id": "5092868",
-          "name": "Коврик для сушки посуды, O'Kitchen, 40,5х30 см, в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
+          "id": "5230212",
+          "name": "Подсвечник \"Касабланка\", в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5230209",
+          "name": "Набор подсвечников, 3 шт., в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310462",
+          "name": "Набор воздушных шаров \"Бантики\", PARTY, 20 шт., в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5071184",
+          "name": "Коврик для посуды, Home Time, 30х40 см, в ассортименте",
+          "price": 83,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
           "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
+          "path": "/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -77,23 +169,10 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
-        },
-        {
-          "id": "5231480",
-          "name": "Свечи ДР \"Мозаика\", PARTY, 13 шт., в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0984,
+      "decor_ratio": 0.1154,
       "error": null
     },
     {
@@ -101,32 +180,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 684,
-      "fetched_total": 1019,
-      "filtered_count": 335,
-      "new_count": 6,
+      "total": 666,
+      "fetched_total": 997,
+      "filtered_count": 331,
+      "new_count": 2,
       "new_items": [
         {
-          "id": "205810",
-          "name": "Стеганое покрывало 240х220 см",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL5811226246_20/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL5811226246_20/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "210362",
-          "name": "Плетеная корзина с крышкой",
-          "price": 4999,
-          "url": "https://www.sela.ru/eshop/home/khranenie/SL6801226307_62/",
-          "category": "khranenie",
-          "path": "/eshop/home/khranenie/SL6801226307_62/",
+          "id": "208900",
+          "name": "Термос с рисунком",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6801226914_15/",
+          "category": "posuda / chajniki-i-termosy",
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6801226914_15/",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -134,55 +199,16 @@
           ]
         },
         {
-          "id": "212234",
-          "name": "Кружка из каменной керамики",
+          "id": "206117",
+          "name": "Стеклянный контейнер для хранения продуктов",
           "price": 599,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6804227108_19/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6804227108_19/",
+          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL5811226911_269/",
+          "category": "khranenie / dlya-kukhni",
+          "path": "/eshop/home/khranenie/dlya-kukhni/SL5811226911_269/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
             "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "212232",
-          "name": "Кружка из каменной керамики",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6804227108_9/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6804227108_9/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "206637",
-          "name": "Вязаный чехол для декоративной подушки",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL5811226558_62/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL5811226558_62/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "205953",
-          "name": "Плетеная подставка для журналов",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/khranenie/SL5811226311_61/",
-          "category": "khranenie",
-          "path": "/eshop/home/khranenie/SL5811226311_61/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
           ]
         }
       ],
@@ -301,7 +327,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6712,
+      "decor_ratio": 0.668,
       "error": null
     },
     {
