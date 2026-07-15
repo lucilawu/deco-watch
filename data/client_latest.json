@@ -1,49 +1,23 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 9,
-      "fetched_total": 78,
-      "filtered_count": 69,
-      "new_count": 4,
+      "total": 11,
+      "fetched_total": 84,
+      "filtered_count": 73,
+      "new_count": 2,
       "new_items": [
         {
-          "id": "5230212",
-          "name": "Подсвечник \"Касабланка\", в ассортименте",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5230209",
-          "name": "Набор подсвечников, 3 шт., в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310462",
-          "name": "Набор воздушных шаров \"Бантики\", PARTY, 20 шт., в ассортименте",
+          "id": "5310463",
+          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
           "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
           "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310462-nabor-vozdushnyh-sharov-bantiki--20-sht-v-assortimente",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -51,12 +25,12 @@
           ]
         },
         {
-          "id": "5071184",
-          "name": "Коврик для посуды, Home Time, 30х40 см, в ассортименте",
-          "price": 83,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071184-kovrik-dlya-posudy-ome-ime-30h40-sm-v-assortimente",
+          "id": "5200446",
+          "name": "Набор подарочных пакетов \"В подарок\", PARTY, 4 шт., в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5200446-nabor-podarochnyh-paketov-v-podarok--4-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5200446-nabor-podarochnyh-paketov-v-podarok--4-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -86,6 +60,19 @@
           "url": "https://fix-price.com/catalog/dlya-doma/p-5006340-nabor-stroitelnyh-markerov-aster-and-4-sht",
           "category": "Для дома",
           "path": "/catalog/dlya-doma/p-5006340-nabor-stroitelnyh-markerov-aster-and-4-sht",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310463",
+          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -156,23 +143,10 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
-        },
-        {
-          "id": "5071185",
-          "name": "Салфетка декоративная, 38 см, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071185-salfetka-dekorativnaya-38-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1154,
+      "decor_ratio": 0.131,
       "error": null
     },
     {
@@ -180,36 +154,32 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 666,
-      "fetched_total": 997,
-      "filtered_count": 331,
+      "total": 658,
+      "fetched_total": 982,
+      "filtered_count": 324,
       "new_count": 2,
       "new_items": [
         {
-          "id": "208900",
-          "name": "Термос с рисунком",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6801226914_15/",
-          "category": "posuda / chajniki-i-termosy",
-          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6801226914_15/",
-          "price_match": true,
+          "id": "220028",
+          "name": "набор свечей для взрослых (2 шт.)",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6809227007_12/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6809227007_12/",
+          "price_match": false,
           "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
+          "match_tags": []
         },
         {
-          "id": "206117",
-          "name": "Стеклянный контейнер для хранения продуктов",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL5811226911_269/",
-          "category": "khranenie / dlya-kukhni",
-          "path": "/eshop/home/khranenie/dlya-kukhni/SL5811226911_269/",
+          "id": "220031",
+          "name": "набор свечей для взрослых (2 шт.)",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6809227007_71/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6809227007_71/",
           "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
@@ -327,7 +297,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.668,
+      "decor_ratio": 0.6701,
       "error": null
     },
     {
