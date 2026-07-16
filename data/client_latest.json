@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,35 +9,8 @@
       "total": 11,
       "fetched_total": 84,
       "filtered_count": 73,
-      "new_count": 2,
-      "new_items": [
-        {
-          "id": "5310463",
-          "name": "Набор для создания букета из шаров-сердечек, PARTY, в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310463-nabor-dlya-sozdaniya-buketa-iz-sharov-serdechek--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5200446",
-          "name": "Набор подарочных пакетов \"В подарок\", PARTY, 4 шт., в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5200446-nabor-podarochnyh-paketov-v-podarok--4-sht-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5200446-nabor-podarochnyh-paketov-v-podarok--4-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5246233",
@@ -93,32 +66,6 @@
           ]
         },
         {
-          "id": "5230212",
-          "name": "Подсвечник \"Касабланка\", в ассортименте",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5230209",
-          "name": "Набор подсвечников, 3 шт., в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5310462",
           "name": "Набор воздушных шаров \"Бантики\", PARTY, 20 шт., в ассортименте",
           "price": 149,
@@ -143,6 +90,32 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
+        },
+        {
+          "id": "5230212",
+          "name": "Подсвечник \"Касабланка\", в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230212-podsvechnik-kasablanka-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5230209",
+          "name": "Набор подсвечников, 3 шт., в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230209-nabor-podsvechnikov-3-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         }
       ],
       "quality_note": null,
@@ -154,29 +127,515 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 658,
-      "fetched_total": 982,
-      "filtered_count": 324,
-      "new_count": 2,
+      "total": 694,
+      "fetched_total": 1024,
+      "filtered_count": 330,
+      "new_count": 40,
       "new_items": [
         {
-          "id": "220028",
-          "name": "набор свечей для взрослых (2 шт.)",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6809227007_12/",
+          "id": "215080",
+          "name": "Детская обеденная тарелка из фарфора с рисунком",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6807227107_99/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6807227107_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215076",
+          "name": "Детская обеденная тарелка из фарфора с рисунком",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6807227107_90/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6807227107_90/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "207001",
+          "name": "Ароматическая свеча «Манговый джерси»",
+          "price": 2299,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL5811227077_1/",
           "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6809227007_12/",
+          "path": "/eshop/home/dekor/svechi/SL5811227077_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210644",
+          "name": "Ароматический спрей для текстиля «Ванильный шифон»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227002_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227002_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210635",
+          "name": "Ароматический диффузор «Золотистый дамаск»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208782",
+          "name": "Стеганое покрывало 220x240 см",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6801226225_11/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6801226225_11/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208898",
+          "name": "Набор соусников из каменной керамики с блюдцем, 2 шт.",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL6801226912_42/",
+          "category": "posuda / kuvshiny-i-dekantery",
+          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL6801226912_42/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "205802",
+          "name": "Покрывало из хлопка 200х220 см",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL5811226244_41/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL5811226244_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210362",
+          "name": "Плетеная корзина с крышкой",
+          "price": 3999,
+          "url": "https://www.sela.ru/eshop/home/khranenie/SL6801226307_62/",
+          "category": "khranenie",
+          "path": "/eshop/home/khranenie/SL6801226307_62/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "210360",
+          "name": "Плетеная корзина с крышкой",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/khranenie/SL6801226306_62/",
+          "category": "khranenie",
+          "path": "/eshop/home/khranenie/SL6801226306_62/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "206517",
+          "name": "Фигурная свеча",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL5811227034_23/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL5811227034_23/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210317",
+          "name": "Набор столовых приборов, 16 шт.",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6803227002_31/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6803227002_31/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "209017",
+          "name": "Стакан из стекла с рельефным узором",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/posuda/stakany/SL6801227191_28/",
+          "category": "posuda / stakany",
+          "path": "/eshop/home/posuda/stakany/SL6801227191_28/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208859",
+          "name": "Кувшин из стекла с рельефным узором",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL6801226937_20/",
+          "category": "posuda / kuvshiny-i-dekantery",
+          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL6801226937_20/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208895",
+          "name": "Стеклянная банка для хранения с деревяной крышкой",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL6801226908_413/",
+          "category": "khranenie / dlya-kukhni",
+          "path": "/eshop/home/khranenie/dlya-kukhni/SL6801226908_413/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208921",
+          "name": "Детская кружка из фарфора с декором",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6801227173_90/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6801227173_90/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208885",
+          "name": "Банка для хранения в ванной из стекла",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/vannaya/SL6801226403_413/",
+          "category": "vannaya",
+          "path": "/eshop/home/vannaya/SL6801226403_413/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206615",
+          "name": "Блюдо декоративное из керамики",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/blyuda/SL5811227107_21/",
+          "category": "dekor / blyuda",
+          "path": "/eshop/home/dekor/blyuda/SL5811227107_21/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208259",
+          "name": "Ваза из фаянса",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL58112270105_17/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL58112270105_17/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "206166",
+          "name": "Фарфоровая масленка с крышкой",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/posuda/SL5811226916_12/",
+          "category": "posuda",
+          "path": "/eshop/home/posuda/SL5811226916_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206200",
+          "name": "Стеклянный кувшин",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL5811226942_99/",
+          "category": "posuda / kuvshiny-i-dekantery",
+          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL5811226942_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206173",
+          "name": "Десертная тарелка из фарфора с цветочным узором",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL58112271101_26/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL58112271101_26/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206116",
+          "name": "Стеклянный контейнер для хранения продуктов",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL5811226910_269/",
+          "category": "khranenie / dlya-kukhni",
+          "path": "/eshop/home/khranenie/dlya-kukhni/SL5811226910_269/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206117",
+          "name": "Стеклянный контейнер для хранения продуктов",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL5811226911_269/",
+          "category": "khranenie / dlya-kukhni",
+          "path": "/eshop/home/khranenie/dlya-kukhni/SL5811226911_269/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206165",
+          "name": "Чайная пара из фарфора",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL5811227115_41/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL5811227115_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206253",
+          "name": "Керамическая кружка с рисунком",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL5811227180_23/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL5811227180_23/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206616",
+          "name": "Блюдо декоративное из фарфора",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/blyuda/SL58112270111_31/",
+          "category": "dekor / blyuda",
+          "path": "/eshop/home/dekor/blyuda/SL58112270111_31/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206179",
+          "name": "Обеденная тарелка из фарфора с цветочным узором",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL58112271102_26/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL58112271102_26/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206271",
+          "name": "Декантер для вина из стекла с рельефным узором",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL5811227122_40/",
+          "category": "posuda / kuvshiny-i-dekantery",
+          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL5811227122_40/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "205953",
+          "name": "Плетеная подставка для журналов",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/khranenie/SL5811226311_61/",
+          "category": "khranenie",
+          "path": "/eshop/home/khranenie/SL5811226311_61/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "206503",
+          "name": "Набор столовых свечей, 2 шт.",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL5811227035_12/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL5811227035_12/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
         },
         {
-          "id": "220031",
-          "name": "набор свечей для взрослых (2 шт.)",
+          "id": "206981",
+          "name": "Бокал для белого вина",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL5811226921_413/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL5811226921_413/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "208900",
+          "name": "Термос с рисунком",
+          "price": 899,
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6801226914_15/",
+          "category": "posuda / chajniki-i-termosy",
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6801226914_15/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "209024",
+          "name": "Набор игрушек для купания «Мороженое» для детей",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/vannaya/SL6801224420_99/",
+          "category": "vannaya",
+          "path": "/eshop/home/vannaya/SL6801224420_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "209044",
+          "name": "Детская десертная тарелка из фаянса с рисунком",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227185_99/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL6801227185_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "208936",
+          "name": "Большой пластиковый органайзер для хранения",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/khranenie/organayzery/SL6801226302_9/",
+          "category": "khranenie / organayzery",
+          "path": "/eshop/home/khranenie/organayzery/SL6801226302_9/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "208986",
+          "name": "Набор детских столовых приборов, 3 шт",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6809227007_71/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6809227007_71/",
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6801227186_90/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6801227186_90/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "206976",
+          "name": "Бокал для красного вина",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL5811226925_413/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL5811226925_413/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "206987",
+          "name": "Постер",
+          "price": 99,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL5811227045_322/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL5811227045_322/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "207013",
+          "name": "Постер детский",
+          "price": 99,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL58112270112_65/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL58112270112_65/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -297,7 +756,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6701,
+      "decor_ratio": 0.6777,
       "error": null
     },
     {
