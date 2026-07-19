@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,100 +9,8 @@
       "total": 10,
       "fetched_total": 91,
       "filtered_count": 81,
-      "new_count": 7,
-      "new_items": [
-        {
-          "id": "5243825",
-          "name": "Декоративная тарелка \"Марокко\", в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243825-dekorativnaya-tarelka-marokko-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243825-dekorativnaya-tarelka-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246350",
-          "name": "Декоративный поднос \"Марокко\", в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246350-dekorativnyy-podnos-marokko-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246350-dekorativnyy-podnos-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243576",
-          "name": "Декоративная тарелка для аксессуаров и мелочей \"Сад Мажорель\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243576-dekorativnaya-tarelka-dlya-aksessuarov-i-melochey-sad-majorel-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243576-dekorativnaya-tarelka-dlya-aksessuarov-i-melochey-sad-majorel-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246360",
-          "name": "Ваза \"Тысяча и одна ночь\", в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246360-vaza-tysyacha-i-odna-noch-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246360-vaza-tysyacha-i-odna-noch-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310465",
-          "name": "Настольная декорация из 13 шаров в коробке, PARTY, в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310465-nastolnaya-dekoratsiya-iz-13-sharov-v-korobke--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310465-nastolnaya-dekoratsiya-iz-13-sharov-v-korobke--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231481",
-          "name": "Ароматическая свеча в стакане \"Для тебя\", в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231481-aromaticheskaya-svecha-v-stakane-dlya-tebya-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231481-aromaticheskaya-svecha-v-stakane-dlya-tebya-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5313204",
-          "name": "Слайм \"Миксуй радость\", в ассортименте",
-          "price": 133,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5313204-slaym-miksuy-radost-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5313204-slaym-miksuy-radost-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5243825",
@@ -219,8 +127,8 @@
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
       "total": 643,
-      "fetched_total": 963,
-      "filtered_count": 320,
+      "fetched_total": 962,
+      "filtered_count": 319,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -338,7 +246,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6677,
+      "decor_ratio": 0.6684,
       "error": null
     },
     {
