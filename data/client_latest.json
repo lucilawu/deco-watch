@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 10,
-      "fetched_total": 91,
-      "filtered_count": 81,
+      "fetched_total": 92,
+      "filtered_count": 82,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -118,7 +118,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1099,
+      "decor_ratio": 0.1087,
       "error": null
     },
     {
@@ -126,11 +126,155 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 643,
-      "fetched_total": 962,
-      "filtered_count": 319,
-      "new_count": 0,
-      "new_items": [],
+      "total": 653,
+      "fetched_total": 978,
+      "filtered_count": 325,
+      "new_count": 11,
+      "new_items": [
+        {
+          "id": "210641",
+          "name": "Ароматический диффузор «Сандаловое кружево»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227028_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227028_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210259",
+          "name": "Ароматический диффузор «Ирландский твид»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227007_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227007_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218590",
+          "name": "Рамка для фото",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6808227003_20/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL6808227003_20/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "218577",
+          "name": "Рамка для фото",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6808227004_20/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL6808227004_20/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "209058",
+          "name": "Кружка из стекла",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6801226948_41/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6801226948_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208729",
+          "name": "Чехол для декоративной подушки из хлопка",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6801226511_318/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6801226511_318/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "207044",
+          "name": "Набор стеклянных трубочек с ершиком",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6801226901_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6801226901_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206966",
+          "name": "Стакан для зубных щеток из стекла",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/vannaya/SL5811226409_413/",
+          "category": "vannaya",
+          "path": "/eshop/home/vannaya/SL5811226409_413/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206163",
+          "name": "Детская кружка из фарфора",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL5811227113_90/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL5811227113_90/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206193",
+          "name": "Детская кружка из фаянса с силиконовой крышкой",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL5811227127_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL5811227127_99/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "206501",
+          "name": "Стакан для зубных щеток",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-vannoy/SL5811226420_62/",
+          "category": "khranenie / dlya-vannoy",
+          "path": "/eshop/home/khranenie/dlya-vannoy/SL5811226420_62/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        }
+      ],
       "sample": [
         {
           "id": "215068",
@@ -246,7 +390,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6684,
+      "decor_ratio": 0.6677,
       "error": null
     },
     {
