@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "clients": [
     {
       "client": "Fix Price",
@@ -126,62 +126,86 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 655,
-      "fetched_total": 979,
-      "filtered_count": 324,
-      "new_count": 4,
+      "total": 644,
+      "fetched_total": 970,
+      "filtered_count": 326,
+      "new_count": 6,
       "new_items": [
         {
-          "id": "218641",
-          "name": "Деревянная доска для сервировки",
+          "id": "220001",
+          "name": "Сервировочное блюдо из каменной керамики",
           "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/posuda/servirovochnye-doski/SL6808226914_20/",
-          "category": "posuda / servirovochnye-doski",
-          "path": "/eshop/home/posuda/servirovochnye-doski/SL6808226914_20/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
           "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "218631",
-          "name": "Деревянная доска для сервировки",
-          "price": 3599,
-          "url": "https://www.sela.ru/eshop/home/posuda/servirovochnye-doski/SL6808226913_20/",
-          "category": "posuda / servirovochnye-doski",
-          "path": "/eshop/home/posuda/servirovochnye-doski/SL6808226913_20/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "218603",
-          "name": "Набор деревянных приборов для салата, 2 шт.",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6808227108_20/",
-          "category": "posuda / stolovye-pribory",
-          "path": "/eshop/home/posuda/stolovye-pribory/SL6808227108_20/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "212224",
-          "name": "Чехол для декоративной подушки с кисточками",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226534_12/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6804226534_12/",
-          "price_match": false,
           "focus_match": true,
           "match_tags": [
+            "🎯 价位匹配",
             "✨ 品类对口"
           ]
+        },
+        {
+          "id": "220033",
+          "name": "Сервировочное блюдо из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6809227109_71/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6809227109_71/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220048",
+          "name": "Ваза из доломита",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6809227016_71/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6809227016_71/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "220060",
+          "name": "Ваза из доломита",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6809227017_12/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6809227017_12/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "220073",
+          "name": "Фигурный подсвечник из доломита",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6809227020_71/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6809227020_71/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "220079",
+          "name": "Фигурный подсвечник из доломита",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6809227021_12/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6809227021_12/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
@@ -299,7 +323,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6691,
+      "decor_ratio": 0.6639,
       "error": null
     },
     {
