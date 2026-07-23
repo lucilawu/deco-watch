@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "clients": [
     {
       "client": "Fix Price",
@@ -126,18 +126,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 644,
-      "fetched_total": 970,
-      "filtered_count": 326,
-      "new_count": 6,
+      "total": 641,
+      "fetched_total": 966,
+      "filtered_count": 325,
+      "new_count": 3,
       "new_items": [
         {
-          "id": "220001",
-          "name": "Сервировочное блюдо из каменной керамики",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
-          "category": "posuda / tarelki / blyuda",
-          "path": "/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
+          "id": "210635",
+          "name": "Ароматический диффузор «Золотистый дамаск»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -146,63 +146,25 @@
           ]
         },
         {
-          "id": "220033",
-          "name": "Сервировочное блюдо из каменной керамики",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6809227109_71/",
-          "category": "posuda / tarelki / blyuda",
-          "path": "/eshop/home/posuda/tarelki/blyuda/SL6809227109_71/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220048",
-          "name": "Ваза из доломита",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6809227016_71/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6809227016_71/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "220060",
-          "name": "Ваза из доломита",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6809227017_12/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6809227017_12/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "220073",
-          "name": "Фигурный подсвечник из доломита",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6809227020_71/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6809227020_71/",
+          "id": "210591",
+          "name": "Сервировочная доска из каменной керамики",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/posuda/servirovochnye-doski/SL6801227110_90/",
+          "category": "posuda / servirovochnye-doski",
+          "path": "/eshop/home/posuda/servirovochnye-doski/SL6801227110_90/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "220079",
-          "name": "Фигурный подсвечник из доломита",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6809227021_12/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6809227021_12/",
+          "id": "205964",
+          "name": "Маленький пластиковый органайзер для хранения",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/khranenie/organayzery/SL5811226305_93/",
+          "category": "khranenie / organayzery",
+          "path": "/eshop/home/khranenie/organayzery/SL5811226305_93/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -323,7 +285,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6639,
+      "decor_ratio": 0.6636,
       "error": null
     },
     {
