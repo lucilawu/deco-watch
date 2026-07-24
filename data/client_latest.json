@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "clients": [
     {
       "client": "Fix Price",
@@ -126,18 +126,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 641,
-      "fetched_total": 966,
+      "total": 639,
+      "fetched_total": 964,
       "filtered_count": 325,
       "new_count": 3,
       "new_items": [
         {
-          "id": "210635",
-          "name": "Ароматический диффузор «Золотистый дамаск»",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
-          "category": "aromaty-dlya-doma",
-          "path": "/eshop/home/aromaty-dlya-doma/SL6801227031_1/",
+          "id": "219818",
+          "name": "Придверный коврик",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226509_99/",
+          "category": "tekstil / kovry",
+          "path": "/eshop/home/tekstil/kovry/SL6809226509_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -146,28 +146,32 @@
           ]
         },
         {
-          "id": "210591",
-          "name": "Сервировочная доска из каменной керамики",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/posuda/servirovochnye-doski/SL6801227110_90/",
-          "category": "posuda / servirovochnye-doski",
-          "path": "/eshop/home/posuda/servirovochnye-doski/SL6801227110_90/",
-          "price_match": false,
+          "id": "219841",
+          "name": "Придверный коврик",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226508_99/",
+          "category": "tekstil / kovry",
+          "path": "/eshop/home/tekstil/kovry/SL6809226508_99/",
+          "price_match": true,
           "focus_match": true,
           "match_tags": [
+            "🎯 价位匹配",
             "✨ 品类对口"
           ]
         },
         {
-          "id": "205964",
-          "name": "Маленький пластиковый органайзер для хранения",
-          "price": 299,
-          "url": "https://www.sela.ru/eshop/home/khranenie/organayzery/SL5811226305_93/",
-          "category": "khranenie / organayzery",
-          "path": "/eshop/home/khranenie/organayzery/SL5811226305_93/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "id": "219748",
+          "name": "Фигурный коврик для ванной с принтом",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226511_99/",
+          "category": "tekstil / kovry",
+          "path": "/eshop/home/tekstil/kovry/SL6809226511_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
         }
       ],
       "sample": [
@@ -187,7 +191,7 @@
         },
         {
           "id": "214960",
-          "name": "Вязаный плед 130x170 см",
+          "name": "Детский жаккардовый плед",
           "price": 3599,
           "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226560_99/",
           "category": "tekstil / pledy",
@@ -285,7 +289,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6636,
+      "decor_ratio": 0.6629,
       "error": null
     },
     {
