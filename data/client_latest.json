@@ -1,17 +1,124 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 10,
-      "fetched_total": 92,
-      "filtered_count": 82,
-      "new_count": 0,
-      "new_items": [],
+      "total": 14,
+      "fetched_total": 101,
+      "filtered_count": 87,
+      "new_count": 7,
+      "new_items": [
+        {
+          "id": "5369001",
+          "name": "Светильник светодиодный настольный \"Шлепок\", PrankBank, в ассортименте",
+          "price": 449,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5369001-svetilnik-svetodiodnyy-nastolnyy-shlepok-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5369001-svetilnik-svetodiodnyy-nastolnyy-shlepok-rankank-v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "5246354",
+          "name": "Рамка для хранения рисунков и дипломов, в ассортименте",
+          "price": 449,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246356",
+          "name": "Подушка декоративная \"Марокко\" круглая, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246356-podushka-dekorativnaya-marokko-kruglaya-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246356-podushka-dekorativnaya-marokko-kruglaya-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246352",
+          "name": "Корзина \"Марракеш\", в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246352-korzina-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246352-korzina-marrakesh-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246357",
+          "name": "Подушка декоративная \"Марокко\" квадратная, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246357-podushka-dekorativnaya-marokko-kvadratnaya-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246357-podushka-dekorativnaya-marokko-kvadratnaya-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5230211",
+          "name": "Подсвечник \"Марракеш\", в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230211-podsvechnik-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230211-podsvechnik-marrakesh-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5363008",
+          "name": "Коврик для мыши \"Прикол\", PrankBank, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363008-kovrik-dlya-myshi-prikol-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363008-kovrik-dlya-myshi-prikol-rankank-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
+        {
+          "id": "5369001",
+          "name": "Светильник светодиодный настольный \"Шлепок\", PrankBank, в ассортименте",
+          "price": 449,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5369001-svetilnik-svetodiodnyy-nastolnyy-shlepok-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5369001-svetilnik-svetodiodnyy-nastolnyy-shlepok-rankank-v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
         {
           "id": "5243825",
           "name": "Декоративная тарелка \"Марокко\", в ассортименте",
@@ -32,19 +139,6 @@
           "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246350-dekorativnyy-podnos-marokko-v-assortimente",
           "category": "Сувениры и подарки",
           "path": "/catalog/suveniry-i-podarki/p-5246350-dekorativnyy-podnos-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5092868",
-          "name": "Коврик для сушки посуды, O'Kitchen, 40,5х30 см, в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5092868-kovrik-dlya-sushki-posudy-itchen-405h30-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -78,12 +172,12 @@
           ]
         },
         {
-          "id": "5231480",
-          "name": "Свечи ДР \"Мозаика\", PARTY, 13 шт., в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
+          "id": "5246354",
+          "name": "Рамка для хранения рисунков и дипломов, в ассортименте",
+          "price": 449,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231480-svechi-dr-mozaika--13-sht-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -91,12 +185,12 @@
           ]
         },
         {
-          "id": "5200446",
-          "name": "Набор подарочных пакетов \"В подарок\", PARTY, 4 шт., в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5200446-nabor-podarochnyh-paketov-v-podarok--4-sht-v-assortimente",
+          "id": "5246356",
+          "name": "Подушка декоративная \"Марокко\" круглая, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246356-podushka-dekorativnaya-marokko-kruglaya-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5200446-nabor-podarochnyh-paketov-v-podarok--4-sht-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5246356-podushka-dekorativnaya-marokko-kruglaya-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -104,12 +198,12 @@
           ]
         },
         {
-          "id": "5310465",
-          "name": "Настольная декорация из 13 шаров в коробке, PARTY, в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310465-nastolnaya-dekoratsiya-iz-13-sharov-v-korobke--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310465-nastolnaya-dekoratsiya-iz-13-sharov-v-korobke--v-assortimente",
+          "id": "5246352",
+          "name": "Корзина \"Марракеш\", в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246352-korzina-marrakesh-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246352-korzina-marrakesh-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -118,7 +212,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1087,
+      "decor_ratio": 0.1386,
       "error": null
     },
     {
@@ -126,46 +220,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 639,
-      "fetched_total": 964,
-      "filtered_count": 325,
-      "new_count": 3,
+      "total": 632,
+      "fetched_total": 950,
+      "filtered_count": 318,
+      "new_count": 1,
       "new_items": [
         {
-          "id": "219818",
-          "name": "Придверный коврик",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226509_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6809226509_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "219841",
-          "name": "Придверный коврик",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226508_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6809226508_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "219748",
-          "name": "Фигурный коврик для ванной с принтом",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226511_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6809226511_99/",
+          "id": "215194",
+          "name": "Масленка из стекла",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/dlya-servirovki/SL6807226912_12/",
+          "category": "posuda / dlya-servirovki",
+          "path": "/eshop/home/posuda/dlya-servirovki/SL6807226912_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -176,12 +242,26 @@
       ],
       "sample": [
         {
-          "id": "215068",
-          "name": "Коврик для ванной с принтом",
+          "id": "218626",
+          "name": "Ваза из каменной керамики",
+          "price": 4999,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6808227013_20/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6808227013_20/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220001",
+          "name": "Сервировочное блюдо из каменной керамики",
           "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6807226507_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6807226507_99/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -190,12 +270,12 @@
           ]
         },
         {
-          "id": "214960",
-          "name": "Детский жаккардовый плед",
-          "price": 3599,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6804226560_99/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6804226560_99/",
+          "id": "218600",
+          "name": "Ваза из каменной керамики",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6807227002_188/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6807227002_188/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -204,12 +284,40 @@
           ]
         },
         {
-          "id": "215054",
-          "name": "Бокал из цветного стекла с фактурным декором",
+          "id": "218565",
+          "name": "Бокал из стекла с цветной ножкой",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6808226907_99/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6808226907_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218538",
+          "name": "Бокал из стекла с цветной ножкой",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6808226906_99/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6808226906_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "215091",
+          "name": "Чайная пара из цветного стекла",
           "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226907_9/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226907_9/",
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807226911_23/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6807226911_23/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -218,12 +326,12 @@
           ]
         },
         {
-          "id": "215121",
-          "name": "Бокал из цветного стекла",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226906_40/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226906_40/",
+          "id": "218635",
+          "name": "Стакан из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/stakany/SL6808227103_99/",
+          "category": "posuda / stakany",
+          "path": "/eshop/home/posuda/stakany/SL6808227103_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -232,54 +340,12 @@
           ]
         },
         {
-          "id": "215117",
-          "name": "Бокал из цветного стекла",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226906_99/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226906_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215059",
-          "name": "Бокал из цветного стекла с фактурным декором",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6807226907_99/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6807226907_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215042",
-          "name": "Плед из хлопка с бахромой и рисунком",
-          "price": 5999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6807226512_99/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6807226512_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215125",
-          "name": "Стеклянный кувшин в стиле колор блок",
-          "price": 2499,
-          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL6807226910_99/",
-          "category": "posuda / kuvshiny-i-dekantery",
-          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL6807226910_99/",
+          "id": "218646",
+          "name": "Обеденная тарелка из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6808227110_99/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6808227110_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -289,7 +355,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6629,
+      "decor_ratio": 0.6653,
       "error": null
     },
     {
