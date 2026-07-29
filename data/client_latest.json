@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "clients": [
     {
       "client": "Fix Price",
@@ -53,12 +53,12 @@
           ]
         },
         {
-          "id": "5243576",
-          "name": "Декоративная тарелка для аксессуаров и мелочей \"Сад Мажорель\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243576-dekorativnaya-tarelka-dlya-aksessuarov-i-melochey-sad-majorel-v-assortimente",
+          "id": "5246354",
+          "name": "Рамка для хранения рисунков и дипломов, в ассортименте",
+          "price": 449,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243576-dekorativnaya-tarelka-dlya-aksessuarov-i-melochey-sad-majorel-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -66,12 +66,12 @@
           ]
         },
         {
-          "id": "5246354",
-          "name": "Рамка для хранения рисунков и дипломов, в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
+          "id": "5243576",
+          "name": "Декоративная тарелка для аксессуаров и мелочей \"Сад Мажорель\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243576-dekorativnaya-tarelka-dlya-aksessuarov-i-melochey-sad-majorel-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5243576-dekorativnaya-tarelka-dlya-aksessuarov-i-melochey-sad-majorel-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -127,114 +127,24 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 639,
-      "fetched_total": 961,
-      "filtered_count": 322,
-      "new_count": 8,
+      "total": 628,
+      "fetched_total": 947,
+      "filtered_count": 319,
+      "new_count": 1,
       "new_items": [
         {
-          "id": "220053",
+          "id": "220050",
           "name": "Кружка из фарфора",
           "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809227104_71/",
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809227104_60/",
           "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6809227104_71/",
+          "path": "/eshop/home/posuda/kruzhki/SL6809227104_60/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "220055",
-          "name": "Кружка из фарфора",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809227104_12/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6809227104_12/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220076",
-          "name": "Набор стеклянных трубочек с ершиком",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6809226902_99/",
-          "category": "posuda / stolovye-pribory",
-          "path": "/eshop/home/posuda/stolovye-pribory/SL6809226902_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220020",
-          "name": "Бокал из стекла с цветной ножкой",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6809226906_12/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6809226906_12/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220022",
-          "name": "Бокал из стекла с цветной ножкой",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6809226906_71/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6809226906_71/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220035",
-          "name": "Бокал из стекла с цветной ножкой",
-          "price": 899,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6809226905_71/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6809226905_71/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220037",
-          "name": "Бокал из стекла с цветной ножкой",
-          "price": 899,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6809226905_12/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6809226905_12/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220065",
-          "name": "Фигурная рамка для фото",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6809227004_71/",
-          "category": "dekor / postery",
-          "path": "/eshop/home/dekor/postery/SL6809227004_71/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
         }
       ],
       "sample": [
@@ -352,7 +262,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6649,
+      "decor_ratio": 0.6631,
       "error": null
     },
     {
