@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 11,
-      "fetched_total": 101,
-      "filtered_count": 90,
+      "fetched_total": 102,
+      "filtered_count": 91,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -119,7 +119,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1089,
+      "decor_ratio": 0.1078,
       "error": null
     },
     {
@@ -127,143 +127,14 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 629,
-      "fetched_total": 945,
-      "filtered_count": 316,
-      "new_count": 1,
-      "new_items": [
-        {
-          "id": "208287",
-          "name": "Вязаный плед",
-          "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6801226522_62/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6801226522_62/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        }
-      ],
-      "sample": [
-        {
-          "id": "218626",
-          "name": "Ваза из каменной керамики",
-          "price": 4999,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6808227013_20/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6808227013_20/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220001",
-          "name": "Сервировочное блюдо из каменной керамики",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
-          "category": "posuda / tarelki / blyuda",
-          "path": "/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "218600",
-          "name": "Ваза из каменной керамики",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6807227002_188/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6807227002_188/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "218565",
-          "name": "Бокал из стекла с цветной ножкой",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6808226907_99/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6808226907_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "218538",
-          "name": "Бокал из стекла с цветной ножкой",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6808226906_99/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6808226906_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215091",
-          "name": "Чайная пара из цветного стекла",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6807226911_23/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6807226911_23/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "218635",
-          "name": "Стакан из каменной керамики",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/stakany/SL6808227103_99/",
-          "category": "posuda / stakany",
-          "path": "/eshop/home/posuda/stakany/SL6808227103_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "218646",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6808227110_99/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6808227110_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        }
-      ],
+      "total": 0,
+      "fetched_total": 0,
+      "filtered_count": 0,
+      "new_count": 0,
+      "new_items": [],
+      "sample": [],
       "quality_note": null,
-      "decor_ratio": 0.6656,
-      "error": null
+      "error": "HTTPSConnectionPool(host='www.sela.ru', port=443): Max retries exceeded with url: /eshop/home/new/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
     },
     {
       "client": "X5 · Перекрёсток",
