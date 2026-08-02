@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,142 +9,8 @@
       "total": 14,
       "fetched_total": 96,
       "filtered_count": 82,
-      "new_count": 10,
-      "new_items": [
-        {
-          "id": "5012758",
-          "name": "Светильник светодиодный аккумуляторный \"Вращение\" с кабелем USB, в ассортименте",
-          "price": 549,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012758-svetilnik-svetodiodnyy-akkumulyatornyy-vraschenie-s-kabelem--v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012758-svetilnik-svetodiodnyy-akkumulyatornyy-vraschenie-s-kabelem--v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5012788",
-          "name": "Светильник светодиодный настенный, на солнечной батарее, в ассортименте",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/dlya-doma/elektrotovary/p-5012788-svetilnik-svetodiodnyy-nastennyy-na-solnechnoy-bataree-v-assortimente",
-          "category": "Электротовары",
-          "path": "/catalog/dlya-doma/elektrotovary/p-5012788-svetilnik-svetodiodnyy-nastennyy-na-solnechnoy-bataree-v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5012780",
-          "name": "Светильник-ночник аккумуляторный с кабелем USB, в ассортименте",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012780-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012780-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5246198",
-          "name": "Декоративный поднос \"ГолденБлэк\", в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246198-dekorativnyy-podnos-goldenblek-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246198-dekorativnyy-podnos-goldenblek-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5210031",
-          "name": "Шкатулка \"Марокко\", в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
-          "category": "Товары для декора",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5230205",
-          "name": "Подсвечник \"Марокко\"",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246370",
-          "name": "Корзина для мелочей \"Касабланка\", в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5246370-korzina-dlya-melochey-kasablanka-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5246370-korzina-dlya-melochey-kasablanka-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5037000",
-          "name": "Набор прямоугольных ёмкостей для хранения и заморозки, FunCook, 1,7 л, 2 шт.",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5037000-nabor-pryamougolnyh-mkostey-dlya-hraneniya-i-zamorozki-unook-17-l-2-sht",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5037000-nabor-pryamougolnyh-mkostey-dlya-hraneniya-i-zamorozki-unook-17-l-2-sht",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5300190",
-          "name": "Парик, светящийся в темноте, PARTY, в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5300190-parik-svetyaschiysya-v-temnote--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5300190-parik-svetyaschiysya-v-temnote--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5366004",
-          "name": "Карты игральные, Prank Bank, в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5366004-karty-igralnye-rank-ank-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5366004-karty-igralnye-rank-ank-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012758",
@@ -229,12 +95,12 @@
           ]
         },
         {
-          "id": "5210031",
-          "name": "Шкатулка \"Марокко\", в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
-          "category": "Товары для декора",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
+          "id": "5230205",
+          "name": "Подсвечник \"Марокко\"",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -242,12 +108,12 @@
           ]
         },
         {
-          "id": "5230205",
-          "name": "Подсвечник \"Марокко\"",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
+          "id": "5210031",
+          "name": "Шкатулка \"Марокко\", в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
+          "category": "Товары для декора",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -264,37 +130,11 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 624,
-      "fetched_total": 938,
-      "filtered_count": 314,
-      "new_count": 2,
-      "new_items": [
-        {
-          "id": "210641",
-          "name": "Ароматический диффузор «Сандаловое кружево»",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227028_1/",
-          "category": "aromaty-dlya-doma",
-          "path": "/eshop/home/aromaty-dlya-doma/SL6801227028_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "205950",
-          "name": "Корзина для хранения с ручками",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/khranenie/SL5811226307_1/",
-          "category": "khranenie",
-          "path": "/eshop/home/khranenie/SL5811226307_1/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        }
-      ],
+      "total": 623,
+      "fetched_total": 933,
+      "filtered_count": 310,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "218626",
@@ -410,7 +250,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6652,
+      "decor_ratio": 0.6677,
       "error": null
     },
     {
