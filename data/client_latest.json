@@ -1,16 +1,56 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 14,
-      "fetched_total": 96,
-      "filtered_count": 82,
-      "new_count": 0,
-      "new_items": [],
+      "total": 17,
+      "fetched_total": 102,
+      "filtered_count": 85,
+      "new_count": 3,
+      "new_items": [
+        {
+          "id": "5363007",
+          "name": "Коврик под клавиатуру \"Прикол\", PrankBank, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363007-kovrik-pod-klaviaturu-prikol-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363007-kovrik-pod-klaviaturu-prikol-rankank-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5363013",
+          "name": "Зонт \"По приколу\", Prank Bank, в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363013-zont-po-prikolu-rank-ank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363013-zont-po-prikolu-rank-ank-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5369002",
+          "name": "Кнопка-антистресс, Prank Bank, в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5369002-knopka-antistress-rank-ank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5369002-knopka-antistress-rank-ank-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5012758",
@@ -108,12 +148,12 @@
           ]
         },
         {
-          "id": "5210031",
-          "name": "Шкатулка \"Марокко\", в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
-          "category": "Товары для декора",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
+          "id": "5363008",
+          "name": "Коврик для мыши \"Прикол\", PrankBank, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363008-kovrik-dlya-myshi-prikol-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363008-kovrik-dlya-myshi-prikol-rankank-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -122,7 +162,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1458,
+      "decor_ratio": 0.1667,
       "error": null
     },
     {
@@ -130,11 +170,127 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 623,
-      "fetched_total": 933,
-      "filtered_count": 310,
-      "new_count": 0,
-      "new_items": [],
+      "total": 630,
+      "fetched_total": 941,
+      "filtered_count": 311,
+      "new_count": 9,
+      "new_items": [
+        {
+          "id": "210637",
+          "name": "Ароматический диффузор «Мятное рами»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227011_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227011_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210638",
+          "name": "Ароматический спрей для текстиля «Белоснежный хлопок»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227013_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227013_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208832",
+          "name": "Стакан из фарфора с рисунком",
+          "price": 899,
+          "url": "https://www.sela.ru/eshop/home/posuda/stakany/SL6801227114_75/",
+          "category": "posuda / stakany",
+          "path": "/eshop/home/posuda/stakany/SL6801227114_75/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "209026",
+          "name": "Обеденная тарелка из фарфора с цветочным узором",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227163_15/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL6801227163_15/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208992",
+          "name": "Глубокая тарелка из фарфора с цветочным узором",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6801227164_15/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6801227164_15/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208723",
+          "name": "Чехол для декоративной подушки из велюра",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6801226515_3/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6801226515_3/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206184",
+          "name": "Детская глубокая тарелка из фарфора",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL5811227119_90/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL5811227119_90/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208903",
+          "name": "Термос с круглой крышкой",
+          "price": 899,
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6801226916_12/",
+          "category": "posuda / chajniki-i-termosy",
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6801226916_12/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "205964",
+          "name": "Маленький пластиковый органайзер для хранения",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/khranenie/organayzery/SL5811226305_93/",
+          "category": "khranenie / organayzery",
+          "path": "/eshop/home/khranenie/organayzery/SL5811226305_93/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        }
+      ],
       "sample": [
         {
           "id": "218626",
@@ -250,7 +406,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6677,
+      "decor_ratio": 0.6695,
       "error": null
     },
     {
