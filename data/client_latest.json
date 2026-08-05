@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "clients": [
     {
       "client": "Fix Price",
@@ -108,12 +108,12 @@
           ]
         },
         {
-          "id": "5363008",
-          "name": "Коврик для мыши \"Прикол\", PrankBank, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363008-kovrik-dlya-myshi-prikol-rankank-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363008-kovrik-dlya-myshi-prikol-rankank-v-assortimente",
+          "id": "5210031",
+          "name": "Шкатулка \"Марокко\", в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
+          "category": "Товары для декора",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -130,18 +130,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 630,
-      "fetched_total": 944,
+      "total": 629,
+      "fetched_total": 943,
       "filtered_count": 314,
-      "new_count": 3,
+      "new_count": 7,
       "new_items": [
         {
-          "id": "212418",
-          "name": "Фигурный подсвечник из стекла",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6804227009_99/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6804227009_99/",
+          "id": "221931",
+          "name": "диффузор ароматический для помещений",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227033_99/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227033_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -150,12 +150,12 @@
           ]
         },
         {
-          "id": "211512",
-          "name": "Ароматический спрей для текстиля «Мятное рами»",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
-          "category": "aromaty-dlya-doma",
-          "path": "/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
+          "id": "218719",
+          "name": "Сервировочное блюдо из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6808227127_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6808227127_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -164,17 +164,69 @@
           ]
         },
         {
-          "id": "208929",
-          "name": "Стакан из стекла с рисунком",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/stakany/SL6801227133_99/",
-          "category": "posuda / stakany",
-          "path": "/eshop/home/posuda/stakany/SL6801227133_99/",
+          "id": "218707",
+          "name": "Кувшин из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL6808226923_1/",
+          "category": "posuda / kuvshiny-i-dekantery",
+          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL6808226923_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218708",
+          "name": "Салатник из каменной керамики",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6808227128_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6808227128_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218716",
+          "name": "Кружка из каменной керамики",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6808227130_1/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6808227130_1/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
             "✨ 品类对口"
           ]
+        },
+        {
+          "id": "218696",
+          "name": "Десертная тарелка из каменной керамики",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6808227124_1/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6808227124_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "209021",
+          "name": "Форма для печенья, 3 шт.",
+          "price": 199,
+          "url": "https://www.sela.ru/eshop/home/posuda/dlya-prigotovleniya/SL6801226951_7/",
+          "category": "posuda / dlya-prigotovleniya",
+          "path": "/eshop/home/posuda/dlya-prigotovleniya/SL6801226951_7/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
@@ -292,7 +344,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6674,
+      "decor_ratio": 0.667,
       "error": null
     },
     {
