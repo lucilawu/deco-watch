@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 16,
+      "total": 15,
       "fetched_total": 98,
-      "filtered_count": 82,
+      "filtered_count": 83,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -95,19 +95,6 @@
           ]
         },
         {
-          "id": "5230205",
-          "name": "Подсвечник \"Марокко\"",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5210031",
           "name": "Шкатулка \"Марокко\", в ассортименте",
           "price": 249,
@@ -119,10 +106,23 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
+        },
+        {
+          "id": "5230205",
+          "name": "Подсвечник \"Марокко\"",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1633,
+      "decor_ratio": 0.1531,
       "error": null
     },
     {
@@ -130,23 +130,112 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 624,
-      "fetched_total": 934,
-      "filtered_count": 310,
-      "new_count": 1,
+      "total": 631,
+      "fetched_total": 946,
+      "filtered_count": 315,
+      "new_count": 8,
       "new_items": [
         {
-          "id": "218718",
-          "name": "Десертная тарелка из каменной керамики",
-          "price": 899,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6808227122_1/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6808227122_1/",
+          "id": "208977",
+          "name": "Детская глубокая тарелка из фарфора с рисунком",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227178_99/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL6801227178_99/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
             "✨ 品类对口"
           ]
+        },
+        {
+          "id": "208925",
+          "name": "Десертная тарелка из каменной керамики",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227149_99/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL6801227149_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208883",
+          "name": "Банка для хранения в ванной из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/vannaya/SL6801226402_40/",
+          "category": "vannaya",
+          "path": "/eshop/home/vannaya/SL6801226402_40/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208958",
+          "name": "Стакан из стекла с рисунком",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/stakany/SL6801227134_99/",
+          "category": "posuda / stakany",
+          "path": "/eshop/home/posuda/stakany/SL6801227134_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "208723",
+          "name": "Чехол для декоративной подушки из велюра",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6801226515_3/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6801226515_3/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206363",
+          "name": "Глубокая тарелка из керамики",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL5811227157_188/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL5811227157_188/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206184",
+          "name": "Детская глубокая тарелка из фарфора",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL5811227119_90/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL5811227119_90/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "209038",
+          "name": "Набор бумажных салфеток, 20 шт.",
+          "price": 99,
+          "url": "https://www.sela.ru/eshop/home/posuda/salfetki-i-salfetnicy/SL6801227177_99/",
+          "category": "posuda / salfetki-i-salfetnicy",
+          "path": "/eshop/home/posuda/salfetki-i-salfetnicy/SL6801227177_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
@@ -264,7 +353,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.6681,
+      "decor_ratio": 0.667,
       "error": null
     },
     {
