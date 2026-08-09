@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,71 +7,17 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 17,
-      "fetched_total": 124,
-      "filtered_count": 107,
-      "new_count": 5,
+      "fetched_total": 95,
+      "filtered_count": 78,
+      "new_count": 1,
       "new_items": [
         {
-          "id": "5012784",
-          "name": "Светильник светодиодный аккумуляторный с кабелем USB, в ассортименте",
-          "price": 279,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012784-svetilnik-svetodiodnyy-akkumulyatornyy-s-kabelem--v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012784-svetilnik-svetodiodnyy-akkumulyatornyy-s-kabelem--v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5012765",
-          "name": "Светильник-ночник проекционный, FLARX, с кабелем USB, в ассортименте",
-          "price": 549,
-          "url": "https://fix-price.com/catalog/dlya-doma/elektrotovary/p-5012765-svetilnik-nochnik-proektsionnyy--s-kabelem--v-assortimente",
-          "category": "Электротовары",
-          "path": "/catalog/dlya-doma/elektrotovary/p-5012765-svetilnik-nochnik-proektsionnyy--s-kabelem--v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5244238",
-          "name": "Декоративная тарелка для мелочей \"Джамбу\", в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
+          "id": "5243445",
+          "name": "Корзина для мелочей \"Лейла\", в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243445-korzina-dlya-melochey-leyla-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5700476",
-          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
-          "price": 133,
-          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310456",
-          "name": "Набор бумажных декораций \"Фиеста\", PARTY, в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310456-nabor-bumajnyh-dekoratsiy-fiesta--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310456-nabor-bumajnyh-dekoratsiy-fiesta--v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5243445-korzina-dlya-melochey-leyla-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -164,12 +110,12 @@
           ]
         },
         {
-          "id": "5246354",
-          "name": "Рамка для хранения рисунков и дипломов, в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
+          "id": "5230205",
+          "name": "Подсвечник \"Марокко\"",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246354-ramka-dlya-hraneniya-risunkov-i-diplomov-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -191,7 +137,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1371,
+      "decor_ratio": 0.1789,
       "error": null
     },
     {
@@ -199,18 +145,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 681,
-      "fetched_total": 940,
-      "filtered_count": 259,
-      "new_count": 58,
+      "total": 688,
+      "fetched_total": 950,
+      "filtered_count": 262,
+      "new_count": 7,
       "new_items": [
         {
-          "id": "221949",
-          "name": "диффузор ароматический для помещений",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227027_172/",
-          "category": "aromaty-dlya-doma / diffuzory",
-          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227027_172/",
+          "id": "211512",
+          "name": "Ароматический спрей для текстиля «Мятное рами»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
+          "category": "aromaty-dlya-doma",
+          "path": "/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -219,12 +165,12 @@
           ]
         },
         {
-          "id": "221950",
-          "name": "свеча ароматическая в банке для взрослых",
+          "id": "220116",
+          "name": "Декоративная подушка в виде цветка из коллекции SELA x Маленький принц",
           "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6805227031_99/",
-          "category": "aromaty-dlya-doma / svechi",
-          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6805227031_99/",
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6809226526_90/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6809226526_90/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -233,691 +179,69 @@
           ]
         },
         {
-          "id": "221951",
-          "name": "свеча ароматическая в банке для взрослых",
-          "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6805227034_99/",
-          "category": "aromaty-dlya-doma / svechi",
-          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6805227034_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220174",
-          "name": "Десертная тарелка из каменной керамики",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6809227116_12/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6809227116_12/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220169",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6809227117_12/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6809227117_12/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215097",
-          "name": "Банное полотенце с принтом",
-          "price": 2399,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6807226502_72/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6807226502_72/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "215077",
-          "name": "Банное полотенце с принтом",
-          "price": 2399,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6807226501_45/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6807226501_45/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "215135",
-          "name": "Полотенце для лица с принтом",
-          "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6807226504_72/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6807226504_72/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "215056",
-          "name": "Полотенце для лица с принтом",
-          "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6807226503_45/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6807226503_45/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "215208",
-          "name": "Полотенце для лица в полоску",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6804226563_42/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6804226563_42/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "215210",
-          "name": "Полотенце для лица в полоску",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6804226563_294/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6804226563_294/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "215217",
-          "name": "Банное полотенце с рисунком",
-          "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6804226562_42/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6804226562_42/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "215219",
-          "name": "Банное полотенце с рисунком",
-          "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6804226562_294/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6804226562_294/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "214969",
-          "name": "Полотенце с капюшоном для детей",
-          "price": 2399,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6804226561_90/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6804226561_90/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "214971",
-          "name": "Полотенце с капюшоном для детей",
-          "price": 2399,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6804226561_41/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6804226561_41/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "212277",
-          "name": "Банное полотенце с принтом",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6804226506_218/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6804226506_218/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "212279",
-          "name": "Банное полотенце с принтом",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6804226506_252/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6804226506_252/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208879",
-          "name": "Банное полотенце",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226539_62/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226539_62/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208877",
-          "name": "Банное полотенце",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226539_37/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226539_37/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208874",
-          "name": "Полотенце для рук",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226538_37/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226538_37/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208875",
-          "name": "Полотенце для рук",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226538_62/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226538_62/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208864",
-          "name": "Полотенце для лица",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226535_37/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226535_37/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208866",
-          "name": "Полотенце для лица",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226535_62/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226535_62/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208854",
-          "name": "Банное полотенце",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226532_37/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226532_37/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208855",
-          "name": "Банное полотенце",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226532_62/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226532_62/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208852",
-          "name": "Банное полотенце в полоску",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226531_35/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226531_35/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208260",
-          "name": "Банное полотенце в полоску",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226576_34/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226576_34/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208274",
-          "name": "Банное полотенце",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226575_32/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226575_32/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208248",
-          "name": "Банное полотенце",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226501_3/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226501_3/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208249",
-          "name": "Банное полотенце",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226501_32/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226501_32/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208273",
-          "name": "Банное полотенце",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226575_3/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226575_3/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208236",
-          "name": "Полотенце для рук",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226581_32/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226581_32/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208237",
-          "name": "Полотенце для рук",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226581_3/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226581_3/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208240",
-          "name": "Полотенце для лица",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226578_32/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226578_32/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "208241",
-          "name": "Полотенце для лица",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226578_3/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226578_3/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "220147",
-          "name": "Кружка из каменной керамики",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809227114_12/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6809227114_12/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "215092",
-          "name": "Полотенце для рук с принтом",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6807226506_72/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6807226506_72/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "215126",
-          "name": "Полотенце для рук с принтом",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6807226505_45/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6807226505_45/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "212283",
-          "name": "Полотенце для рук с принтом",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6804226522_252/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6804226522_252/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "212285",
-          "name": "Полотенце для рук с принтом",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6804226522_218/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6804226522_218/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "212289",
-          "name": "Полотенце для лица с принтом",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6804226517_218/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6804226517_218/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "212287",
-          "name": "Полотенце для лица с принтом",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6804226517_252/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6804226517_252/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208871",
-          "name": "Полотенце для рук в полоску",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226537_35/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226537_35/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208867",
-          "name": "Полотенце для рук",
-          "price": 299,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226536_20/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226536_20/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208869",
-          "name": "Полотенце для рук",
-          "price": 299,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226536_41/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226536_41/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208862",
-          "name": "Полотенце для лица в полоску",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226534_35/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226534_35/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208857",
-          "name": "Полотенце для лица",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226533_20/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226533_20/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208860",
-          "name": "Полотенце для лица",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226533_41/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226533_41/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208847",
-          "name": "Банное полотенце",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226530_20/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226530_20/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208850",
-          "name": "Банное полотенце",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL6801226530_41/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL6801226530_41/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208266",
-          "name": "Полотенце для рук в полоску",
+          "id": "212198",
+          "name": "Чехол для декоративной подушки с вышивкой",
           "price": 899,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226582_34/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226582_34/",
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226535_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6804226535_99/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "208234",
-          "name": "Полотенце для рук",
-          "price": 299,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226580_36/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226580_36/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208282",
-          "name": "Полотенце для лица в полоску",
+          "id": "208977",
+          "name": "Детская глубокая тарелка из фарфора с рисунком",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226579_34/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226579_34/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227178_99/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL6801227178_99/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "208254",
-          "name": "Полотенце для лица",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226577_36/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226577_36/",
+          "id": "208883",
+          "name": "Банка для хранения в ванной из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/vannaya/SL6801226402_40/",
+          "category": "vannaya",
+          "path": "/eshop/home/vannaya/SL6801226402_40/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "208251",
-          "name": "Банное полотенце",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226574_36/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226574_36/",
+          "id": "206184",
+          "name": "Детская глубокая тарелка из фарфора",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL5811227119_90/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL5811227119_90/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "208250",
-          "name": "Банное полотенце",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226574_165/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226574_165/",
+          "id": "206162",
+          "name": "Кружка из фарфора с рисунком",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL5811227186_1/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL5811227186_1/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208235",
-          "name": "Полотенце для рук",
-          "price": 299,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226580_165/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226580_165/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "208255",
-          "name": "Полотенце для лица",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/vannaya/polotentsa/SL5811226577_165/",
-          "category": "vannaya / polotentsa",
-          "path": "/eshop/home/vannaya/polotentsa/SL5811226577_165/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         }
       ],
       "sample": [
@@ -1035,7 +359,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7245,
+      "decor_ratio": 0.7242,
       "error": null
     },
     {
