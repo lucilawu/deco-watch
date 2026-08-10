@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,24 +7,10 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 17,
-      "fetched_total": 95,
-      "filtered_count": 78,
-      "new_count": 1,
-      "new_items": [
-        {
-          "id": "5243445",
-          "name": "Корзина для мелочей \"Лейла\", в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243445-korzina-dlya-melochey-leyla-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243445-korzina-dlya-melochey-leyla-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "fetched_total": 96,
+      "filtered_count": 79,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012758",
@@ -137,7 +123,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1789,
+      "decor_ratio": 0.1771,
       "error": null
     },
     {
@@ -145,98 +131,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 688,
-      "fetched_total": 950,
+      "total": 686,
+      "fetched_total": 948,
       "filtered_count": 262,
-      "new_count": 7,
+      "new_count": 1,
       "new_items": [
         {
-          "id": "211512",
-          "name": "Ароматический спрей для текстиля «Мятное рами»",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
-          "category": "aromaty-dlya-doma",
-          "path": "/eshop/home/aromaty-dlya-doma/SL6801227016_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220116",
-          "name": "Декоративная подушка в виде цветка из коллекции SELA x Маленький принц",
-          "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6809226526_90/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6809226526_90/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "212198",
-          "name": "Чехол для декоративной подушки с вышивкой",
-          "price": 899,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6804226535_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6804226535_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "208977",
-          "name": "Детская глубокая тарелка из фарфора с рисунком",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227178_99/",
-          "category": "posuda / tarelki",
-          "path": "/eshop/home/posuda/tarelki/SL6801227178_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "208883",
-          "name": "Банка для хранения в ванной из стекла",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/vannaya/SL6801226402_40/",
-          "category": "vannaya",
-          "path": "/eshop/home/vannaya/SL6801226402_40/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "206184",
-          "name": "Детская глубокая тарелка из фарфора",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL5811227119_90/",
-          "category": "posuda / tarelki",
-          "path": "/eshop/home/posuda/tarelki/SL5811227119_90/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "206162",
-          "name": "Кружка из фарфора с рисунком",
+          "id": "208927",
+          "name": "Десертная тарелка из каменной керамики",
           "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL5811227186_1/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL5811227186_1/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227149_186/",
+          "category": "posuda / tarelki",
+          "path": "/eshop/home/posuda/tarelki/SL6801227149_186/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -359,7 +265,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7242,
+      "decor_ratio": 0.7236,
       "error": null
     },
     {
