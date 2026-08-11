@@ -1,16 +1,56 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 17,
-      "fetched_total": 96,
+      "total": 20,
+      "fetched_total": 99,
       "filtered_count": 79,
-      "new_count": 0,
-      "new_items": [],
+      "new_count": 3,
+      "new_items": [
+        {
+          "id": "5246370",
+          "name": "Корзина для мелочей \"Касабланка\", в ассортименте",
+          "price": 449,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5246370-korzina-dlya-melochey-kasablanka-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5246370-korzina-dlya-melochey-kasablanka-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5303179",
+          "name": "Набор для весёлого праздника: пиньята и бита, PARTY, в ассортименте",
+          "price": 599,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5303179-nabor-dlya-veslogo-prazdnika-pinyata-i-bita--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5303179-nabor-dlya-veslogo-prazdnika-pinyata-i-bita--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246363",
+          "name": "Ящик с ручкой \"Марокко\", в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5246363-yaschik-s-ruchkoy-marokko-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5246363-yaschik-s-ruchkoy-marokko-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5012758",
@@ -123,7 +163,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1771,
+      "decor_ratio": 0.202,
       "error": null
     },
     {
@@ -131,18 +171,86 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 686,
-      "fetched_total": 948,
+      "total": 692,
+      "fetched_total": 954,
       "filtered_count": 262,
-      "new_count": 1,
+      "new_count": 6,
       "new_items": [
         {
-          "id": "208927",
-          "name": "Десертная тарелка из каменной керамики",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/SL6801227149_186/",
-          "category": "posuda / tarelki",
-          "path": "/eshop/home/posuda/tarelki/SL6801227149_186/",
+          "id": "218712",
+          "name": "Сервировочное блюдо из каменной керамики",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6808227126_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6808227126_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218699",
+          "name": "Масленка из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/dlya-servirovki/SL6808226922_1/",
+          "category": "posuda / dlya-servirovki",
+          "path": "/eshop/home/posuda/dlya-servirovki/SL6808226922_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218704",
+          "name": "Обеденная тарелка из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6808227123_1/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6808227123_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220039",
+          "name": "Фигурная свеча",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6809227014_71/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6809227014_71/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220046",
+          "name": "Фигурная свеча",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6809227012_99/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6809227012_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220058",
+          "name": "Фигурная свеча",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6809227009_99/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6809227009_99/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -265,7 +373,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7236,
+      "decor_ratio": 0.7254,
       "error": null
     },
     {
