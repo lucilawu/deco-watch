@@ -1,122 +1,16 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 19,
-      "fetched_total": 128,
-      "filtered_count": 109,
-      "new_count": 8,
-      "new_items": [
-        {
-          "id": "5012789",
-          "name": "Светильник-гирлянда аккумуляторный с кабелем USB",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012789-svetilnik-girlyanda-akkumulyatornyy-s-kabelem-",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012789-svetilnik-girlyanda-akkumulyatornyy-s-kabelem-",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5230216",
-          "name": "Подсвечник \"Шахерезада\", в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231294",
-          "name": "Ароматическая свеча \"Марокко\", в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231294-aromaticheskaya-svecha-marokko-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231294-aromaticheskaya-svecha-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246370",
-          "name": "Корзина для мелочей \"Касабланка\", в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5246370-korzina-dlya-melochey-kasablanka-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5246370-korzina-dlya-melochey-kasablanka-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243883",
-          "name": "Декоративная тарелка для мелочей \"Шахерезада\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243883-dekorativnaya-tarelka-dlya-melochey-shaherezada-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243883-dekorativnaya-tarelka-dlya-melochey-shaherezada-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5303179",
-          "name": "Набор для весёлого праздника: пиньята и бита, PARTY, в ассортименте",
-          "price": 599,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5303179-nabor-dlya-veslogo-prazdnika-pinyata-i-bita--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5303179-nabor-dlya-veslogo-prazdnika-pinyata-i-bita--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246363",
-          "name": "Ящик с ручкой \"Марокко\", в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5246363-yaschik-s-ruchkoy-marokko-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5246363-yaschik-s-ruchkoy-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5024938",
-          "name": "Салфетка сервировочная, O'Kitchen, 40х30 см, в ассортименте",
-          "price": 69,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5024938-salfetka-servirovochnaya-itchen-40h30-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5024938-salfetka-servirovochnaya-itchen-40h30-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "total": 13,
+      "fetched_total": 103,
+      "filtered_count": 90,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012784",
@@ -161,38 +55,12 @@
           ]
         },
         {
-          "id": "5246198",
-          "name": "Декоративный поднос \"ГолденБлэк\", в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246198-dekorativnyy-podnos-goldenblek-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246198-dekorativnyy-podnos-goldenblek-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5230216",
           "name": "Подсвечник \"Шахерезада\", в ассортименте",
           "price": 399,
           "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
           "category": "Сувениры и подарки",
           "path": "/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5230205",
-          "name": "Подсвечник \"Марокко\"",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230205-podsvechnik-marokko",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -213,12 +81,38 @@
           ]
         },
         {
-          "id": "5210031",
-          "name": "Шкатулка \"Марокко\", в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
-          "category": "Товары для декора",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/tovary-dlya-dekora/p-5210031-shkatulka-marokko-v-assortimente",
+          "id": "5700476",
+          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
+          "price": 133,
+          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231294",
+          "name": "Ароматическая свеча \"Марокко\", в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231294-aromaticheskaya-svecha-marokko-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231294-aromaticheskaya-svecha-marokko-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5243883",
+          "name": "Декоративная тарелка для мелочей \"Шахерезада\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243883-dekorativnaya-tarelka-dlya-melochey-shaherezada-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5243883-dekorativnaya-tarelka-dlya-melochey-shaherezada-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -227,7 +121,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1484,
+      "decor_ratio": 0.1262,
       "error": null
     },
     {
