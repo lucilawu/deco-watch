@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "clients": [
     {
       "client": "Fix Price",
@@ -68,12 +68,12 @@
           ]
         },
         {
-          "id": "5244238",
-          "name": "Декоративная тарелка для мелочей \"Джамбу\", в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
+          "id": "5700476",
+          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
+          "price": 133,
+          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -81,12 +81,12 @@
           ]
         },
         {
-          "id": "5700476",
-          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
-          "price": 133,
-          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "id": "5244238",
+          "name": "Декоративная тарелка для мелочей \"Джамбу\", в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
