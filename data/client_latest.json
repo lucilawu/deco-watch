@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 13,
-      "fetched_total": 103,
-      "filtered_count": 90,
+      "fetched_total": 105,
+      "filtered_count": 92,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -55,12 +55,12 @@
           ]
         },
         {
-          "id": "5230216",
-          "name": "Подсвечник \"Шахерезада\", в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
+          "id": "5700476",
+          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
+          "price": 133,
+          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -68,12 +68,12 @@
           ]
         },
         {
-          "id": "5700476",
-          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
-          "price": 133,
-          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "id": "5230216",
+          "name": "Подсвечник \"Шахерезада\", в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -121,7 +121,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1262,
+      "decor_ratio": 0.1238,
       "error": null
     },
     {
