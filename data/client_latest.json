@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 13,
-      "fetched_total": 105,
-      "filtered_count": 92,
+      "fetched_total": 106,
+      "filtered_count": 93,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -121,7 +121,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1238,
+      "decor_ratio": 0.1226,
       "error": null
     },
     {
@@ -129,14 +129,462 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 0,
-      "fetched_total": 0,
-      "filtered_count": 0,
-      "new_count": 0,
-      "new_items": [],
-      "sample": [],
+      "total": 1147,
+      "fetched_total": 1564,
+      "filtered_count": 417,
+      "new_count": 24,
+      "new_items": [
+        {
+          "id": "220121",
+          "name": "Свеча в банке из коллекции SELA x Маленький принц",
+          "price": 2199,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6809227002_99/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6809227002_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220122",
+          "name": "Ароматический диффузор из коллекции SELA x Маленький принц",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227001_99/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227001_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221948",
+          "name": "Ароматический диффузор «Сливочный батист»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227024_36/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227024_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221942",
+          "name": "Ароматический диффузор «Амбровая замша»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227021_183/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227021_183/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221947",
+          "name": "Ароматическая свеча «Нежный муслин»",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6805227028_172/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6805227028_172/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221941",
+          "name": "Ароматическая свеча «Сливочный батист»",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6805227025_36/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6805227025_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221945",
+          "name": "Ароматическая свеча «Амбровая замша»",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6805227022_183/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6805227022_183/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221934",
+          "name": "Ароматический спрей для текстиля «Лимонный тарт»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227010_134/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227010_134/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221936",
+          "name": "Ароматический спрей для текстиля «Лето в деревне»",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227032_99/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227032_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221946",
+          "name": "Ароматический спрей для текстиля «Нежный муслин»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227026_172/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227026_172/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221952",
+          "name": "Ароматический спрей для текстиля «Сливочный батист»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227023_36/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227023_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221939",
+          "name": "Ароматический спрей для текстиля «Хрустальный лес»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227007_11/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227007_11/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221933",
+          "name": "Ароматический спрей для текстиля «Амбровая замша»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227020_183/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227020_183/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221944",
+          "name": "Ароматический спрей для текстиля «Дымчатый жаккард»",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227019_172/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227019_172/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221937",
+          "name": "диффузор ароматический для помещений",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6804227040_99/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6804227040_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221924",
+          "name": "Чайная пара из фарфора",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809226907_41/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6809226907_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221923",
+          "name": "Чайная пара из фарфора",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809226907_71/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6809226907_71/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221920",
+          "name": "Обеденная тарелка из фарфора",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6809227119_41/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6809227119_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221940",
+          "name": "диффузор ароматический для помещений",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6804227041_99/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6804227041_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221919",
+          "name": "Обеденная тарелка из фарфора",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6809227119_71/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6809227119_71/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221935",
+          "name": "Ароматический спрей для текстиля «Утро на веранде»",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/sprei/SL6805227029_99/",
+          "category": "aromaty-dlya-doma / sprei",
+          "path": "/eshop/home/aromaty-dlya-doma/sprei/SL6805227029_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221926",
+          "name": "Десертная тарелка из фарфора",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6809227118_41/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6809227118_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221925",
+          "name": "Десертная тарелка из фарфора",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6809227118_71/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6809227118_71/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "206210",
+          "name": "Детская декоративная подушка в форме облака",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6801226527_1/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6801226527_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        }
+      ],
+      "sample": [
+        {
+          "id": "218712",
+          "name": "Сервировочное блюдо из каменной керамики",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6808227126_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6808227126_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218707",
+          "name": "Кувшин из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL6808226923_1/",
+          "category": "posuda / kuvshiny-i-dekantery",
+          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL6808226923_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218699",
+          "name": "Масленка из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/dlya-servirovki/SL6808226922_1/",
+          "category": "posuda / dlya-servirovki",
+          "path": "/eshop/home/posuda/dlya-servirovki/SL6808226922_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218719",
+          "name": "Сервировочное блюдо из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6808227127_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6808227127_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218704",
+          "name": "Обеденная тарелка из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6808227123_1/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6808227123_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "218708",
+          "name": "Салатник из каменной керамики",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6808227128_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6808227128_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221949",
+          "name": "Ароматический диффузор «Нежный муслин»",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227027_172/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227027_172/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220001",
+          "name": "Сервировочное блюдо из каменной керамики",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6809227108_71/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        }
+      ],
       "quality_note": null,
-      "error": "HTTPSConnectionPool(host='www.sela.ru', port=443): Max retries exceeded with url: /eshop/home/new/?page=13 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+      "decor_ratio": 0.7334,
+      "error": null
     },
     {
       "client": "X5 · Перекрёсток",
