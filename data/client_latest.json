@@ -1,43 +1,16 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 13,
-      "fetched_total": 121,
-      "filtered_count": 108,
-      "new_count": 2,
-      "new_items": [
-        {
-          "id": "5243399",
-          "name": "Набор наклеек, светящихся в темноте, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
-          "category": "Наклейки и открытки",
-          "path": "/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310480",
-          "name": "Набор воздушных шаров с декоративными элементами \"Жемчуг\", PARTY",
-          "price": 229,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310480-nabor-vozdushnyh-sharov-s-dekorativnymi-elementami-jemchug-",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310480-nabor-vozdushnyh-sharov-s-dekorativnymi-elementami-jemchug-",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "total": 7,
+      "fetched_total": 95,
+      "filtered_count": 88,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012789",
@@ -54,38 +27,12 @@
           ]
         },
         {
-          "id": "5700476",
-          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
-          "price": 133,
-          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5230216",
           "name": "Подсвечник \"Шахерезада\", в ассортименте",
           "price": 399,
           "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
           "category": "Сувениры и подарки",
           "path": "/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5244238",
-          "name": "Декоративная тарелка для мелочей \"Джамбу\", в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5244238-dekorativnaya-tarelka-dlya-melochey-djambu-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -119,12 +66,12 @@
           ]
         },
         {
-          "id": "5243445",
-          "name": "Корзина для мелочей \"Лейла\", в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243445-korzina-dlya-melochey-leyla-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243445-korzina-dlya-melochey-leyla-v-assortimente",
+          "id": "5243399",
+          "name": "Набор наклеек, светящихся в темноте, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
+          "category": "Наклейки и открытки",
+          "path": "/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -132,12 +79,25 @@
           ]
         },
         {
-          "id": "5303179",
-          "name": "Набор для весёлого праздника: пиньята и бита, PARTY, в ассортименте",
-          "price": 599,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5303179-nabor-dlya-veslogo-prazdnika-pinyata-i-bita--v-assortimente",
+          "id": "5024938",
+          "name": "Салфетка сервировочная, O'Kitchen, 40х30 см, в ассортименте",
+          "price": 69,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5024938-salfetka-servirovochnaya-itchen-40h30-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5024938-salfetka-servirovochnaya-itchen-40h30-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310480",
+          "name": "Набор воздушных шаров с декоративными элементами \"Жемчуг\", PARTY",
+          "price": 229,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310480-nabor-vozdushnyh-sharov-s-dekorativnymi-elementami-jemchug-",
           "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5303179-nabor-dlya-veslogo-prazdnika-pinyata-i-bita--v-assortimente",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310480-nabor-vozdushnyh-sharov-s-dekorativnymi-elementami-jemchug-",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -146,7 +106,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1074,
+      "decor_ratio": 0.0737,
       "error": null
     },
     {
@@ -157,91 +117,8 @@
       "total": 1152,
       "fetched_total": 1569,
       "filtered_count": 417,
-      "new_count": 6,
-      "new_items": [
-        {
-          "id": "223007",
-          "name": "Сервировочное блюдо из каменной керамики",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6808227114_99/",
-          "category": "posuda / tarelki / blyuda",
-          "path": "/eshop/home/posuda/tarelki/blyuda/SL6808227114_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223008",
-          "name": "Банка для хранения из каменной керамики с крышкой",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL6808226918_99/",
-          "category": "khranenie / dlya-kukhni",
-          "path": "/eshop/home/khranenie/dlya-kukhni/SL6808226918_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223009",
-          "name": "Банка для хранения из каменной керамики с крышкой",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL6808226919_99/",
-          "category": "khranenie / dlya-kukhni",
-          "path": "/eshop/home/khranenie/dlya-kukhni/SL6808226919_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223010",
-          "name": "Масленка из каменной керамики",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/dlya-servirovki/SL6808226920_99/",
-          "category": "posuda / dlya-servirovki",
-          "path": "/eshop/home/posuda/dlya-servirovki/SL6808226920_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223011",
-          "name": "Подсвечник из каменной керамики",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6808227020_99/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6808227020_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223012",
-          "name": "Кружка из каменной керамики",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6808227115_99/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6808227115_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "218712",
