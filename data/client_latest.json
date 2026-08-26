@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,22 +9,8 @@
       "total": 8,
       "fetched_total": 98,
       "filtered_count": 90,
-      "new_count": 1,
-      "new_items": [
-        {
-          "id": "5079361",
-          "name": "Лента-герметик самоклеящаяся, Home Time, 6 см х 3,2 м",
-          "price": 116,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012789",
@@ -80,12 +66,12 @@
           ]
         },
         {
-          "id": "5243399",
-          "name": "Набор наклеек, светящихся в темноте, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
-          "category": "Наклейки и открытки",
-          "path": "/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
+          "id": "5079361",
+          "name": "Лента-герметик самоклеящаяся, Home Time, 6 см х 3,2 м",
+          "price": 116,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -93,12 +79,12 @@
           ]
         },
         {
-          "id": "5079361",
-          "name": "Лента-герметик самоклеящаяся, Home Time, 6 см х 3,2 м",
-          "price": 116,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
+          "id": "5243399",
+          "name": "Набор наклеек, светящихся в темноте, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
+          "category": "Наклейки и открытки",
+          "path": "/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -141,54 +127,11 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1155,
-      "fetched_total": 1572,
+      "total": 1153,
+      "fetched_total": 1570,
       "filtered_count": 417,
-      "new_count": 3,
-      "new_items": [
-        {
-          "id": "223249",
-          "name": "диффузор ароматический для помещений",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227024_172/",
-          "category": "aromaty-dlya-doma / diffuzory",
-          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227024_172/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223332",
-          "name": "диффузор ароматический для помещений",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227023_30/",
-          "category": "aromaty-dlya-doma / diffuzory",
-          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227023_30/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223338",
-          "name": "Ароматический диффузор «Пудровый кашемир»",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227022_169/",
-          "category": "aromaty-dlya-doma / diffuzory",
-          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227022_169/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "218712",
@@ -304,7 +247,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7347,
+      "decor_ratio": 0.7344,
       "error": null
     },
     {
