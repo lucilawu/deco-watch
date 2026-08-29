@@ -1,16 +1,56 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 8,
-      "fetched_total": 98,
-      "filtered_count": 90,
-      "new_count": 0,
-      "new_items": [],
+      "total": 7,
+      "fetched_total": 90,
+      "filtered_count": 83,
+      "new_count": 3,
+      "new_items": [
+        {
+          "id": "5211270",
+          "name": "Рамка для фотографий \"Тэдди\", в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5243002",
+          "name": "Ваза «Солара», в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
+          "category": "Вазы, цветы, флористика",
+          "path": "/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5240380",
+          "name": "Ветка декоративная \"Листопадная симфония\", в ассортименте",
+          "price": 174.5,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5012789",
@@ -27,38 +67,12 @@
           ]
         },
         {
-          "id": "5230216",
-          "name": "Подсвечник \"Шахерезада\", в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230216-podsvechnik-shaherezada-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231294",
-          "name": "Ароматическая свеча \"Марокко\", в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231294-aromaticheskaya-svecha-marokko-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231294-aromaticheskaya-svecha-marokko-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243883",
-          "name": "Декоративная тарелка для мелочей \"Шахерезада\", в ассортименте",
+          "id": "5211270",
+          "name": "Рамка для фотографий \"Тэдди\", в ассортименте",
           "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243883-dekorativnaya-tarelka-dlya-melochey-shaherezada-v-assortimente",
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243883-dekorativnaya-tarelka-dlya-melochey-shaherezada-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -92,19 +106,6 @@
           ]
         },
         {
-          "id": "5024938",
-          "name": "Салфетка сервировочная, O'Kitchen, 40х30 см, в ассортименте",
-          "price": 69,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5024938-salfetka-servirovochnaya-itchen-40h30-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5024938-salfetka-servirovochnaya-itchen-40h30-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5310480",
           "name": "Набор воздушных шаров с декоративными элементами \"Жемчуг\", PARTY",
           "price": 229,
@@ -116,10 +117,36 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
+        },
+        {
+          "id": "5243002",
+          "name": "Ваза «Солара», в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
+          "category": "Вазы, цветы, флористика",
+          "path": "/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5240380",
+          "name": "Ветка декоративная \"Листопадная симфония\", в ассортименте",
+          "price": 174.5,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0816,
+      "decor_ratio": 0.0778,
       "error": null
     },
     {
