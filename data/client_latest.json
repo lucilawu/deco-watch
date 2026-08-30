@@ -1,153 +1,19 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 7,
-      "fetched_total": 90,
-      "filtered_count": 83,
-      "new_count": 3,
-      "new_items": [
-        {
-          "id": "5211270",
-          "name": "Рамка для фотографий \"Тэдди\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243002",
-          "name": "Ваза «Солара», в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
-          "category": "Вазы, цветы, флористика",
-          "path": "/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5240380",
-          "name": "Ветка декоративная \"Листопадная симфония\", в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
-      "sample": [
-        {
-          "id": "5012789",
-          "name": "Светильник-гирлянда аккумуляторный с кабелем USB",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012789-svetilnik-girlyanda-akkumulyatornyy-s-kabelem-",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012789-svetilnik-girlyanda-akkumulyatornyy-s-kabelem-",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5211270",
-          "name": "Рамка для фотографий \"Тэдди\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5079361",
-          "name": "Лента-герметик самоклеящаяся, Home Time, 6 см х 3,2 м",
-          "price": 116,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5079361-lenta-germetik-samokleyaschayasya-ome-ime-6-sm-h-32-m",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243399",
-          "name": "Набор наклеек, светящихся в темноте, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
-          "category": "Наклейки и открытки",
-          "path": "/catalog/suveniry-i-podarki/nakleyki-i-otkrytki/p-5243399-nabor-nakleek-svetyaschihsya-v-temnote-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310480",
-          "name": "Набор воздушных шаров с декоративными элементами \"Жемчуг\", PARTY",
-          "price": 229,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310480-nabor-vozdushnyh-sharov-s-dekorativnymi-elementami-jemchug-",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310480-nabor-vozdushnyh-sharov-s-dekorativnymi-elementami-jemchug-",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243002",
-          "name": "Ваза «Солара», в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
-          "category": "Вазы, цветы, флористика",
-          "path": "/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5240380",
-          "name": "Ветка декоративная \"Листопадная симфония\", в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "total": 0,
+      "fetched_total": 0,
+      "filtered_count": 0,
+      "new_count": 0,
+      "new_items": [],
+      "sample": [],
       "quality_note": null,
-      "decor_ratio": 0.0778,
-      "error": null
+      "error": "HTTP Error 400: "
     },
     {
       "client": "Sela Home",
