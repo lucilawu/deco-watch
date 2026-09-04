@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "clients": [
     {
       "client": "Fix Price",
@@ -113,11 +113,107 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1179,
-      "fetched_total": 1604,
+      "total": 1186,
+      "fetched_total": 1611,
       "filtered_count": 425,
-      "new_count": 0,
-      "new_items": [],
+      "new_count": 7,
+      "new_items": [
+        {
+          "id": "223298",
+          "name": "диффузор ароматический для помещений",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227025_36/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227025_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223320",
+          "name": "свеча ароматическая в банке для взрослых",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6809227026_36/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6809227026_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223324",
+          "name": "свеча ароматическая в банке для взрослых",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6809227030_11/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6809227030_11/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223328",
+          "name": "диффузор ароматический для помещений",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227029_11/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227029_11/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223335",
+          "name": "диффузор ароматический для помещений",
+          "price": 2699,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227027_36/",
+          "category": "aromaty-dlya-doma / diffuzory",
+          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6809227027_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223340",
+          "name": "свеча ароматическая в банке для взрослых",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6809227028_36/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6809227028_36/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "210636",
+          "name": "Бокал",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6801226923_413/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6801226923_413/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        }
+      ],
       "sample": [
         {
           "id": "218712",
@@ -233,7 +329,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.735,
+      "decor_ratio": 0.7362,
       "error": null
     },
     {
