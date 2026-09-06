@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,61 +9,8 @@
       "total": 8,
       "fetched_total": 97,
       "filtered_count": 89,
-      "new_count": 4,
-      "new_items": [
-        {
-          "id": "5363011",
-          "name": "Чехол для чемодана, Prank Bank, 58x41x24 см, в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363011-chehol-dlya-chemodana-rank-ank-584124-sm-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363011-chehol-dlya-chemodana-rank-ank-584124-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5363012",
-          "name": "Чехол для чемодана, Prank Bank, 68x47x26 см, в ассортименте",
-          "price": 549,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363012-chehol-dlya-chemodana-rank-ank-684726-sm-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363012-chehol-dlya-chemodana-rank-ank-684726-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5240378",
-          "name": "Ветка декоративная \"Гранат\", в ассортименте",
-          "price": 229,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240378-vetka-dekorativnaya-granat-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5240378-vetka-dekorativnaya-granat-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5320083",
-          "name": "Трубочка коктейльная \"Фрукты\", PARTY, 4 шт., в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5320083-trubochka-kokteylnaya-frukty--4-sht-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5320083-trubochka-kokteylnaya-frukty--4-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5211270",
@@ -182,48 +129,8 @@
       "total": 1189,
       "fetched_total": 1614,
       "filtered_count": 425,
-      "new_count": 3,
-      "new_items": [
-        {
-          "id": "221789",
-          "name": "Фигурная свеча",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227097_12/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6810227097_12/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221718",
-          "name": "Фигурная свеча",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227098_20/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6810227098_20/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221765",
-          "name": "блюдо сервировочное",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6810227132_1/",
-          "category": "posuda / tarelki / blyuda",
-          "path": "/eshop/home/posuda/tarelki/blyuda/SL6810227132_1/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "218712",
@@ -354,7 +261,7 @@
       "new_items": [],
       "sample": [],
       "quality_note": "X5 官网装饰品类占比低，建议主要参考其 Telegram 和线下店型数据",
-      "error": "Перекрёсток 官网目录不可用且无缓存：HTTP Error 401: "
+      "error": "Перекрёсток 官网目录不可用且无缓存：目录触发网站人机验证（HTTP 403）"
     }
   ]
 }
