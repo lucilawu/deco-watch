@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 8,
-      "fetched_total": 95,
-      "filtered_count": 87,
+      "fetched_total": 96,
+      "filtered_count": 88,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -65,12 +65,12 @@
           ]
         },
         {
-          "id": "5240380",
-          "name": "Ветка декоративная \"Листопадная симфония\", в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "id": "5363012",
+          "name": "Чехол для чемодана, Prank Bank, 68x47x26 см, в ассортименте",
+          "price": 549,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363012-chehol-dlya-chemodana-rank-ank-684726-sm-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363012-chehol-dlya-chemodana-rank-ank-684726-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -78,12 +78,12 @@
           ]
         },
         {
-          "id": "5363012",
-          "name": "Чехол для чемодана, Prank Bank, 68x47x26 см, в ассортименте",
-          "price": 549,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363012-chehol-dlya-chemodana-rank-ank-684726-sm-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363012-chehol-dlya-chemodana-rank-ank-684726-sm-v-assortimente",
+          "id": "5240380",
+          "name": "Ветка декоративная \"Листопадная симфония\", в ассортименте",
+          "price": 174.5,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -118,7 +118,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0842,
+      "decor_ratio": 0.0833,
       "error": null
     },
     {
@@ -126,8 +126,8 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1189,
-      "fetched_total": 1614,
+      "total": 1187,
+      "fetched_total": 1612,
       "filtered_count": 425,
       "new_count": 0,
       "new_items": [],
@@ -246,7 +246,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7367,
+      "decor_ratio": 0.7364,
       "error": null
     },
     {
