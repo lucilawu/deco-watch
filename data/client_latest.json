@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "clients": [
     {
       "client": "Fix Price",
@@ -126,11 +126,23 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1187,
-      "fetched_total": 1612,
+      "total": 1188,
+      "fetched_total": 1613,
       "filtered_count": 425,
-      "new_count": 0,
-      "new_items": [],
+      "new_count": 1,
+      "new_items": [
+        {
+          "id": "210627",
+          "name": "Декантер для вина",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/posuda/kuvshiny-i-dekantery/SL6801227113_413/",
+          "category": "posuda / kuvshiny-i-dekantery",
+          "path": "/eshop/home/posuda/kuvshiny-i-dekantery/SL6801227113_413/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        }
+      ],
       "sample": [
         {
           "id": "218712",
@@ -246,7 +258,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7364,
+      "decor_ratio": 0.7365,
       "error": null
     },
     {
