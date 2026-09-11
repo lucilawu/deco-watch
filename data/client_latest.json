@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "clients": [
     {
       "client": "Fix Price",
@@ -126,11 +126,25 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1188,
-      "fetched_total": 1613,
-      "filtered_count": 425,
-      "new_count": 0,
-      "new_items": [],
+      "total": 1177,
+      "fetched_total": 1599,
+      "filtered_count": 422,
+      "new_count": 1,
+      "new_items": [
+        {
+          "id": "220146",
+          "name": "Кружка из каменной керамики",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809227124_40/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6809227124_40/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "218712",
@@ -246,7 +260,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7365,
+      "decor_ratio": 0.7361,
       "error": null
     },
     {
