@@ -1,50 +1,105 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 8,
-      "fetched_total": 97,
-      "filtered_count": 89,
-      "new_count": 0,
-      "new_items": [],
+      "total": 9,
+      "fetched_total": 89,
+      "filtered_count": 80,
+      "new_count": 5,
+      "new_items": [
+        {
+          "id": "5246346",
+          "name": "Декоративный LED-светильник \"Искорка\", в ассортименте",
+          "price": 549,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "5060567",
+          "name": "Набор вешалок для лёгкой одежды, 3 шт.",
+          "price": 59,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5060567-nabor-veshalok-dlya-lgkoy-odejdy-3-sht",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5060567-nabor-veshalok-dlya-lgkoy-odejdy-3-sht",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310502",
+          "name": "Завязыватель узлов для воздушных шаров, PARTY, 4 шт., в ассортименте",
+          "price": 79,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231519",
+          "name": "Свеча-цифра \"Шайн\", PARTY, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231509",
+          "name": "Набор свечей с цветным пламенем, PARTY, 6 шт., в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/novinki/p-5231509-nabor-svechey-s-tsvetnym-plamenem--6-sht-v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5231509-nabor-svechey-s-tsvetnym-plamenem--6-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
-          "id": "5211270",
-          "name": "Рамка для фотографий \"Тэдди\", в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
+          "id": "5246346",
+          "name": "Декоративный LED-светильник \"Искорка\", в ассортименте",
+          "price": 549,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5211270-ramka-dlya-fotografiy-teddi-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
           "price_match": true,
-          "focus_match": false,
+          "focus_match": true,
           "match_tags": [
-            "🎯 价位匹配"
+            "🎯 价位匹配",
+            "✨ 品类对口"
           ]
         },
         {
-          "id": "5363010",
-          "name": "Чехол для чемодана, Prank Bank, в ассортименте",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363010-chehol-dlya-chemodana-rank-ank-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5363010-chehol-dlya-chemodana-rank-ank-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243002",
-          "name": "Ваза «Солара», в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
-          "category": "Вазы, цветы, флористика",
-          "path": "/catalog/suveniry-i-podarki/vazy-tsvety-floristika/p-5243002-vaza-solara-v-assortimente",
+          "id": "5060567",
+          "name": "Набор вешалок для лёгкой одежды, 3 шт.",
+          "price": 59,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5060567-nabor-veshalok-dlya-lgkoy-odejdy-3-sht",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5060567-nabor-veshalok-dlya-lgkoy-odejdy-3-sht",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -78,12 +133,12 @@
           ]
         },
         {
-          "id": "5240380",
-          "name": "Ветка декоративная \"Листопадная симфония\", в ассортименте",
-          "price": 174.5,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "id": "5240378",
+          "name": "Ветка декоративная \"Гранат\", в ассортименте",
+          "price": 229,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240378-vetka-dekorativnaya-granat-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5240380-vetka-dekorativnaya-listopadnaya-simfoniya-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5240378-vetka-dekorativnaya-granat-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -91,12 +146,12 @@
           ]
         },
         {
-          "id": "5240378",
-          "name": "Ветка декоративная \"Гранат\", в ассортименте",
-          "price": 229,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5240378-vetka-dekorativnaya-granat-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5240378-vetka-dekorativnaya-granat-v-assortimente",
+          "id": "5310502",
+          "name": "Завязыватель узлов для воздушных шаров, PARTY, 4 шт., в ассортименте",
+          "price": 79,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -115,10 +170,23 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
+        },
+        {
+          "id": "5231519",
+          "name": "Свеча-цифра \"Шайн\", PARTY, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0825,
+      "decor_ratio": 0.1011,
       "error": null
     },
     {
@@ -127,24 +195,10 @@
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
       "total": 1177,
-      "fetched_total": 1599,
-      "filtered_count": 422,
-      "new_count": 1,
-      "new_items": [
-        {
-          "id": "220146",
-          "name": "Кружка из каменной керамики",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6809227124_40/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6809227124_40/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        }
-      ],
+      "fetched_total": 1603,
+      "filtered_count": 426,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "218712",
@@ -260,7 +314,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7361,
+      "decor_ratio": 0.7342,
       "error": null
     },
     {
