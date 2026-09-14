@@ -1,6 +1,6 @@
 # Deco 客户上新与社媒日报 · 2026-09-14
 
-今日客户官网新增 **0** 件，今日客户社媒新帖 **17** 条，最近一次 WB 周度更新新增 **0** 件。客户信号优先，WB 仅作大盘参考。
+今日客户官网新增 **0** 件，今日客户社媒新帖 **17** 条，最近一次 WB 周度更新新增 **460** 件。客户信号优先，WB 仅作大盘参考。
 
 ## ① 各客户官网上新
 ### Fix Price · [上新页](https://fix-price.com/catalog/novinki)
@@ -73,16 +73,61 @@ X5 官网装饰品类占比低，建议主要参考其 Telegram 和线下店型�
 社媒新增：Fix Price · TELEGRAM 81 条；Sela Home · TELEGRAM 8 条；X5 · Перекрёсток · TELEGRAM 20 条；Magnit · М.Косметик · TELEGRAM 42 条。
 
 ## ④（次要，每周更新）Wildberries 大盘热门
-### 装饰灯具
-⚠️ 抓取失败：светильник интерьерный / newly 请求失败：WB 返回 429 Too Many Requests
-### 装饰夜灯
-⚠️ 抓取失败：ночник декоративный / newly：WB 本轮已触发 429，且无可用缓存
-### 玻璃花瓶
-⚠️ 抓取失败：ваза стеклянная декоративная / newly：WB 本轮已触发 429，且无可用缓存
-### 陶瓷花瓶
-⚠️ 抓取失败：ваза керамическая / newly：WB 本轮已触发 429，且无可用缓存
-### 树脂摆件
-⚠️ 抓取失败：статуэтка декоративная / newly：WB 本轮已触发 429，且无可用缓存
+### 装饰灯具 · светильник интерьерный
+本次周度更新新增 83 件。
+- [新增｜Бамбуковый настольный светильник USB, 3 режима света](https://www.wildberries.ru/catalog/1420437371/detail.aspx) · 1 537 ₽
+- [新增｜Светильник лампа ночник настольный белый](https://www.wildberries.ru/catalog/1317594287/detail.aspx) · 1 080 ₽
+- [新增｜Светильник лампа ночник настольный черный](https://www.wildberries.ru/catalog/1317594072/detail.aspx) · 1 600 ₽
+- [新增｜Стильная настольная лампа для интерьера](https://www.wildberries.ru/catalog/1302659826/detail.aspx) · 1 670 ₽
+- [新增｜Настольная лампа для интерьера с современным дизайном](https://www.wildberries.ru/catalog/1302655562/detail.aspx) · 1 436 ₽
+当前热门 Top 3：
+- [Лампа настольная светодиодная, Led светильник на стол](https://www.wildberries.ru/catalog/288093468/detail.aspx) · 1 454 ₽ · 4101 评
+- [Светильник светодиодный накладной Медуза СЛЛ 18Вт 6К 260x80](https://www.wildberries.ru/catalog/879068843/detail.aspx) · 1 047 ₽ · 暂无评价
+- [Светильник 3D "Поцелуй" LED RGB от сети RISALUX](https://www.wildberries.ru/catalog/253344921/detail.aspx) · 621 ₽ · 暂无评价
+### 装饰夜灯 · ночник декоративный
+本次周度更新新增 93 件。
+- [新增｜Ночник на полку детский символ года](https://www.wildberries.ru/catalog/1542737308/detail.aspx) · 423 ₽
+- [新增｜Ночник на полку детский одуванчики](https://www.wildberries.ru/catalog/1542737307/detail.aspx) · 423 ₽
+- [新增｜Ночник настольный вечная свеча](https://www.wildberries.ru/catalog/1542737301/detail.aspx) · 482 ₽
+- [新增｜Ночник 3D Мышата LED RGB от сети](https://www.wildberries.ru/catalog/1507349565/detail.aspx) · 538 ₽
+- [新增｜Ночник силиконовый Уточка LED детский](https://www.wildberries.ru/catalog/1401733579/detail.aspx) · 438 ₽
+当前热门 Top 3：
+- [Ночник звездное небо детский проектор с колонкой](https://www.wildberries.ru/catalog/301034421/detail.aspx) · 2 351 ₽ · 2775 评
+- [Ночник в розетку с выключателем 2 шт. елочка](https://www.wildberries.ru/catalog/868559260/detail.aspx) · 518 ₽ · 暂无评价
+- [Декоративный LED светильник - ночник, прозрачный](https://www.wildberries.ru/catalog/262611979/detail.aspx) · 3 463 ₽ · 1 评
+### 玻璃花瓶 · ваза стеклянная декоративная
+本次周度更新新增 97 件。
+- [新增｜Ваза акриловая гладкая 25 см](https://www.wildberries.ru/catalog/1387246340/detail.aspx) · 1 477 ₽
+- [新增｜Ваза декоративная из стекла, 1,8 л](https://www.wildberries.ru/catalog/1351088007/detail.aspx) · 1 226 ₽
+- [新增｜Ваза для цветов Beloved стеклянная 27х10 см](https://www.wildberries.ru/catalog/1337335507/detail.aspx) · 549 ₽
+- [新增｜Ваза для цветов,чёрная](https://www.wildberries.ru/catalog/1281975396/detail.aspx) · 2 001 ₽
+- [新增｜Ваза для цветов стеклянная 180 мл](https://www.wildberries.ru/catalog/1280160437/detail.aspx) · 369 ₽
+当前热门 Top 3：
+- [Ваза для цветов и декора, 220 мл](https://www.wildberries.ru/catalog/629724820/detail.aspx) · 1 342 ₽ · 2 评
+- [Ваза для цветов стеклянная прозрачная черная декор для дома](https://www.wildberries.ru/catalog/853110446/detail.aspx) · 743 ₽ · 5 评
+- [Ваза стеклянная декоративная для цветов и сухоцветов](https://www.wildberries.ru/catalog/1042302344/detail.aspx) · 939 ₽ · 暂无评价
+### 陶瓷花瓶 · ваза керамическая
+本次周度更新新增 100 件。
+- [新增｜Декоративная ваза, для интерьера](https://www.wildberries.ru/catalog/1567770021/detail.aspx) · 1 105 ₽
+- [新增｜Ваза](https://www.wildberries.ru/catalog/1464058746/detail.aspx) · 623 ₽
+- [新增｜Ваза](https://www.wildberries.ru/catalog/1439447367/detail.aspx) · 808 ₽
+- [新增｜Элегантная керамическая ваза с рельефом](https://www.wildberries.ru/catalog/1349688028/detail.aspx) · 1 459 ₽
+- [新增｜Ваза для цветов 18 см керамическая](https://www.wildberries.ru/catalog/1308262790/detail.aspx) · 1 068 ₽
+当前热门 Top 3：
+- [Ваза для сухоцветов декоративная для интерьера](https://www.wildberries.ru/catalog/1281334321/detail.aspx) · 2 044 ₽ · 5 评
+- [Ваза для искусственных цветов "Ритм волн" 16х16х56,5](https://www.wildberries.ru/catalog/1088113417/detail.aspx) · 5 244 ₽ · 1 评
+- [Ваза керамическая для сухих цветов декор в китайском стиле](https://www.wildberries.ru/catalog/1079942731/detail.aspx) · 963 ₽ · 1 评
+### 树脂摆件 · статуэтка декоративная
+本次周度更新新增 87 件。
+- [新增｜Статуэтка влюбленных Танго, подарок, декор интерьера](https://www.wildberries.ru/catalog/1504710908/detail.aspx) · 768 ₽
+- [新增｜Декоративные статуэтки, декор для дома, подарочный набор](https://www.wildberries.ru/catalog/1430347120/detail.aspx) · 1 947 ₽
+- [新增｜Декоративная статуя](https://www.wildberries.ru/catalog/1424388175/detail.aspx) · 974 ₽
+- [新增｜Статуэтка "Влюблённые", бронза (4*2.8 см.)](https://www.wildberries.ru/catalog/1416757309/detail.aspx) · 689 ₽
+- [新增｜Статуэтка Феникс настольная малая декор](https://www.wildberries.ru/catalog/1390776570/detail.aspx) · 185 ₽
+当前热门 Top 3：
+- [Фигурка декоративная "Нежность"](https://www.wildberries.ru/catalog/211346070/detail.aspx) · 6 753 ₽ · 暂无评价
+- [Статуэтка девушки двойняшки](https://www.wildberries.ru/catalog/943733569/detail.aspx) · 605 ₽ · 暂无评价
+- [Статуэтка Зайчик, 4 шт розовый, серебристый](https://www.wildberries.ru/catalog/1149034968/detail.aspx) · 796 ₽ · 暂无评价
 ### 香薰蜡烛
 ⚠️ 抓取失败：свеча ароматическая / newly：WB 本轮已触发 429，且无可用缓存
 ### 香薰扩散
