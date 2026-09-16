@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-15",
-  "total_new": 25,
-  "customer_signal_new": 25,
+  "date": "2026-09-16",
+  "total_new": 23,
+  "customer_signal_new": 23,
   "pushed": true,
-  "title": "Deco 客户上新与社媒日报 2026-09-15",
+  "title": "Deco 客户上新与社媒日报 2026-09-16",
   "report": "data/latest_report.md",
-  "client_new": 5,
-  "social_new": 20,
+  "client_new": 0,
+  "social_new": 23,
   "wb_new": 460,
-  "client_7d": 12,
-  "social_7d": 154
+  "client_7d": 11,
+  "social_7d": 153
 }
