@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 8,
-      "fetched_total": 90,
-      "filtered_count": 82,
+      "fetched_total": 91,
+      "filtered_count": 83,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -119,7 +119,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0889,
+      "decor_ratio": 0.0879,
       "error": null
     },
     {
