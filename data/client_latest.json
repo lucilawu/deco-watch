@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 6,
-      "fetched_total": 77,
-      "filtered_count": 71,
+      "fetched_total": 78,
+      "filtered_count": 72,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -93,7 +93,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0779,
+      "decor_ratio": 0.0769,
       "error": null
     },
     {
@@ -104,49 +104,8 @@
       "total": 1039,
       "fetched_total": 1439,
       "filtered_count": 400,
-      "new_count": 3,
-      "new_items": [
-        {
-          "id": "221424",
-          "name": "Жаккардовый плед 130х170 см",
-          "price": 5999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6810226522_99/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6810226522_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221462",
-          "name": "Стакан из стекла с декором детский",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810227103_20/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810227103_20/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221465",
-          "name": "Стакан из стекла с декором детский",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810227103_90/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810227103_90/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "221949",
