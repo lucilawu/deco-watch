@@ -1,37 +1,105 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 0,
-      "fetched_total": 0,
-      "filtered_count": 0,
+      "total": 5,
+      "fetched_total": 77,
+      "filtered_count": 72,
       "new_count": 0,
       "new_items": [],
-      "sample": [],
+      "sample": [
+        {
+          "id": "5246346",
+          "name": "Декоративный LED-светильник \"Искорка\", в ассортименте",
+          "price": 549,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "5310502",
+          "name": "Завязыватель узлов для воздушных шаров, PARTY, 4 шт., в ассортименте",
+          "price": 79,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231520",
+          "name": "Ароматическая свеча \"Сентирсе\", в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231520-aromaticheskaya-svecha-sentirse-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231520-aromaticheskaya-svecha-sentirse-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231519",
+          "name": "Свеча-цифра \"Шайн\", PARTY, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5213054",
+          "name": "Настенный декор с LED-подсветкой, в ассортименте",
+          "price": 549,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5213054-nastennyy-dekor-s--podsvetkoy-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5213054-nastennyy-dekor-s--podsvetkoy-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "quality_note": null,
-      "error": "Failed to perform, curl: (28) Connection timed out after 40002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "decor_ratio": 0.0649,
+      "error": null
     },
     {
       "client": "Sela Home",
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1044,
-      "fetched_total": 1451,
-      "filtered_count": 407,
+      "total": 1049,
+      "fetched_total": 1457,
+      "filtered_count": 408,
       "new_count": 5,
       "new_items": [
         {
-          "id": "221215",
-          "name": "Велюровый чехол для декоративной подушки с вышивкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226514_62/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226514_62/",
+          "id": "221519",
+          "name": "Бокал для красного вина из цветного стекла",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226906_12/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226906_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -40,12 +108,40 @@
           ]
         },
         {
-          "id": "221393",
-          "name": "Детская декоративная подушка в виде косточки",
+          "id": "221552",
+          "name": "Ваза из каменной керамики",
+          "price": 5599,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6810227061_1/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6810227061_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221748",
+          "name": "Блюдо декоративное из каменной керамики",
+          "price": 5999,
+          "url": "https://www.sela.ru/eshop/home/dekor/blyuda/SL6810227085_1/",
+          "category": "dekor / blyuda",
+          "path": "/eshop/home/dekor/blyuda/SL6810227085_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221525",
+          "name": "Бокал для белого вина из цветного стекла",
           "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226526_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226526_99/",
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226907_12/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226907_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -54,41 +150,16 @@
           ]
         },
         {
-          "id": "221740",
-          "name": "Фигурная свеча",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227091_12/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6810227091_12/",
-          "price_match": false,
+          "id": "221528",
+          "name": "Бокал для белого вина из цветного стекла",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226907_40/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226907_40/",
+          "price_match": true,
           "focus_match": true,
           "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221756",
-          "name": "Фигурная свеча",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227090_277/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6810227090_277/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221757",
-          "name": "Кружка из стекла с принтом",
-          "price": 899,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810227129_99/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6810227129_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
+            "🎯 价位匹配",
             "✨ 品类对口"
           ]
         }
@@ -208,7 +279,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7195,
+      "decor_ratio": 0.72,
       "error": null
     },
     {
@@ -223,7 +294,7 @@
       "new_items": [],
       "sample": [],
       "quality_note": "X5 官网装饰品类占比低，建议主要参考其 Telegram 和线下店型数据",
-      "error": "Перекрёсток 官网目录不可用且无缓存：Failed to perform, curl: (28) Connection timed out after 35001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "error": "Перекрёсток 官网目录不可用且无缓存：目录触发网站人机验证（HTTP 403）"
     }
   ]
 }
