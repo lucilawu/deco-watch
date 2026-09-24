@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "clients": [
     {
       "client": "Fix Price",
@@ -88,80 +88,34 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 1049,
-      "fetched_total": 1457,
-      "filtered_count": 408,
-      "new_count": 5,
+      "total": 982,
+      "fetched_total": 1373,
+      "filtered_count": 391,
+      "new_count": 2,
       "new_items": [
         {
-          "id": "221519",
-          "name": "Бокал для красного вина из цветного стекла",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226906_12/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810226906_12/",
-          "price_match": true,
+          "id": "221386",
+          "name": "Сервировочная салфетка из хлопка",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226618_62/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810226618_62/",
+          "price_match": false,
           "focus_match": true,
           "match_tags": [
-            "🎯 价位匹配",
             "✨ 品类对口"
           ]
         },
         {
-          "id": "221552",
-          "name": "Ваза из каменной керамики",
-          "price": 5599,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6810227061_1/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6810227061_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221748",
-          "name": "Блюдо декоративное из каменной керамики",
-          "price": 5999,
-          "url": "https://www.sela.ru/eshop/home/dekor/blyuda/SL6810227085_1/",
-          "category": "dekor / blyuda",
-          "path": "/eshop/home/dekor/blyuda/SL6810227085_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221525",
-          "name": "Бокал для белого вина из цветного стекла",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226907_12/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810226907_12/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221528",
-          "name": "Бокал для белого вина из цветного стекла",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226907_40/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810226907_40/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
+          "id": "221442",
+          "name": "Новогодняя гирлянда из картона",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227002_99/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227002_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
@@ -279,7 +233,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.72,
+      "decor_ratio": 0.7152,
       "error": null
     },
     {
