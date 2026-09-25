@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "clients": [
     {
       "client": "Fix Price",
@@ -88,18 +88,60 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 982,
-      "fetched_total": 1373,
-      "filtered_count": 391,
-      "new_count": 2,
+      "total": 987,
+      "fetched_total": 1376,
+      "filtered_count": 389,
+      "new_count": 9,
       "new_items": [
         {
-          "id": "221386",
-          "name": "Сервировочная салфетка из хлопка",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226618_62/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6810226618_62/",
+          "id": "221165",
+          "name": "Велюровый чехол для декоративной подушки с вышивкой",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226509_40/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6810226509_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221770",
+          "name": "Бокал из цветного стекла",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226915_12/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226915_12/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221773",
+          "name": "Бокал из цветного стекла",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226915_40/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226915_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221750",
+          "name": "Высокий фигурный подсвечник из стекла",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227088_1/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6810227088_1/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -107,25 +149,79 @@
           ]
         },
         {
-          "id": "221442",
-          "name": "Новогодняя гирлянда из картона",
-          "price": 299,
-          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227002_99/",
-          "category": "gostinaya",
-          "path": "/eshop/home/gostinaya/SL6810227002_99/",
+          "id": "221786",
+          "name": "Подсвечник из стекла",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227089_1/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6810227089_1/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221788",
+          "name": "Подсвечник из стекла",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227089_12/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6810227089_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221394",
+          "name": "Елочное украшение из стекла",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221463",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227033_71/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227033_71/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221467",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227034_71/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227034_71/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         }
       ],
       "sample": [
         {
-          "id": "221949",
-          "name": "Ароматический диффузор «Нежный муслин»",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227027_172/",
-          "category": "aromaty-dlya-doma / diffuzory",
-          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227027_172/",
+          "id": "221781",
+          "name": "Бокал из стекла с цветной ножкой",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226918_40/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226918_40/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -134,12 +230,12 @@
           ]
         },
         {
-          "id": "221931",
-          "name": "Ароматический диффузор «Лето в деревне»",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227033_99/",
-          "category": "aromaty-dlya-doma / diffuzory",
-          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227033_99/",
+          "id": "221714",
+          "name": "Фигурный подсвечник из стекла",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227086_1/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6810227086_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -148,12 +244,12 @@
           ]
         },
         {
-          "id": "221951",
-          "name": "Ароматическая свеча «Лето в деревне»",
-          "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6805227034_99/",
-          "category": "aromaty-dlya-doma / svechi",
-          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6805227034_99/",
+          "id": "221165",
+          "name": "Велюровый чехол для декоративной подушки с вышивкой",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226509_40/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6810226509_40/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -162,12 +258,12 @@
           ]
         },
         {
-          "id": "221950",
-          "name": "Ароматическая свеча «Утро на веранде»",
-          "price": 2199,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6805227031_99/",
-          "category": "aromaty-dlya-doma / svechi",
-          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6805227031_99/",
+          "id": "221770",
+          "name": "Бокал из цветного стекла",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226915_12/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226915_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -176,12 +272,40 @@
           ]
         },
         {
-          "id": "218600",
+          "id": "221773",
+          "name": "Бокал из цветного стекла",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226915_40/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226915_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221491",
+          "name": "Обеденная тарелка из фарфора",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227107_12/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227107_12/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221552",
           "name": "Ваза из каменной керамики",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6807227002_188/",
+          "price": 5599,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6810227061_1/",
           "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6807227002_188/",
+          "path": "/eshop/home/dekor/vazy/SL6810227061_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -190,40 +314,12 @@
           ]
         },
         {
-          "id": "218605",
-          "name": "Ваза из каменной керамики",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6807227001_62/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6807227001_62/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "219841",
-          "name": "Придверный коврик",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226508_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6809226508_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "219748",
-          "name": "Фигурный коврик для ванной с принтом",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6809226511_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6809226511_99/",
+          "id": "221748",
+          "name": "Блюдо декоративное из каменной керамики",
+          "price": 5999,
+          "url": "https://www.sela.ru/eshop/home/dekor/blyuda/SL6810227085_1/",
+          "category": "dekor / blyuda",
+          "path": "/eshop/home/dekor/blyuda/SL6810227085_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -233,7 +329,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7152,
+      "decor_ratio": 0.7173,
       "error": null
     },
     {
