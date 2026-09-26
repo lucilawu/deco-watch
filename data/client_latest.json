@@ -1,24 +1,23 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 5,
-      "fetched_total": 77,
-      "filtered_count": 72,
-      "new_count": 0,
-      "new_items": [],
-      "sample": [
+      "total": 8,
+      "fetched_total": 75,
+      "filtered_count": 67,
+      "new_count": 6,
+      "new_items": [
         {
-          "id": "5246346",
-          "name": "Декоративный LED-светильник \"Искорка\", в ассортименте",
-          "price": 549,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246346-dekorativnyy--svetilnik-iskorka-v-assortimente",
+          "id": "5012756",
+          "name": "Светильник-ночник светодиодный, в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5012756-svetilnik-nochnik-svetodiodnyy-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5012756-svetilnik-nochnik-svetodiodnyy-v-assortimente",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -27,16 +26,99 @@
           ]
         },
         {
-          "id": "5310502",
-          "name": "Завязыватель узлов для воздушных шаров, PARTY, 4 шт., в ассортименте",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310502-zavyazyvatel-uzlov-dlya-vozdushnyh-sharov--4-sht-v-assortimente",
+          "id": "5012783",
+          "name": "Светильник-ночник аккумуляторный \"Сияние\", FLARX, с кабелем USB, в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5012783-svetilnik-nochnik-akkumulyatornyy-siyanie--s-kabelem--v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5012783-svetilnik-nochnik-akkumulyatornyy-siyanie--s-kabelem--v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "5092938",
+          "name": "Набор досок разделочных на подставке, O'Kitchen, 4 шт., в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5092938-nabor-dosok-razdelochnyh-na-podstavke-itchen-4-sht-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5092938-nabor-dosok-razdelochnyh-na-podstavke-itchen-4-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
             "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5604186",
+          "name": "Игровой набор \"Анатомия\", Play the Game, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231523",
+          "name": "Набор свечей интерьерных «Квадрат», 2 шт., в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231523-nabor-svechey-interernyh-kvadrat-2-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231523-nabor-svechey-interernyh-kvadrat-2-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310504",
+          "name": "Бумажный серпантин. Мусора нет, PARTY, 4 шт., в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
+      "sample": [
+        {
+          "id": "5012756",
+          "name": "Светильник-ночник светодиодный, в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5012756-svetilnik-nochnik-svetodiodnyy-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5012756-svetilnik-nochnik-svetodiodnyy-v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "5012783",
+          "name": "Светильник-ночник аккумуляторный \"Сияние\", FLARX, с кабелем USB, в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5012783-svetilnik-nochnik-akkumulyatornyy-siyanie--s-kabelem--v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5012783-svetilnik-nochnik-akkumulyatornyy-siyanie--s-kabelem--v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
           ]
         },
         {
@@ -53,12 +135,12 @@
           ]
         },
         {
-          "id": "5231519",
-          "name": "Свеча-цифра \"Шайн\", PARTY, в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231519-svecha-tsifra-shayn--v-assortimente",
+          "id": "5092938",
+          "name": "Набор досок разделочных на подставке, O'Kitchen, 4 шт., в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5092938-nabor-dosok-razdelochnyh-na-podstavke-itchen-4-sht-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5092938-nabor-dosok-razdelochnyh-na-podstavke-itchen-4-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -77,10 +159,49 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
+        },
+        {
+          "id": "5604186",
+          "name": "Игровой набор \"Анатомия\", Play the Game, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231523",
+          "name": "Набор свечей интерьерных «Квадрат», 2 шт., в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231523-nabor-svechey-interernyh-kvadrat-2-sht-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231523-nabor-svechey-interernyh-kvadrat-2-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310504",
+          "name": "Бумажный серпантин. Мусора нет, PARTY, 4 шт., в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0649,
+      "decor_ratio": 0.1067,
       "error": null
     },
     {
@@ -88,18 +209,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 987,
-      "fetched_total": 1376,
-      "filtered_count": 389,
-      "new_count": 9,
+      "total": 98,
+      "fetched_total": 138,
+      "filtered_count": 40,
+      "new_count": 4,
       "new_items": [
         {
-          "id": "221165",
-          "name": "Велюровый чехол для декоративной подушки с вышивкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226509_40/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226509_40/",
+          "id": "221554",
+          "name": "Асимметричная ваза из стекла с рельефным узором",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6810227062_1/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6810227062_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -108,12 +229,12 @@
           ]
         },
         {
-          "id": "221770",
-          "name": "Бокал из цветного стекла",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226915_12/",
+          "id": "221536",
+          "name": "Бокал из стекла с рельефным узором",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226908_1/",
           "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810226915_12/",
+          "path": "/eshop/home/posuda/bokaly/SL6810226908_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -122,12 +243,12 @@
           ]
         },
         {
-          "id": "221773",
-          "name": "Бокал из цветного стекла",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226915_40/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810226915_40/",
+          "id": "220166",
+          "name": "Форма для запекания из каменной керамики",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/dlya-prigotovleniya/SL6809226909_40/",
+          "category": "posuda / dlya-prigotovleniya",
+          "path": "/eshop/home/posuda/dlya-prigotovleniya/SL6809226909_40/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -136,77 +257,12 @@
           ]
         },
         {
-          "id": "221750",
-          "name": "Высокий фигурный подсвечник из стекла",
+          "id": "221775",
+          "name": "Бокал из стекла с рельефным узором",
           "price": 999,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227088_1/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6810227088_1/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221786",
-          "name": "Подсвечник из стекла",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227089_1/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6810227089_1/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221788",
-          "name": "Подсвечник из стекла",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227089_12/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6810227089_12/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221394",
-          "name": "Елочное украшение из стекла",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221463",
-          "name": "Елочное украшение из стекла",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227033_71/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227033_71/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221467",
-          "name": "Елочное украшение из стекла",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227034_71/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227034_71/",
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226916_1/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226916_1/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -215,6 +271,34 @@
         }
       ],
       "sample": [
+        {
+          "id": "221554",
+          "name": "Асимметричная ваза из стекла с рельефным узором",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6810227062_1/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6810227062_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221536",
+          "name": "Бокал из стекла с рельефным узором",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226908_1/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226908_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
         {
           "id": "221781",
           "name": "Бокал из стекла с цветной ножкой",
@@ -236,20 +320,6 @@
           "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6810227086_1/",
           "category": "dekor / podsvechniki",
           "path": "/eshop/home/dekor/podsvechniki/SL6810227086_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221165",
-          "name": "Велюровый чехол для декоративной подушки с вышивкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226509_40/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226509_40/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -312,24 +382,10 @@
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "221748",
-          "name": "Блюдо декоративное из каменной керамики",
-          "price": 5999,
-          "url": "https://www.sela.ru/eshop/home/dekor/blyuda/SL6810227085_1/",
-          "category": "dekor / blyuda",
-          "path": "/eshop/home/dekor/blyuda/SL6810227085_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7173,
+      "decor_ratio": 0.7101,
       "error": null
     },
     {
