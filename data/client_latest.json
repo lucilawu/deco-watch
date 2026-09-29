@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "clients": [
     {
       "client": "Fix Price",
@@ -128,27 +128,96 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 97,
-      "fetched_total": 137,
+      "total": 101,
+      "fetched_total": 141,
       "filtered_count": 40,
-      "new_count": 1,
+      "new_count": 4,
       "new_items": [
         {
-          "id": "220119",
-          "name": "Велюровый чехол для декоративной подушки из коллекции SELA x Маленький принц",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6809226521_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6809226521_99/",
+          "id": "221541",
+          "name": "Бокал из стекла с рельефным узором",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226909_1/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226909_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
+        },
+        {
+          "id": "221522",
+          "name": "Бокал для красного вина из цветного стекла",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226906_40/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226906_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220181",
+          "name": "Обеденная тарелка из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6809227122_40/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6809227122_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221542",
+          "name": "Стакан из стекла с рельефным узором",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810227116_1/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810227116_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         }
       ],
       "sample": [
+        {
+          "id": "221541",
+          "name": "Бокал из стекла с рельефным узором",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226909_1/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226909_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221522",
+          "name": "Бокал для красного вина из цветного стекла",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226906_40/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226906_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
         {
           "id": "221554",
           "name": "Асимметричная ваза из стекла с рельефным узором",
@@ -232,38 +301,10 @@
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "221491",
-          "name": "Обеденная тарелка из фарфора",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227107_12/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227107_12/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221552",
-          "name": "Ваза из каменной керамики",
-          "price": 5599,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6810227061_1/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6810227061_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.708,
+      "decor_ratio": 0.7163,
       "error": null
     },
     {
