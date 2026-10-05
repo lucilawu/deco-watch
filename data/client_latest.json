@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,48 +9,8 @@
       "total": 11,
       "fetched_total": 75,
       "filtered_count": 64,
-      "new_count": 3,
-      "new_items": [
-        {
-          "id": "5013661",
-          "name": "Заглушка декоративная для телефона, FLARX, в ассортименте",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/dlya-doma/elektrotovary/p-5013661-zaglushka-dekorativnaya-dlya-telefona--v-assortimente",
-          "category": "Электротовары",
-          "path": "/catalog/dlya-doma/elektrotovary/p-5013661-zaglushka-dekorativnaya-dlya-telefona--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5366003",
-          "name": "Набор \"Бабломёт\", PrankBank, в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5366003-nabor-bablomt-rankank-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5366003-nabor-bablomt-rankank-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310504",
-          "name": "Бумажный серпантин. Мусора нет, PARTY, 4 шт., в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012756",
@@ -146,12 +106,12 @@
           ]
         },
         {
-          "id": "5240377",
-          "name": "Букетик из искусственных цветов \"Грация\", в ассортименте",
+          "id": "5310504",
+          "name": "Бумажный серпантин. Мусора нет, PARTY, 4 шт., в ассортименте",
           "price": 149,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5240377-buketik-iz-iskusstvennyh-tsvetov-gratsiya-v-assortimente",
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
           "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5240377-buketik-iz-iskusstvennyh-tsvetov-gratsiya-v-assortimente",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310504-bumajnyy-serpantin-musora-net--4-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -168,112 +128,23 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 205,
-      "fetched_total": 266,
-      "filtered_count": 61,
-      "new_count": 8,
+      "total": 201,
+      "fetched_total": 261,
+      "filtered_count": 60,
+      "new_count": 1,
       "new_items": [
         {
-          "id": "221224",
-          "name": "Чехол для декоративной подушки с драпировкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226513_9368/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226513_9368/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223324",
-          "name": "Ароматическая свеча «Мятное рами»",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6809227030_11/",
-          "category": "aromaty-dlya-doma / svechi",
-          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6809227030_11/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221471",
-          "name": "Гирлянда из фетра",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227060_12/",
-          "category": "gostinaya",
-          "path": "/eshop/home/gostinaya/SL6810227060_12/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "221398",
-          "name": "Елочное украшение из стекла",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221417",
-          "name": "Елочное украшение из стекла",
+          "id": "221737",
+          "name": "Фигурная свеча",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227091_131/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6810227091_131/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "221925",
-          "name": "Десертная тарелка из фарфора",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6809227118_71/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6809227118_71/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221907",
-          "name": "Металлическая подставка под яйцо",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
-          "category": "posuda",
-          "path": "/eshop/home/posuda/SL6810226923_7/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221437",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
         }
       ],
       "sample": [
@@ -391,7 +262,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7707,
+      "decor_ratio": 0.7701,
       "error": null
     },
     {
