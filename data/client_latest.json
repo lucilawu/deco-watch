@@ -1,16 +1,30 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 11,
-      "fetched_total": 75,
+      "total": 12,
+      "fetched_total": 76,
       "filtered_count": 64,
-      "new_count": 0,
-      "new_items": [],
+      "new_count": 1,
+      "new_items": [
+        {
+          "id": "5609554",
+          "name": "Набор для химических опытов \"Волшебные кристаллы\", в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/novinki/p-5609554-nabor-dlya-himicheskih-opytov-volshebnye-kristally-v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5609554-nabor-dlya-himicheskih-opytov-volshebnye-kristally-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5012756",
@@ -120,7 +134,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1467,
+      "decor_ratio": 0.1579,
       "error": null
     },
     {
@@ -128,47 +142,419 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 201,
-      "fetched_total": 261,
-      "filtered_count": 60,
-      "new_count": 1,
+      "total": 226,
+      "fetched_total": 290,
+      "filtered_count": 64,
+      "new_count": 31,
       "new_items": [
         {
-          "id": "221737",
-          "name": "Фигурная свеча",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227091_131/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6810227091_131/",
+          "id": "222902",
+          "name": "Набор десертных ложек из стекла, 4 шт.",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6811227135_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6811227135_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221413",
+          "name": "Детская кружка из фарфора с крышкой",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227103_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811227103_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221168",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226517_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6810226517_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221415",
+          "name": "Новогодняя гирлянда из стекла 80 см",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227048_20/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227048_20/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221418",
+          "name": "Новогодняя гирлянда из стекла 80 см",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227048_99/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227048_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221444",
+          "name": "Новогодняя гирлянда из стекла 80 см",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227030_1/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227030_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221431",
+          "name": "Набор стеклянных елочных украшений, 3 шт.",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227026_12/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227026_12/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221421",
+          "name": "Набор стеклянных елочных украшений, 3 шт.",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227003_1/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227003_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223324",
+          "name": "Ароматическая свеча «Мятное рами»",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6809227030_11/",
+          "category": "aromaty-dlya-doma / svechi",
+          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6809227030_11/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "220109",
+          "name": "Чехол для декоративной подушки из хлопка с принтом",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6809226514_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6809226514_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222987",
+          "name": "Набор стеклянных трубочек с ершиком",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6811226909_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6811226909_99/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
             "✨ 品类对口"
           ]
+        },
+        {
+          "id": "221769",
+          "name": "Набор стеклянных трубочек с ершиком",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6810226922_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6810226922_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221376",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227041_12/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227041_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221484",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227040_12/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227040_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221451",
+          "name": "Елочное украшение из стекла",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227031_40/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227031_40/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221447",
+          "name": "Елочное украшение из стекла",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227031_12/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227031_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221419",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227024_20/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227024_20/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221423",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227025_20/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227025_20/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221410",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227022_62/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227022_62/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221425",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227013_1/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227013_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221448",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221389",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221568",
+          "name": "Набор из 6 подвесок для бокалов",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6810226912_99/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6810226912_99/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "221482",
+          "name": "Елочное украшение из стекла",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227039_12/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227039_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221466",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221457",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221449",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221446",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221441",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221433",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221430",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227050_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227050_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
         {
-          "id": "221224",
-          "name": "Чехол для декоративной подушки с драпировкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226513_9368/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226513_9368/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221563",
-          "name": "Набор стеклянных трубочек с ершиком",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6810226911_99/",
+          "id": "222902",
+          "name": "Набор десертных ложек из стекла, 4 шт.",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6811227135_99/",
           "category": "posuda / stolovye-pribory",
-          "path": "/eshop/home/posuda/stolovye-pribory/SL6810226911_99/",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6811227135_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -177,12 +563,12 @@
           ]
         },
         {
-          "id": "221510",
-          "name": "Десертная тарелка из фарфора с рисунком",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6810227112_99/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6810227112_99/",
+          "id": "221413",
+          "name": "Детская кружка из фарфора с крышкой",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227103_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811227103_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -191,12 +577,26 @@
           ]
         },
         {
-          "id": "221405",
-          "name": "Стакан из фарфора с декором",
+          "id": "221168",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226517_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6810226517_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221415",
+          "name": "Новогодняя гирлянда из стекла 80 см",
           "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810227106_99/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6810227106_99/",
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227048_20/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227048_20/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -205,12 +605,12 @@
           ]
         },
         {
-          "id": "221506",
-          "name": "Обеденная тарелка из фарфора с рисунком",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227111_99/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227111_99/",
+          "id": "221418",
+          "name": "Новогодняя гирлянда из стекла 80 см",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227048_99/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227048_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -219,12 +619,26 @@
           ]
         },
         {
-          "id": "221427",
+          "id": "221444",
+          "name": "Новогодняя гирлянда из стекла 80 см",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227030_1/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227030_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221431",
           "name": "Набор стеклянных елочных украшений, 3 шт.",
           "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227026_70/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227026_12/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227026_70/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227026_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -233,26 +647,12 @@
           ]
         },
         {
-          "id": "221493",
-          "name": "Десертная тарелка из фарфора",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6810227108_12/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6810227108_12/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221745",
-          "name": "Бокал из стекла с гравировкой",
-          "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226919_1/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6810226919_1/",
+          "id": "221421",
+          "name": "Набор стеклянных елочных украшений, 3 шт.",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227003_1/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227003_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -262,7 +662,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7701,
+      "decor_ratio": 0.7793,
       "error": null
     },
     {
