@@ -1,200 +1,37 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 13,
-      "fetched_total": 94,
-      "filtered_count": 81,
-      "new_count": 4,
-      "new_items": [
-        {
-          "id": "5012777",
-          "name": "Светильник-ночник аккумуляторный с кабелем USB, в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012777-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012777-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5246411",
-          "name": "Корзина для мелочей \"Пушистик\", в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246411-korzina-dlya-melochey-pushistik-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246411-korzina-dlya-melochey-pushistik-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5095140",
-          "name": "Набор форм для выпечки с крышками, O'Kitchen, 23 см, 3 шт.",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5095140-nabor-form-dlya-vypechki-s-kryshkami-itchen-23-sm-3-sht",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5095140-nabor-form-dlya-vypechki-s-kryshkami-itchen-23-sm-3-sht",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246306",
-          "name": "Ароматический диффузор \"Амели\", 50 мл, в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246306-aromaticheskiy-diffuzor-ameli-50-ml-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246306-aromaticheskiy-diffuzor-ameli-50-ml-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
-      "sample": [
-        {
-          "id": "5012756",
-          "name": "Светильник-ночник светодиодный, в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012756-svetilnik-nochnik-svetodiodnyy-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012756-svetilnik-nochnik-svetodiodnyy-v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5012783",
-          "name": "Светильник-ночник аккумуляторный \"Сияние\", FLARX, с кабелем USB, в ассортименте",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012783-svetilnik-nochnik-akkumulyatornyy-siyanie--s-kabelem--v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012783-svetilnik-nochnik-akkumulyatornyy-siyanie--s-kabelem--v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5012777",
-          "name": "Светильник-ночник аккумуляторный с кабелем USB, в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012777-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012777-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5604186",
-          "name": "Игровой набор \"Анатомия\", Play the Game, в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5013661",
-          "name": "Заглушка декоративная для телефона, FLARX, в ассортименте",
-          "price": 79,
-          "url": "https://fix-price.com/catalog/dlya-doma/elektrotovary/p-5013661-zaglushka-dekorativnaya-dlya-telefona--v-assortimente",
-          "category": "Электротовары",
-          "path": "/catalog/dlya-doma/elektrotovary/p-5013661-zaglushka-dekorativnaya-dlya-telefona--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5310503",
-          "name": "Набор шаров \"Мыльные пузыри\", PARTY, 12 шт., в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310503-nabor-sharov-mylnye-puzyri--12-sht-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310503-nabor-sharov-mylnye-puzyri--12-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5609554",
-          "name": "Набор для химических опытов \"Волшебные кристаллы\", в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/novinki/p-5609554-nabor-dlya-himicheskih-opytov-volshebnye-kristally-v-assortimente",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5609554-nabor-dlya-himicheskih-opytov-volshebnye-kristally-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246411",
-          "name": "Корзина для мелочей \"Пушистик\", в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246411-korzina-dlya-melochey-pushistik-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246411-korzina-dlya-melochey-pushistik-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "total": 0,
+      "fetched_total": 0,
+      "filtered_count": 0,
+      "new_count": 0,
+      "new_items": [],
+      "sample": [],
       "quality_note": null,
-      "decor_ratio": 0.1383,
-      "error": null
+      "error": "Failed to perform, curl: (28) Operation timed out after 40002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "client": "Sela Home",
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 241,
-      "fetched_total": 310,
-      "filtered_count": 69,
-      "new_count": 6,
+      "total": 239,
+      "fetched_total": 307,
+      "filtered_count": 68,
+      "new_count": 2,
       "new_items": [
         {
-          "id": "221432",
+          "id": "221377",
           "name": "Елочное украшение из стекла",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227005_1/",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227016_32/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227005_1/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227016_32/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -202,59 +39,17 @@
           ]
         },
         {
-          "id": "222896",
-          "name": "Форма для печенья, 3 шт.",
+          "id": "221388",
+          "name": "Елочное украшение из стекла",
           "price": 599,
-          "url": "https://www.sela.ru/eshop/home/posuda/dlya-prigotovleniya/SL6811226901_7/",
-          "category": "posuda / dlya-prigotovleniya",
-          "path": "/eshop/home/posuda/dlya-prigotovleniya/SL6811226901_7/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221457",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227044_17/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227044_17/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221441",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221433",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221430",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227050_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227050_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         }
       ],
       "sample": [
@@ -372,7 +167,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7774,
+      "decor_ratio": 0.7785,
       "error": null
     },
     {
