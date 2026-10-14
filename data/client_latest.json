@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "clients": [
     {
       "client": "Fix Price",
@@ -94,12 +94,12 @@
           ]
         },
         {
-          "id": "5609554",
-          "name": "Набор для химических опытов \"Волшебные кристаллы\", в ассортименте",
+          "id": "5095140",
+          "name": "Набор форм для выпечки с крышками, O'Kitchen, 23 см, 3 шт.",
           "price": 149,
-          "url": "https://fix-price.com/catalog/novinki/p-5609554-nabor-dlya-himicheskih-opytov-volshebnye-kristally-v-assortimente",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5609554-nabor-dlya-himicheskih-opytov-volshebnye-kristally-v-assortimente",
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5095140-nabor-form-dlya-vypechki-s-kryshkami-itchen-23-sm-3-sht",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5095140-nabor-form-dlya-vypechki-s-kryshkami-itchen-23-sm-3-sht",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -129,18 +129,46 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 252,
-      "fetched_total": 322,
-      "filtered_count": 70,
-      "new_count": 15,
+      "total": 264,
+      "fetched_total": 332,
+      "filtered_count": 68,
+      "new_count": 16,
       "new_items": [
         {
-          "id": "221162",
-          "name": "Чехол для декоративной подушки с оборками",
+          "id": "222966",
+          "name": "Ваза из стекла",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6811227004_32/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6811227004_32/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222978",
+          "name": "Ваза из стекла",
+          "price": 3599,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6811227003_40/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6811227003_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222783",
+          "name": "Чехол для декоративной подушки из велюра",
           "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226510_62/",
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226514_99/",
           "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226510_62/",
+          "path": "/eshop/home/tekstil/dekor/SL6811226514_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -149,12 +177,12 @@
           ]
         },
         {
-          "id": "221199",
-          "name": "Чехол для декоративной подушки с оборками",
-          "price": 2299,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226516_62/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226516_62/",
+          "id": "222994",
+          "name": "Обеденная тарелка из каменной керамики",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227115_41/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227115_41/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -163,12 +191,12 @@
           ]
         },
         {
-          "id": "222903",
-          "name": "Детская кружка из фарфора с рисунком",
+          "id": "222995",
+          "name": "Десертная тарелка из каменной керамики",
           "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227104_65/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227104_65/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6811227116_71/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6811227116_71/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -177,12 +205,12 @@
           ]
         },
         {
-          "id": "222907",
-          "name": "Детская кружка из фарфора с рисунком",
+          "id": "222996",
+          "name": "Десертная тарелка из каменной керамики",
           "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227104_265/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227104_265/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6811227116_41/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6811227116_41/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -191,38 +219,80 @@
           ]
         },
         {
-          "id": "222993",
-          "name": "Бокал для вина",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811226903_413/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6811226903_413/",
+          "id": "222992",
+          "name": "Обеденная тарелка из каменной керамики",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
           "price_match": true,
-          "focus_match": false,
+          "focus_match": true,
           "match_tags": [
-            "🎯 价位匹配"
+            "🎯 价位匹配",
+            "✨ 品类对口"
           ]
         },
         {
-          "id": "223001",
-          "name": "Бокал для вина",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811226902_413/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6811226902_413/",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "222931",
-          "name": "Бокал для коктейля",
+          "id": "222929",
+          "name": "Детская кружка из фарфора в полоску",
           "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811226919_413/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6811226919_413/",
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227106_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811227106_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222911",
+          "name": "Обеденная тарелка из фарфора",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227105_99/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227105_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223000",
+          "name": "Кружка из каменной керамики",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227118_41/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811227118_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222999",
+          "name": "Кружка из каменной керамики",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227118_71/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811227118_71/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223293",
+          "name": "Гирлянда флажки",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/dekor/SL6811227002_99/",
+          "category": "dekor",
+          "path": "/eshop/home/dekor/SL6811227002_99/",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -230,118 +300,88 @@
           ]
         },
         {
-          "id": "222900",
-          "name": "Набор стеклянных трубочек с ершиком",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6811227102_99/",
-          "category": "posuda / stolovye-pribory",
-          "path": "/eshop/home/posuda/stolovye-pribory/SL6811227102_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222969",
-          "name": "Стеклянная кружка с фигурной ручкой",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227136_12/",
+          "id": "223317",
+          "name": "Детская эмалированная кружка с принтом",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810227105_65/",
           "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227136_12/",
-          "price_match": false,
-          "focus_match": true,
+          "path": "/eshop/home/posuda/kruzhki/SL6810227105_65/",
+          "price_match": true,
+          "focus_match": false,
           "match_tags": [
-            "✨ 品类对口"
+            "🎯 价位匹配"
           ]
         },
         {
-          "id": "222964",
-          "name": "Стеклянная кружка с фигурной ручкой",
+          "id": "221441",
+          "name": "Елочное украшение",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227136_40/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227136_40/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
           "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
+          "focus_match": false,
+          "match_tags": []
         },
         {
-          "id": "222967",
-          "name": "Стеклянная кружка с фигурной ручкой",
+          "id": "221433",
+          "name": "Елочное украшение",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227136_71/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227136_71/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
           "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
+          "focus_match": false,
+          "match_tags": []
         },
         {
-          "id": "222950",
-          "name": "Стеклянный контейнер для хранения продуктов",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL6811226912_30/",
-          "category": "khranenie / dlya-kukhni",
-          "path": "/eshop/home/khranenie/dlya-kukhni/SL6811226912_30/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222901",
-          "name": "Стеклянный контейнер для хранения продуктов",
+          "id": "221430",
+          "name": "Елочное украшение",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL6811226913_277/",
-          "category": "khranenie / dlya-kukhni",
-          "path": "/eshop/home/khranenie/dlya-kukhni/SL6811226913_277/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227050_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227050_99/",
           "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222897",
-          "name": "Стеклянный контейнер для хранения продуктов",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL6811226913_9/",
-          "category": "khranenie / dlya-kukhni",
-          "path": "/eshop/home/khranenie/dlya-kukhni/SL6811226913_9/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222947",
-          "name": "Стеклянный контейнер для хранения продуктов",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/khranenie/dlya-kukhni/SL6811226912_41/",
-          "category": "khranenie / dlya-kukhni",
-          "path": "/eshop/home/khranenie/dlya-kukhni/SL6811226912_41/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
         {
-          "id": "221162",
-          "name": "Чехол для декоративной подушки с оборками",
+          "id": "222966",
+          "name": "Ваза из стекла",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6811227004_32/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6811227004_32/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222978",
+          "name": "Ваза из стекла",
+          "price": 3599,
+          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6811227003_40/",
+          "category": "dekor / vazy",
+          "path": "/eshop/home/dekor/vazy/SL6811227003_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222783",
+          "name": "Чехол для декоративной подушки из велюра",
           "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226510_62/",
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226514_99/",
           "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226510_62/",
+          "path": "/eshop/home/tekstil/dekor/SL6811226514_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -350,68 +390,12 @@
           ]
         },
         {
-          "id": "221199",
-          "name": "Чехол для декоративной подушки с оборками",
-          "price": 2299,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226516_62/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226516_62/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222903",
-          "name": "Детская кружка из фарфора с рисунком",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227104_65/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227104_65/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222907",
-          "name": "Детская кружка из фарфора с рисунком",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227104_265/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227104_265/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221294",
-          "name": "Коврик для ванной с принтом",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6810226506_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6810226506_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221422",
-          "name": "Набор стеклянных елочных украшений, 4 шт.",
+          "id": "222994",
+          "name": "Обеденная тарелка из каменной керамики",
           "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227049_12/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227049_12/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227115_41/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227115_41/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -420,12 +404,40 @@
           ]
         },
         {
-          "id": "221426",
-          "name": "Набор стеклянных елочных украшений, 4 шт.",
+          "id": "222995",
+          "name": "Десертная тарелка из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6811227116_71/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6811227116_71/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222996",
+          "name": "Десертная тарелка из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6811227116_41/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6811227116_41/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222992",
+          "name": "Обеденная тарелка из каменной керамики",
           "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227049_40/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227049_40/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -434,12 +446,12 @@
           ]
         },
         {
-          "id": "221408",
-          "name": "Ковер детский",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6810226519_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6810226519_99/",
+          "id": "222929",
+          "name": "Детская кружка из фарфора в полоску",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227106_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811227106_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -449,7 +461,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7826,
+      "decor_ratio": 0.7952,
       "error": null
     },
     {
