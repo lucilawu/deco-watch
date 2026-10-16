@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 13,
-      "fetched_total": 97,
-      "filtered_count": 84,
+      "fetched_total": 98,
+      "filtered_count": 85,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -121,7 +121,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.134,
+      "decor_ratio": 0.1327,
       "error": null
     },
     {
@@ -129,18 +129,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 246,
+      "total": 244,
       "fetched_total": 312,
-      "filtered_count": 66,
-      "new_count": 5,
+      "filtered_count": 68,
+      "new_count": 9,
       "new_items": [
         {
-          "id": "223304",
-          "name": "Коврик для ванной",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6812226504_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6812226504_99/",
+          "id": "221778",
+          "name": "Бокал из стекла с цветной ножкой",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226917_12/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226917_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -149,26 +149,38 @@
           ]
         },
         {
-          "id": "223320",
-          "name": "Ароматическая свеча «Королевский атлас»",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/svechi/SL6809227026_36/",
-          "category": "aromaty-dlya-doma / svechi",
-          "path": "/eshop/home/aromaty-dlya-doma/svechi/SL6809227026_36/",
+          "id": "222915",
+          "name": "Текстильная корзина для хранения с крышкой",
+          "price": 3199,
+          "url": "https://www.sela.ru/eshop/home/spalnya/SL6811226301_42/",
+          "category": "spalnya",
+          "path": "/eshop/home/spalnya/SL6811226301_42/",
           "price_match": true,
-          "focus_match": true,
+          "focus_match": false,
           "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
+            "🎯 价位匹配"
           ]
         },
         {
-          "id": "221398",
+          "id": "223313",
+          "name": "Детская эмалированная кружка с принтом",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810227105_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6810227105_99/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "221417",
           "name": "Елочное украшение из стекла",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -176,31 +188,80 @@
           ]
         },
         {
-          "id": "221394",
-          "name": "Елочное украшение из стекла",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
-          "price_match": false,
-          "focus_match": true,
+          "id": "218194",
+          "name": "Органайзер для хранения",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/khranenie/korziny/SL6808226301_17/",
+          "category": "khranenie / korziny",
+          "path": "/eshop/home/khranenie/korziny/SL6808226301_17/",
+          "price_match": true,
+          "focus_match": false,
           "match_tags": [
-            "✨ 品类对口"
+            "🎯 价位匹配"
           ]
         },
         {
-          "id": "221907",
-          "name": "Металлическая подставка под яйцо",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
-          "category": "posuda",
-          "path": "/eshop/home/posuda/SL6810226923_7/",
+          "id": "218244",
+          "name": "Органайзер для хранения",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/khranenie/korziny/SL6808226302_136/",
+          "category": "khranenie / korziny",
+          "path": "/eshop/home/khranenie/korziny/SL6808226302_136/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "221457",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221449",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221446",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
         }
       ],
       "sample": [
+        {
+          "id": "221778",
+          "name": "Бокал из стекла с цветной ножкой",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6810226917_12/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6810226917_12/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
         {
           "id": "223304",
           "name": "Коврик для ванной",
@@ -298,24 +359,10 @@
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "222992",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7885,
+      "decor_ratio": 0.7821,
       "error": null
     },
     {
