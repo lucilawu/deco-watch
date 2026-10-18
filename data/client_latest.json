@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,76 +7,10 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 10,
-      "fetched_total": 95,
-      "filtered_count": 85,
-      "new_count": 5,
-      "new_items": [
-        {
-          "id": "5073096",
-          "name": "Чехол на декоративную подушку, 40x40 см, в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5073096-chehol-na-dekorativnuyu-podushku-4040-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5073096-chehol-na-dekorativnuyu-podushku-4040-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5243855",
-          "name": "Ваза \"Котик\", в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243855-vaza-kotik-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243855-vaza-kotik-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231147",
-          "name": "Набор свечей для торта, PARTY, 10 шт., в ассортименте",
-          "price": 99,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231147-nabor-svechey-dlya-torta--10-sht-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231147-nabor-svechey-dlya-torta--10-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231504",
-          "name": "Декорация для торта с подсветкой и 2 свечами, PARTY, в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5071188",
-          "name": "Скатерть водоотталкивающая, 150х200 см, в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071188-skatert-vodoottalkivayuschaya-150h200-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071188-skatert-vodoottalkivayuschaya-150h200-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "fetched_total": 96,
+      "filtered_count": 86,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012777",
@@ -185,7 +119,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1053,
+      "decor_ratio": 0.1042,
       "error": null
     },
     {
@@ -193,12 +127,145 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 238,
-      "fetched_total": 306,
-      "filtered_count": 68,
-      "new_count": 0,
-      "new_items": [],
+      "total": 244,
+      "fetched_total": 311,
+      "filtered_count": 67,
+      "new_count": 7,
+      "new_items": [
+        {
+          "id": "221974",
+          "name": "Декоративная подушка в виде снежинки",
+          "price": 2399,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226701_1/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226701_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222789",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226516_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226516_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222004",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226521_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226521_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221398",
+          "name": "Елочное украшение из стекла",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221394",
+          "name": "Елочное украшение из стекла",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221433",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221437",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        }
+      ],
       "sample": [
+        {
+          "id": "221974",
+          "name": "Декоративная подушка в виде снежинки",
+          "price": 2399,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226701_1/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226701_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222789",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226516_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226516_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222004",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226521_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226521_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
         {
           "id": "221778",
           "name": "Бокал из стекла с цветной ножкой",
@@ -268,52 +335,10 @@
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "222994",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227115_41/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227115_41/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222996",
-          "name": "Десертная тарелка из каменной керамики",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6811227116_41/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6811227116_41/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222992",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227115_71/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7778,
+      "decor_ratio": 0.7846,
       "error": null
     },
     {
