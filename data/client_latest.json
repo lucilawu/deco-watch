@@ -1,16 +1,43 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 10,
-      "fetched_total": 96,
-      "filtered_count": 86,
-      "new_count": 0,
-      "new_items": [],
+      "total": 12,
+      "fetched_total": 100,
+      "filtered_count": 88,
+      "new_count": 2,
+      "new_items": [
+        {
+          "id": "5001418",
+          "name": "Набор отвёрток, Master Hand, 9 предметов, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5001418-nabor-otvrtok-aster-and-9-predmetov-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5001418-nabor-otvrtok-aster-and-9-predmetov-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5300199",
+          "name": "Парик, PARTY, в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5300199-parik--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5300199-parik--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5012777",
@@ -119,7 +146,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1042,
+      "decor_ratio": 0.12,
       "error": null
     },
     {
@@ -127,60 +154,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 244,
+      "total": 243,
       "fetched_total": 311,
-      "filtered_count": 67,
-      "new_count": 7,
+      "filtered_count": 68,
+      "new_count": 3,
       "new_items": [
         {
-          "id": "221974",
-          "name": "Декоративная подушка в виде снежинки",
-          "price": 2399,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226701_1/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226701_1/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222789",
-          "name": "Чехол для декоративной подушки с вышивкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226516_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226516_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222004",
-          "name": "Чехол для декоративной подушки с вышивкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226521_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226521_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221398",
+          "id": "221448",
           "name": "Елочное украшение из стекла",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -188,12 +173,12 @@
           ]
         },
         {
-          "id": "221394",
-          "name": "Елочное украшение из стекла",
-          "price": 499,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/",
+          "id": "221379",
+          "name": "Сервировочная салфетка из хлопка",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226615_99/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810226615_99/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -201,23 +186,12 @@
           ]
         },
         {
-          "id": "221433",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221437",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
+          "id": "221907",
+          "name": "Металлическая подставка под яйцо",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
+          "category": "posuda",
+          "path": "/eshop/home/posuda/SL6810226923_7/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -338,7 +312,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7846,
+      "decor_ratio": 0.7814,
       "error": null
     },
     {
