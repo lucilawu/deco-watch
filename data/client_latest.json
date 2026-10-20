@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "clients": [
     {
       "client": "Fix Price",
@@ -9,35 +9,8 @@
       "total": 12,
       "fetched_total": 100,
       "filtered_count": 88,
-      "new_count": 2,
-      "new_items": [
-        {
-          "id": "5001418",
-          "name": "Набор отвёрток, Master Hand, 9 предметов, в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5001418-nabor-otvrtok-aster-and-9-predmetov-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5001418-nabor-otvrtok-aster-and-9-predmetov-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5300199",
-          "name": "Парик, PARTY, в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5300199-parik--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5300199-parik--v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5012777",
@@ -154,44 +127,169 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 243,
-      "fetched_total": 311,
-      "filtered_count": 68,
-      "new_count": 3,
+      "total": 252,
+      "fetched_total": 325,
+      "filtered_count": 73,
+      "new_count": 13,
       "new_items": [
         {
-          "id": "221448",
-          "name": "Елочное украшение из стекла",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
-          "price_match": false,
+          "id": "223301",
+          "name": "Флисовый чехол для декоративной подушки",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6812226505_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6812226505_99/",
+          "price_match": true,
           "focus_match": true,
           "match_tags": [
+            "🎯 价位匹配",
             "✨ 品类对口"
           ]
         },
         {
-          "id": "221379",
-          "name": "Сервировочная салфетка из хлопка",
+          "id": "223294",
+          "name": "Флисовый плед 130×170 см",
+          "price": 3999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6812226207_99/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6812226207_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222922",
+          "name": "Детский бокал из костяного фарфора с декором",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811227125_99/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6811227125_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222984",
+          "name": "Высокий металлический подсвечник",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6811227011_6/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6811227011_6/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "222943",
+          "name": "Металлическая креманка на ножке",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811226918_7/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6811226918_7/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "222983",
+          "name": "Текстильная корзина для хранения с крышкой",
+          "price": 2799,
+          "url": "https://www.sela.ru/eshop/home/spalnya/SL6811226304_75/",
+          "category": "spalnya",
+          "path": "/eshop/home/spalnya/SL6811226304_75/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "222940",
+          "name": "Металлическая креманка на ножке",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811226918_6/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6811226918_6/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "222918",
+          "name": "Набор столовых приборов, 16 шт.",
+          "price": 5999,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6811227122_6/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6811227122_6/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "222935",
+          "name": "Фигурный подсвечник из доломита",
           "price": 699,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226615_99/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6810226615_99/",
+          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6811227014_7/",
+          "category": "dekor / podsvechniki",
+          "path": "/eshop/home/dekor/podsvechniki/SL6811227014_7/",
           "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
+          "focus_match": false,
+          "match_tags": []
         },
         {
-          "id": "221907",
-          "name": "Металлическая подставка под яйцо",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
-          "category": "posuda",
-          "path": "/eshop/home/posuda/SL6810226923_7/",
+          "id": "221761",
+          "name": "Набор фигурных столовых свечей, 2 шт.",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227094_40/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6810227094_40/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221764",
+          "name": "Набор фигурных столовых свечей, 2 шт.",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227094_12/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6810227094_12/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "222963",
+          "name": "Набор металлических трубочек с ершиком",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6811226908_6/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6811226908_6/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "222962",
+          "name": "Набор металлических трубочек с ершиком",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/stolovye-pribory/SL6811226908_7/",
+          "category": "posuda / stolovye-pribory",
+          "path": "/eshop/home/posuda/stolovye-pribory/SL6811226908_7/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -199,12 +297,40 @@
       ],
       "sample": [
         {
-          "id": "221974",
-          "name": "Декоративная подушка в виде снежинки",
-          "price": 2399,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226701_1/",
+          "id": "223301",
+          "name": "Флисовый чехол для декоративной подушки",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6812226505_99/",
           "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226701_1/",
+          "path": "/eshop/home/tekstil/dekor/SL6812226505_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223294",
+          "name": "Флисовый плед 130×170 см",
+          "price": 3999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6812226207_99/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6812226207_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222922",
+          "name": "Детский бокал из костяного фарфора с декором",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811227125_99/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6811227125_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -219,6 +345,20 @@
           "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226516_99/",
           "category": "tekstil / dekor",
           "path": "/eshop/home/tekstil/dekor/SL6811226516_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221974",
+          "name": "Декоративная подушка в виде снежинки",
+          "price": 2399,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226701_1/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226701_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -267,52 +407,10 @@
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "222966",
-          "name": "Ваза из стекла",
-          "price": 2999,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6811227004_32/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6811227004_32/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222978",
-          "name": "Ваза из стекла",
-          "price": 3599,
-          "url": "https://www.sela.ru/eshop/home/dekor/vazy/SL6811227003_40/",
-          "category": "dekor / vazy",
-          "path": "/eshop/home/dekor/vazy/SL6811227003_40/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222783",
-          "name": "Чехол для декоративной подушки из велюра",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226514_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226514_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7814,
+      "decor_ratio": 0.7754,
       "error": null
     },
     {
