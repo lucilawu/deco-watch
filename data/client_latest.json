@@ -1,31 +1,57 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 12,
+      "total": 10,
       "fetched_total": 96,
-      "filtered_count": 84,
-      "new_count": 0,
-      "new_items": [],
-      "sample": [
+      "filtered_count": 86,
+      "new_count": 3,
+      "new_items": [
         {
-          "id": "5012777",
-          "name": "Светильник-ночник аккумуляторный с кабелем USB, в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5012777-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5012777-svetilnik-nochnik-akkumulyatornyy-s-kabelem--v-assortimente",
+          "id": "5700476",
+          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
+          "price": 133,
+          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
           "price_match": true,
-          "focus_match": true,
+          "focus_match": false,
           "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
+            "🎯 价位匹配"
           ]
         },
+        {
+          "id": "5230221",
+          "name": "Подсвечник \"Сапфир\", в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230221-podsvechnik-sapfir-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230221-podsvechnik-sapfir-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5079379",
+          "name": "Корзина фетровая, Home Time, 29х26х20 см, в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
+      "sample": [
         {
           "id": "5604186",
           "name": "Игровой набор \"Анатомия\", Play the Game, в ассортименте",
@@ -33,6 +59,19 @@
           "url": "https://fix-price.com/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
           "category": "Новинки",
           "path": "/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5700476",
+          "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
+          "price": 133,
+          "url": "https://fix-price.com/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5700476-nabor-sharikovyh-ruchek---una-3-sht",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -53,51 +92,12 @@
           ]
         },
         {
-          "id": "5095140",
-          "name": "Набор форм для выпечки с крышками, O'Kitchen, 23 см, 3 шт.",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5095140-nabor-form-dlya-vypechki-s-kryshkami-itchen-23-sm-3-sht",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5095140-nabor-form-dlya-vypechki-s-kryshkami-itchen-23-sm-3-sht",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
           "id": "5243855",
           "name": "Ваза \"Котик\", в ассортименте",
           "price": 299,
           "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243855-vaza-kotik-v-assortimente",
           "category": "Сувениры и подарки",
           "path": "/catalog/suveniry-i-podarki/p-5243855-vaza-kotik-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246411",
-          "name": "Корзина для мелочей \"Пушистик\", в ассортименте",
-          "price": 449,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246411-korzina-dlya-melochey-pushistik-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246411-korzina-dlya-melochey-pushistik-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246306",
-          "name": "Ароматический диффузор \"Амели\", 50 мл, в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246306-aromaticheskiy-diffuzor-ameli-50-ml-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246306-aromaticheskiy-diffuzor-ameli-50-ml-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -116,10 +116,49 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
+        },
+        {
+          "id": "5001418",
+          "name": "Набор отвёрток, Master Hand, 9 предметов, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5001418-nabor-otvrtok-aster-and-9-predmetov-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5001418-nabor-otvrtok-aster-and-9-predmetov-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5071188",
+          "name": "Скатерть водоотталкивающая, 150х200 см, в ассортименте",
+          "price": 499,
+          "url": "https://fix-price.com/catalog/novinki/p-5071188-skatert-vodoottalkivayuschaya-150h200-sm-v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5071188-skatert-vodoottalkivayuschaya-150h200-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231504",
+          "name": "Декорация для торта с подсветкой и 2 свечами, PARTY, в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.125,
+      "decor_ratio": 0.1042,
       "error": null
     },
     {
@@ -127,18 +166,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 254,
-      "fetched_total": 341,
-      "filtered_count": 87,
-      "new_count": 12,
+      "total": 262,
+      "fetched_total": 346,
+      "filtered_count": 84,
+      "new_count": 14,
       "new_items": [
         {
-          "id": "223143",
-          "name": "Высокий подсвечник из стекла",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6812227007_99/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6812227007_99/",
+          "id": "222898",
+          "name": "Сервировочное блюдо из костяного фарфора",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6811227129_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6811227129_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -147,12 +186,12 @@
           ]
         },
         {
-          "id": "223141",
-          "name": "Высокий подсвечник из стекла",
+          "id": "222974",
+          "name": "Обеденная тарелка из костяного фарфора",
           "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6812227006_99/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6812227006_99/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6811227127_1/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6811227127_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -161,52 +200,54 @@
           ]
         },
         {
-          "id": "222990",
-          "name": "Детский бокал из костяного фарфора с декором",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6811227124_90/",
-          "category": "posuda / bokaly",
-          "path": "/eshop/home/posuda/bokaly/SL6811227124_90/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222908",
-          "name": "Высокий металлический подсвечник",
+          "id": "222977",
+          "name": "Чайная пара из костяного фарфора",
           "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6811227012_7/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6811227012_7/",
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811226917_1/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811226917_1/",
           "price_match": true,
-          "focus_match": false,
+          "focus_match": true,
           "match_tags": [
-            "🎯 价位匹配"
+            "🎯 价位匹配",
+            "✨ 品类对口"
           ]
         },
         {
-          "id": "222972",
-          "name": "Высокий металлический подсвечник",
-          "price": 1399,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6811227010_6/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6811227010_6/",
+          "id": "222980",
+          "name": "Заварочный чайник из костяного фарфора",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6811226916_1/",
+          "category": "posuda / chajniki-i-termosy",
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6811226916_1/",
           "price_match": true,
-          "focus_match": false,
+          "focus_match": true,
           "match_tags": [
-            "🎯 价位匹配"
+            "🎯 价位匹配",
+            "✨ 品类对口"
           ]
         },
         {
-          "id": "221417",
-          "name": "Елочное украшение из стекла",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
+          "id": "222988",
+          "name": "Салатник из костяного фарфора",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6811227130_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6811227130_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222905",
+          "name": "Глубокая тарелка из костяного фарфора",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/glubokie/SL6811227131_1/",
+          "category": "posuda / tarelki / glubokie",
+          "path": "/eshop/home/posuda/tarelki/glubokie/SL6811227131_1/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -214,12 +255,38 @@
           ]
         },
         {
-          "id": "221478",
+          "id": "222917",
+          "name": "Десертная тарелка из костяного фарфора",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6811227126_1/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6811227126_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "222952",
+          "name": "Кружка из костяного фарфора",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227133_1/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6811227133_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221448",
           "name": "Елочное украшение из стекла",
           "price": 599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227037_70/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227037_70/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -227,12 +294,12 @@
           ]
         },
         {
-          "id": "221434",
+          "id": "221389",
           "name": "Елочное украшение из стекла",
           "price": 599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227027_1/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227027_1/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -240,45 +307,45 @@
           ]
         },
         {
-          "id": "222920",
-          "name": "Фигурный подсвечник из доломита",
-          "price": 899,
-          "url": "https://www.sela.ru/eshop/home/dekor/podsvechniki/SL6811227013_7/",
-          "category": "dekor / podsvechniki",
-          "path": "/eshop/home/dekor/podsvechniki/SL6811227013_7/",
+          "id": "221466",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
         },
         {
-          "id": "221457",
+          "id": "221441",
           "name": "Елочное украшение",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
         },
         {
-          "id": "221449",
+          "id": "221433",
           "name": "Елочное украшение",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
         },
         {
-          "id": "221446",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "id": "221907",
+          "name": "Металлическая подставка под яйцо",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
+          "category": "posuda",
+          "path": "/eshop/home/posuda/SL6810226923_7/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -399,7 +466,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7449,
+      "decor_ratio": 0.7572,
       "error": null
     },
     {
