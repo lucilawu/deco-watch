@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,24 +7,10 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 11,
-      "fetched_total": 97,
-      "filtered_count": 86,
-      "new_count": 1,
-      "new_items": [
-        {
-          "id": "5310515",
-          "name": "Набор воздушных шаров \"Стеклянные\", PARTY, 5 шт., с бантиками, в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310515-nabor-vozdushnyh-sharov-steklyannye--5-sht-s-bantikami-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310515-nabor-vozdushnyh-sharov-steklyannye--5-sht-s-bantikami-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "fetched_total": 98,
+      "filtered_count": 87,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5604186",
@@ -132,7 +118,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1134,
+      "decor_ratio": 0.1122,
       "error": null
     },
     {
@@ -140,32 +126,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 266,
-      "fetched_total": 355,
-      "filtered_count": 89,
-      "new_count": 5,
+      "total": 268,
+      "fetched_total": 354,
+      "filtered_count": 86,
+      "new_count": 7,
       "new_items": [
         {
-          "id": "222910",
-          "name": "Кружка из каменной керамики",
-          "price": 1199,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6811227138_71/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6811227138_71/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "220119",
-          "name": "Велюровый чехол для декоративной подушки из коллекции SELA x Маленький принц",
+          "id": "221570",
+          "name": "Обеденная тарелка из фарфора с цветочным узором",
           "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6809226521_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6809226521_99/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227117_12/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227117_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -174,39 +146,88 @@
           ]
         },
         {
-          "id": "221417",
-          "name": "Елочное украшение из стекла",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227004_12/",
-          "price_match": false,
+          "id": "221573",
+          "name": "Десертная тарелка из фарфора с цветочным узором",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6810227118_12/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6810227118_12/",
+          "price_match": true,
           "focus_match": true,
           "match_tags": [
+            "🎯 价位匹配",
             "✨ 品类对口"
           ]
         },
         {
-          "id": "221449",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227055_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "id": "221576",
+          "name": "Глубокая тарелка из фарфора с цветочным узором",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810227119_12/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810227119_12/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "221437",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227052_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "id": "221578",
+          "name": "Чайная пара из фарфора с цветочным узором",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810227120_12/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6810227120_12/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221596",
+          "name": "Десертная тарелка из фарфора с рисунком",
+          "price": 1499,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6810227126_99/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6810227126_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221603",
+          "name": "Обеденная тарелка из фарфора с рисунком",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227125_99/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227125_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221896",
+          "name": "Чайная пара из фарфора с рисунком",
+          "price": 1699,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810226924_99/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6810226924_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
         }
       ],
       "sample": [
@@ -324,7 +345,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7493,
+      "decor_ratio": 0.7571,
       "error": null
     },
     {
