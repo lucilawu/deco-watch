@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 11,
-      "fetched_total": 98,
-      "filtered_count": 87,
+      "fetched_total": 95,
+      "filtered_count": 84,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -104,12 +104,12 @@
           ]
         },
         {
-          "id": "5231504",
-          "name": "Декорация для торта с подсветкой и 2 свечами, PARTY, в ассортименте",
-          "price": 149,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
+          "id": "5230221",
+          "name": "Подсвечник \"Сапфир\", в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230221-podsvechnik-sapfir-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5230221-podsvechnik-sapfir-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -118,7 +118,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1122,
+      "decor_ratio": 0.1158,
       "error": null
     },
     {
@@ -126,18 +126,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 268,
+      "total": 266,
       "fetched_total": 354,
-      "filtered_count": 86,
+      "filtered_count": 88,
       "new_count": 7,
       "new_items": [
         {
-          "id": "221570",
-          "name": "Обеденная тарелка из фарфора с цветочным узором",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227117_12/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227117_12/",
+          "id": "223331",
+          "name": "Декоративная подушка-валик",
+          "price": 3999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6812226508_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6812226508_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -146,12 +146,12 @@
           ]
         },
         {
-          "id": "221573",
-          "name": "Десертная тарелка из фарфора с цветочным узором",
-          "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6810227118_12/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6810227118_12/",
+          "id": "222741",
+          "name": "Вязаный чехол для декоративной подушки",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226511_1/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226511_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -160,12 +160,12 @@
           ]
         },
         {
-          "id": "221576",
-          "name": "Глубокая тарелка из фарфора с цветочным узором",
-          "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810227119_12/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6810227119_12/",
+          "id": "222745",
+          "name": "Вязаный чехол для декоративной подушки",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226511_12/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6811226511_12/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -174,12 +174,12 @@
           ]
         },
         {
-          "id": "221578",
-          "name": "Чайная пара из фарфора с цветочным узором",
-          "price": 1699,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810227120_12/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6810227120_12/",
+          "id": "221302",
+          "name": "Коврик для ванной с принтом",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6810226505_99/",
+          "category": "tekstil / kovry",
+          "path": "/eshop/home/tekstil/kovry/SL6810226505_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -188,46 +188,41 @@
           ]
         },
         {
-          "id": "221596",
-          "name": "Десертная тарелка из фарфора с рисунком",
-          "price": 1499,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6810227126_99/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6810227126_99/",
+          "id": "222925",
+          "name": "Термос со шнурком на руку",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6811226910_50/",
+          "category": "posuda / chajniki-i-termosy",
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6811226910_50/",
           "price_match": true,
-          "focus_match": true,
+          "focus_match": false,
           "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
+            "🎯 价位匹配"
           ]
         },
         {
-          "id": "221603",
-          "name": "Обеденная тарелка из фарфора с рисунком",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227125_99/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227125_99/",
+          "id": "222927",
+          "name": "Термос со шнурком на руку",
+          "price": 2599,
+          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6811226910_7/",
+          "category": "posuda / chajniki-i-termosy",
+          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6811226910_7/",
           "price_match": true,
-          "focus_match": true,
+          "focus_match": false,
           "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
+            "🎯 价位匹配"
           ]
         },
         {
-          "id": "221896",
-          "name": "Чайная пара из фарфора с рисунком",
-          "price": 1699,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810226924_99/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6810226924_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
+          "id": "221446",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
@@ -345,7 +340,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7571,
+      "decor_ratio": 0.7514,
       "error": null
     },
     {
