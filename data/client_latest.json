@@ -1,30 +1,17 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 11,
-      "fetched_total": 95,
-      "filtered_count": 84,
+      "total": 10,
+      "fetched_total": 73,
+      "filtered_count": 63,
       "new_count": 0,
       "new_items": [],
       "sample": [
-        {
-          "id": "5604186",
-          "name": "Игровой набор \"Анатомия\", Play the Game, в ассортименте",
-          "price": 299,
-          "url": "https://fix-price.com/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5604186-igrovoy-nabor-anatomiya-lay-the-ame-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
         {
           "id": "5700476",
           "name": "Набор шариковых ручек \"MC GOLD\", MunHwa, 3 шт.",
@@ -104,6 +91,19 @@
           ]
         },
         {
+          "id": "5231504",
+          "name": "Декорация для торта с подсветкой и 2 свечами, PARTY, в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231504-dekoratsiya-dlya-torta-s-podsvetkoy-i-2-svechami--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
           "id": "5230221",
           "name": "Подсвечник \"Сапфир\", в ассортименте",
           "price": 299,
@@ -118,7 +118,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1158,
+      "decor_ratio": 0.137,
       "error": null
     },
     {
@@ -126,18 +126,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 266,
-      "fetched_total": 354,
-      "filtered_count": 88,
-      "new_count": 7,
+      "total": 271,
+      "fetched_total": 360,
+      "filtered_count": 89,
+      "new_count": 11,
       "new_items": [
         {
-          "id": "223331",
-          "name": "Декоративная подушка-валик",
-          "price": 3999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6812226508_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6812226508_99/",
+          "id": "221582",
+          "name": "Обеденная тарелка из костяного фарфора",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6810227121_1/",
+          "category": "posuda / tarelki / obedennye",
+          "path": "/eshop/home/posuda/tarelki/obedennye/SL6810227121_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -146,12 +146,12 @@
           ]
         },
         {
-          "id": "222741",
-          "name": "Вязаный чехол для декоративной подушки",
+          "id": "221765",
+          "name": "Сервировочное блюдо из костяного фарфора",
           "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226511_1/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226511_1/",
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/blyuda/SL6810227132_1/",
+          "category": "posuda / tarelki / blyuda",
+          "path": "/eshop/home/posuda/tarelki/blyuda/SL6810227132_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -160,12 +160,12 @@
           ]
         },
         {
-          "id": "222745",
-          "name": "Вязаный чехол для декоративной подушки",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226511_12/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226511_12/",
+          "id": "221767",
+          "name": "Чайная пара из костяного фарфора",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810226914_1/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6810226914_1/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -174,26 +174,12 @@
           ]
         },
         {
-          "id": "221302",
-          "name": "Коврик для ванной с принтом",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6810226505_99/",
-          "category": "tekstil / kovry",
-          "path": "/eshop/home/tekstil/kovry/SL6810226505_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222925",
-          "name": "Термос со шнурком на руку",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6811226910_50/",
-          "category": "posuda / chajniki-i-termosy",
-          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6811226910_50/",
+          "id": "222981",
+          "name": "Фигурная рамка для фото",
+          "price": 1599,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6811227006_7/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL6811227006_7/",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -201,25 +187,90 @@
           ]
         },
         {
-          "id": "222927",
-          "name": "Термос со шнурком на руку",
-          "price": 2599,
-          "url": "https://www.sela.ru/eshop/home/posuda/chajniki-i-termosy/SL6811226910_7/",
-          "category": "posuda / chajniki-i-termosy",
-          "path": "/eshop/home/posuda/chajniki-i-termosy/SL6811226910_7/",
-          "price_match": true,
-          "focus_match": false,
+          "id": "221584",
+          "name": "Десертная тарелка из костяного фарфора",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6810227122_1/",
+          "category": "posuda / tarelki / desertnye",
+          "path": "/eshop/home/posuda/tarelki/desertnye/SL6810227122_1/",
+          "price_match": false,
+          "focus_match": true,
           "match_tags": [
-            "🎯 价位匹配"
+            "✨ 品类对口"
           ]
         },
         {
-          "id": "221446",
+          "id": "221600",
+          "name": "Кружка из костяного фарфора",
+          "price": 899,
+          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6810227124_1/",
+          "category": "posuda / kruzhki",
+          "path": "/eshop/home/posuda/kruzhki/SL6810227124_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223290",
+          "name": "Фигурная свеча",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6811227009_41/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6811227009_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223297",
+          "name": "Фигурная свеча",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6811227037_71/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6811227037_71/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223305",
+          "name": "Фигурная свеча",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6811227039_1/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6811227039_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223325",
+          "name": "Фигурная свеча",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6811227038_1/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6811227038_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221433",
           "name": "Елочное украшение",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227051_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -340,7 +391,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7514,
+      "decor_ratio": 0.7528,
       "error": null
     },
     {
