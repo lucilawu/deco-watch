@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,8 +7,8 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 10,
-      "fetched_total": 73,
-      "filtered_count": 63,
+      "fetched_total": 75,
+      "filtered_count": 65,
       "new_count": 0,
       "new_items": [],
       "sample": [
@@ -118,7 +118,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.137,
+      "decor_ratio": 0.1333,
       "error": null
     },
     {
@@ -126,18 +126,45 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 268,
-      "fetched_total": 358,
-      "filtered_count": 90,
-      "new_count": 1,
+      "total": 262,
+      "fetched_total": 353,
+      "filtered_count": 91,
+      "new_count": 3,
       "new_items": [
         {
-          "id": "221441",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
+          "id": "223024",
+          "name": "Стеганое покрывало 220х200 см",
+          "price": 6999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6810226204_2/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6810226204_2/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221389",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221907",
+          "name": "Металлическая подставка под яйцо",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
+          "category": "posuda",
+          "path": "/eshop/home/posuda/SL6810226923_7/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -258,7 +285,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7486,
+      "decor_ratio": 0.7422,
       "error": null
     },
     {
