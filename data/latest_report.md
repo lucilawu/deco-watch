@@ -1,73 +1,61 @@
-# Deco 客户上新与社媒日报 · 2026-11-09
+# Deco 客户上新与社媒日报 · 2026-11-10
 
-今日客户官网新增 **14** 件，今日客户社媒新帖 **18** 条，最近一次 WB 周度更新新增 **0** 件。客户信号优先，WB 仅作大盘参考。
+今日客户官网新增 **15** 件，今日客户社媒新帖 **13** 条，最近一次 WB 周度更新新增 **0** 件。客户信号优先，WB 仅作大盘参考。
 
 ## ① 各客户官网上新
 ### Fix Price · [上新页](https://fix-price.com/catalog/novinki)
-今日未发现新增（当前上新池 12 件）。
-当前样本：
-- [Ваза "Кристалл", в ассортименте](https://fix-price.com/catalog/suveniry-i-podarki/p-5243853-vaza-kristall-v-assortimente) · 249 ₽ · Сувениры и подарки · 🎯 价位匹配 · ID 5243853
-- [Ваза "Александрит", в ассортименте](https://fix-price.com/catalog/suveniry-i-podarki/p-5246425-vaza-aleksandrit-v-assortimente) · 599 ₽ · Сувениры и подарки · 🎯 价位匹配 · ID 5246425
-- [Корзина "Береста", 1,1 л, в ассортименте](https://fix-price.com/catalog/dlya-doma/p-5079423-korzina-beresta-11-l-v-assortimente) · 69 ₽ · Для дома · 🎯 价位匹配 · ID 5079423
-- [Корзинка для мелочей "Дэйзи", 20 см](https://fix-price.com/catalog/suveniry-i-podarki/p-5246423-korzinka-dlya-melochey-deyzi-20-sm) · 249 ₽ · Сувениры и подарки · 🎯 价位匹配 · ID 5246423
-- [Корзинка для мелочей "Дэйзи", 25 см](https://fix-price.com/catalog/suveniry-i-podarki/p-5246427-korzinka-dlya-melochey-deyzi-25-sm) · 349 ₽ · Сувениры и подарки · 🎯 价位匹配 · ID 5246427
-- [Подсвечник "Бонжур", 25 см](https://fix-price.com/catalog/suveniry-i-podarki/p-5230223-podsvechnik-bonjur-25-sm) · 399 ₽ · Сувениры и подарки · 🎯 价位匹配 · ID 5230223
-- [Ароматический диффузор, 100 мл, в ассортименте](https://fix-price.com/catalog/suveniry-i-podarki/p-5244773-aromaticheskiy-diffuzor-100-ml-v-assortimente) · 349 ₽ · Сувениры и подарки · 🎯 价位匹配 · ID 5244773
-- [Подсвечник "Бонжур", 20 см](https://fix-price.com/catalog/suveniry-i-podarki/p-5230089-podsvechnik-bonjur-20-sm) · 349 ₽ · Сувениры и подарки · 🎯 价位匹配 · ID 5230089
-另有 96 件非装饰品类已过滤。
+⚠️ 抓取失败：HTTP Error 400: 
 ### Sela Home · [上新页](https://www.sela.ru/eshop/home/new/)
-今日新增 14 件（当前上新池 282 件）。
+今日新增 15 件（当前上新池 285 件）。
 今日新增：
-- [Хлопковая сервировочная салфетка с кисточками](https://www.sela.ru/eshop/home/kukhnya/SL6810226616_99/) · 799 ₽ · kukhnya · ✨ 品类对口 · ID 221383
-- [Елочное украшение из стекла](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227013_1/) · 599 ₽ · dekor / yelochnye-ukrasheniya · ✨ 品类对口 · ID 221425
-- [Елочное украшение из стекла](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_7/) · 499 ₽ · dekor / yelochnye-ukrasheniya · ✨ 品类对口 · ID 221394
-- [Елочное украшение из стекла](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/) · 499 ₽ · dekor / yelochnye-ukrasheniya · ✨ 品类对口 · ID 221398
-- [Елочное украшение из стекла](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227034_71/) · 599 ₽ · dekor / yelochnye-ukrasheniya · ✨ 品类对口 · ID 221467
-- [Елочное украшение из стекла](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227042_17/) · 599 ₽ · dekor / yelochnye-ukrasheniya · ✨ 品类对口 · ID 221382
-- [Елочное украшение из стекла](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227027_1/) · 599 ₽ · dekor / yelochnye-ukrasheniya · ✨ 品类对口 · ID 221434
-- [Новогодняя открытка](https://www.sela.ru/eshop/home/gostinaya/SL6810227066_99/) · 199 ₽ · gostinaya · ID 223266
-- [Елочное украшение](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/) · 799 ₽ · dekor / yelochnye-ukrasheniya · ID 221466
-- [Елочное украшение](https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227053_99/) · 799 ₽ · dekor / yelochnye-ukrasheniya · ID 221441
-- [Металлическая подставка под яйцо](https://www.sela.ru/eshop/home/posuda/SL6810226923_7/) · 399 ₽ · posuda · ID 221907
-- [Набор столовых свечей с принтом, 2 шт.](https://www.sela.ru/eshop/home/dekor/svechi/SL6810227093_99/) · 999 ₽ · dekor / svechi · ID 221774
-另有 98 件非装饰品类已过滤。
+- [Обеденная тарелка из каменной керамики](https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6812227107_50/) · 1 599 ₽ · posuda / tarelki / obedennye · 🎯 价位匹配 · ✨ 品类对口 · ID 223164
+- [Обеденная тарелка из каменной керамики](https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6812227107_40/) · 1 599 ₽ · posuda / tarelki / obedennye · 🎯 价位匹配 · ✨ 品类对口 · ID 223167
+- [Десертная тарелка из каменной керамики](https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6812227108_50/) · 1 299 ₽ · posuda / tarelki / desertnye · 🎯 价位匹配 · ✨ 品类对口 · ID 223170
+- [Десертная тарелка из каменной керамики](https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6812227108_40/) · 1 299 ₽ · posuda / tarelki / desertnye · 🎯 价位匹配 · ✨ 品类对口 · ID 223173
+- [Обеденная тарелка из каменной керамики](https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6812227111_99/) · 1 599 ₽ · posuda / tarelki / obedennye · 🎯 价位匹配 · ✨ 品类对口 · ID 223244
+- [Десертная тарелка из каменной керамики](https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6812227112_99/) · 1 299 ₽ · posuda / tarelki / desertnye · 🎯 价位匹配 · ✨ 品类对口 · ID 223247
+- [Стеганое покрывало 200x150 см](https://www.sela.ru/eshop/home/tekstil/pledy/SL6810226224_99/) · 4 999 ₽ · tekstil / pledy · 🎯 价位匹配 · ✨ 品类对口 · ID 223027
+- [Чехол для декоративной подушки из велюра с бахромой](https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226513_99/) · 1 999 ₽ · tekstil / dekor · 🎯 价位匹配 · ✨ 品类对口 · ID 222756
+- [Ароматический диффузор «Прохладная вуаль»](https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227005_161/) · 2 699 ₽ · aromaty-dlya-doma / diffuzory · 🎯 价位匹配 · ✨ 品类对口 · ID 221930
+- [Кружка из каменной керамики](https://www.sela.ru/eshop/home/posuda/kruzhki/SL6812227110_50/) · 999 ₽ · posuda / kruzhki · ✨ 品类对口 · ID 223239
+- [Кружка из каменной керамики](https://www.sela.ru/eshop/home/posuda/kruzhki/SL6812227110_40/) · 999 ₽ · posuda / kruzhki · ✨ 品类对口 · ID 223242
+- [Кружка из каменной керамики](https://www.sela.ru/eshop/home/posuda/kruzhki/SL6812227114_99/) · 999 ₽ · posuda / kruzhki · ✨ 品类对口 · ID 223254
+另有 115 件非装饰品类已过滤。
 ### X5 · Перекрёсток · [上新页](https://www.perekrestok.ru/cat)
 ⚠️ 抓取失败：Перекрёсток 官网目录不可用且无缓存：目录触发网站人机验证（HTTP 403）
 X5 官网装饰品类占比低，建议主要参考其 Telegram 和线下店型数据
 
 ## ② 各客户社媒新品预告
 ### Fix Price · TELEGRAM · fixprice_russia
-今日新帖 13 条。
-- **新帖**：[Игрушки для новых приключений и тёплых обнимашек 🤗 🚂 Игровой набор «Железная дорога» (399 рублей) подарит радость юному машинисту! 🛤️ В состав набора входят локомотив и 2 вагона. Просто нажмите кнопку на локомотиве, и он придёт в движение. А звуковые и световые эффекты добавят и…](https://t.me/fixprice_russia/62311) · [图片](https://cdn4.telesco.pe/file/ZC8HnB-7F_Rs6uDVqmVLlwkh3hIf6UxA6KKpegEXCiShk9DyJ6f-LOmo9UVFh7ev4e4FMGYhWWjtBeaG10zGHYp2ZiazGA26QwlCLKog-JhOGcAr41pH8eq07lyxVyiN76YXKuEe9JfC4-AufN6C5ajawjd_Z1kXebfutTBGQorniUZIhT1WVujFfe4tFFNQTPUyHA-Pych1865yUcY3r4YWu402qyFulFlWDOwxqN38EjOxoXddmuJTk7TlwSPuxW3MIO0BwR-CqdxfCnesbCRVmIeJOJuxFuiewHN5KCkZyoEoUnxKxSPemHTtAhCVzpyk_SEyKVbSWVCCHrr1Bg.jpg)
-- **新帖**：[Дайджест, который окрыляет и... ... вдохновляет на новые покупки! 😉 СЕГОДНЯ – финальный день действия сразу 2-х акций, не упустите выгоду! 🔥 🚚 Бесплатная доставка заказов от 1400 рублей через СДЭК и Яндекс Доставку. 🎁 Минус 400 рублей по промокоду Е-НОЯБРЬ на заказы от 1700 рубл…](https://t.me/fixprice_russia/62313) · [图片](https://cdn4.telesco.pe/file/qYkOaFPtSR5C8nrFST5wA1q64OzG53pmth6FYKpNX1Mc5dcRUvytvusEvn6qpU-VAfB-_BpEn3eLE_MFh2u-7BiESquOdShtHqQVSwXeojnGxTXIUeqrvqyYoZzW5UV5mIsXhZz4q-LYWzeTj7nKSUUKBr-5cR6mlbJSP-jk_zP__DOXCxuq04N9yJ-ngaABg2WGkwuLH1A7jqaPpltlC07Wi48EvQ4KTIYwUgUYO5vylJ9lLDYEYXaa3Lb86uS39dTWG-9dBgEppkH8rkkejP3gY_bQRuIAyZuvhqEIfSw2-syCXaZaUoJLK8d5snLXeFukEoUJ18jytbTnAXM3Qg.jpg)
-- **新帖**：[🪥 Зубная щётка (99 рублей). Благодаря S-образной форме легко проникает в труднодоступные места. Мягкие щетинки эффективно удаляют налёт и остатки пищи 🦷 💙 Обеспечивает надёжный захват и комфортный уход. 💚 Арт: 3120259 https://fix-price.com/catalog/kosmetika-i-gigiena/p-3120259-z…](https://t.me/fixprice_russia/62314)
-- **新帖**：[💰 БОЛЬШЕ ТОВАРОВ — БОЛЬШЕ ВЫГОДЫ Не пропустите акции 2=1 в Fix Price! 💫 2=1: Крекер со вкусом свиного окорока и трюфеля (174,50 рубля) — Арт. 1955033 💫 2=1: Печенье с кремовой начинкой (149 рублей) — Арт. 1950917 💫 2=1: Карамель леденцовая с женьшенем (124 рубля) — Арт. 1920343…](https://t.me/fixprice_russia/62315) · [图片](https://cdn4.telesco.pe/file/MtcsqppIoJIr_8AkbayCrjYy-T7Lu6HIpW6LmABYzs7hsZSxJRiRVP80RKSwMQnrCHRDD8cAC3ubOF7dXtfcm7pYJyNEXAxIPV77PuvadEW70GxASTonDF9B8SRK9_W7Z03qS687UWFCvpNvLIZ1rQGwBptMiQm7YwOqhtnpsRM83Zk2ZBHD_HNtoCVhh-ra2GrnZ-D4uPp-JC2e645J5ttXHvidAoUflPnljJiSpzfvb5OdVpZBNKi9qzja8SayJ5npPgpArxgRxbDLbSzunqwv9uEwedAiWsHSQ6mMzlJ3iyjqumrftY6fG94ZVmlgQonYYxwJIofIVGCT_iGRtw.jpg)
-- **新帖**：[Спешите взять, пока всё по 35! 😉 Ждём Вас в наших магазинах за приятными находками и выгодными покупками 🛍️ 📢 Количество акционных товаров ограничено запасами магазинов. #fixprice #фикспрайс Реклама. ООО «Бэст Прайс». ИНН 5047085094 Erid: 2SDnjcu6z1a](https://t.me/fixprice_russia/62316) · [图片](https://cdn4.telesco.pe/file/GM_d0eeUYMMZP8j5alms25mihjHyAViuQet13_g4Yd-f-URIBHmdo5_z1NuydSjB2mEpHxgduQp5xGt0fnGFGgZ4bz2l8hPZ5lBREXYUxcG4eXn4D1u3-8CpMJIBm_L54fvZKvl8pL-uVRCBGrKkqZwjNBjUqpBj1y5hRKP7tI3ps7kwbycLmXr_2l-QiWFmt5cLCLzXdbTfIply_xXPEo4Y8OgqPIZexPgrwfjoQCdowRJHWc_yNGiEvhttcX3P7Lbn256e9_bPcgoyhWUAm82X-nh7ir2zuOfPaDDMGaIJVceDMNz2pcZqNbEBUTj3OoHNJLyx04XILS2IFOT1Ng.jpg)
-- **新帖**：[Кто скрывается внутри: зомби или пират? 🧟‍♂️ 🏴‍☠️ С «Растущим сюрпризом» ожидание превращается в маленькое чудо! 😉 🧟‍♂️ Игрушка «Растущий сюрприз» (149 рублей) позволяет вырастить классного зомби! Положите яйцо в форме мозга в воду на 24-48 часов — скорлупа размякнет, начнёт тре…](https://t.me/fixprice_russia/62317) · [图片](https://cdn4.telesco.pe/file/OrOrauZcEhk1Z4iG8GDBkrIiWMXRgYbWRZEs2WpZ21SYV7zOlldiGkSLdp_MSq8pApf9ac5eK5dfnrFf-FRge32sI9sg_bN6TXRJzfWRLSso-MlOu44vcvqESsJQZlvK82D22eYtNp7ynPylxG4SK3jc_FPbEDdtjbVc2snFbMdCjKrwYFd5prZWEmjWaXu9YJ2idC8lTIxzUfEEof_uW2JB-9t-iBv-IHfs-tWQMGrdhutebs2Lp5SkHifgNXx0CkAB3JmkEbT_emYLDMjxSIA66YqV913-OcDbMk9MeQotK7OO161mEIi6q72dBK8kpgotuXrgBxwHXz6il0vjeQ.jpg)
-- **新帖**：[Хотите узнать о топовых находках для эффективной стирки? 🤔 Тогда смотрите этот ролик до конца 😉 #fixprice #фикспрайс](https://t.me/fixprice_russia/62319)
-- **新帖**：[БОЛЬШЕ ВЫГОДЫ СО СПЕЦ ЦЕНОЙ ПО КАРТЕ! 🤗 🌿 Дезодорант защищает от неприятного запаха до 48 часов. Быстро впитывается и не оставляет следов на одежде. 🤍 Обеспечивает бережный уход даже за чувствительной кожей. 🤍 Масса нетто: 60 г. 💳 ЦЕНА ПО КАРТЕ FIX PRICE: 158 рублей Цена без кар…](https://t.me/fixprice_russia/62320) · [图片](https://cdn4.telesco.pe/file/N-cbu6p2vtCs_L_zLTzBVoZkf5MlptUFrIdREI19awATfrhq0eeIIeFbk0ERD_3aWt0zphS1xDy7FwstqlpNjiLpb1H07qAXYIUEfO8FEqudawmQFBWhMICL7PxTXjnsLjdkT9O7ifZm2AgMNb2i-t0BAAdHa0OmfMZeNKM6mUeV8t4YLTRCr61zo1zZJiQXq_nHcY9F3tfIa5zVCwJRdaOhzBjMWiMqSwvd2KKJeIykx48lfuOjPseRus0GiBFENEQ__YuiFRjdyh9PeZRApeYPrGQI0TysDMnxWqHXBnX1eJMJF0x1BwX7bRWoNMVV9lxBbKEOXoxoXMWoDSDvvQ.jpg)
-- **新帖**：[Для комфортных бьюти-ритуалов 💖 🎀 Набор для умывания: ободок для волос, спонж (299 рублей). Мягкий ободок надёжно убирает волосы со лба и щёк, защищая их от попадания воды и косметических средств. Удобный мягкий спонж поможет аккуратно снять макияж ✨ 📏 Размер ободка: 17х17 см; р…](https://t.me/fixprice_russia/62321)
-- **新帖**：[Осторожно: после просмотра этого ролика Вам срочно захочется перекусить… …и мы даже догадываемся, чем! 😁 🍫 #fixprice #фикспрайс](https://t.me/fixprice_russia/62322)
+今日新帖 6 条。
+- **新帖**：[А Вы любите получать приятные бонусы за покупки? 💚 Тогда у нас для Вас отличная новость! 🛒 С 9 по 11 ноября оформляйте заказ с самовывозом на сумму от 1400 рублей на сайте или в приложении Fix Price и получайте промокод на 300 баллов! 🎁 📅 Активировать промокод можно до 2 декабря…](https://t.me/fixprice_russia/62327) · [图片](https://cdn4.telesco.pe/file/LqGmiXrXAujVJMx8MzLhLdCbq246tdpKzAnBJrgQDFnyNn-iS9recHkRvGQiU5R4qpKSahTmU3qr7BFWs5avzRfcWMhyQH6Qa38wmnqIdmrA6O7LfNsGWUqyhEdq_VDH7Ev1IqMaDzqOnj32sIdwvUBvM_UiZWI31tyRpWt4cCyeYg0InLCY3P3jrUchyGW4edN7WQDsu0Wa9WJc1eufK2ezdKYaU-0lLPjCb1tg227tf7FkfRzUkj-Rk-lNtCZWYPVzX6RG8zV4beiF8VSZ1hNUn_u63nKzIIiszclqILicZMWL3UuQMwWqeDmT5ceCcolR6qJ7JVFbND1E8Nx6Jw.jpg)
+- **新帖**：[Игрушки для маленьких фантазёров 🧸 Собирать конструктор, придумывать приключения, проводить первые исследования или просто играть с любимыми игрушками — столько интересных занятий! Собрали подборку, в которой каждый найдёт что-то по душе. 🐱 Конструктор «Простоквашино» — яркий на…](https://t.me/fixprice_russia/62328) · [图片](https://cdn4.telesco.pe/file/AHNUWLCuhLz02mnAyayAGtZQPCw_vh5AA9JQe6nqYHCJWPAnjCJMKdinTdcCIooUuWjRo6NhtRwOKO8XiAFV6Qc8SrqORVEelQYzrVaD6mA4ahCB69Z_Nd3zGgIfEyPnbdj4j1Xs_-J6uTYfssdWykh8sX3ZRGFfEyeGqHDBTt-Hqey5nif4ez858beoL3cxtcah09qobAyyOiww_jt7Nt-SdZegO7EOGuh-B6pqFJ00RYbm3DdatJmNGHbovSx3B3p5pdj3vHOw2LElpCL1SDJn9Nz-s2TRNMkB3x7_8UuKVvSJoy1Y-VwiiDytOInaGvMo-VBa9bjbWwhjTiOUyw.jpg)
+- **新帖**：[Поддерживать обувь в хорошем состоянии проще с правильным уходом! 💧 Воск поможет защитить обувь из гладкой кожи от влаги, грязи и реагентов, а также придаст ей красивый блеск. В составе натуральный карнаубский воск. Средство бесцветное, поэтому подойдёт для обуви разных оттенков…](https://t.me/fixprice_russia/62333) · [图片](https://cdn4.telesco.pe/file/HG-9rQPbF-lyfKVm6AjsvJkfozjzs-3NOHhM-wcE7Tpk2a4P6rGjXV6F-990d-esUHBOBZAeG-5fL6x8KGn6sGdudP89tH3DlXByQWY7RzpM_kU3Wg9Y9gcTGwqQN-G3c5dJpOrm9FbN4TnePaUl6ho4I1vCRo_Os0wJ_omLCXEcTnQjQHe9vTQqxrJfczZnGz3A8fXNiL5QLnfrCoH0cKJlvPFx5aZ_n8U1GHpybUyyhfiVjxIkzm8Tw-kB6ehO3Ie_DwaRA7Kb-A1p0EnANCz2LnrU9Z5hoHP9AV2rY-5Jf3uUNlfAp-iG1I-ClEU1RdpHg_66t-vQnVLzSl-aAA.jpg)
+- **新帖**：[Беспроводная компьютерная мышь (279 рублей) — для комфортной работы, учёбы и повседневных дел за компьютером! 💻 Подключается через USB-приёмник и работает на расстоянии до 10 метров. А благодаря трём режимам чувствительности (800, 1200 и 1600 DPI) можно подобрать удобную скорост…](https://t.me/fixprice_russia/62334) · [图片](https://cdn4.telesco.pe/file/LhrgW_fZQYrY0vnc0s3NeOww0IjPwQrLZcd7daZ3JP6p7-ERhPymOPlvQw2fYRkadhY4dIvA71aJdXTp03qvLq_36beZ8CmyReKz5HpsljbyZtIIFM1jvQ2z347z7h_RE2iZOKMhhZHHqPPubpgrrY_SaYhCyA5Aq6oER7Bdd8HC2n5-HSHzf6qQXtiaT_7KEwK3DnN4uRTVrF7TaSmcmBRGfSwRrAZyrr0T8CjQDrZ6T394sTremFi7igQSL_8YIFPk79791mgtx8e8jL8lje8wDv_NC9L9Rqy-VRxlk_HVZEI1qcV1J2K6cW4lXS6PnGCvEku00QmKMcFTgdNw8g.jpg)
+- **新帖**：[На старт… Внимание… За выгодой! 🏃 🛍️ В Fix Price продолжается горячая распродажа «Всё по 35» ! 🎉 Посуда, канцелярия, косметика, игрушки и другие полезные находки — всего по 35 рублей за товар 😍 Ищите специальный стеллаж в наших магазинах и наполняйте корзину с удовольствием и вы…](https://t.me/fixprice_russia/62335) · [图片](https://cdn4.telesco.pe/file/CnAfa0yXydGpTBrD6QPP5eoDrRuTzTc-a1OFeD2ZRIra_woteIfY8mzD3HXLqvfGCW6FF_1NQDShlj-QusKBsBNAFJZwzBreJsIP2X7oPqwsbU9_sVpImNCYwGnh_-owd7SKw0-8IHeQGXt-0INCuwF4Q26Ek-fTRMFywwX9wW3GAG6Q3EtvlPJqZVzjh1I1JeE0_DupODrrP9hd9jw_t6I4npFi60aZ6xrx1uPbo1NpVt146yESSrcQN8zU6MV09uVribeSOGXihQYkZVKTwyXYl_lbzMCWE8AO8FALfxfnI6C5wjcZsYLx8b9P3fAw9GYcPJ1zMb4vkj78GQN26g.jpg)
+- **新帖**：[А что у нас сегодня к чаю? ☕️ 🍫 Шоколадный батончик «Шоколадный коктейль Minis», Milky Way — нежное какао-суфле под слоем молочного шоколада. То, что нужно, когда хочется чего-нибудь сладенького! В упаковке 132 г мини-батончиков — хватит и себе, и близких угостить. 💙 ЦЕНА ПО КАР…](https://t.me/fixprice_russia/62336)
 ### Fix Price · VK · fix_price
 ⚠️ 缺少 VK_TOKEN；Telegram 仍会正常追踪
 ### Sela Home · TELEGRAM · sela_brand
 今日新帖 1 条。
-- **新帖**：[В гардеробе ноября для мужчин — всё, что помогает встретить первые холода с комфортом и уютом. Вельветовые брюки с мягкой фактурой и свободной посадкой сочетаем с технологичными куртками , тёплыми свитерами и рубашками в клетку. Ищите на сайте, в приложении и магазинах. Самый бо…](https://t.me/sela_brand/10711) · [图片](https://cdn4.telesco.pe/file/XxAuEwEOoH4ASzzNHCwUVlecVhEhgo0IsnsD3F-fR3hVBCQr0W-4Pc9w7psHI5MuqPsnsLiiOmVvTpSywJ75d7uia1jabNbeR3gIfH9jVbYq7xV2-h9wR_7DjMNXNFruPwhAD_HEEHx-ktJw8kqtcCF87Wl85UMQpp0Su93t-dBWJxCEQhQYy4vXFgZFScIkVjhGnnvZfGjxCvEmg4LxM40fuhLZKH58klKXl0sVfPi29ie07rCMaOExSY9DoNTMk-L_tWr5IypY9kACCZpvf6oUYdUHf2rRu-vLWZXiM5bVjYGT-z9mbeVoRPfVnqqzHY519jxi1mqIFBxGwWIx8g.jpg)
+- **新品预告**：[Shine after dark Чем меньше остаётся дней до боя курантов, тем больше появляется поводов нарядиться: корпоративы, встречи с друзьями и, конечно, ночь, ради которой всё затевается. Для каждого момента вашего праздника — вечерняя коллекция SELA Уже на сайте , в приложении и магази…](https://t.me/sela_brand/10717)
 ### Sela Home · VK · sela_ru
 ⚠️ 缺少 VK_TOKEN；Telegram 仍会正常追踪
 ### X5 · Перекрёсток · TELEGRAM · perekrestok_store
-今日新帖 1 条。
-- **新帖**：[Гастрономическое преступление — это… 👻 ...не попробовать паштет из индейки с грушей от «Зелёной Линии»! Когда хочется чего-то мясного, нежного и с неожиданной ноткой, на помощь приходит он. Паштет отлично заходит в качестве самостоятельного перекуса с хлебом или как дополнение к…](https://t.me/perekrestok_store/4432) · [图片](https://cdn4.telesco.pe/file/m4slqGZboBLaf9Jc9ngCIf2R_KlZFEbsIeb3oK0WZVVPpMbeb56AdV67tNWtrtwUe1abte41WoXQAxpLjETHtvNoNB6kTFVpeps4AJ8Oe5QyTBarq7Bya1-b351hflImxGNYKoAo91my62B90j--TaCHRofUjRrj82MCYlSvs9olHzlmfB59QUGXI353vO232-JdrT1EXfs5Nf-iMRc5NzxKyn8dw0CQ8N0IMB3KOhnp7VLwQ1zr2FcV-ja0f02yGst4vOIf2bf864Am_c0ByGVrhkoGh1TUQuNH6NMbIMhg2ynOR6f2GCAv1aUGE9K9_flh-nW4vkNrem7mxDGGuQ.jpg)
+今日新帖 4 条。
+- **新帖**：[（图片帖/无文字）](https://t.me/perekrestok_store/4433)
+- **新帖**：[👄 Я хочу услышать три главных слова... 🗣 СКИДКИ УЖЕ ЗДЕСЬ! Главный шопинг ноября объявляется открытым. До 11.11 включительно в доставке Перекрёстка скидки до 50 % на любимые продукты 🎉 Самое время заказать продуктов на неделю вперёд и попробовать что-нибудь новенькое. На период…](https://t.me/perekrestok_store/4434) · [图片](https://cdn4.telesco.pe/file/qVRaHx8Va5fB3b0E3_K1sSsRLzegm2RyvmdZ2wRvg5wNiFkyFFHIWPphYbiQQ1RZN60ccgCT0OpZXULeShUtoT9MXKU8nIUpIhMRSRMU8MbNqJlpsYDHF7aDDTuWxjRnHdAjei1ZyN9bzE3mlYvafL32bWxCjh9fvKaXSCymxIXEELuEKes3mCSoEOJJivBUp9xNqyfatfB-8lvBI6kdn92NSj5_v9IMlq4CKwCy8hdraXWDEQNHHOgrsFZ_Rcp1cA7w6tLylW8Jb9VoYHSy6aaCpwNzaT_nIAlDS_gVWkwp32Ri4HNPnaclmXi8S8DjbGbagiVTiC2ddTb-4AjT_A.jpg)
+- **新帖**：[（图片帖/无文字）](https://t.me/perekrestok_store/4435)
+- **新帖**：[Алло, это мы из настоящего. И у нас есть новости 📱 🔥 Пересчитали все сердечки, пересмотрели все ролики под трек ЦУ Е ФА и готовы назвать имена 10 счастливчиков, которые забирают iPhone 17 Pro в дизайнерских чехлах с Мишками-крутышками. Авторы этих роликов выполнили все условия к…](https://t.me/perekrestok_store/4436) · [图片](https://cdn4.telesco.pe/file/D5MguoI7ZEj0rkbZ6NcJVUtM_sokuoO-e9cTG5Dj_uIZfZveMZkDEq-ldcXCg8d05lIg50wwEX2SDLPhHlJq1Bfbq61WPZ35oYREPqA1b4YOQQDC2LiH0Hv2Of3JN_AwbjHVNL848CDYNdFNYPE_z66zEOiIfw0mWUea4RjW31TuQqMeIn_wkiyhyfc8hVJqoSyj3yV22KoNSjlzU73BJlf1ttipQI3_QL9re1n6iLZnV3_cShfE2ieDbLMDRLPapEHsXEA4jUG_srffIr7CSReaMpMHwrV2GB25A6gTXXrf_OdoWxdYJWkSnhMccUN4axx4X6V34lUBq6RGi5QdSQ.jpg)
 ### Magnit · М.Косметик · TELEGRAM · magnit_retail
-今日新帖 3 条。
-- **新帖**：[（图片帖/无文字）](https://t.me/magnit_retail/7135)
-- **新帖**：[Красный пиджак снова замечен в Магните 🦸 А вместе с ним — скидки до 54% . «Красная среда» продолжается, поэтому ловите свежую подборку выгодных предложений: 🛒 Колбаса «Молокуша» «Вязанка» — 139,99 ₽ 🛒 Сервелат «Карельский» «Папа может» — 119,99 ₽ 🛒 Белый шоколад Alpen Gold с мин…](https://t.me/magnit_retail/7136) · [图片](https://cdn4.telesco.pe/file/CZSz6UDrqFrpPcDR-2h_-ZUseTx3l4wURDv_MBIKvWWNK53HXjZu6O_NyH_ieXal6mUOkaMBv2WpNlb8kLeAk2xppETTTGLaFWMaCdPufI2RFrEWW0l_k9_9I8rz9a1_qhvqE5blD4-BACbv-IivIaLoWu8BienX30CN99ZaJKXY5NlryJ5-l7MtYWwsen1hIrEaBvgrHf2m-60wy1GoCIeJ_Psrl46PBb4BH1bAlgcA3tHYfFkmtcb648uynZ9LPeMdmdxEf2KrVfosMUDdjvx47IM4slrTVKI6hg053C48qqgTl9GEamXWL9CzBLb4LjP6FslFa5Sr-pbfsL_CSw.jpg)
-- **新帖**：[Белые или коричневые? Какие яйца лучше? 🥚 Кажется, что коричневые яйца полезнее, натуральнее и даже вкуснее. Но цвет скорлупы тут ни при чём! От чего он зависит? Всё дело в породе курицы: одни несут белые яйца, другие – коричневые. Сам по себе цвет скорлупы не говорит ни о польз…](https://t.me/magnit_retail/7137) · [图片](https://cdn4.telesco.pe/file/pTFRbGIyZeMKBHVFEcZvzmGA89JFv9YwVOX2bP0fXhTbM9XbvdodwSKk3cc2WOmTXcdZPuZP_mycE2F-MAKgXYkz9Mc0V5i6JuueCdOg7Y5Q1lAoognq16VuLwSO6sMZ67HHOOKkL4_dmlaLqtuxsXg45E8r_ykWKyjgoplE59Z-pGiEtTCaQYc-RWABV8CCjjhaoLMBnxBa9DvnEmkauerFlV-bMNSNJPrsU0HAfbSDhbtj0ZIWeTvw0XN34i_eTS45XBPtkAa0FqQUIrGaHimkkMmRsErGx-SjbuQ12ytM2yBVX0YAONLXfNOPmzNTg8IPhr7OZmrcv3RW8EWPtQ.jpg)
+今日新帖 2 条。
+- **新品预告**：[Alpen Gold могнул iPhone 😎 Как, спросите вы? Взял и выпустил шоколадку DUO , которая не трескается от любого прикосновения 😁 В линейке две новинки: белый + молочный шоколад с клубникой и малиной, а также тёмный + молочный с фундуком и вафлей ❤️ — хочу попробовать новинки 🔥 — вот…](https://t.me/magnit_retail/7139) · [图片](https://cdn4.telesco.pe/file/tfrwZpSG57dUgdLTCLTIlmhuU7gETFn0uaeTZHIookf-KEd5lxx9JC6YBkBzpjPH8igHzd2fMo3d5mS7mI2MKgiJkn1Hwl0pG1Z573IF8SY8trLVi5AkfOYsvweOfSXB6lGlpHGTnpbZ-SsbhHsDkitfaeKHXMbBAtu6TyD4vn-aOAKjsDRXsVv90BXqQmsB3KhiK4wuKt5stTQA2AHmje5xUnFLR1au-vpc-yTRMXMSg9TZaGiIK9VEbrWVK8HjC05sjnGM6OKP4bneHFcc1hFJeoXN6xoB7dPrE3Wnq6hXUP5y8SYhAcPdkZsN946CorqGN8E6mSabVIJbArDAPg.jpg)
+- **新帖**：[（图片帖/无文字）](https://t.me/magnit_retail/7140)
 
 ## ③ 近7天累计
-统计区间：2026-11-03 至 2026-11-09。官网上新 **39** 件，社媒新帖 **140** 条。
-官网新增：Fix Price 5 件；Sela Home 34 件。
-社媒新增：Fix Price · TELEGRAM 89 条；Sela Home · TELEGRAM 10 条；X5 · Перекрёсток · TELEGRAM 17 条；Magnit · М.Косметик · TELEGRAM 24 条。
+统计区间：2026-11-04 至 2026-11-10。官网上新 **43** 件，社媒新帖 **127** 条。
+官网新增：Sela Home 39 件；Fix Price 4 件。
+社媒新增：Fix Price · TELEGRAM 81 条；Sela Home · TELEGRAM 7 条；X5 · Перекрёсток · TELEGRAM 18 条；Magnit · М.Косметик · TELEGRAM 21 条。
 
 ## ④（次要，每周更新）Wildberries 大盘热门
 ### 装饰灯具
