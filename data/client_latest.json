@@ -1,135 +1,143 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 0,
-      "fetched_total": 0,
-      "filtered_count": 0,
+      "total": 12,
+      "fetched_total": 108,
+      "filtered_count": 96,
       "new_count": 0,
       "new_items": [],
-      "sample": [],
+      "sample": [
+        {
+          "id": "5243853",
+          "name": "Ваза \"Кристалл\", в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243853-vaza-kristall-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5243853-vaza-kristall-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246425",
+          "name": "Ваза \"Александрит\", в ассортименте",
+          "price": 599,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246425-vaza-aleksandrit-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246425-vaza-aleksandrit-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5079423",
+          "name": "Корзина \"Береста\", 1,1 л, в ассортименте",
+          "price": 69,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5079423-korzina-beresta-11-l-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5079423-korzina-beresta-11-l-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246427",
+          "name": "Корзинка для мелочей \"Дэйзи\", 25 см",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246427-korzinka-dlya-melochey-deyzi-25-sm",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246427-korzinka-dlya-melochey-deyzi-25-sm",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246423",
+          "name": "Корзинка для мелочей \"Дэйзи\", 20 см",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246423-korzinka-dlya-melochey-deyzi-20-sm",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246423-korzinka-dlya-melochey-deyzi-20-sm",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5244773",
+          "name": "Ароматический диффузор, 100 мл, в ассортименте",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5244773-aromaticheskiy-diffuzor-100-ml-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5244773-aromaticheskiy-diffuzor-100-ml-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5230223",
+          "name": "Подсвечник \"Бонжур\", 25 см",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230223-podsvechnik-bonjur-25-sm",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230223-podsvechnik-bonjur-25-sm",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5230089",
+          "name": "Подсвечник \"Бонжур\", 20 см",
+          "price": 349,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230089-podsvechnik-bonjur-20-sm",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230089-podsvechnik-bonjur-20-sm",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "quality_note": null,
-      "error": "HTTP Error 400: "
+      "decor_ratio": 0.1111,
+      "error": null
     },
     {
       "client": "Sela Home",
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 285,
-      "fetched_total": 400,
-      "filtered_count": 115,
-      "new_count": 15,
+      "total": 284,
+      "fetched_total": 395,
+      "filtered_count": 111,
+      "new_count": 4,
       "new_items": [
         {
-          "id": "223164",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6812227107_50/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6812227107_50/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223167",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6812227107_40/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6812227107_40/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223170",
-          "name": "Десертная тарелка из каменной керамики",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6812227108_50/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6812227108_50/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223173",
-          "name": "Десертная тарелка из каменной керамики",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6812227108_40/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6812227108_40/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223244",
-          "name": "Обеденная тарелка из каменной керамики",
-          "price": 1599,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/obedennye/SL6812227111_99/",
-          "category": "posuda / tarelki / obedennye",
-          "path": "/eshop/home/posuda/tarelki/obedennye/SL6812227111_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223247",
-          "name": "Десертная тарелка из каменной керамики",
-          "price": 1299,
-          "url": "https://www.sela.ru/eshop/home/posuda/tarelki/desertnye/SL6812227112_99/",
-          "category": "posuda / tarelki / desertnye",
-          "path": "/eshop/home/posuda/tarelki/desertnye/SL6812227112_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223027",
-          "name": "Стеганое покрывало 200x150 см",
-          "price": 4999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6810226224_99/",
-          "category": "tekstil / pledy",
-          "path": "/eshop/home/tekstil/pledy/SL6810226224_99/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "222756",
-          "name": "Чехол для декоративной подушки из велюра с бахромой",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226513_99/",
+          "id": "221165",
+          "name": "Велюровый чехол для декоративной подушки с вышивкой",
+          "price": 1799,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226509_40/",
           "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226513_99/",
+          "path": "/eshop/home/tekstil/dekor/SL6810226509_40/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -138,92 +146,43 @@
           ]
         },
         {
-          "id": "221930",
-          "name": "Ароматический диффузор «Прохладная вуаль»",
-          "price": 2699,
-          "url": "https://www.sela.ru/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227005_161/",
-          "category": "aromaty-dlya-doma / diffuzory",
-          "path": "/eshop/home/aromaty-dlya-doma/diffuzory/SL6805227005_161/",
-          "price_match": true,
-          "focus_match": true,
-          "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223239",
-          "name": "Кружка из каменной керамики",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6812227110_50/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6812227110_50/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223242",
-          "name": "Кружка из каменной керамики",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6812227110_40/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6812227110_40/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223254",
-          "name": "Кружка из каменной керамики",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/posuda/kruzhki/SL6812227114_99/",
-          "category": "posuda / kruzhki",
-          "path": "/eshop/home/posuda/kruzhki/SL6812227114_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221379",
-          "name": "Сервировочная салфетка из хлопка",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226615_99/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6810226615_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221446",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "id": "221425",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227013_1/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227054_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227013_1/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         },
         {
-          "id": "221453",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227056_99/",
+          "id": "221398",
+          "name": "Елочное украшение из стекла",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227056_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
           "price_match": false,
-          "focus_match": false,
-          "match_tags": []
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221467",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227034_71/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227034_71/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
         }
       ],
       "sample": [
@@ -341,7 +300,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7125,
+      "decor_ratio": 0.719,
       "error": null
     },
     {
