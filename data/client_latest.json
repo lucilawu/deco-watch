@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "clients": [
     {
       "client": "Fix Price",
@@ -126,32 +126,31 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 281,
-      "fetched_total": 390,
-      "filtered_count": 109,
-      "new_count": 4,
+      "total": 271,
+      "fetched_total": 378,
+      "filtered_count": 107,
+      "new_count": 5,
       "new_items": [
         {
-          "id": "221168",
-          "name": "Чехол для декоративной подушки с вышивкой",
-          "price": 1999,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226517_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226517_99/",
+          "id": "222919",
+          "name": "Плетеная корзина «Домик»",
+          "price": 4599,
+          "url": "https://www.sela.ru/eshop/home/khranenie/korziny/SL6811226302_61/",
+          "category": "khranenie / korziny",
+          "path": "/eshop/home/khranenie/korziny/SL6811226302_61/",
           "price_match": true,
-          "focus_match": true,
+          "focus_match": false,
           "match_tags": [
-            "🎯 价位匹配",
-            "✨ 品类对口"
+            "🎯 价位匹配"
           ]
         },
         {
-          "id": "221448",
+          "id": "221389",
           "name": "Елочное украшение из стекла",
           "price": 599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -159,23 +158,36 @@
           ]
         },
         {
-          "id": "221457",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "id": "221399",
+          "name": "Елочное украшение из стекла",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227046_12/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227046_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223266",
+          "name": "Новогодняя открытка",
+          "price": 199,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227066_99/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227066_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
         },
         {
-          "id": "221453",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227056_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227056_99/",
+          "id": "221907",
+          "name": "Металлическая подставка под яйцо",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
+          "category": "posuda",
+          "path": "/eshop/home/posuda/SL6810226923_7/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -296,7 +308,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7205,
+      "decor_ratio": 0.7169,
       "error": null
     },
     {
