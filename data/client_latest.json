@@ -1,28 +1,96 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 12,
-      "fetched_total": 110,
-      "filtered_count": 98,
-      "new_count": 0,
-      "new_items": [],
-      "sample": [
+      "total": 10,
+      "fetched_total": 118,
+      "filtered_count": 108,
+      "new_count": 5,
+      "new_items": [
         {
-          "id": "5243853",
-          "name": "Ваза \"Кристалл\", в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243853-vaza-kristall-v-assortimente",
+          "id": "5243696",
+          "name": "Светильник на батарейках \"Бонита\", в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243696-svetilnik-na-batareykah-bonita-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5243853-vaza-kristall-v-assortimente",
+          "path": "/catalog/suveniry-i-podarki/p-5243696-svetilnik-na-batareykah-bonita-v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "5231558",
+          "name": "Ароматическая свеча \"Адажио\", в ассортименте",
+          "price": 279,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231558-aromaticheskaya-svecha-adajio-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231558-aromaticheskaya-svecha-adajio-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
             "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5310517",
+          "name": "Набор воздушных УФ-шаров, PARTY, 10 шт., в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5310517-nabor-vozdushnyh-uf-sharov--10-sht-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5310517-nabor-vozdushnyh-uf-sharov--10-sht-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5240404",
+          "name": "Ветка декоративная \"Сен-Тропе\", в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5240404-vetka-dekorativnaya-sen-trope-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5240404-vetka-dekorativnaya-sen-trope-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5362001",
+          "name": "\"Бесячая\" открытка, Prank Bank, в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5362001-besyachaya-otkrytka-rank-ank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5362001-besyachaya-otkrytka-rank-ank-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
+      "sample": [
+        {
+          "id": "5243696",
+          "name": "Светильник на батарейках \"Бонита\", в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5243696-svetilnik-na-batareykah-bonita-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5243696-svetilnik-na-batareykah-bonita-v-assortimente",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
           ]
         },
         {
@@ -39,25 +107,12 @@
           ]
         },
         {
-          "id": "5079423",
-          "name": "Корзина \"Береста\", 1,1 л, в ассортименте",
-          "price": 69,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5079423-korzina-beresta-11-l-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5079423-korzina-beresta-11-l-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5246427",
-          "name": "Корзинка для мелочей \"Дэйзи\", 25 см",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246427-korzinka-dlya-melochey-deyzi-25-sm",
+          "id": "5231558",
+          "name": "Ароматическая свеча \"Адажио\", в ассортименте",
+          "price": 279,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231558-aromaticheskaya-svecha-adajio-v-assortimente",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246427-korzinka-dlya-melochey-deyzi-25-sm",
+          "path": "/catalog/suveniry-i-podarki/p-5231558-aromaticheskaya-svecha-adajio-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -65,12 +120,12 @@
           ]
         },
         {
-          "id": "5246423",
-          "name": "Корзинка для мелочей \"Дэйзи\", 20 см",
+          "id": "5310481",
+          "name": "Набор воздушных шаров для фотозоны \"Трио\", PARTY, в ассортименте",
           "price": 249,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246423-korzinka-dlya-melochey-deyzi-20-sm",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246423-korzinka-dlya-melochey-deyzi-20-sm",
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310481-nabor-vozdushnyh-sharov-dlya-fotozony-trio--v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310481-nabor-vozdushnyh-sharov-dlya-fotozony-trio--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -78,12 +133,12 @@
           ]
         },
         {
-          "id": "5244773",
-          "name": "Ароматический диффузор, 100 мл, в ассортименте",
+          "id": "5079379",
+          "name": "Корзина фетровая, Home Time, 29х26х20 см, в ассортименте",
           "price": 349,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5244773-aromaticheskiy-diffuzor-100-ml-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5244773-aromaticheskiy-diffuzor-100-ml-v-assortimente",
+          "url": "https://fix-price.com/catalog/novinki/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -91,12 +146,12 @@
           ]
         },
         {
-          "id": "5230223",
-          "name": "Подсвечник \"Бонжур\", 25 см",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230223-podsvechnik-bonjur-25-sm",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230223-podsvechnik-bonjur-25-sm",
+          "id": "5310517",
+          "name": "Набор воздушных УФ-шаров, PARTY, 10 шт., в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5310517-nabor-vozdushnyh-uf-sharov--10-sht-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5310517-nabor-vozdushnyh-uf-sharov--10-sht-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -104,12 +159,25 @@
           ]
         },
         {
-          "id": "5230089",
-          "name": "Подсвечник \"Бонжур\", 20 см",
-          "price": 349,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230089-podsvechnik-bonjur-20-sm",
+          "id": "5230225",
+          "name": "Подсвечник \"Рубикон\", 9,5 см",
+          "price": 499,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
           "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230089-podsvechnik-bonjur-20-sm",
+          "path": "/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5240404",
+          "name": "Ветка декоративная \"Сен-Тропе\", в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5240404-vetka-dekorativnaya-sen-trope-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5240404-vetka-dekorativnaya-sen-trope-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -118,7 +186,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.1091,
+      "decor_ratio": 0.0847,
       "error": null
     },
     {
@@ -126,18 +194,167 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 271,
-      "fetched_total": 378,
-      "filtered_count": 107,
-      "new_count": 5,
+      "total": 263,
+      "fetched_total": 366,
+      "filtered_count": 103,
+      "new_count": 15,
       "new_items": [
         {
-          "id": "222919",
-          "name": "Плетеная корзина «Домик»",
-          "price": 4599,
-          "url": "https://www.sela.ru/eshop/home/khranenie/korziny/SL6811226302_61/",
-          "category": "khranenie / korziny",
-          "path": "/eshop/home/khranenie/korziny/SL6811226302_61/",
+          "id": "223499",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 2299,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6812226515_99/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6812226515_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223486",
+          "name": "Меховой чехол для декоративной подушки",
+          "price": 2299,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6812226507_62/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6812226507_62/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223485",
+          "name": "Декоративная подушка из искусственного меха",
+          "price": 2999,
+          "url": "https://www.sela.ru/eshop/home/dekor/tekstil/SL6812226506_99/",
+          "category": "dekor / tekstil",
+          "path": "/eshop/home/dekor/tekstil/SL6812226506_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223493",
+          "name": "Фигурный ковер",
+          "price": 3999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/kovry/SL6812226511_99/",
+          "category": "tekstil / kovry",
+          "path": "/eshop/home/tekstil/kovry/SL6812226511_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221168",
+          "name": "Чехол для декоративной подушки с вышивкой",
+          "price": 1999,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226517_99/",
+          "category": "tekstil / dekor",
+          "path": "/eshop/home/tekstil/dekor/SL6810226517_99/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221421",
+          "name": "Набор стеклянных елочных украшений, 3 шт.",
+          "price": 1199,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227003_1/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227003_1/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221376",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227041_12/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227041_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221378",
+          "name": "Елочное украшение из стекла",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227006_1/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227006_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221482",
+          "name": "Елочное украшение из стекла",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227039_12/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227039_12/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221478",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227037_70/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227037_70/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221379",
+          "name": "Сервировочная салфетка из хлопка",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226615_99/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810226615_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221751",
+          "name": "Набор елочных украшений из латуни, 3 шт.",
+          "price": 2299,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227083_6/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227083_6/",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -145,49 +362,34 @@
           ]
         },
         {
-          "id": "221389",
-          "name": "Елочное украшение из стекла",
-          "price": 599,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227011_41/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221399",
-          "name": "Елочное украшение из стекла",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227046_12/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227046_12/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "223266",
-          "name": "Новогодняя открытка",
-          "price": 199,
-          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227066_99/",
-          "category": "gostinaya",
-          "path": "/eshop/home/gostinaya/SL6810227066_99/",
+          "id": "221774",
+          "name": "Набор столовых свечей с принтом, 2 шт.",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227093_99/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6810227093_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
         },
         {
-          "id": "221907",
-          "name": "Металлическая подставка под яйцо",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
-          "category": "posuda",
-          "path": "/eshop/home/posuda/SL6810226923_7/",
+          "id": "221453",
+          "name": "Елочное украшение",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227056_99/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227056_99/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
+        },
+        {
+          "id": "221442",
+          "name": "Новогодняя гирлянда из картона",
+          "price": 299,
+          "url": "https://www.sela.ru/eshop/home/gostinaya/SL6810227002_99/",
+          "category": "gostinaya",
+          "path": "/eshop/home/gostinaya/SL6810227002_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -308,7 +510,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7169,
+      "decor_ratio": 0.7186,
       "error": null
     },
     {
