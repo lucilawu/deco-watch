@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "clients": [
     {
       "client": "Fix Price",
@@ -7,37 +7,10 @@
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
       "total": 12,
-      "fetched_total": 125,
-      "filtered_count": 113,
-      "new_count": 2,
-      "new_items": [
-        {
-          "id": "5071197",
-          "name": "Скатерть, MONRO, 140х150 см, в ассортименте",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/dlya-doma/p-5071197-skatert--140h150-sm-v-assortimente",
-          "category": "Для дома",
-          "path": "/catalog/dlya-doma/p-5071197-skatert--140h150-sm-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        },
-        {
-          "id": "5231552",
-          "name": "Свечи чайные ароматизированные \"Кристалл Флейр\", 6 шт., в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/novinki/p-5231552-svechi-chaynye-aromatizirovannye-kristall-fleyr-6-sht-v-assortimente",
-          "category": "Новинки",
-          "path": "/catalog/novinki/p-5231552-svechi-chaynye-aromatizirovannye-kristall-fleyr-6-sht-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
-        }
-      ],
+      "fetched_total": 127,
+      "filtered_count": 115,
+      "new_count": 0,
+      "new_items": [],
       "sample": [
         {
           "id": "5243696",
@@ -132,12 +105,12 @@
           ]
         },
         {
-          "id": "5362001",
-          "name": "\"Бесячая\" открытка, Prank Bank, в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5362001-besyachaya-otkrytka-rank-ank-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5362001-besyachaya-otkrytka-rank-ank-v-assortimente",
+          "id": "5230225",
+          "name": "Подсвечник \"Рубикон\", 9,5 см",
+          "price": 499,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -146,7 +119,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.096,
+      "decor_ratio": 0.0945,
       "error": null
     },
     {
@@ -154,18 +127,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 281,
-      "fetched_total": 388,
+      "total": 284,
+      "fetched_total": 391,
       "filtered_count": 107,
-      "new_count": 2,
+      "new_count": 9,
       "new_items": [
         {
-          "id": "222793",
-          "name": "Чехол для декоративной подушки из велюра с оборками и вышивкой",
-          "price": 2299,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226512_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226512_99/",
+          "id": "225166",
+          "name": "Детское стеганое покрывало 150x200 см",
+          "price": 4599,
+          "url": "https://www.sela.ru/eshop/home/tekstil/pledy/SL6810226207_99/",
+          "category": "tekstil / pledy",
+          "path": "/eshop/home/tekstil/pledy/SL6810226207_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
@@ -174,12 +147,105 @@
           ]
         },
         {
-          "id": "221466",
+          "id": "223509",
+          "name": "Бокал из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6812226901_40/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6812226901_40/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223507",
+          "name": "Бокал из каменной керамики",
+          "price": 1299,
+          "url": "https://www.sela.ru/eshop/home/posuda/bokaly/SL6812226901_12/",
+          "category": "posuda / bokaly",
+          "path": "/eshop/home/posuda/bokaly/SL6812226901_12/",
+          "price_match": true,
+          "focus_match": true,
+          "match_tags": [
+            "🎯 价位匹配",
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "223502",
+          "name": "Металлическая фигурная рамка для фото",
+          "price": 1399,
+          "url": "https://www.sela.ru/eshop/home/dekor/postery/SL6812227002_50/",
+          "category": "dekor / postery",
+          "path": "/eshop/home/dekor/postery/SL6812227002_50/",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "221383",
+          "name": "Хлопковая сервировочная салфетка с кисточками",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226616_99/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810226616_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221398",
+          "name": "Елочное украшение из стекла",
+          "price": 499,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227019_6/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221401",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227015_32/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227015_32/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221434",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227027_1/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227027_1/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221461",
           "name": "Елочное украшение",
           "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227058_99/",
           "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227058_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -300,7 +366,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7242,
+      "decor_ratio": 0.7263,
       "error": null
     },
     {
