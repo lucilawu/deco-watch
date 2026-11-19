@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "clients": [
     {
       "client": "Fix Price",
@@ -105,12 +105,12 @@
           ]
         },
         {
-          "id": "5362001",
-          "name": "\"Бесячая\" открытка, Prank Bank, в ассортименте",
-          "price": 199,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5362001-besyachaya-otkrytka-rank-ank-v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5362001-besyachaya-otkrytka-rank-ank-v-assortimente",
+          "id": "5230225",
+          "name": "Подсвечник \"Рубикон\", 9,5 см",
+          "price": 499,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -127,57 +127,24 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 281,
-      "fetched_total": 386,
-      "filtered_count": 105,
-      "new_count": 4,
+      "total": 274,
+      "fetched_total": 374,
+      "filtered_count": 100,
+      "new_count": 1,
       "new_items": [
         {
-          "id": "221165",
-          "name": "Велюровый чехол для декоративной подушки с вышивкой",
-          "price": 1799,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6810226509_40/",
+          "id": "222793",
+          "name": "Чехол для декоративной подушки из велюра с оборками и вышивкой",
+          "price": 2299,
+          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226512_99/",
           "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6810226509_40/",
+          "path": "/eshop/home/tekstil/dekor/SL6811226512_99/",
           "price_match": true,
           "focus_match": true,
           "match_tags": [
             "🎯 价位匹配",
             "✨ 品类对口"
           ]
-        },
-        {
-          "id": "221466",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227059_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221457",
-          "name": "Елочное украшение",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
-          "category": "dekor / yelochnye-ukrasheniya",
-          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227057_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
-        },
-        {
-          "id": "221774",
-          "name": "Набор столовых свечей с принтом, 2 шт.",
-          "price": 999,
-          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227093_99/",
-          "category": "dekor / svechi",
-          "path": "/eshop/home/dekor/svechi/SL6810227093_99/",
-          "price_match": false,
-          "focus_match": false,
-          "match_tags": []
         }
       ],
       "sample": [
@@ -295,7 +262,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.728,
+      "decor_ratio": 0.7326,
       "error": null
     },
     {
