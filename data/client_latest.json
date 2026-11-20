@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "clients": [
     {
       "client": "Fix Price",
@@ -127,24 +127,47 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 274,
-      "fetched_total": 374,
-      "filtered_count": 100,
-      "new_count": 1,
+      "total": 267,
+      "fetched_total": 366,
+      "filtered_count": 99,
+      "new_count": 3,
       "new_items": [
         {
-          "id": "222793",
-          "name": "Чехол для декоративной подушки из велюра с оборками и вышивкой",
-          "price": 2299,
-          "url": "https://www.sela.ru/eshop/home/tekstil/dekor/SL6811226512_99/",
-          "category": "tekstil / dekor",
-          "path": "/eshop/home/tekstil/dekor/SL6811226512_99/",
-          "price_match": true,
+          "id": "221383",
+          "name": "Хлопковая сервировочная салфетка с кисточками",
+          "price": 799,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226616_99/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810226616_99/",
+          "price_match": false,
           "focus_match": true,
           "match_tags": [
-            "🎯 价位匹配",
             "✨ 品类对口"
           ]
+        },
+        {
+          "id": "221379",
+          "name": "Сервировочная салфетка из хлопка",
+          "price": 699,
+          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226615_99/",
+          "category": "kukhnya",
+          "path": "/eshop/home/kukhnya/SL6810226615_99/",
+          "price_match": false,
+          "focus_match": true,
+          "match_tags": [
+            "✨ 品类对口"
+          ]
+        },
+        {
+          "id": "221907",
+          "name": "Металлическая подставка под яйцо",
+          "price": 399,
+          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
+          "category": "posuda",
+          "path": "/eshop/home/posuda/SL6810226923_7/",
+          "price_match": false,
+          "focus_match": false,
+          "match_tags": []
         }
       ],
       "sample": [
@@ -262,7 +285,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7326,
+      "decor_ratio": 0.7295,
       "error": null
     },
     {
