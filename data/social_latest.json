@@ -1,177 +1,237 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "channels": [
     {
       "client": "Fix Price",
       "platform": "telegram",
       "channel": "fixprice_russia",
       "baseline": false,
-      "total": 16,
-      "new_count": 12,
+      "total": 18,
+      "new_count": 18,
       "new_posts": [
         {
-          "id": "62515",
-          "summary": "БОЛЬШЕ ТОВАРОВ — БОЛЬШЕ ВЫГОДЫ! 💰 Крекер со вкусом свиного окорока и трюфеля (174,50 рубля) — хрустящая закуска с насыщенным вкусом и аппетитным ароматом! Отлично подойдёт для перекуса или уютного вечера за любимым фильмом. ⭐ Масса нетто: 118 г. 🏷️ Арт: 1955033 Открывайте для се…",
+          "id": "62530",
+          "summary": "🔥 Находки недели, уютное общение и промокод – все это ждет Вас на новом стриме Fix Price! Друзья, сегодня, 20 ноября, в 16:00 вновь встречаемся в VK Видео 💙 💚 Покажем самые интересные товары недели, поделимся с Вами новогодним настроением, поболтаем и отлично проведем время! 🎄 В…",
           "images": [
-            "https://cdn4.telesco.pe/file/rCL3L2GoipB2sQpg3nz7EUpQHUzFlMLsmzf070Wsuv6g5pOw20EXSHjFUTSSprlifPE-l59pPnEuPigulfUEkc8jR4oPS03qKNSDitK-j1ZHGkM5gQE_shqjA-18Pvgc_M7AO-2KCGDlFmIuI31Wv_Ac2c4IYxqPl--tly_CnAiutY984jM1d8vL3Goae8y3yqUx6fyq5tF896_aQksFq_EjWOe_aTql-crDF972rrfllIWI_b-3sT8m9poztCDLB9DVcTlBezqtQnFdVF-CXaPlA2llrG68Xdqu9QyjwxCsxJ-R1f85cu0_o0CxlieOrptGXoMbCQVJDlDF_ue3ig.jpg"
+            "https://cdn4.telesco.pe/file/YW9J8CDmv87h_2ulH7zEY9dGKqKPylOA4QihjqXRs_i5TYosYEOt5BHBa2fKowcUaBGDfdrsnn2I8ZoKrAwqhtjf5DRBAf6l26nW_RgooPko0a8CZEQjC2yfyzCHqwvSGpm_LCRXnbqhGNG4LuWtcIz0yihuJ3gL4miJ6pYrzaDN1J9MgZvf7IaYKQdRKweqeiiUQGGdJjnvpItFDgGGiL4ixolRnN1PsMBq7yM-7jmSauPjt9CBt66at_xIW510bBTQjlRYd9mxC2F3XZ7Um1Nsn9mAcF2zJkv-OnJdPvRa-BfUxSCxxA3OIVfcu631Qq7uW_Y63Gpquonra7ljXw.jpg"
           ],
-          "url": "https://t.me/fixprice_russia/62515",
-          "published": "2026-11-19T09:00:06+00:00",
+          "url": "https://t.me/fixprice_russia/62530",
+          "published": "2026-11-20T08:12:05+00:00",
           "is_teaser": false
         },
         {
-          "id": "62516",
-          "summary": "Порадуйте ребёнка интересными находками за 35 рублей! 🌈 🤩 🔵 Лизун, 120 г — яркая тягучая масса, которую приятно разминать и растягивать! Имеет приятный аромат и упакована в удобную баночку с крышкой. Арт. 5313110 🔵 Игрушка-лизун «Весёлый дуэт» подарит ребёнку много положительных…",
+          "id": "62531",
+          "summary": "ВОЗЬМИ ТО, ЧТО ТЕБЕ НУЖНО! 🎄 🍬 Новогодний подарок «С Новым годом!», 350 г (249 рублей) — арт. 1933310 🧸 Новогодняя декорация «Мишка в камзоле» (599 рублей) — арт. 5314367 ❄️ Сувенир «Волшебный шар» (229 рублей) — арт. 5312378 ☕ Кружка «Снежное кружево» (299 рублей) — арт. 532148…",
           "images": [
-            "https://cdn4.telesco.pe/file/LyR8-ZXB8BaQTmYqTrWtE5_TUhM6GxtxpXOl3rSNL8TREU7aVgQXwg4bj00IWI7BGbUDlKhlM0uU_eWYvIomQJllwh00PV2LgmuJasN02BKNutVbgbKhmSaZa0N9xmvg6EhdFEIHlVDXhkx8ZoEan_kIt6y7s3AfOozxnNdmOeEskk-OMmzNbBIGMLLSskOw1w9TiDLpN-ClPNde-FdvomnPCzSNKZMxN9MN64KqjBFUVrXCvW0FCrDRYzkBGUwxbG_zoqnpwr5pNDt2ePJokfmcj7gGkycB2y6R8uczpMyFkars0nTeBjJq-YoNVqiq_n5t3DeeqybkxBWVLNDxGg.jpg",
-            "https://cdn4.telesco.pe/file/uu0XiiSMF_aQRmG9iVFNNRCE7aqJcUdsTdCPFsAF6JdQiPqTY5X7mxIyXYNYiMPmMoMfnWFFDaElgQ3YpA0Y8EbliE4vI8CaXm7Da2j_3BxCvepnDEVTYRhKSwQYg8toZ6y9bbp9xmM7sztQF0EiRMNfBIGU5pr5widEcsz5rkXq5mUJrUdXWfmcXVfRjQLyr3YTB9Sxpy4p8Ae60saTvRanaYGd4qC5W4NYhDFaE3PIECf6eHZXa_KuHmJDCYo38lMs89M4RuJCWLaUrQtk2gm81_lm4ISWdZW4mP7-kGb7MlydZOndXe3zMfCojfLSvkpNM4YL2h51KT2KuK7Psw.jpg"
+            "https://cdn4.telesco.pe/file/sRrakiE9jtde2Sx_rGgCDtJFasTyWS4LS0Adfn-duB5peYwFZDA38fJJJcflOYNXGGdCstY4rbZ64fuh27UoYQw-14-tW789ssini_-GoEjTpRl5g8ObiVqZS_6Z9aFxaqbo5Ds0Fd6dMqYNsNwEBYynzD9XgXkkwtPJZ8lffBJR6ieM-Y4jxT1vf6_Z_ZVeM6xVW35CPWMopMp27G0BWzmhTTmSVKPRVXF56qsWnXqhiDGXDcEcqMlsTHZGF9oRShA_10S3Om-dU_SmDgexXcdQtmKemNbNm54jEcbo0zZOrb8rlIpt4O1n__QKx-VKW3rSOQ820Xo_CnCcu7OHWg.jpg"
           ],
-          "url": "https://t.me/fixprice_russia/62516",
-          "published": "2026-11-19T10:00:07+00:00",
+          "url": "https://t.me/fixprice_russia/62531",
+          "published": "2026-11-20T08:30:48+00:00",
           "is_teaser": false
         },
         {
-          "id": "62518",
-          "summary": "Кофе пьём, про призы не забываем! ☕ 🎁 А Вы уже участвуете в акции Fix Price и НЕСКАФÉ ® ? Если нет, у нас хорошие новости: время ещё есть! До 5 декабря покупайте кофе из списка акционных товаров в Fix Price и регистрируйте чеки в чат-боте акции. Ведь на кону столько всего интере…",
+          "id": "62532",
+          "summary": "Следить за временем с часами за 35 рублей ещё приятнее! ⏰ 💖 ✨ Настольные часы помогут не опаздывать и соблюдать распорядок дня. А благодаря оригинальному дизайну станут отличным дополнением детской комнаты! 💌 Работают от 1 батарейки АА (не входит в комплект). 💌 Представлены в ас…",
           "images": [
-            "https://cdn4.telesco.pe/file/PB1a4EJWym2Mez5jcareLQXM4gqQqGMpQQaSry9Cg07q3G1hC3NOlPRS1lhB9dZon3Qd1Or1XgWgy-5OQvAEp4HpjKvX0KXR4T1IfgoDgEMOhXgycpZVhLBvZjHMlPtIxb2u_4nygZcwhlGZ3WpqP-_bdGnbawNEg89PhHReWu-gL3AiZryYnkEHrosroM7cSV7hDiAsE-XEYFS8rDoLeYhyoclG1VXFTsE_1AZmVeEG_P_NAm4YWcQk2FgHTfPhrzLMcv3LJTW686j8CIihDT-a4yB8XDc0EG7Cx3rDYW_HbeIPOPY5q8v6Zb_O1OqB9J0Z1S9gYGdxPorPs63QOg.jpg"
+            "https://cdn4.telesco.pe/file/F0PUtCnQ0lLYvd3VI6AuWZN5hKFTyOcLhBc1YTOB2eHj3q61exHuDYVGGsovlVkA_0FeH3HcBnrXYjk4GqRx7yFwV53iLElHMBQhqOkDqT59SYVMh_7EHfXcbcdwSfyNSMWC5ttd9XJtO04JjA20FNSpKRXNxteNQtgYK43402z4y9KPq65-ECn_0I-FbHGZegvrLTJIbsaVgWzd86G03cSX9VpjzyoZU8KQFvfBt-M_p6lWH0cQjKiK6RSTfUjKv7CgPqmXE9RHnkKI2j_iZ__XMzz8B1ZHflAxtYXLTIV8qYi0aixNWl9QKvzp5_6L0yW3IYf_UC92z-60By7RkA.jpg"
           ],
-          "url": "https://t.me/fixprice_russia/62518",
-          "published": "2026-11-19T11:00:06+00:00",
+          "url": "https://t.me/fixprice_russia/62532",
+          "published": "2026-11-20T09:00:06+00:00",
           "is_teaser": false
         },
         {
-          "id": "62519",
-          "summary": "Когда съезжаешь от родителей, вдруг выясняется: губки и тряпочки не появляются на полочке сами собой, а стиральный порошок заканчивается в самый неподходящий момент 😅 Хорошо, что всё это можно найти в Fix Price! 💚 А еще специально для Вас собрали в ролике 3 находки для самостоят…",
+          "id": "62533",
+          "summary": "🔐 Взломаем сейф с промокодами? Друзья, сегодня нам с Вами предстоит важное дело – подобрать пароль и открыть сейф! Составьте из букв на макете фразу, которая поможет добраться до подарков 🎁 💡 Подсказка: одну и ту же букву можно использовать несколько раз. Внутри мы спрятали 5 пр…",
+          "images": [
+            "https://cdn4.telesco.pe/file/jtNYkixmC8lmjd9wXpikEypKfruF89cApF_MvkMW_DBAKxmuLy719yrstUXhwGZmO4APaLj-bLYdigPA-1BQnvaVeCBphZPmaR8uRIu-UCUGt67n0EAc045QFSh52grTWjVAayoVLurToD-Xj2nQl5jDLeznFB7PAsFxbBP-R61j-ITn6zWx2IZvBrh5vtUUUgWS_fmuEiGRGpKUkzMcrt_O1lIDJ9FeKjf2wgbLgwTURaXGEJ2M7AomRLA3TOEqjxqszzxmlioBtzozdRGfz8dziEhzZlOcH8MxmCPN6HTaShy_iLg2uE8jtdJIMwAyXiyBne7tFOCA9VnpotHkHg.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62533",
+          "published": "2026-11-20T09:56:05+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62534",
+          "summary": "Fix Price Россия pinned a photo",
           "images": [],
-          "url": "https://t.me/fixprice_russia/62519",
-          "published": "2026-11-19T11:30:27+00:00",
+          "url": "https://t.me/fixprice_russia/62534",
+          "published": "2026-11-20T10:15:17+00:00",
           "is_teaser": false
         },
         {
-          "id": "62520",
-          "summary": "БОЛЬШЕ ВЫГОДЫ СО СПЕЦ ЦЕНОЙ ПО КАРТЕ! 🤗 🍫 Шоколадные конфеты Milky Way — воздушная нуга в шоколаде сделает чаепитие ещё приятнее, а благодаря индивидуальной упаковке конфетами удобно делиться с близкими и друзьями! ⚖️ Масса нетто: 132 г. 💳 ЦЕНА ПО КАРТЕ FIX PRICE: 99 рублей Цена…",
-          "images": [
-            "https://cdn4.telesco.pe/file/M_gFInNvqFpIiQNxU4ukiYFB1E-tLEfqTkyADXIOnoBgHXdrkD31_9HDYmYJEaagi_JsYeXCX6jm8nP3JMxyKhEK0CPNQAQ43r23EARMBzkXRXJRBT1yVyBwIs8VwLdgYmVxVlyZgSL-hKU25oacfbF3uwWeTopidHWBUOQwBKe1WV-aqL_Wgy3DGDkI2S4wUGrA0GDNQX_GZsfcjHKTGnntbu_UAWKe3egU_C37aowF6xmZCvBRX7hTDA1A17wxRGKl8bsKok943Nc_BxAV1QbAUgwbzoOlR250Fv4rKusQd7ATXZetEWjF4XIOvyFt7rqD0Ogdg9Qvd6kz_TvwlQ.jpg"
-          ],
-          "url": "https://t.me/fixprice_russia/62520",
-          "published": "2026-11-19T12:00:05+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "62521",
-          "summary": "Планы на вечер: никуда не спешить и наслаждаться уютом... ✨ ... и пусть домашние дела немного подождут 🥰 🌿 Декоративная ветка «Сен-Тропе» (149 рублей) поможет добавить в интерьер растительный акцент. Её можно использовать в оформлении комнаты или включить в декоративную композиц…",
-          "images": [
-            "https://cdn4.telesco.pe/file/mGoDXwRNYo2pwZlYow3v83zObQH25hUcnk0ShsfoE4CHDJdaVAjXNkubLHw-svadxcEpFfH9zigAgLXUQjAf_L-RSDXTOeh3qNdz1rN3neov4BSGcU8pgZgSwX1PdFLIZYZAufESFyuJ1pbZk1VR9O7zBojV0NrnWdtMowcJwrdMqIkIPye1Ezy0jskHec6UAZGpL2a2xnG3GPYp0UOZ5ZccC-fjrbDAbxzi7UDYhs39kCmGqov5kvkTLc84osQL2gTVNl7HvfXIrS-5CX9qJmeN14DFw_suJf1Tkdxmc7V83kG49AG2BopWvgXLTiasml3vtI2icQRssOkysmvBrA.jpg",
-            "https://cdn4.telesco.pe/file/JcmWWtVvmwpabXFERD0bMnnAuUcpFUCgLYggLEV1f7-2Rq8vVJSWJ2m7TfpStnTVleNADqqSTqhRqpxB698h2Qk0mtfcaWMnCVLfLYV0t2n2aEWrt3uXS2jY_cwlKO6jtUJXtaB7Wd5qgJsmPxGVcCIeTtzMOpdZkmCzhPYUPV1lLnkXCxcXf7CkuyWdncwCpwaX5d2IV98EFqI-2LV6vkM4TJs_m0Cvd6PSe1DiSl_FarvB8aQ3nFFNXeyOTnlmSbOrV2UEJC8gLsE0OeiAA4eAY4xBIGfmAtYGr0s5zflcfJyBNpg7IMT1tMn62MPqi_SLdCQO9GmB4OKfVk63CQ.jpg",
-            "https://cdn4.telesco.pe/file/Sa6ZC3GGSqEBE5qAQ6tGvmarZjIuLKkqlrxWNXkSvQ_gXoVFpNzBacLtr8sGTMYLoO7EFzw9Q2gTRYbF3zv33dku6HctBYnSGekLzQbcN3BJykr5rAbjp-L2ZMzcDSUk4_iRnQr_p9zdQUr86A2Qe62eRxRA12F3qUkl7pndkZC5Fxa_1o_wkHJ0_NmUD-S521i3fqrx3-kZYv9Bcr9UFWkj2SvLireH4Uue9ScU22zIy4B6Omk52MV7e1iuQmZkBceArn3x79vtdJAjIUjojQpv--snbVrYRrFF3TkvjgzP9dnZa5wD9VXOAN6jS0_XghAN4IDRExMhP_Udd1Zt5Q.jpg"
-          ],
-          "url": "https://t.me/fixprice_russia/62521",
-          "published": "2026-11-19T12:33:59+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "62524",
-          "summary": "☕ Что у Вас сегодня к чаю? 🔥 Дайджест с пылу с жару! 🛍️ Промокод на 300 баллов за самовывоз от 1300 рублей 🚚 Бесплатная экспресс-доставка от 800 рублей. ⏰ Акциями можно воспользоваться сегодня, до конца дня. 💙 💚 Еще больше выгодных предложений – здесь . #fixprice #фикспрайс Рекл…",
-          "images": [
-            "https://cdn4.telesco.pe/file/TUg97qL09wIkweae3k32okHIKkENxfCYEO9TKDKhKKajP0JuyEJKOU_-RtSWE-QW7HkO5kDxRx3q9UzKLB91Tx5ugEHOJiT22PHoHXVKCGuhFS4OySKdwCrxeMgnVlVQo5m30mkADG4B5c4mZSWQsycR7OZWWa9AX85daspDDSwJ_voQBfK0RKZBkSKRXxLKV4xmzY_lgxAe56qpXNoGjcUpbWho1Yc9Enxy-R-HWKPjjIqmFHoQujSyQJr9EcZjzUtWmvBaKKENdnAf6WTsED8LI_7C8IEmXaaUUQ2zlj_100wEw7zsVj0oKuN_zeCpk8sDBuCFlnXOyNEwPK74ww.jpg"
-          ],
-          "url": "https://t.me/fixprice_russia/62524",
-          "published": "2026-11-19T13:00:06+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "62525",
-          "summary": "Это товар Вам точно пригодится 😉 💙 Электрическая сушилка для всех типов обуви (349 рублей) обеспечит быструю сушку обуви после дождя, снега или стирки. 🔹 Борется с неприятным запахом в обуви после работы и занятий спортом. 🔹 Подходит для детской и взрослой обуви от 23 до 46 разм…",
+          "id": "62535",
+          "summary": "🎬 Роберт Паттинсон: пробы на главную роль в сериале о Fix Price. Ну что, друзья, утверждаем? Или нужен ещё один дубль? 😉 #fixprice #фикспрайс",
           "images": [],
-          "url": "https://t.me/fixprice_russia/62525",
-          "published": "2026-11-19T14:51:11+00:00",
+          "url": "https://t.me/fixprice_russia/62535",
+          "published": "2026-11-20T11:10:15+00:00",
           "is_teaser": false
         },
         {
-          "id": "62526",
-          "summary": "👟 Универсальный лоток (279 рублей) поможет сохранить чистоту в прихожей, автомобиле или месте кормления питомца 🐾 Ячейки задерживают песок, грязь, снег и воду, не давая им разноситься по полу. Высокие бортики упрощают переноску, а лёгкий материал удобно мыть 🧽 📏 Размер: 31х51 см…",
+          "id": "62536",
+          "summary": "🎈 Набор воздушных УФ-шаров (99 рублей) поможет стильно оформить вечеринку! 🥳 Шары светятся под УФ-светом и подойдут для тематических мероприятий с соответствующим освещением. 📦 В наборе 10 шаров. 🏷️ Арт: 5310517 🛍️ Сделайте заказ на дом, в пункт выдачи или оформите самовывоз в п…",
           "images": [
-            "https://cdn4.telesco.pe/file/JTuQxaywHljPW3yHaJSj0k0RSeOr2aJUkEMEOLPPzk1EqLgY42Be-FnU7R5m26PbjBW_m2Nx8xp1QnQ-Doqsu9lAITdFs-NgGXdlpUlUbEZ8jalv25TrzF3tCQbKNEFXfOoOu0LWooUzfKHxODNRjyEmvhC79KfhZQ_CO5o3o-ciSBwlfUpYaZbd_VACN2b1AmjeEO7JQpt_wPa1rchvVUSN3g3wberZkqE312mddlwqRIsoCESfZDrUEwIf7kdJ2bHaIilcM9L9Ho_km_6aKJAbfb9EEdu60VdvpgsqrMTyFSHgocKDN-JHPEsn3pzvr1OdVF-V4RrSFgvF4ivrFQ.jpg"
+            "https://cdn4.telesco.pe/file/A6uMhYt3o6k2XKNGMJdrNcM88U5fc1LkiCaeeOXZotmEZ_qFqdp3-I4a263_yxG0mfyHRAYFFi-euobJsyJvPlX-PDcW8syR36keDXXFzYzumnYYQHn4LkVzFqDE0WCG9inRo0dZPAC7FtwBEMW-iAexqoWOpLSIsZlVkYNDdUdUBAbqxDHQcf3qgNp7mLZss6pzroL1bgj5v91JYH9eZVzeDxYwIFGNJ4gkIxg0YKNL4cZn9KrGsjh_qX80BgQOpUwnrP_l_iQSoevkb3S4Y-gD1GSwh6lQll3NX-S1k_ZOF7j421JEX7_bNchotPzKL6qqFJ9dzY7NlH6k6Ly2PA.jpg"
           ],
-          "url": "https://t.me/fixprice_russia/62526",
-          "published": "2026-11-19T15:00:07+00:00",
+          "url": "https://t.me/fixprice_russia/62536",
+          "published": "2026-11-20T12:18:13+00:00",
           "is_teaser": false
         },
         {
-          "id": "62527",
-          "summary": "📚 🎄 Серия книг «Новогодняя детская художественная литература» (249 рублей) порадует малышей увлекательными историями, которые займут их в зимнее время! ❄️ 📖 Каждая книга имеет твёрдый переплёт и приятные на ощупь страницы. Истории дополнены красочными картинками. 🎨 В ассортимент…",
+          "id": "62537",
+          "summary": "Чтобы не расстраиваться из-за лишних трат - читайте наш дайджест и экономьте! 🛍️ 🚚 До 22 ноября включительно: Бесплатная доставка на все от 1200 рублей. 🎁 До 30 ноября включительно: Минус 300 рублей на первый заказ от 1000 рублей по промокоду Е-ПЕРВЫЙ. 💚 А еще больше выгоды найд…",
           "images": [
-            "https://cdn4.telesco.pe/file/sXiUvRACOV7nv982AHpjhUXa52ujIjyUNkngudI7EYARgzz8lwqlfwXICo0xbUivZG5Q-zUSlED_TQgaMCW7b3rjF3DIqStJaotoJtvY8rSyPnH9MW4PyovoH3jW0a6ZNdq3jQjpa5EHZBBTdWBRtqmeRZoqpEv_AzHnuoltsB2gdPc-1BSATUpeX6PP3yE7XVp-1xrUPPp5-Wo21GgtUR6car5aSLf5iD9oUzRVXr1WX5Eb-qg0cA1sUGCfcSsSFH5-U724XzybOS5dkbAHkkq1nO6_f84fpcBoXq7hdcL53sUYLV3Vjrh1PBCg3iKbgNn0WnMp9jHPLXz2O5XTWQ.jpg"
+            "https://cdn4.telesco.pe/file/NkqGjK0FrelejHsg5RdBQfu8ZJdaQPvaFIaG9sdwRQb_zyDJNH2Mp_rRvnM2apavnS7YETBlXVN7Hpi_v2d5R0exQ52SuRin1xYFVAVpE091HcK8yW_xQX08GkqITFsx3FNSPiDfaNVW1Xa6D866pfzRcg3yj97OP4lRnlMFH7oIii-A0zcDXHS9dKbyo1WqgeQ5pda1YC5eDh21-RBmJBM4ksjF0as7A0EQe9ZCiDgtJGKvS_ktlVRJcDsce39BG5aAAWqrtx_SHN5zmHaI_-bxPMTJOS1PL_lfSqTlJtUxIcYWOcxQzwfP0sNbjP3Ur40Te_wp1h4h3z8xtLIBFw.jpg"
           ],
-          "url": "https://t.me/fixprice_russia/62527",
-          "published": "2026-11-19T16:00:06+00:00",
+          "url": "https://t.me/fixprice_russia/62537",
+          "published": "2026-11-20T12:30:06+00:00",
           "is_teaser": false
         },
         {
-          "id": "62528",
-          "summary": "Даа, вот такие вот дела, друзья… И где справедливость? 😂 #fixprice #фикспрайс",
+          "id": "62538",
+          "summary": "🧦 Женские гольфы (199 рублей) помогут дополнить повседневный образ и согреть ноги в прохладную погоду. 📏 Размер: 36-40. 🎨 Цвета в ассортименте. 🏷️ Арт: 5513063 #fixprice #фикспрайс",
+          "images": [
+            "https://cdn4.telesco.pe/file/ivOyFb9zmCjfouhVndLBeTOc8Zc_Kd3aFJD5bpq0bDjBJ-SNl7IouQkXBzqIHQoZoDy61H7wl7_hOAn1rULBwSf2o-ryphd9dRYHmy8MeM3LMeSQpHG75rr9akAMFUPtNw7DbeNABMt_xKbQn__n2mpexadXzjx0CWTceGPyly_ClLMuSn7loUQdTNzZFiZoXBJE_NoF8wTEmZ5s6B57a2KWOvUNgMSKWJSMzNqOqYPIa-zgrsrXIzeylphTRoWoe1L9IrjLopY2TdjWAOEbqluWgEhZt01NsDbXTyj0wgmL3Xxrzkveo9vys6rVDZm3_SOb8ZFt9jqxxsrDBJhP9w.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62538",
+          "published": "2026-11-20T13:56:05+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62539",
+          "summary": "Скажите «СЕКРЕТ» – сэкономьте 150 рублей! ✨ Активировать на сайте ничего не нужно – просто назовите кассиру кодовое слово «СЕКРЕТ» перед оплатой покупки от 1500 рублей с картой Fix Price и… …сумма Вашей покупки уменьшится на 150 рублей! 🎉 Вот так просто, а главное – выгодно! 💙 💚…",
+          "images": [
+            "https://cdn4.telesco.pe/file/pTTwEsU_NEN_4m9ea14fuQOeHb-3VKJEW_1vjZNH2WuVODb-hqnyf7pJvQmlXaJsoiDZ26lPBCn_gqWKwGF9Y9aXo-HxCmGrmwU8m2i903R6MQpqCwM9cgI8HLHhBPJvVONuq1QQ1ysTRxXoMWbDlLJDWj9vmi2gX7pLI4-PAfYGHgIeibb2Rjca2Qj5qPp24yWLeib-lBeG3P7bmagrpbaGvqXYCdlPUfOveWIU8vObP955h0ZMY84TfyBKJpq9k3OFRbeoq2Xk8andeuRfmRL-3CCQy--ctetiFCABwGNQq8wgaUR1DbyvMMlATaI4ZDdQgIv6gCTxx1W2yiLrMA.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62539",
+          "published": "2026-11-20T14:00:05+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62540",
+          "summary": "Планы на зиму: найти горку повыше и прокатиться с ветерком! 🛷 🛷 Сани с верёвкой (599 рублей) подарят яркие эмоции во время катания с горок! ❄️ Конструкция с рельефным дном гарантирует устойчивость и плавный ход даже на рыхлом снегу. Надёжная верёвка с крепёжным фиксатором позвол…",
+          "images": [
+            "https://cdn4.telesco.pe/file/oBOuYseyr4a2w8PaFHmfZH4a5E6tfDlOVDqwZL1AS1B8wOviIjPLw6zmYt7xWkyjt1zv7k5J7vkN5cv_V8spALHs7R1GkkAQr9SLzmUwj7HjijY3_3lc7d55WrHQ9fzonw7BEYs9Gpdvr8LQzxXTsO7bMAjrnKzRa14LgUTRz6UUNSv6u9FhrAk2OgH1DzusuHcf4ZROnd7y8GyEjXgHLetOecDDLfsko1Kjs9d55zmDZyhmZA8D99HJWWuO1BZzpDH0l-tcLsDn0k1G4S4A0XLQr1As0lyZU3A6h0Zj-aTr-5BQ_vFsYqXmb3YfUb-PxDztvnzv08CuqzvIlI-pfg.jpg",
+            "https://cdn4.telesco.pe/file/W9K0NUnhoki3l5HqL-8X4wupfV0V8B7PaGAxmP2WM6QZOrGljbaQg40fINZACysbC1NcYaEeoqn-SXFc1_LVxqLhhvuHYyIv5b604R1P_RZtG-uLfJZIzycHufb8OAikoJPtmagvAEenvqpwZ1gaQsEtfdB9vrLbePdcQRoSS6xaV8b1J4HJ776_2MgT_Vk8nptAsdvvqNu4evk0jHjldSTEBV6IRq0Fl03BA7YwRy5YQa9IJUpYtrKR4RyF_A7mpd_FnCaiWa4yk077M_nPg4pgEc07ckHHf1kitv0repUL8d5p5WZhM2JURFLTRlpctJ6paNM-7iebK62-UCSQZQ.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62540",
+          "published": "2026-11-20T14:55:54+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62542",
+          "summary": "Не кисни – с дедушкой на турнике зависни! 💪 🎅 А Вам слабо? 😉 #fixprice #фикспрайс",
           "images": [],
-          "url": "https://t.me/fixprice_russia/62528",
-          "published": "2026-11-19T17:00:26+00:00",
+          "url": "https://t.me/fixprice_russia/62542",
+          "published": "2026-11-20T16:00:15+00:00",
           "is_teaser": false
         },
         {
-          "id": "62529",
-          "summary": "Пора утепляться 🥶 🧤 Женские перчатки от бренда Lady Collection (249 рублей) — классическая модель, представленная в разнообразных оттенках для любого зимнего образа. 🎀 Обхват ладони: 21 см (размер 8). 💻 Арт: 5540213 🤝 Подписывайтесь на нас: 🤗 во ВКонтакте ; 🤗 в MAX ; 🤗 в Однокла…",
+          "id": "62543",
+          "summary": "БОЛЬШЕ ВЫГОДЫ СО СПЕЦ ЦЕНОЙ ПО КАРТЕ! 🤗 Стиральный порошок — для свежести и мягкости Ваших вещей! Помогает сохранять насыщенность цвета и подходит как для машинной, так и для ручной стирки. А нежный аромат сделает уход за одеждой ещё приятнее! ✨ ⚖️ Масса нетто: 2,4 кг. В ассорти…",
           "images": [
-            "https://cdn4.telesco.pe/file/PCyoyw7W2DzbuKSKwIXX5Rq1EZh17HqXBjCvu6Li7KMm7pKXTZwzgKZOxPT0jyDnvEUvipU3rcSDx4rfY4QJ-UXnzYOgeZeoh054XFp9AS-ePjyyqk7ngVrkpHiQ-X7RqIkDawxt2NFw0T9qYGuLSmVbl3zqQ1amUodlsNpWxwcQbSrKc6sbXw_pcY2Oou6CDUTmNNHHa6pegxeowSKXn8tqrXL2juYuiUGYMEzHG2en3_7u61MOSEnGuqKqtFAr68jlOSSPVwdI_0mFy3so9F5Q8_ZjhO9gRsuhpoGFpMpb2dK5zURgmBwX8n0VDbMI931TARh6JA79mgjMZKA3gA.jpg"
+            "https://cdn4.telesco.pe/file/vxDyty_u0j6Wk_973EwQ5Zd970KaDFaJLaK82-xFkGEQzbm23JiVswJ03i-4Kw9gA2JF4FoJOwYg1Pg69jnQIj5inIKXGUtXS0RrbOuKytT5PCddChPrfWzwIEx1n2VvgvUV_jUdNTo_VqGAUFw8UopqikXEUDwMj4CakMQCnI6XMTHruRzdX7odkRBj8ibk18wmoA8TQMtRn1KK-hFUA5BV6JPdQb9HFJNAqMsET5FQ8x1nNXszcMwv96fo4x2BTn3GCm7QbFoaoN1CI4KkqWNk5t3rpup25YTbsvAbkIoxpKj6sFPluEhD8Gdk_lKp4kndCm1Sflo2z4oFCrnVYQ.jpg"
           ],
-          "url": "https://t.me/fixprice_russia/62529",
-          "published": "2026-11-19T18:00:07+00:00",
+          "url": "https://t.me/fixprice_russia/62543",
+          "published": "2026-11-20T17:00:05+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62544",
+          "summary": "Любите, когда дома пахнет как в роскошном отеле? ✨ Тогда этот ролик для Вас! 💚 #fixprice #фикспрайс",
+          "images": [],
+          "url": "https://t.me/fixprice_russia/62544",
+          "published": "2026-11-20T17:30:14+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62545",
+          "summary": "Дорогие друзья! 🥰 Были открыты новые магазины Fix Price по следующим адресам: г. #Химки (Московская область), ул. Зелёная, д. 7, пом. 2 г. #Челябинск (Челябинская область), ул. Воровского, д. 59, пом. 2 г. #Новороссийск (Краснодарский край), ул. Леднева, д. 5 п. #Знаменский (Кра…",
+          "images": [
+            "https://cdn4.telesco.pe/file/gnDSUqsshOn6QULGju4hqGAum4u0CzMbmswIFkS_URPB6thOu1V9nYi9eL3mTmtIJdQP9sPRM8d64ikeEyVhYj3pNkesvjBr4lPnr-nL30ajCuyaAuttmC5yxvTwQuDIvLoK7ajDfBVAb1O0gY4C3i1sZjj7-9_Td0EiHfNTR7IrvQ_Dg6cTNpyH6fv3KxaU1MvV3ACyHAEtFK02jzd5VT-wjKUV1sm2HbBB3XmZ4PCzhuz0_2wQ5wUTmaKeIzv38QGsZE0D9owj8uvKhxngucoeyRg8DHDmbx6jQ0lCeSSkZ_2ihhKVrVjqa42e5sWfyXeX8hvaKKUivr-MDv8l4A.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62545",
+          "published": "2026-11-20T18:00:05+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62546",
+          "summary": "🛒 Запасайтесь нужным и получайте выгоду! 😉 До 23 ноября включительно оформите заказ от 1700 рублей в интернет-магазине с самовывозом или экспресс-доставкой. 💚 Введите промокод Е-ЗАПАС и получите выгоду 400 рублей на текущую покупку! 💙 👉 Подробнее об акции . #fixprice #фикспрайс…",
+          "images": [
+            "https://cdn4.telesco.pe/file/pk0levbYJHUtvSGpUo3vZjkof9ITLfW871cVzkIDt2NjBM1zd7J4uFTUDurBYu-EGdAcdSLD0Plci2PZ851uJPvwMpYR-yS0flei68iqwspdbuW9s8Nu4P5oV9vqboj8viIDs-Ra0oUDzDtCeU1i0YWHqnEi-6XManhS0cGdO3DXoCkqeW8YmkbS3wig_Bs1ZrXsoILiz8JZKfljpOJ77nwHIb_nYStWGeI1KM8-yNvRU4mkqI34memXOXDkf-LvSzMQrDr5zZZN7jPVrz-qbb80aza1fOrxeZ_R6H0kj2pwT0coLxOFGUOnfqOjbeNZvWjsz17Vxb0s-OLi5rCUrQ.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62546",
+          "published": "2026-11-21T06:00:07+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62547",
+          "summary": "🧴 Простой в применении пятновыводитель-концентрат (124 рубля) эффективно удаляет пятна от жира, соусов, кофе и другие сложные загрязнения. ⏱️ Действует за 5–10 минут. 👕 Безопасен для ткани. 📦 В наборе 2 ёмкости объёмом 10 мл. 🔎 Арт: 3003145 #fixprice #фикспрайс",
+          "images": [
+            "https://cdn4.telesco.pe/file/JF4Jz6MzC2SYIX0fYfq_wqlMemqXv_xtH4K7fBdJAnXZpN2tJgBZcoAYZhQoj9LXSBAep0BO00xDvHrRuiDFZKGRH4xX6Bu7hK074vhTv3NX8Fj574K6BwX9gCMnxFxDkrlYbl08ukvkndo8dpwsJXtj1zrmnE6195VZnGPOjaExGSuSjMWFV3n74pgLsaYbPnz3Mw2kvVVVkuUoxP4t357rdWk9v0f_8GkfDKHDo9izlU3wwS6swt30MCbS1scO4Dlq2OS7nLs8RWd27V6_7YF0EEifnW_Mn2kZ1WPs1lDcOkkholPh3WmAvZOIdrzJrfy0qOBmnZ3_JQAppZuCFg.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62547",
+          "published": "2026-11-21T07:00:06+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62548",
+          "summary": "Чаепитие станет ещё приятнее с находками за 35 рублей! 😍 ☕ 🔵 Кружка, 400 мл порадует ярким оформлением и станет отличной компанией для утреннего кофе или чая. Арт. 5091465 🔵 Кружка, 480 мл вместит большую порцию любимого напитка, чтобы можно было подольше наслаждаться приятным п…",
+          "images": [
+            "https://cdn4.telesco.pe/file/VbDlF3Xq6Ifi-NdvbAH6os-SJbjsiJqiCZNWd7v9CCdamVVJq3HP0cnsgD_Hw4hfaqCeMgXne0pE9ta1dR2Sgb0sFKqFWZJhf8IFR_3EwFqsoz-elS5LeB2IT9BWFZwtBgb6VobcuBWpoY_-9kgTh0BZnbg4ktOngpRAgqAOBwJK7TGQbE4pJ7UfKR8AgAXfr0BmV2YP9Z0INXH8sPF_ruoFOotx7JGs8CKXqoUNMP9OO20oz99k2YJwpnFQn0LjtSz_k8hvyt22zbQ9ij0NyxQn9XX_Tfj8DIy3pcRkTYo_Y95nN9aNQOmSlHIucB9bS12tSudpJRUyZOvJ7-BGdA.jpg",
+            "https://cdn4.telesco.pe/file/lejQTNJ3hQB2GV-jBwT0GM1j1JQU4hAGVypk_9N6GNtO2qZExwajE1E-QDRijI0XAsfAicqtzhyYoafn5S56YFc9op0iymJwASOsG5B38tIbLMfDhSODFz4m4RZZS_OnbrR9pSSWYtBn5g1zRtBlME6rLk_gDa1w7uE2YhIqio3LeluBdfJKSEty7vlziUnqgWxJwKj25RDgnRBZEJ2raWCBaKlMWZksSdikI3IxI2L4VkTZsF6OtWlTBQ2ygs9r5DF57-vWbS4jH1QdpmRpG2gYbvTtoVocNVXS2c6XJhrSELYaRz2-evSBu4odTe4v_nbHFCxs5lBZbLDcmh-HiA.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62548",
+          "published": "2026-11-21T08:00:08+00:00",
           "is_teaser": false
         }
       ],
       "sample": [
         {
-          "id": "62529",
-          "summary": "Пора утепляться 🥶 🧤 Женские перчатки от бренда Lady Collection (249 рублей) — классическая модель, представленная в разнообразных оттенках для любого зимнего образа. 🎀 Обхват ладони: 21 см (размер 8). 💻 Арт: 5540213 🤝 Подписывайтесь на нас: 🤗 во ВКонтакте ; 🤗 в MAX ; 🤗 в Однокла…",
+          "id": "62548",
+          "summary": "Чаепитие станет ещё приятнее с находками за 35 рублей! 😍 ☕ 🔵 Кружка, 400 мл порадует ярким оформлением и станет отличной компанией для утреннего кофе или чая. Арт. 5091465 🔵 Кружка, 480 мл вместит большую порцию любимого напитка, чтобы можно было подольше наслаждаться приятным п…",
           "images": [
-            "https://cdn4.telesco.pe/file/PCyoyw7W2DzbuKSKwIXX5Rq1EZh17HqXBjCvu6Li7KMm7pKXTZwzgKZOxPT0jyDnvEUvipU3rcSDx4rfY4QJ-UXnzYOgeZeoh054XFp9AS-ePjyyqk7ngVrkpHiQ-X7RqIkDawxt2NFw0T9qYGuLSmVbl3zqQ1amUodlsNpWxwcQbSrKc6sbXw_pcY2Oou6CDUTmNNHHa6pegxeowSKXn8tqrXL2juYuiUGYMEzHG2en3_7u61MOSEnGuqKqtFAr68jlOSSPVwdI_0mFy3so9F5Q8_ZjhO9gRsuhpoGFpMpb2dK5zURgmBwX8n0VDbMI931TARh6JA79mgjMZKA3gA.jpg"
+            "https://cdn4.telesco.pe/file/VbDlF3Xq6Ifi-NdvbAH6os-SJbjsiJqiCZNWd7v9CCdamVVJq3HP0cnsgD_Hw4hfaqCeMgXne0pE9ta1dR2Sgb0sFKqFWZJhf8IFR_3EwFqsoz-elS5LeB2IT9BWFZwtBgb6VobcuBWpoY_-9kgTh0BZnbg4ktOngpRAgqAOBwJK7TGQbE4pJ7UfKR8AgAXfr0BmV2YP9Z0INXH8sPF_ruoFOotx7JGs8CKXqoUNMP9OO20oz99k2YJwpnFQn0LjtSz_k8hvyt22zbQ9ij0NyxQn9XX_Tfj8DIy3pcRkTYo_Y95nN9aNQOmSlHIucB9bS12tSudpJRUyZOvJ7-BGdA.jpg",
+            "https://cdn4.telesco.pe/file/lejQTNJ3hQB2GV-jBwT0GM1j1JQU4hAGVypk_9N6GNtO2qZExwajE1E-QDRijI0XAsfAicqtzhyYoafn5S56YFc9op0iymJwASOsG5B38tIbLMfDhSODFz4m4RZZS_OnbrR9pSSWYtBn5g1zRtBlME6rLk_gDa1w7uE2YhIqio3LeluBdfJKSEty7vlziUnqgWxJwKj25RDgnRBZEJ2raWCBaKlMWZksSdikI3IxI2L4VkTZsF6OtWlTBQ2ygs9r5DF57-vWbS4jH1QdpmRpG2gYbvTtoVocNVXS2c6XJhrSELYaRz2-evSBu4odTe4v_nbHFCxs5lBZbLDcmh-HiA.jpg"
           ],
-          "url": "https://t.me/fixprice_russia/62529",
-          "published": "2026-11-19T18:00:07+00:00",
+          "url": "https://t.me/fixprice_russia/62548",
+          "published": "2026-11-21T08:00:08+00:00",
           "is_teaser": false
         },
         {
-          "id": "62528",
-          "summary": "Даа, вот такие вот дела, друзья… И где справедливость? 😂 #fixprice #фикспрайс",
+          "id": "62547",
+          "summary": "🧴 Простой в применении пятновыводитель-концентрат (124 рубля) эффективно удаляет пятна от жира, соусов, кофе и другие сложные загрязнения. ⏱️ Действует за 5–10 минут. 👕 Безопасен для ткани. 📦 В наборе 2 ёмкости объёмом 10 мл. 🔎 Арт: 3003145 #fixprice #фикспрайс",
+          "images": [
+            "https://cdn4.telesco.pe/file/JF4Jz6MzC2SYIX0fYfq_wqlMemqXv_xtH4K7fBdJAnXZpN2tJgBZcoAYZhQoj9LXSBAep0BO00xDvHrRuiDFZKGRH4xX6Bu7hK074vhTv3NX8Fj574K6BwX9gCMnxFxDkrlYbl08ukvkndo8dpwsJXtj1zrmnE6195VZnGPOjaExGSuSjMWFV3n74pgLsaYbPnz3Mw2kvVVVkuUoxP4t357rdWk9v0f_8GkfDKHDo9izlU3wwS6swt30MCbS1scO4Dlq2OS7nLs8RWd27V6_7YF0EEifnW_Mn2kZ1WPs1lDcOkkholPh3WmAvZOIdrzJrfy0qOBmnZ3_JQAppZuCFg.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62547",
+          "published": "2026-11-21T07:00:06+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62546",
+          "summary": "🛒 Запасайтесь нужным и получайте выгоду! 😉 До 23 ноября включительно оформите заказ от 1700 рублей в интернет-магазине с самовывозом или экспресс-доставкой. 💚 Введите промокод Е-ЗАПАС и получите выгоду 400 рублей на текущую покупку! 💙 👉 Подробнее об акции . #fixprice #фикспрайс…",
+          "images": [
+            "https://cdn4.telesco.pe/file/pk0levbYJHUtvSGpUo3vZjkof9ITLfW871cVzkIDt2NjBM1zd7J4uFTUDurBYu-EGdAcdSLD0Plci2PZ851uJPvwMpYR-yS0flei68iqwspdbuW9s8Nu4P5oV9vqboj8viIDs-Ra0oUDzDtCeU1i0YWHqnEi-6XManhS0cGdO3DXoCkqeW8YmkbS3wig_Bs1ZrXsoILiz8JZKfljpOJ77nwHIb_nYStWGeI1KM8-yNvRU4mkqI34memXOXDkf-LvSzMQrDr5zZZN7jPVrz-qbb80aza1fOrxeZ_R6H0kj2pwT0coLxOFGUOnfqOjbeNZvWjsz17Vxb0s-OLi5rCUrQ.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62546",
+          "published": "2026-11-21T06:00:07+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62545",
+          "summary": "Дорогие друзья! 🥰 Были открыты новые магазины Fix Price по следующим адресам: г. #Химки (Московская область), ул. Зелёная, д. 7, пом. 2 г. #Челябинск (Челябинская область), ул. Воровского, д. 59, пом. 2 г. #Новороссийск (Краснодарский край), ул. Леднева, д. 5 п. #Знаменский (Кра…",
+          "images": [
+            "https://cdn4.telesco.pe/file/gnDSUqsshOn6QULGju4hqGAum4u0CzMbmswIFkS_URPB6thOu1V9nYi9eL3mTmtIJdQP9sPRM8d64ikeEyVhYj3pNkesvjBr4lPnr-nL30ajCuyaAuttmC5yxvTwQuDIvLoK7ajDfBVAb1O0gY4C3i1sZjj7-9_Td0EiHfNTR7IrvQ_Dg6cTNpyH6fv3KxaU1MvV3ACyHAEtFK02jzd5VT-wjKUV1sm2HbBB3XmZ4PCzhuz0_2wQ5wUTmaKeIzv38QGsZE0D9owj8uvKhxngucoeyRg8DHDmbx6jQ0lCeSSkZ_2ihhKVrVjqa42e5sWfyXeX8hvaKKUivr-MDv8l4A.jpg"
+          ],
+          "url": "https://t.me/fixprice_russia/62545",
+          "published": "2026-11-20T18:00:05+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "62544",
+          "summary": "Любите, когда дома пахнет как в роскошном отеле? ✨ Тогда этот ролик для Вас! 💚 #fixprice #фикспрайс",
           "images": [],
-          "url": "https://t.me/fixprice_russia/62528",
-          "published": "2026-11-19T17:00:26+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "62527",
-          "summary": "📚 🎄 Серия книг «Новогодняя детская художественная литература» (249 рублей) порадует малышей увлекательными историями, которые займут их в зимнее время! ❄️ 📖 Каждая книга имеет твёрдый переплёт и приятные на ощупь страницы. Истории дополнены красочными картинками. 🎨 В ассортимент…",
-          "images": [
-            "https://cdn4.telesco.pe/file/sXiUvRACOV7nv982AHpjhUXa52ujIjyUNkngudI7EYARgzz8lwqlfwXICo0xbUivZG5Q-zUSlED_TQgaMCW7b3rjF3DIqStJaotoJtvY8rSyPnH9MW4PyovoH3jW0a6ZNdq3jQjpa5EHZBBTdWBRtqmeRZoqpEv_AzHnuoltsB2gdPc-1BSATUpeX6PP3yE7XVp-1xrUPPp5-Wo21GgtUR6car5aSLf5iD9oUzRVXr1WX5Eb-qg0cA1sUGCfcSsSFH5-U724XzybOS5dkbAHkkq1nO6_f84fpcBoXq7hdcL53sUYLV3Vjrh1PBCg3iKbgNn0WnMp9jHPLXz2O5XTWQ.jpg"
-          ],
-          "url": "https://t.me/fixprice_russia/62527",
-          "published": "2026-11-19T16:00:06+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "62526",
-          "summary": "👟 Универсальный лоток (279 рублей) поможет сохранить чистоту в прихожей, автомобиле или месте кормления питомца 🐾 Ячейки задерживают песок, грязь, снег и воду, не давая им разноситься по полу. Высокие бортики упрощают переноску, а лёгкий материал удобно мыть 🧽 📏 Размер: 31х51 см…",
-          "images": [
-            "https://cdn4.telesco.pe/file/JTuQxaywHljPW3yHaJSj0k0RSeOr2aJUkEMEOLPPzk1EqLgY42Be-FnU7R5m26PbjBW_m2Nx8xp1QnQ-Doqsu9lAITdFs-NgGXdlpUlUbEZ8jalv25TrzF3tCQbKNEFXfOoOu0LWooUzfKHxODNRjyEmvhC79KfhZQ_CO5o3o-ciSBwlfUpYaZbd_VACN2b1AmjeEO7JQpt_wPa1rchvVUSN3g3wberZkqE312mddlwqRIsoCESfZDrUEwIf7kdJ2bHaIilcM9L9Ho_km_6aKJAbfb9EEdu60VdvpgsqrMTyFSHgocKDN-JHPEsn3pzvr1OdVF-V4RrSFgvF4ivrFQ.jpg"
-          ],
-          "url": "https://t.me/fixprice_russia/62526",
-          "published": "2026-11-19T15:00:07+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "62525",
-          "summary": "Это товар Вам точно пригодится 😉 💙 Электрическая сушилка для всех типов обуви (349 рублей) обеспечит быструю сушку обуви после дождя, снега или стирки. 🔹 Борется с неприятным запахом в обуви после работы и занятий спортом. 🔹 Подходит для детской и взрослой обуви от 23 до 46 разм…",
-          "images": [],
-          "url": "https://t.me/fixprice_russia/62525",
-          "published": "2026-11-19T14:51:11+00:00",
+          "url": "https://t.me/fixprice_russia/62544",
+          "published": "2026-11-20T17:30:14+00:00",
           "is_teaser": false
         }
       ],
@@ -193,74 +253,114 @@
       "platform": "telegram",
       "channel": "sela_brand",
       "baseline": false,
-      "total": 4,
-      "new_count": 1,
+      "total": 7,
+      "new_count": 5,
       "new_posts": [
         {
-          "id": "10785",
-          "summary": "Новая глава SELA Уже скоро!",
+          "id": "10787",
+          "summary": "У нас неделя открытий в Петербурге! 💚 Сегодня торжественно перерезали ленточку в обновленном флагмане SELA в ТРК «Питер Радуга»",
           "images": [],
-          "url": "https://t.me/sela_brand/10785",
-          "published": "2026-11-19T13:26:43+00:00",
+          "url": "https://t.me/sela_brand/10787",
+          "published": "2026-11-20T09:16:29+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "10788",
+          "summary": "（图片帖/无文字）",
+          "images": [],
+          "url": "https://t.me/sela_brand/10788",
+          "published": "2026-11-20T09:16:30+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "10789",
+          "summary": "Обновленный флагман SELA в ТРК «Питер Радуга» Здесь мы собрали всё в одном месте: • женская и мужская коллекции, включая праздничную и SELA.PREMIUM • яркий детский отдел с игровой зоной Вигге • умные примерочные, которые делают шопинг еще комфортнее • уютная SELA.HOME с празднич…",
+          "images": [
+            "https://cdn4.telesco.pe/file/K9DRl9AN3CmO8D3KpkeYvHmrU_j20D6PwtqCNrl2G0RUi_uhrxlMvH4sI03g98icBeNmBpKNWHA0NOfSPdZa8flfZfmr0pQzY0csjd5zGeHbJBR2wjTyUle5C9KUtLgx-XgDAhzZGs6LXoKZCyZ6LsPZ57EPrQyCdRVYsRt6J9_kyzedY21TQHkHybf5ZzDsTL7dfcxIJdaXC22vIWtiDbBS0R-ugN9FYCSMgPd7f0V7Hu1wuxNHm-JnKoTcz13Jm_VCQW5GELqcfWfrZnNWUcydb75wP1bPSlvS5eIa9ldNvCLxcpesb95W_1TQimVJe3ZE3xXGL14XQ286g3n9zw.jpg",
+            "https://cdn4.telesco.pe/file/YXSrSYiWxUPsy2Dxmbu_aExt5322g0l-8ASbdhcJzrI1X5ubrWSH69NUSSfHtE75590gCUuwVNsakGTj7q_GKUNsMqpqV1nX0prXLoefmmzFQJhft2w5HGwO-2eY20st3rN9C2NqccXwPU-P3d6Xdp6M0XTKzvGTec8CGV9J8MRbWcb8eTIOW7H52Z9OWvLQEXdT7Js6-LoOdxZQxNQvugQ9X5Ep34nTaByraJ1NDjmlw64dSwVaMtOxnAeyYjEQZnYD2Mi_kofgS2vSDwW2faAryh9GogjCxaiZAMWgH_EsGGCnwbBAnWm5eVJTma1kbBq2ec-oSWc3dPTpcJVp5A.jpg",
+            "https://cdn4.telesco.pe/file/cdv-AfZlIXzizlBhvp_qi7qz8SOBU06eu69KVuwwawksKr6ocMnteVZmEaAxe7z5kfmzX3iLHFcR0xNYWdL7Tez7U5wdykBVqwf8LD5THrRPDmYD-XsfOsMoSwSxFQN4YO6__zCgNXzfuo0DucxLmMTjUnaDGdovocOCto6UC441za_uRjbhM2kbf5NBma-BSvodqLL0TmJvRI0gpIfp7VRMn_P1p_KknlsMuygeroHD6oj8VGVQ4CLT-_A5NzQng_mT8fBgEw1010-9GwTkP-7Up9E2DXam7YQb18_ppEbaIxFKlq7qqDoLb8FvplzhFPZuT1s1a_HGugNxihyvEA.jpg",
+            "https://cdn4.telesco.pe/file/PEfOQs2ckeLUbP5WyNVIf8TrYmp5HlD1WKtQQqCdQwlPJCQn0a7ZYAnvZp4jvkkLAhtdiRalA2sxTMEkrqLfo96IXYEB7On40jUt3PV2TxN6NFtBZkANJcWlx4H-q4fRyQhk2EdgtDi2ktyEKpMPDvZvD2mCle1rbqYFHgY8R4V9l53FJFeQlwu18kjcMmeeeMjnpYQyuJK9qdeUXnZPlSmgqK7PZrFO70r2hIydIh_MaTUqtH5E7zbNlTLr-Evs802_G-ewDcTerPJ145wpdzjWIG8F-x9gpjGE0W7bJBnCPBSerhLSGb1kMpnOjRxGFWa6fkszae30HCzfITuxJA.jpg",
+            "https://cdn4.telesco.pe/file/DKRJJHK_OdICGGl3-k00jvm_FBxpJqAPCuan8tVk2FMyEH3wr8FbJQdfRNTzakIFBvkX8K9Jv318HP8Uaz1_XNdIHR3FX3OQp20JDcMgkINYCTlXbzeFgTwfGWBw_2i6ryq0o46b1DWSXixt3BMQAnrt0rgRy0-y97UduTR3140CooVAO3dbVXCPFMYEFjPcgCwj4glryfmX0W9eYhtS8vzJ3OFviGvSWx8fDZf4kvltghlRrV0W-xqJXV4OhY6KolGw8e5AaxPnYFF_gKLqZx-KA4Jua-iM1AiE8DF7ofwk0UdcbR2TV8GmiwHjck0FHQKZXZoYmaL8FdnHmnChQg.jpg"
+          ],
+          "url": "https://t.me/sela_brand/10789",
+          "published": "2026-11-20T09:33:36+00:00",
+          "is_teaser": true
+        },
+        {
+          "id": "10798",
+          "summary": "Следующая остановка — SELA STATION 🤎 Создали для вас островок гедонизма прямо среди торгового центра, чтобы после насыщенного шоппинга можно было замедлиться, насладиться любимым напитком и немного перекусить. В меню — кофе, безалкогольные коктейли, десерты и закуски от нашего г…",
+          "images": [],
+          "url": "https://t.me/sela_brand/10798",
+          "published": "2026-11-20T11:54:08+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "10800",
+          "summary": "Джинсы с блестящим будущим Модели со стразами, люрексом, цветочными узорами и бархатистым эффектом предлагаем носить не только в праздники — но и каждый день с более спокойным верхом, наши идеи образов: 1. объемные джинсы + кружевная блузка + гусарский жакет 2. джинсы-баллоны +…",
+          "images": [
+            "https://cdn4.telesco.pe/file/mn3opxFYS80B-4SgbQFzg2ZT77hiS9axb50E8jIln1wBipZ0VXoFgVdOxwi8tJ5UnwGNwlMVuW0p7uS6mCQyUMLroR-J0cO1t-Rr6upJ5wtMiFO68h4zlYXA9anl6KtJZwGVx37Dxj-X_BWyMz9NS5qrg8TiVBGmgWW-cvUxO8vpwOdw4GQ6PVEeh7KSoGupbZJn3CNhpthkuRSg-dx9pG6SHH6FWU7lFev9xJpYzyrTAuSjO1UkUq-F4GRWMbE7jvimq0srk6Ysyektyo7KVKnJUjnKCCpaDyI9Qm69bZekZAxxwmUceAec_0CcE0OYqgWTSQAqQv60KlfxKgKxzA.jpg",
+            "https://cdn4.telesco.pe/file/QaBVZYdh0ZZuSbKGUqamEzMYPZHZWhGOtjcd3L4IB_8-Xm64ucuTmi7k5u8DCjyjsZviywtjN7XZUwRjmzViQ2Bo06ncuIO_PsGpfmKI0pkm-fbOYtbEY04IkazuQlDczcvdpH_kZpn_FNk0fjErZe4bvUBetT3gm0mIcm2YmMYxKUQ0mJRpNE-ifjUDk_EftjLLOzV6Z2821mnn1JH6J4mIiYORJCTtgELOGALyEUCDkJZdsviHox4XOGyz0qKoRTI6t7Vvvj8DVsGx6-1FNv_RO1B_l40UrJB6EkpOwph-zbWJ-cIv9Vx4LZT2hZycvYzZWCOMlwSZigm_2klJhA.jpg",
+            "https://cdn4.telesco.pe/file/Ro3QBG_zo5xo2Vtev9lhMIZXdLLNIxARp6oKZxBOqqYkc8feFK7JEVpiXdQRwc4iCf-aDUmpUy3y9-TukknQPWtnHKON1kuoViTYywe1eR2ETUKzPYsHLZKq0J3vBbleq3N1Za2DmUkrCWd0BVQQqs_FFgnKt4aXMv9Cxz2xs84OXfjqjisbS2w23egxHdgZ1Y-jKM7WELF85QLX4_SQfPe_jGwmbJLBaNj5Uq5f_RdH_T8Sx06V2JBWyYpj0x4-jtOhe4OXwTq3TPDuiWTvszA9wLZFrdbgKnmX5cbcOGY1U7Rl49rFU03jP2QiiC2ocj1Sj9IrpYti0qXlRsSwlg.jpg",
+            "https://cdn4.telesco.pe/file/ARtCO2vCxWMdKXz-dgEiq9r6ZMOuEZPhr2hNzbKcsyfyNH2q-1AxJ7-MH3WaLb2dusM0jqizOrfPYfdG17GXYRaU_wtbbrv55sL1E62VrtDkEun7OcUzai-6TssGo1zU2PhPHgGkLhVMaYT20vzmhI96LqyLRUG-nb1eaTzWEU_Zvc6VaIwLg3KPfOTM0WhkEubLK7Z2E02Wbn-7rKOzIisuFFRrFkEOOScktLp1wmWpdqZVsyRjEnwqupzau3fNlZtsHB3ezqylPQMrzJat3ESOis9juyMu17_yEZpEabU7WHm65xC_X14TvVn0pOnKXB2ceaO4tCErExdEe5XZbQ.jpg",
+            "https://cdn4.telesco.pe/file/VL6inZv9rTffiRL1jEOfXIVEJDXXYpyn_s1ikAFprzFaQOyBIrfuDYLh2K3Omfn1H1UDJ5hmK98aIqtv753OgvSluv6NamwAOyjPtnVitMjwn5QmxPCny_uIrEi3_B5a34K-G6rj1-w5w75dIpYm2iyqammenoIDztfK96w-BUczdSzpq3v22Yony6sK1kquH85ExwE1pCldibgmEcrz4U8SqI13M1shIuHe0tKU7JVLo9MABBPLka5bkZtg8xMzp-qOR1SuyYZiW_Ro_MjVs8zbJQNx-FoyIptkaD00-UBoseX-u_prFpaAkffLIP339d6bm422Sb-KbscPqKhhxw.jpg"
+          ],
+          "url": "https://t.me/sela_brand/10800",
+          "published": "2026-11-21T07:50:03+00:00",
           "is_teaser": true
         }
       ],
       "sample": [
         {
-          "id": "10785",
-          "summary": "Новая глава SELA Уже скоро!",
+          "id": "10800",
+          "summary": "Джинсы с блестящим будущим Модели со стразами, люрексом, цветочными узорами и бархатистым эффектом предлагаем носить не только в праздники — но и каждый день с более спокойным верхом, наши идеи образов: 1. объемные джинсы + кружевная блузка + гусарский жакет 2. джинсы-баллоны +…",
+          "images": [
+            "https://cdn4.telesco.pe/file/mn3opxFYS80B-4SgbQFzg2ZT77hiS9axb50E8jIln1wBipZ0VXoFgVdOxwi8tJ5UnwGNwlMVuW0p7uS6mCQyUMLroR-J0cO1t-Rr6upJ5wtMiFO68h4zlYXA9anl6KtJZwGVx37Dxj-X_BWyMz9NS5qrg8TiVBGmgWW-cvUxO8vpwOdw4GQ6PVEeh7KSoGupbZJn3CNhpthkuRSg-dx9pG6SHH6FWU7lFev9xJpYzyrTAuSjO1UkUq-F4GRWMbE7jvimq0srk6Ysyektyo7KVKnJUjnKCCpaDyI9Qm69bZekZAxxwmUceAec_0CcE0OYqgWTSQAqQv60KlfxKgKxzA.jpg",
+            "https://cdn4.telesco.pe/file/QaBVZYdh0ZZuSbKGUqamEzMYPZHZWhGOtjcd3L4IB_8-Xm64ucuTmi7k5u8DCjyjsZviywtjN7XZUwRjmzViQ2Bo06ncuIO_PsGpfmKI0pkm-fbOYtbEY04IkazuQlDczcvdpH_kZpn_FNk0fjErZe4bvUBetT3gm0mIcm2YmMYxKUQ0mJRpNE-ifjUDk_EftjLLOzV6Z2821mnn1JH6J4mIiYORJCTtgELOGALyEUCDkJZdsviHox4XOGyz0qKoRTI6t7Vvvj8DVsGx6-1FNv_RO1B_l40UrJB6EkpOwph-zbWJ-cIv9Vx4LZT2hZycvYzZWCOMlwSZigm_2klJhA.jpg",
+            "https://cdn4.telesco.pe/file/Ro3QBG_zo5xo2Vtev9lhMIZXdLLNIxARp6oKZxBOqqYkc8feFK7JEVpiXdQRwc4iCf-aDUmpUy3y9-TukknQPWtnHKON1kuoViTYywe1eR2ETUKzPYsHLZKq0J3vBbleq3N1Za2DmUkrCWd0BVQQqs_FFgnKt4aXMv9Cxz2xs84OXfjqjisbS2w23egxHdgZ1Y-jKM7WELF85QLX4_SQfPe_jGwmbJLBaNj5Uq5f_RdH_T8Sx06V2JBWyYpj0x4-jtOhe4OXwTq3TPDuiWTvszA9wLZFrdbgKnmX5cbcOGY1U7Rl49rFU03jP2QiiC2ocj1Sj9IrpYti0qXlRsSwlg.jpg",
+            "https://cdn4.telesco.pe/file/ARtCO2vCxWMdKXz-dgEiq9r6ZMOuEZPhr2hNzbKcsyfyNH2q-1AxJ7-MH3WaLb2dusM0jqizOrfPYfdG17GXYRaU_wtbbrv55sL1E62VrtDkEun7OcUzai-6TssGo1zU2PhPHgGkLhVMaYT20vzmhI96LqyLRUG-nb1eaTzWEU_Zvc6VaIwLg3KPfOTM0WhkEubLK7Z2E02Wbn-7rKOzIisuFFRrFkEOOScktLp1wmWpdqZVsyRjEnwqupzau3fNlZtsHB3ezqylPQMrzJat3ESOis9juyMu17_yEZpEabU7WHm65xC_X14TvVn0pOnKXB2ceaO4tCErExdEe5XZbQ.jpg",
+            "https://cdn4.telesco.pe/file/VL6inZv9rTffiRL1jEOfXIVEJDXXYpyn_s1ikAFprzFaQOyBIrfuDYLh2K3Omfn1H1UDJ5hmK98aIqtv753OgvSluv6NamwAOyjPtnVitMjwn5QmxPCny_uIrEi3_B5a34K-G6rj1-w5w75dIpYm2iyqammenoIDztfK96w-BUczdSzpq3v22Yony6sK1kquH85ExwE1pCldibgmEcrz4U8SqI13M1shIuHe0tKU7JVLo9MABBPLka5bkZtg8xMzp-qOR1SuyYZiW_Ro_MjVs8zbJQNx-FoyIptkaD00-UBoseX-u_prFpaAkffLIP339d6bm422Sb-KbscPqKhhxw.jpg"
+          ],
+          "url": "https://t.me/sela_brand/10800",
+          "published": "2026-11-21T07:50:03+00:00",
+          "is_teaser": true
+        },
+        {
+          "id": "10798",
+          "summary": "Следующая остановка — SELA STATION 🤎 Создали для вас островок гедонизма прямо среди торгового центра, чтобы после насыщенного шоппинга можно было замедлиться, насладиться любимым напитком и немного перекусить. В меню — кофе, безалкогольные коктейли, десерты и закуски от нашего г…",
           "images": [],
-          "url": "https://t.me/sela_brand/10785",
-          "published": "2026-11-19T13:26:43+00:00",
+          "url": "https://t.me/sela_brand/10798",
+          "published": "2026-11-20T11:54:08+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "10789",
+          "summary": "Обновленный флагман SELA в ТРК «Питер Радуга» Здесь мы собрали всё в одном месте: • женская и мужская коллекции, включая праздничную и SELA.PREMIUM • яркий детский отдел с игровой зоной Вигге • умные примерочные, которые делают шопинг еще комфортнее • уютная SELA.HOME с празднич…",
+          "images": [
+            "https://cdn4.telesco.pe/file/K9DRl9AN3CmO8D3KpkeYvHmrU_j20D6PwtqCNrl2G0RUi_uhrxlMvH4sI03g98icBeNmBpKNWHA0NOfSPdZa8flfZfmr0pQzY0csjd5zGeHbJBR2wjTyUle5C9KUtLgx-XgDAhzZGs6LXoKZCyZ6LsPZ57EPrQyCdRVYsRt6J9_kyzedY21TQHkHybf5ZzDsTL7dfcxIJdaXC22vIWtiDbBS0R-ugN9FYCSMgPd7f0V7Hu1wuxNHm-JnKoTcz13Jm_VCQW5GELqcfWfrZnNWUcydb75wP1bPSlvS5eIa9ldNvCLxcpesb95W_1TQimVJe3ZE3xXGL14XQ286g3n9zw.jpg",
+            "https://cdn4.telesco.pe/file/YXSrSYiWxUPsy2Dxmbu_aExt5322g0l-8ASbdhcJzrI1X5ubrWSH69NUSSfHtE75590gCUuwVNsakGTj7q_GKUNsMqpqV1nX0prXLoefmmzFQJhft2w5HGwO-2eY20st3rN9C2NqccXwPU-P3d6Xdp6M0XTKzvGTec8CGV9J8MRbWcb8eTIOW7H52Z9OWvLQEXdT7Js6-LoOdxZQxNQvugQ9X5Ep34nTaByraJ1NDjmlw64dSwVaMtOxnAeyYjEQZnYD2Mi_kofgS2vSDwW2faAryh9GogjCxaiZAMWgH_EsGGCnwbBAnWm5eVJTma1kbBq2ec-oSWc3dPTpcJVp5A.jpg",
+            "https://cdn4.telesco.pe/file/cdv-AfZlIXzizlBhvp_qi7qz8SOBU06eu69KVuwwawksKr6ocMnteVZmEaAxe7z5kfmzX3iLHFcR0xNYWdL7Tez7U5wdykBVqwf8LD5THrRPDmYD-XsfOsMoSwSxFQN4YO6__zCgNXzfuo0DucxLmMTjUnaDGdovocOCto6UC441za_uRjbhM2kbf5NBma-BSvodqLL0TmJvRI0gpIfp7VRMn_P1p_KknlsMuygeroHD6oj8VGVQ4CLT-_A5NzQng_mT8fBgEw1010-9GwTkP-7Up9E2DXam7YQb18_ppEbaIxFKlq7qqDoLb8FvplzhFPZuT1s1a_HGugNxihyvEA.jpg",
+            "https://cdn4.telesco.pe/file/PEfOQs2ckeLUbP5WyNVIf8TrYmp5HlD1WKtQQqCdQwlPJCQn0a7ZYAnvZp4jvkkLAhtdiRalA2sxTMEkrqLfo96IXYEB7On40jUt3PV2TxN6NFtBZkANJcWlx4H-q4fRyQhk2EdgtDi2ktyEKpMPDvZvD2mCle1rbqYFHgY8R4V9l53FJFeQlwu18kjcMmeeeMjnpYQyuJK9qdeUXnZPlSmgqK7PZrFO70r2hIydIh_MaTUqtH5E7zbNlTLr-Evs802_G-ewDcTerPJ145wpdzjWIG8F-x9gpjGE0W7bJBnCPBSerhLSGb1kMpnOjRxGFWa6fkszae30HCzfITuxJA.jpg",
+            "https://cdn4.telesco.pe/file/DKRJJHK_OdICGGl3-k00jvm_FBxpJqAPCuan8tVk2FMyEH3wr8FbJQdfRNTzakIFBvkX8K9Jv318HP8Uaz1_XNdIHR3FX3OQp20JDcMgkINYCTlXbzeFgTwfGWBw_2i6ryq0o46b1DWSXixt3BMQAnrt0rgRy0-y97UduTR3140CooVAO3dbVXCPFMYEFjPcgCwj4glryfmX0W9eYhtS8vzJ3OFviGvSWx8fDZf4kvltghlRrV0W-xqJXV4OhY6KolGw8e5AaxPnYFF_gKLqZx-KA4Jua-iM1AiE8DF7ofwk0UdcbR2TV8GmiwHjck0FHQKZXZoYmaL8FdnHmnChQg.jpg"
+          ],
+          "url": "https://t.me/sela_brand/10789",
+          "published": "2026-11-20T09:33:36+00:00",
           "is_teaser": true
         },
         {
-          "id": "10776",
-          "summary": "Пока выбирали образ к праздничной вечеринке, разбросали все украшения по одежде! Они, кстати, дело рук Александра Карпинского. Кристаллы и отпечатки на кольцах, серьгах и колье. Специально для новой коллекции SELA YOUNG студия Alexander Karpinsky создала украшения в своём фирмен…",
-          "images": [
-            "https://cdn4.telesco.pe/file/O94N-RClR6MDOT2TpXU3p40zHCYNWqFl0q-9bGBMvykQV6Bi0eD-KM3YX_p0pAuZQuTku8uazbDZWw5R4B4O9j8_98H5y_npwPOOgSdTM6mqH9W9w_rc_f8i2zrDlfLJNImcXd7uZFlXsz5nsRR2yZqK7vog7ic2RCqDvl2w0Qq_fmAEDz-pD_UZc8cluiC_bvwqUid7Ug3aQX58C6IY8_ebZd5WA-lpPqn2RchWhZUS7Qork-F_aYJg8irXn0XJXyWRwSVzM9HgsAzw0jWE3Cr0QKrHdfJo-rUfa5mhWFpzu7XVISlUMxMKoS90BQVKDqQDh-PU8M2P8JQei0Q_PQ.jpg",
-            "https://cdn4.telesco.pe/file/g7hjttaZYX2gSR3VWYWQsOuDrIlLcVn5hECKn7xbp221JJVN7lG4kEjjCaF69bqXAH97UXZg9VEEy02-2-weROKlPfSNZo6B9Cp9de-J8-QVIP1VwmpuBoCnUU2GOqd_VAbKZzNaKeaMfcc61vVSuQCi4GoqDuO4z9nfEVkGdMbzG23V75_9mgHFrIkAm1iJ_nzOscUZeAxJzbSNzoWwo26XP7v9l9JpB9a7fCN3X4UUQ1ib_Y3YL6qiyZ4nHFeGhYOCACqs4-3yuPtuJFdb2MomYUtH83zCP-l9_IFlHLE1qoeMUA2un1whkE_Q1xEzns0v0ZWVyTaZasQpFbc7BA.jpg",
-            "https://cdn4.telesco.pe/file/q5sNzfbAsUdD5wCtcavWGxUCa6ObTotitbzirlppRUWF9KyQDTV7LSoar65sDo_kqvJR4Fqa9DC97ejo-DGNneqNmNEYty-xZma331bP8uST006dBrbUQipzLujGtkvPLLhBuYp62OzBhLLi7uBl4L8nC8Ozvb1WGcFejkClXIqJrUKV_7mi3KRcRvT10VJJtgcrGW3BUheeJ28AQA0ptLwST9lBwj0p7s5ghV0REJWnjyqMbNkn8AplaO0v-P32T-FUVusH3hoVLePitpdWgxUw5H_7QhGJcYVP-ph6RouycxqGRFxf1shtaY3sPmLFcfYP45lkCPJ6peKWq-Zx8g.jpg",
-            "https://cdn4.telesco.pe/file/PTVTrlUELRmq7IrpZIQUB1fnWH1VPDfLNexbrbh3ZbzSiBBKUZA2B2rmJMVXH-gJEh20b7W9AHf2PKKGYLJAEasrfNGRrl8MfeoOCf0IjgsOfVvn0YGBnvoF3e-rh272ksf_WGZcYdvGIMYru79qaTPhscU5fvT1aCg9aELlf1jBSVFm7-g9Yyux7gKmUlCI9uXvPCdBMVpkJVerJwd4uXG_5Agr9UbjejgrdXJi8WM24nzkiz_ygm6iKKBMMA5_DYMnekRQ7OSaSqj-Fbj6rjwLLtMPY8l6xyfqUmvNsQP3Eud4P3bZPr3yFzZMfOOzscLMnuAhBsyMAJRadBgVpA.jpg",
-            "https://cdn4.telesco.pe/file/UJ4MnWyLhksIkFMFzhdUgpi34U0T33vheKzl-2cLROh9AdVMMnZr2JlSEltvNP9OHxzGewHMVcAn-fXNbiLlWma9lGueJy811zf72Ew57t3LuU2Z7Z_cFy84owJiFMzesj9oOr55H1umD8tOI1ckvd1gqoMuefS3wg6XKLws_1A_A6ai8-6tG3KC99dENX7JOLJKuB130TyudDWi3GHo_h50yP3dM2Qz92ST4m58BJSZ1TiYcXapLpDTb62Z2xghS1_qESjsFy_jRKxfLbjQFyvSgcFkmRhRK348VItTxjgwKgR7e1In12DDZfLpeYaCH4-6o3ulwwY4synNWYwBew.jpg",
-            "https://cdn4.telesco.pe/file/uVa5OQUF5OjFpJHYmNOIxYxvsWn3_i_C9_xjEtN-OvPucnDIR-YHjVyvsPIObf99rlvH5a7gCjMZG4OEMsu9ayoJrApoznR6JDtzvo5j3PJSlOdz1P_voDpComB4sS2i4neAtPUG3pjOnSt3OJxCtpBV5BWB5_ntFPPEdbi20J5joILslnAEL6ZNNUIHRuoYiZn3Cx0fs8oFt1LodYidyhbslaQpHZlmsIFeRx5jSMsresDqtQeIU0WZtI6U3zyVIa3aCloghqrWnfOXbqttK4YqUDRO3vIVrS3yYRK1AAUWgXDSrZgO6zbVffQEBoccIC2pAggsezUHwlkeAnL6sw.jpg",
-            "https://cdn4.telesco.pe/file/VV-K8yxlqn2a92P7I8S-tigTaipX0YYrmhIacHJ24wiALgudCT0oninnY_jX1GdqyZwXeJRvUbS8wGj7lu5Q7pyIWTrMxtW99VP7r1z2O_JkNzDnPzE-bjrKh1DN8MYHFhMwAV9NL4zsRN565R7u3MazHoHVHd3dQnYIUM0Ehcv9A-FwCsCN29Lny73C2LtlLjC8Mv4m8T9GV-WsvPqfKV1ud8PsXp3w_OQWhb2eSPrZGRMVb6EiXiqXLqoa0pesSACqguXukdSQktLHMidzRx3xlKclBuBZ2b7-AuiPprhHEyYVJdwVGteHvOIWQk-NPkD7CUeeP_63EQJrnF5PuQ.jpg",
-            "https://cdn4.telesco.pe/file/KBjBeff3RaLG6AUG6_MERPCRwceIWW4-Y10V_aKBS4P0K3YFPqm-1hzBjWBxpUXtuCIoBqZwR-RDjcWNwKlidWbb--0bCUBGsQgJ6bW1ag2byWzvLr2HWGkONJMwOG07iCuxATPRYjkHS1Pq2p5CGqclbZUupG9GY1MYd49LXykAXaLPLbHtiIujzaD2deuvvVdTuzqvA6GejjwNQqXIYOxgbHhRbyQuIalDzOJ__h7lh3cqG0SHJimoBpPs8TRI47Ita1xvvjpQIw8OmIp3y50Knnnbsa0F562dp4VEMCtArYX6j4tzhjHKxrbzbTpaTlkveP_RHO3zs_4YmlJH5g.jpg",
-            "https://cdn4.telesco.pe/file/mauEFbMNm-n269TchTjbBRpnpRLuCYmwDNxhdvbWpRYvYccwCVT1knf26uGp6JOFCYZXpKbtBY7eKtxMwH1h3Rz5lLHoYj1CC0LXtjbtBHlcS53bSqLP6S1G-LCsm9Hne3Kp9y0nb_eRuJ_sLQKRlxXk7pNvZgwzPaxR7cPHfyw_TiJm_KtcMYYml5_KJWOMUrcaYcZAgYhBsZvxwZ1w7MV3yXSz5JtkTGbxfnzWyQTYsu_YkmhciYKw5mMIIhhPI6VonM2-bHlQPtREOX6Tv_82lTG50FwYWFp6DK-J0RSmWS3PBDiP7Zd_lFJ4bpmfcQMvJYJDTlP50uSYNHlSwg.jpg"
-          ],
-          "url": "https://t.me/sela_brand/10776",
-          "published": "2026-11-18T10:25:18+00:00",
-          "is_teaser": true
+          "id": "10788",
+          "summary": "（图片帖/无文字）",
+          "images": [],
+          "url": "https://t.me/sela_brand/10788",
+          "published": "2026-11-20T09:16:30+00:00",
+          "is_teaser": false
         },
         {
-          "id": "10770",
-          "summary": "Предлагаем не ждать особого случая! Пайетки из вечерней коллекции носим щедро, с ног до головы — даже если в планах пока только поход в офис Ищите на сайте , в приложении и магазинах SELA.",
-          "images": [
-            "https://cdn4.telesco.pe/file/AJn6tLsnpy3_PnJBMu1jbFIaIfCbSBJCc4J4ZMwBNQDmGO2NqKc94oknT2A2J-ACkSXsuFc2lEtBjbGbS4TOVqlMCtR_PPXBIHGysuFgdk-L_1ZYf4uxMx4I0gXViKUBz3elNa7zgZouXCeyqQuJiTfmrr0l5QW2jSpyADyaO-yIqnO9w4pYMmH2GL_s65uf6DptKJpN9rwqzosGUlvGUIIHUbOkptcD7S3xtKWwS-17PU-8mxnt6A2qwSp_1PlS-BnYBbRjvaVZ5QCPmXzqGbqEJdWsGGqN0HJBVQCUsKWJjpgULz4uuS1fBvb9z1alTwzHRM_h-OrdsvUjkH6yzQ.jpg",
-            "https://cdn4.telesco.pe/file/B10_qr2ivhhwmlcr3wf7AxUXSFtvf1woK6M6m1HAJbT_9QDcDjqqpc19kb5F8IDKwHHxUvr5bnitxydQ7Hvko5kvUOSMwRegUeoF7hEzNXH28QkeCKCoU7Q1GkOAAlrhq-lcJSablnYBQIzqwDYsxDmWG6EHsegKO1Fb0vptqrFH1ul82xBSfcn0SoQDAwsJpJyqHDUY75jvJlMLsNRAF_1O3h18jXFkKd8aziSeKW3hj2k2wqkcB6oOHd5fIp2RNYyz0I9o_G5MgslEaa2GEYnKYW8jHnV_sODiMDGmvAoRj1127vwjjPasxCUI-O8nnljz43TD-IhJ7J3RlbbFtg.jpg",
-            "https://cdn4.telesco.pe/file/jnTRSUsfRrlutGE1phj98GkXhMzPXBIYrOeyHutLdZPnkZfQghjKaMqNnAGis9Le3vtM3IZvMAJMHrAuE1LiWGd8dnfMUeQMXU2eEpUggZBrbR_Y4gsaWVei1l2DRisrFFt6aJMt0Efffklu1lyL9SXPPImQJ2LvSUDPQlW83_kiSK8jZXlqGold_TwKutwlo4QQGHXiVi3VxG9Rq0aqzYw1tH4GP-PfpYMh9JI8YpKRcwf1_KWq3sl0TSC6cHz526FzuhDz3s7o_MSVbt-r_kgn5zCEY02oDkA-ghLskmkIF_oL-Ro1q0btRJymI6mBJPGpczu7enRF2AV5cuQYTw.jpg",
-            "https://cdn4.telesco.pe/file/nRJ94ZSjOwL6tw01sRzLuvrOP10YC6hLN2U39kEf49Qh8MW5vX_aq8aLGrH91ClA8WucNgw_PVIS5S2cvc2QzJLPLMSP_JH0n6J6165qTO7DvsUY8HEYh-pXyP0sfC5UXh9jaUY1zzzNGzrQVngNhtj5Ne4dVxL6FqNB8zVRK4nK1-itgJW5EguoHM8UX6RNHDvfGXUUUvwKHBYmRWaDaeTTGdJ6tYZGySgCfLLAevDE2aBPnEooe19miy7SZuOO6utRs-hbzm0TQepOOikXwkkDzvn-yldUgeXZZ-Bo2GNXjnWTop7XcbYWE3FTy-HNm4cp4VmEOzZh6pDvkn9frQ.jpg",
-            "https://cdn4.telesco.pe/file/H_DG_y5pPoDvO5BPlo-kSsNUHK6Np6buKO2qOZEJcpS3_QqgmGlWXm8M_mCNXGyFHI32aJqKFAT34sGn7OA5scjkKK79j3gKDYCRfZqukkHZRP9AqU64qppBnc_MlQVhOAp5MHiovR-rTpBUrUJMd2abJCGWdl_AONHTPLxafNZxl1qs_idmYW8gcU__0JwRd7eFJbDjJPKz-NfNa0KS-nPrY2NH4NyYHenPDgiHevEbxufC9PoQnbbQe9d4DSffBd1LdR4C5vtuQ6moWUQEBjI6-IaVgZYz3DMIq_0rdU23yRszMIiAHnI5gMewbw6v0pkiK-v5A904W4gNHuB8rw.jpg",
-            "https://cdn4.telesco.pe/file/pyedOzb4MBBiadiJL-JVe-VHC6dnPKayLlviMMz7fUQkTySkaJnWsW8Z3ggBkHEty7PGALCZ1pZzRhfadsKKroDrYFDkUBaqkCE_9MLmSsoVWPHhPzuBGgjIoPY0RSwnwggqH8hzMKdp_YlIVmDshRDFGjm5wA_iSlCMJNkoLbgaQ4iRB7OwXzmNQTxL7Uaz7ZMQLotrZrp1AhqR8-82ZTnVV02UYqq6g0vfUDckNd1iqP5EU-SSeB4yOIzdcW2xC3XGR3K67tAsE1GC6Z2o3mAByIE2LL7mozwzlAz3qFTSSqYQ-S-NkbYVZJpQXTLRrNme8QJxB6SjIHFQ-aSDEg.jpg"
-          ],
-          "url": "https://t.me/sela_brand/10770",
-          "published": "2026-11-17T07:07:31+00:00",
-          "is_teaser": true
-        },
-        {
-          "id": "10764",
-          "summary": "Ну просто блеск! Когда праздничный сценарий требует чистого гламура — не стесняемся выбирать много страз и пайеток, крупные украшения, мерцающее серебро и глубокий синий. Вечерняя коллекция — уже на сайте , в приложении и магазинах МАКС • VK",
-          "images": [
-            "https://cdn4.telesco.pe/file/cmXrr4DrRBf7Q-iehTarxTQ6M2dqKG8TbvnNMTBY0Qtl1PwSje8gjcRIE4gbclCK-H0rrBQji3hcv3E9NIFg-FK7-sNyNjt-KdloP3pNTaeIkLiQV0J8759RqgTDxyizv8tmZxaNTWQiSUSDrD9Xwt4mTP9PjOP_p1qFZBNx0zgi75tY5lplxIvYFarqD3a6pPBCtQpC24DZs8ATq1Xt7G5nzEpX2JNYpCREEpUXz6nFCNu81KhialX-P6REW3qnDJJlRMV2-a92cK7-nFIafpTRm93bFMUiE9ZmDhLz3QxRgLU0eiZPAYdZONefBwg5r4gbesxfsYEJl7MpdUXo2g.jpg",
-            "https://cdn4.telesco.pe/file/OT-TRqcgm2HORDHqhznOnxeI9e7nIb1ZxN_Eq31afxQCgbgUOYNxEtRy3J9BlIUZu8Ol8ID3mhTOm8CcNsZOxd6lkAqKqVQiN0UnbUioB4fRZPMoKxXDhA-Klvi4SrQrOPKw2-N3tdVS33YIu3xmucB8bZ3ssz3vFI0sMflRp6a2bXz2adr9P9IYqO977_rO5CYLDDqvx4Zj3lzPBvZggatIHKVeAi9do9vb41Q9hsCNMtWY6tQRc2LRqUTDHPMFdSMEA2Or-48K9-Bo0zDZdzF_Fcy_ZCtEdga9RYbkoMSihMuJwWd7uORn20Ri-99g0fqOQE5zsDWvFFiYBQH3aA.jpg",
-            "https://cdn4.telesco.pe/file/gnvNL05axKX6S_K4DKoUqXcuq9NqlBCHL2W6M2UoKKIBfNT0I74pCeTgjezjtfPk3fn2JURyZahQ_--JIzyG3B-GUamxKrtYlW9TSBQ0m4MsCuCuzhsqu_IHfxQGI4xLjk08EE0jtPtmKF9tE62O6R9lR-VXoaRPyAxx9ZehBmKFscx-Zy9Q0mLjulEmL9ibDpX3vwnLenEeLkKw6CwIjb7Aujx0pftQ9yjzhUVQ15-zaopOV8r5RrOam72GSHOUQvBetIm6zovg4Nwc5dJwnR5N6L8KTBektefZKDI12wvvfl4uw0Z8PO7i4mxmIbSSNk7asFlFnWOKK4PhFZi0eQ.jpg",
-            "https://cdn4.telesco.pe/file/d6D5LmcClL9bDLbtMlAyykt8wG_h4IwQ4PW6Kt6o4eUILNRtthggR12-zu3BmmXPntgH4QK-nWl-WUZVG1kajGLcIovCItJf-xiDM3ji3lYKSi_Q_pmaVyBwGxb9S8gDTYjP07H_6gpRshSUX-ODQJEW_Pbo0p2aNeAAsBOL_WU_-TX0dWLjEE6ZGp2wFqJw54xpWEm-jS2n0JZs5OqohnsLWVQatxxkI6vG-1ZIms3Zc07XYmLRRDJOA9qJzMBAihWNMFSwgr1sGFUkm7ecEwQQV5m8XelWrMSFj3lyY15Ee4S226ljnbNyTRhyo7usX4t-viHbiJ97FV5E8DR9DA.jpg",
-            "https://cdn4.telesco.pe/file/vdvXof8HeADquVFt21w_h6g6Y3r9Xjleu7BqbPxZ2IOv5WI8gekWu5pWT7eR600jFddH91ZC3H1wlwa3J5kkDkEYT1VWWIb_o0hB7miYmLOWWmgoaSXy-dwI_0YBHGI59vgY0_ZR_9lrvQqbjkUmWYWDcLaqpWdZ32p3SBeI7uS2noVUBOgJ5uds4X11SrbbBpBfhV6Ae5IvaEUE_bulsClCP_LY8vlJ_W5iAmGP3UwwBi0_sg2fOgx0jsADhtDlmrijbwpQQqJ1iYNC-Ev6CKe1E4ib6Lze6MtJTzwiVQZ-uorjUHajfZDaHB7SFlMDDqV4KAIiAiAJ90J4bO3ANg.jpg",
-            "https://cdn4.telesco.pe/file/AMf2izCz5N68e3MlIm-mj7aBjfsK0-i-JiOgirU4sjT12p8WbsVG3ECyJVMwqrueRUBq3q_kCGGrYIKpqKPO_DaVmGciiB8D9YuTFYWkqADxBN2z24Lsrnbw_enWbsnK-YnBUzyVldcQPdt4W7y7TN8PXmOpooZXaj9UnrRtp4_GaLRc0lrjwUev1X6h5txUWWVxaXZOkulYbaYu8pWc5wSwdh37RS9JjLeEeLxhrimlyF3ktEHzxxLh_Sp_JhC2-LOfddmKszrLbu38fO30xt_zUjh5U6k5mNw44rbD1NQtCR6fq9YhJkVS0dcfkadpsASSNd0KhhsMpge-HkRl3A.jpg"
-          ],
-          "url": "https://t.me/sela_brand/10764",
-          "published": "2026-11-16T14:40:01+00:00",
-          "is_teaser": true
+          "id": "10787",
+          "summary": "У нас неделя открытий в Петербурге! 💚 Сегодня торжественно перерезали ленточку в обновленном флагмане SELA в ТРК «Питер Радуга»",
+          "images": [],
+          "url": "https://t.me/sela_brand/10787",
+          "published": "2026-11-20T09:16:29+00:00",
+          "is_teaser": false
         }
       ],
       "error": null
@@ -282,47 +382,53 @@
       "channel": "perekrestok_store",
       "baseline": false,
       "total": 18,
-      "new_count": 4,
+      "new_count": 2,
       "new_posts": [
         {
-          "id": "4460",
-          "summary": "Родители, ваш выход! 🧴 До 30 ноября в Перекрёстке проходит акция для участников «Детского клуба». Покупаете товары для детской гигиены от 700 рублей в чеке, оплачиваете картой «Апельсин» — и половина суммы возвращается баллами на карту «Х5 Клуба». Как это работает : 1⃣ Активируе…",
+          "id": "4464",
+          "summary": "Волшебство под ёлкой ✨ Плюс вайб — это когда дома пахнет хвоей и мандаринами, а под ёлочкой уже лежат подарки. Чтобы создать эту атмосферу, не нужно быть волшебником — достаточно просто заглянуть в Перек . Собрали всё для идеального праздника в одном месте, да ещё и со скидками…",
           "images": [
-            "https://cdn4.telesco.pe/file/gzJrGNYkbej-MBPpw-CADN3JIr9wG5hAjd9BEym7QUCuSFyXM5vytmqIlF-Y9TJcwPng_-LxLjPm2MASr88Mr5IS3DdgGnLKQYf7Nt1v__w9w3lYwd9KlADcJRznJw5TNj09jc-SWrhtnQ3eHC48-uNsHZm5USC4uLOhv2KUQM36mO0rdKxgsO9MUIvd7uHhWtx_STEig-aRwaKqs6f8O2quYvSdzEq63P-5ir32itv9V8Tg57YJ0JsTAuziiN8TXKdN69r2vQhFrRXQ9L0XcXVc9oy2DGMzjzfIxEXloNvNPMbc4E5z1JOEpmzastlWtAZhbh1Za_mrcMhNOEZpcA.jpg"
+            "https://cdn4.telesco.pe/file/ZOf6q6l6xIP1HB_pYOONULJ0dM2UYKeJDWOyBQeRsXou0jxXfhIAHheSwdmcig9hYwMx01yZ2hChLQCCt-KP0lJSXDA1EWVCw3uWpA1jXmom7-QRb8nEwiY2sxFXiTo3h3Dr9YuqDxwU0ezRtRX1VKdAgXXrtyIFt9TvMkl3CTCo4y5wDnzPE8GOkK_nMykLIv9jXYTcm9ANc0aaRmBr32mG_tHDxBn91vrK7SauFj3qB9vQgPED8DBKShy26ya3v15vKZqg9ddVdY2A6gWfkszZmEx3u2ADOVRMHcZMUmRnsCRbg58VVCR7x5sx_99vzmn0YZtBggFFJHqHvooojA.jpg",
+            "https://cdn4.telesco.pe/file/I9bOmuIeGhLNjF7xc7aUzcfJcniZsySCe2f2W1DQGB4TsqpHtSH9sli6L9nXzXFwWN5Zo87_ldXEBaNN1he-x-avfTD4OC_-sRzgxIL_sTJecYOywwOBglQCmyCpJHQZskNSSDlJZajcsf7JE1IGQeACx7vAYL8jN3syvsXBFnZQphYCh6v-7RRt7EzT-c9vPaT08qssfBF0XF6nJT_gz6TGd92df9D2Jf-uLAGUV9gH1WVWyYH1Ri4ELoeAzdq7I3fNJsi9Wvfo6tRtrwTTDCCLeA3p_sIOoeDy0XNR52dQLBt0unM8yt6Ds7GLzMuFoEKngAcuv5fysaAah9s7iA.jpg"
           ],
-          "url": "https://t.me/perekrestok_store/4460",
-          "published": "2026-11-19T09:13:53+00:00",
+          "url": "https://t.me/perekrestok_store/4464",
+          "published": "2026-11-20T11:04:18+00:00",
           "is_teaser": false
         },
         {
-          "id": "4461",
-          "summary": "（图片帖/无文字）",
-          "images": [],
-          "url": "https://t.me/perekrestok_store/4461",
-          "published": "2026-11-19T12:13:40+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "4462",
-          "summary": "Газуем! 🚗 💨 Встречайте новую акцию-блокбастер. Можно выиграть стильный зелёный автомобиль, а ещё кучу топовых гаджетов вроде iPhone 17 Pro Max и стайлера Dyson. Шансы реально высокие. 1️⃣ Залетайте на сайт и регистрируйтесь с картой «Х5 Клуба» 2️⃣ Покупайте любимые продукты от 1…",
+          "id": "4466",
+          "summary": "Самая болтливая упаковка 🗣️ 🍓 Знакомьтесь с новым брендом фруктов и ягод PGT . Это лимитированная новинка — упаковка работает как ваш личный ИИ-нутрициолог. Теперь не нужно вздыхать над полкой, пытаясь вспомнить, для чего там нужен магний и где он вообще есть. Упаковка сама всё…",
           "images": [
-            "https://cdn4.telesco.pe/file/d6-Ky856dYcaOekaejnGGglEPTdUX5YghwvK9xg5qgc_UPhAOsy6B4SanJfDC_IkyJm_6mvF59T3Hj359JjL9f444WDqvhG_hhwCQjkzqzxkx95kk11c9PrtI8W5oRtuA9PsY-_CXYQ9AU0jVtG-ILRkBb-EuilQWOSnbx5yh-7nz9-ovWD7U38w1XuyFB_XCsm7cfQKW9VU5eXa0HIzdOv6WlizyAlI4lya6dQNemt-JopYPAO9LcNq1rHxbvL1nybLYpeMzZXJ-jJBhd_CyZ810MOKZ1Y7YJVj-1nU7Ew0nHqDK4-hYMNlAue4hLMvB8AVN7sshxAEEHrDfpKziA.jpg"
+            "https://cdn4.telesco.pe/file/qeQZTQmUpLLySfKRdy5Gp_mjTxLqsIZguDRRAFcwE_fEJZZ2VZihHY59SHDJ0aFeu71ucLuoj_Gbdpwi6Y3uiq7G49Pi16BC962K87UUKmFZDVDwMwWlrLrcv9V_H0HJW5wut50UJ7Ds1ZT68OM0SEo3T0KOXu7PRvf14NjTFIY9OOkn_GoSWixmIUCsWrJiIxNyUH1jnRN2HRPipsRW0YygTal1Z2lrft84V0tja_AgGjzD_SNHUePzPlzmGUbM6dQcuY3pjmVeFiM0KSWSHQkhBch15SiY7YjbUvKpPJxKJtd0NlfJW6QKqv4jq5dgIOf1-9kOtn99dw9cyUxT6Q.jpg"
           ],
-          "url": "https://t.me/perekrestok_store/4462",
-          "published": "2026-11-19T15:05:03+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "4463",
-          "summary": "（图片帖/无文字）",
-          "images": [],
-          "url": "https://t.me/perekrestok_store/4463",
-          "published": "2026-11-19T16:26:57+00:00",
-          "is_teaser": false
+          "url": "https://t.me/perekrestok_store/4466",
+          "published": "2026-11-20T15:04:25+00:00",
+          "is_teaser": true
         }
       ],
       "sample": [
         {
+          "id": "4466",
+          "summary": "Самая болтливая упаковка 🗣️ 🍓 Знакомьтесь с новым брендом фруктов и ягод PGT . Это лимитированная новинка — упаковка работает как ваш личный ИИ-нутрициолог. Теперь не нужно вздыхать над полкой, пытаясь вспомнить, для чего там нужен магний и где он вообще есть. Упаковка сама всё…",
+          "images": [
+            "https://cdn4.telesco.pe/file/qeQZTQmUpLLySfKRdy5Gp_mjTxLqsIZguDRRAFcwE_fEJZZ2VZihHY59SHDJ0aFeu71ucLuoj_Gbdpwi6Y3uiq7G49Pi16BC962K87UUKmFZDVDwMwWlrLrcv9V_H0HJW5wut50UJ7Ds1ZT68OM0SEo3T0KOXu7PRvf14NjTFIY9OOkn_GoSWixmIUCsWrJiIxNyUH1jnRN2HRPipsRW0YygTal1Z2lrft84V0tja_AgGjzD_SNHUePzPlzmGUbM6dQcuY3pjmVeFiM0KSWSHQkhBch15SiY7YjbUvKpPJxKJtd0NlfJW6QKqv4jq5dgIOf1-9kOtn99dw9cyUxT6Q.jpg"
+          ],
+          "url": "https://t.me/perekrestok_store/4466",
+          "published": "2026-11-20T15:04:25+00:00",
+          "is_teaser": true
+        },
+        {
+          "id": "4464",
+          "summary": "Волшебство под ёлкой ✨ Плюс вайб — это когда дома пахнет хвоей и мандаринами, а под ёлочкой уже лежат подарки. Чтобы создать эту атмосферу, не нужно быть волшебником — достаточно просто заглянуть в Перек . Собрали всё для идеального праздника в одном месте, да ещё и со скидками…",
+          "images": [
+            "https://cdn4.telesco.pe/file/ZOf6q6l6xIP1HB_pYOONULJ0dM2UYKeJDWOyBQeRsXou0jxXfhIAHheSwdmcig9hYwMx01yZ2hChLQCCt-KP0lJSXDA1EWVCw3uWpA1jXmom7-QRb8nEwiY2sxFXiTo3h3Dr9YuqDxwU0ezRtRX1VKdAgXXrtyIFt9TvMkl3CTCo4y5wDnzPE8GOkK_nMykLIv9jXYTcm9ANc0aaRmBr32mG_tHDxBn91vrK7SauFj3qB9vQgPED8DBKShy26ya3v15vKZqg9ddVdY2A6gWfkszZmEx3u2ADOVRMHcZMUmRnsCRbg58VVCR7x5sx_99vzmn0YZtBggFFJHqHvooojA.jpg",
+            "https://cdn4.telesco.pe/file/I9bOmuIeGhLNjF7xc7aUzcfJcniZsySCe2f2W1DQGB4TsqpHtSH9sli6L9nXzXFwWN5Zo87_ldXEBaNN1he-x-avfTD4OC_-sRzgxIL_sTJecYOywwOBglQCmyCpJHQZskNSSDlJZajcsf7JE1IGQeACx7vAYL8jN3syvsXBFnZQphYCh6v-7RRt7EzT-c9vPaT08qssfBF0XF6nJT_gz6TGd92df9D2Jf-uLAGUV9gH1WVWyYH1Ri4ELoeAzdq7I3fNJsi9Wvfo6tRtrwTTDCCLeA3p_sIOoeDy0XNR52dQLBt0unM8yt6Ds7GLzMuFoEKngAcuv5fysaAah9s7iA.jpg"
+          ],
+          "url": "https://t.me/perekrestok_store/4464",
+          "published": "2026-11-20T11:04:18+00:00",
+          "is_teaser": false
+        },
+        {
           "id": "4463",
           "summary": "（图片帖/无文字）",
           "images": [],
@@ -334,7 +440,7 @@
           "id": "4462",
           "summary": "Газуем! 🚗 💨 Встречайте новую акцию-блокбастер. Можно выиграть стильный зелёный автомобиль, а ещё кучу топовых гаджетов вроде iPhone 17 Pro Max и стайлера Dyson. Шансы реально высокие. 1️⃣ Залетайте на сайт и регистрируйтесь с картой «Х5 Клуба» 2️⃣ Покупайте любимые продукты от 1…",
           "images": [
-            "https://cdn4.telesco.pe/file/d6-Ky856dYcaOekaejnGGglEPTdUX5YghwvK9xg5qgc_UPhAOsy6B4SanJfDC_IkyJm_6mvF59T3Hj359JjL9f444WDqvhG_hhwCQjkzqzxkx95kk11c9PrtI8W5oRtuA9PsY-_CXYQ9AU0jVtG-ILRkBb-EuilQWOSnbx5yh-7nz9-ovWD7U38w1XuyFB_XCsm7cfQKW9VU5eXa0HIzdOv6WlizyAlI4lya6dQNemt-JopYPAO9LcNq1rHxbvL1nybLYpeMzZXJ-jJBhd_CyZ810MOKZ1Y7YJVj-1nU7Ew0nHqDK4-hYMNlAue4hLMvB8AVN7sshxAEEHrDfpKziA.jpg"
+            "https://cdn4.telesco.pe/file/nHbXFg0IWklSdNgLHqEuQ4Vd2sO7MjS-KcbJIe_2TuUHNZNu0MIb0ov6yaGAyhRH1nBtMBDMDYSlCYqhFl48kAHLideo53fHkTbHqlysy2cHpspES0TtNTz1fTw8dMCr5tCFVYjhfm2T67CkKYWcMIAcbqvV4a-jGSB2cWAU35L3vQSI4ciTQ8Y05XE6k3xb0pDOuD0zbK7llQM11i4onbWhanpVm-wqMZg9w-rOYBSJTauYn600Y76E28jV5J8nzDTy5M_kJ7fwZd74DLHsAO3gDG4cCEZGlNKq1jeyUOMeYAN4kxN6lfLx5jnV0x4dD5NcfvBa0uIwevX5jiEGbA.jpg"
           ],
           "url": "https://t.me/perekrestok_store/4462",
           "published": "2026-11-19T15:05:03+00:00",
@@ -346,26 +452,6 @@
           "images": [],
           "url": "https://t.me/perekrestok_store/4461",
           "published": "2026-11-19T12:13:40+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "4460",
-          "summary": "Родители, ваш выход! 🧴 До 30 ноября в Перекрёстке проходит акция для участников «Детского клуба». Покупаете товары для детской гигиены от 700 рублей в чеке, оплачиваете картой «Апельсин» — и половина суммы возвращается баллами на карту «Х5 Клуба». Как это работает : 1⃣ Активируе…",
-          "images": [
-            "https://cdn4.telesco.pe/file/gzJrGNYkbej-MBPpw-CADN3JIr9wG5hAjd9BEym7QUCuSFyXM5vytmqIlF-Y9TJcwPng_-LxLjPm2MASr88Mr5IS3DdgGnLKQYf7Nt1v__w9w3lYwd9KlADcJRznJw5TNj09jc-SWrhtnQ3eHC48-uNsHZm5USC4uLOhv2KUQM36mO0rdKxgsO9MUIvd7uHhWtx_STEig-aRwaKqs6f8O2quYvSdzEq63P-5ir32itv9V8Tg57YJ0JsTAuziiN8TXKdN69r2vQhFrRXQ9L0XcXVc9oy2DGMzjzfIxEXloNvNPMbc4E5z1JOEpmzastlWtAZhbh1Za_mrcMhNOEZpcA.jpg"
-          ],
-          "url": "https://t.me/perekrestok_store/4460",
-          "published": "2026-11-19T09:13:53+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "4458",
-          "summary": "Машина для машины! 💪🏻 Мы тут скооперировались с инновационными напитками High Focus от «ЭкоНивы» и решили разыграть классную тачку. Легенда отечественного автопрома не боится ни грязи, ни дачных дорог, ни стереотипов про скуфов. Всё максимально просто : ☕️ Купите моккачино High…",
-          "images": [
-            "https://cdn4.telesco.pe/file/owBUwzBaOKpEPwf2cluxrpvPJ4hME3yUStTrSTrBUbPWe1YE3HUHPXOKV-Fd28eipMysqaWLBMDxVzXxtVqWeHMv0qVhjJSx_WLO7iCvMBZ3sb5mWEhmbOIkAxPy721RNsyutfFIOJIHP1JKivIBONaPdaAVtgr8zgwE98ZPRgbOrbIiuVTiQ7nxJ6lOuZB__bGvyZTDm-o0Q3FolmbMOHPECn7TDVEmyqTAEw2187sSooS7qVPrBm6njcMeRGKSYOz3pjNvWon8eSME3zH8rdo_r0L7CMkO1R1uNCo_REVSbMNC-7ATdSAuL-gaGerVCnSiLRqYZsnp_DEVCCbybQ.jpg"
-          ],
-          "url": "https://t.me/perekrestok_store/4458",
-          "published": "2026-11-18T16:02:41+00:00",
           "is_teaser": false
         }
       ],
@@ -380,93 +466,93 @@
       "new_count": 5,
       "new_posts": [
         {
-          "id": "7197",
-          "summary": "（图片帖/无文字）",
-          "images": [],
-          "url": "https://t.me/magnit_retail/7197",
-          "published": "2026-11-19T09:02:01+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "7198",
-          "summary": "Лаваш, без обид ! В Магните новинка — лепёшки роти . Заворачивайте в них любимые начинки, подавайте к горячим блюдам или ешьте просто так. 🔥 Стоит всего 199,99 ₽ за 450 г. Пробовали лепёшки роти? 🥰 — Да, обожаю 👍🏼 — Нет, но уже хочу 😱 — Впервые о них слышу ❤ ️ Мы в МАХ",
+          "id": "7203",
+          "summary": "Ура! Начался сезон сбора кокосовой стружки для Raffaello ❄️ Просим не топтать урожай и бережно относиться к сугробам.",
           "images": [
-            "https://cdn4.telesco.pe/file/qFfnm-4PaHrFkWh9wTyojID4Qx-ecC9C0Ke1QZChU3B5hYzO_vb8Xz2paff9xZcD4r-NtRJOmCv2z1S2vs_Nf6dvUx6fP1enLIDbP1JwtVGbgu1PTG8bSOlCp7RrJSCzXxwtRwfD7dVZe9_hcx_XfFcyf95aaw-lJQQPBHCgVOLaaCiT3Iy_nRiK2K4d4uzfTTb4U3nOyjhH19VQ9WBDv_Z1_p_bkNUdoo_KcKOO2oeyruQKUDQZaCyrd4tH8vhloS_Tn2NvTtNa2jVj1QKE6tT8zgb8sCEIvmjl6PNd3WJH-UMiILCo4TBRItZRkOASUJiu-J0pbjOkD6HpxqE8Vg.jpg"
+            "https://cdn4.telesco.pe/file/OcFftSoFVirkQTamoMtqjNRVD33udvKz_ScG8CISxR3hO1IYE3jSy2OabxwXxm4yGc9584Aq234jm0D4G0wEyxBhjTT3IJp_0OkTZlu0ypeYA0-5kBFfw2D3raHxjJpHtj6_KHqQnVxqQn4bQXJBCfXTR9o-lub1jlZvJW8EpgOxhPQ9m8ebJ7oNib3kmYxZWU9IWws5AGBTKdV9hs9wp8-u9Tntixp3DVyimaI1lE5-tiEpIP8NYwRsI106ioGwrsEdj3vPI_lcH0DLE4RgMK3-k6DhO6CNfUqGA5x_ENPS53nuQNCNlCzbj_tsj6vRCdzya-pCg1r-XqQmBFkv7Q.jpg"
           ],
-          "url": "https://t.me/magnit_retail/7198",
-          "published": "2026-11-19T11:31:27+00:00",
-          "is_teaser": true
-        },
-        {
-          "id": "7199",
-          "summary": "（图片帖/无文字）",
-          "images": [],
-          "url": "https://t.me/magnit_retail/7199",
-          "published": "2026-11-19T14:01:45+00:00",
+          "url": "https://t.me/magnit_retail/7203",
+          "published": "2026-11-20T10:00:44+00:00",
           "is_teaser": false
         },
         {
-          "id": "7200",
-          "summary": "Ответить на звонок? ❤️ — Да 🔥 — Нет, сбросить",
+          "id": "7204",
+          "summary": "На улице минус, а в Магните плюс нежнейшее мороженое Raffaello в белой глазури 🥥 Не ждать же лето, чтобы порадовать себя! До 22 ноября всего за 249,99 ₽ ❤ ️ Мы в МАХ",
           "images": [
-            "https://cdn4.telesco.pe/file/AugtShOHIXoZ27UYOTMO0HqtlIZelWse9msG7NRVsQWLB7R_sO-Vrivg5sLDxlRR_1hz8dNb76w4t3_nMup7q4q95Fb5xp6QPniIWVOWqJM5GFgOPc4NjbVj_1g0hPxPC1CHtLE7So46i6MBuzPpdo9U65VARDzKpyWiTdp_9prl7TGyp5shchxRB2Y6gKdLI08-AxEd2ML33ux2zWTGW6Y7kDBCzaw76v8RMU1KZAWYGJPF-G5ekqgsQkaY8rpyYD7LT-HaPm3az4RK2YQ-IzIFF_2dP7WjHUszH94Z6sZhPj_grYCZujyAI9eZ-O6vYAym7O9cTW4aHNf4PK5Q3g.jpg"
+            "https://cdn4.telesco.pe/file/NGD97InImym9o-7zbNWrbciQnLC4OFHKpPTPSiQQVP3AeKDovxijD4cD8ymNM9WHmXBKzcG1Jikz_jznF3HLaoCsMn91H5_vTsUpVC7kzKAEhPuCeK_UU1MYmmvKLxrJjq20xFnFAav0xqPIaWXsZDGdyT6WB44kHUAduNiBM_SRaizbwasEhI0ozAsEPMtB_lBaDuF7Fp7WJ6ng77p4OcQHwrz9Wmmv8QA6eS7fE7fjlE67cvL998C2Vws2whwLel_TGBm57O_Ct2u2Qhqr452uAdxhV4smzSqVKo_LecArUnOPCVtDttSnnEZaqIODCi_5OhxFJCJTzdFwJX3alw.jpg"
           ],
-          "url": "https://t.me/magnit_retail/7200",
-          "published": "2026-11-20T05:45:16+00:00",
+          "url": "https://t.me/magnit_retail/7204",
+          "published": "2026-11-20T10:15:01+00:00",
           "is_teaser": false
         },
         {
-          "id": "7201",
+          "id": "7205",
           "summary": "（图片帖/无文字）",
           "images": [],
-          "url": "https://t.me/magnit_retail/7201",
-          "published": "2026-11-20T06:01:01+00:00",
+          "url": "https://t.me/magnit_retail/7205",
+          "published": "2026-11-20T12:47:18+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "7206",
+          "summary": "（图片帖/无文字）",
+          "images": [],
+          "url": "https://t.me/magnit_retail/7206",
+          "published": "2026-11-20T12:49:10+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "7207",
+          "summary": "（图片帖/无文字）",
+          "images": [],
+          "url": "https://t.me/magnit_retail/7207",
+          "published": "2026-11-21T06:01:01+00:00",
           "is_teaser": false
         }
       ],
       "sample": [
         {
-          "id": "7201",
+          "id": "7207",
           "summary": "（图片帖/无文字）",
           "images": [],
-          "url": "https://t.me/magnit_retail/7201",
-          "published": "2026-11-20T06:01:01+00:00",
+          "url": "https://t.me/magnit_retail/7207",
+          "published": "2026-11-21T06:01:01+00:00",
           "is_teaser": false
         },
         {
-          "id": "7200",
-          "summary": "Ответить на звонок? ❤️ — Да 🔥 — Нет, сбросить",
+          "id": "7206",
+          "summary": "（图片帖/无文字）",
+          "images": [],
+          "url": "https://t.me/magnit_retail/7206",
+          "published": "2026-11-20T12:49:10+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "7205",
+          "summary": "（图片帖/无文字）",
+          "images": [],
+          "url": "https://t.me/magnit_retail/7205",
+          "published": "2026-11-20T12:47:18+00:00",
+          "is_teaser": false
+        },
+        {
+          "id": "7204",
+          "summary": "На улице минус, а в Магните плюс нежнейшее мороженое Raffaello в белой глазури 🥥 Не ждать же лето, чтобы порадовать себя! До 22 ноября всего за 249,99 ₽ ❤ ️ Мы в МАХ",
           "images": [
-            "https://cdn4.telesco.pe/file/AugtShOHIXoZ27UYOTMO0HqtlIZelWse9msG7NRVsQWLB7R_sO-Vrivg5sLDxlRR_1hz8dNb76w4t3_nMup7q4q95Fb5xp6QPniIWVOWqJM5GFgOPc4NjbVj_1g0hPxPC1CHtLE7So46i6MBuzPpdo9U65VARDzKpyWiTdp_9prl7TGyp5shchxRB2Y6gKdLI08-AxEd2ML33ux2zWTGW6Y7kDBCzaw76v8RMU1KZAWYGJPF-G5ekqgsQkaY8rpyYD7LT-HaPm3az4RK2YQ-IzIFF_2dP7WjHUszH94Z6sZhPj_grYCZujyAI9eZ-O6vYAym7O9cTW4aHNf4PK5Q3g.jpg"
+            "https://cdn4.telesco.pe/file/NGD97InImym9o-7zbNWrbciQnLC4OFHKpPTPSiQQVP3AeKDovxijD4cD8ymNM9WHmXBKzcG1Jikz_jznF3HLaoCsMn91H5_vTsUpVC7kzKAEhPuCeK_UU1MYmmvKLxrJjq20xFnFAav0xqPIaWXsZDGdyT6WB44kHUAduNiBM_SRaizbwasEhI0ozAsEPMtB_lBaDuF7Fp7WJ6ng77p4OcQHwrz9Wmmv8QA6eS7fE7fjlE67cvL998C2Vws2whwLel_TGBm57O_Ct2u2Qhqr452uAdxhV4smzSqVKo_LecArUnOPCVtDttSnnEZaqIODCi_5OhxFJCJTzdFwJX3alw.jpg"
           ],
-          "url": "https://t.me/magnit_retail/7200",
-          "published": "2026-11-20T05:45:16+00:00",
+          "url": "https://t.me/magnit_retail/7204",
+          "published": "2026-11-20T10:15:01+00:00",
           "is_teaser": false
         },
         {
-          "id": "7199",
-          "summary": "（图片帖/无文字）",
-          "images": [],
-          "url": "https://t.me/magnit_retail/7199",
-          "published": "2026-11-19T14:01:45+00:00",
-          "is_teaser": false
-        },
-        {
-          "id": "7198",
-          "summary": "Лаваш, без обид ! В Магните новинка — лепёшки роти . Заворачивайте в них любимые начинки, подавайте к горячим блюдам или ешьте просто так. 🔥 Стоит всего 199,99 ₽ за 450 г. Пробовали лепёшки роти? 🥰 — Да, обожаю 👍🏼 — Нет, но уже хочу 😱 — Впервые о них слышу ❤ ️ Мы в МАХ",
+          "id": "7203",
+          "summary": "Ура! Начался сезон сбора кокосовой стружки для Raffaello ❄️ Просим не топтать урожай и бережно относиться к сугробам.",
           "images": [
-            "https://cdn4.telesco.pe/file/qFfnm-4PaHrFkWh9wTyojID4Qx-ecC9C0Ke1QZChU3B5hYzO_vb8Xz2paff9xZcD4r-NtRJOmCv2z1S2vs_Nf6dvUx6fP1enLIDbP1JwtVGbgu1PTG8bSOlCp7RrJSCzXxwtRwfD7dVZe9_hcx_XfFcyf95aaw-lJQQPBHCgVOLaaCiT3Iy_nRiK2K4d4uzfTTb4U3nOyjhH19VQ9WBDv_Z1_p_bkNUdoo_KcKOO2oeyruQKUDQZaCyrd4tH8vhloS_Tn2NvTtNa2jVj1QKE6tT8zgb8sCEIvmjl6PNd3WJH-UMiILCo4TBRItZRkOASUJiu-J0pbjOkD6HpxqE8Vg.jpg"
+            "https://cdn4.telesco.pe/file/OcFftSoFVirkQTamoMtqjNRVD33udvKz_ScG8CISxR3hO1IYE3jSy2OabxwXxm4yGc9584Aq234jm0D4G0wEyxBhjTT3IJp_0OkTZlu0ypeYA0-5kBFfw2D3raHxjJpHtj6_KHqQnVxqQn4bQXJBCfXTR9o-lub1jlZvJW8EpgOxhPQ9m8ebJ7oNib3kmYxZWU9IWws5AGBTKdV9hs9wp8-u9Tntixp3DVyimaI1lE5-tiEpIP8NYwRsI106ioGwrsEdj3vPI_lcH0DLE4RgMK3-k6DhO6CNfUqGA5x_ENPS53nuQNCNlCzbj_tsj6vRCdzya-pCg1r-XqQmBFkv7Q.jpg"
           ],
-          "url": "https://t.me/magnit_retail/7198",
-          "published": "2026-11-19T11:31:27+00:00",
-          "is_teaser": true
-        },
-        {
-          "id": "7197",
-          "summary": "（图片帖/无文字）",
-          "images": [],
-          "url": "https://t.me/magnit_retail/7197",
-          "published": "2026-11-19T09:02:01+00:00",
+          "url": "https://t.me/magnit_retail/7203",
+          "published": "2026-11-20T10:00:44+00:00",
           "is_teaser": false
         }
       ],

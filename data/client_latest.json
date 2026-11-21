@@ -1,16 +1,108 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "clients": [
     {
       "client": "Fix Price",
       "source": "fix_price_api",
       "url": "https://fix-price.com/catalog/novinki",
       "baseline": false,
-      "total": 12,
-      "fetched_total": 128,
-      "filtered_count": 116,
-      "new_count": 0,
-      "new_items": [],
+      "total": 15,
+      "fetched_total": 117,
+      "filtered_count": 102,
+      "new_count": 7,
+      "new_items": [
+        {
+          "id": "5230222",
+          "name": "Подсвечник \"Руби\", в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230222-podsvechnik-rubi-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230222-podsvechnik-rubi-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246428",
+          "name": "Корзина для мелочей \"Леея\", в ассортименте",
+          "price": 549,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246428-korzina-dlya-melochey-leeya-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246428-korzina-dlya-melochey-leeya-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231551",
+          "name": "Набор свечей для торта \"Звёздочки\", PARTY, в ассортименте",
+          "price": 79,
+          "url": "https://fix-price.com/catalog/novinki/p-5231551-nabor-svechey-dlya-torta-zvzdochki--v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5231551-nabor-svechey-dlya-torta-zvzdochki--v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231535",
+          "name": "Ароматическая свеча в стакане \"Конфетти\", в ассортименте",
+          "price": 249,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5231535-aromaticheskaya-svecha-v-stakane-konfetti-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5231535-aromaticheskaya-svecha-v-stakane-konfetti-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5366005",
+          "name": "Шар на ёлку \"Прикол\", PrankBank, в ассортименте",
+          "price": 99,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5366005-shar-na-lku-prikol-rankank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5366005-shar-na-lku-prikol-rankank-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5361019",
+          "name": "Топпер на ёлку \"Прикол\", Prank Bank, в ассортименте",
+          "price": 299,
+          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361019-topper-na-lku-prikol-rank-ank-v-assortimente",
+          "category": "Декор для дома, товары для праздника",
+          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5361019-topper-na-lku-prikol-rank-ank-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5071190",
+          "name": "Коврик для посуды с сушкой, BonHome, 40х45 см, в ассортименте",
+          "price": 199,
+          "url": "https://fix-price.com/catalog/dlya-doma/p-5071190-kovrik-dlya-posudy-s-sushkoy-onome-40h45-sm-v-assortimente",
+          "category": "Для дома",
+          "path": "/catalog/dlya-doma/p-5071190-kovrik-dlya-posudy-s-sushkoy-onome-40h45-sm-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        }
+      ],
       "sample": [
         {
           "id": "5243696",
@@ -24,19 +116,6 @@
           "match_tags": [
             "🎯 价位匹配",
             "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "5246425",
-          "name": "Ваза \"Александрит\", в ассортименте",
-          "price": 599,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246425-vaza-aleksandrit-v-assortimente",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5246425-vaza-aleksandrit-v-assortimente",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
           ]
         },
         {
@@ -66,12 +145,12 @@
           ]
         },
         {
-          "id": "5310481",
-          "name": "Набор воздушных шаров для фотозоны \"Трио\", PARTY, в ассортименте",
-          "price": 249,
-          "url": "https://fix-price.com/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310481-nabor-vozdushnyh-sharov-dlya-fotozony-trio--v-assortimente",
-          "category": "Декор для дома, товары для праздника",
-          "path": "/catalog/dekor-dlya-doma-tovary-dlya-prazdnika/p-5310481-nabor-vozdushnyh-sharov-dlya-fotozony-trio--v-assortimente",
+          "id": "5079379",
+          "name": "Корзина фетровая, Home Time, 29х26х20 см, в ассортименте",
+          "price": 399,
+          "url": "https://fix-price.com/catalog/novinki/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
+          "category": "Новинки",
+          "path": "/catalog/novinki/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -79,12 +158,38 @@
           ]
         },
         {
-          "id": "5079379",
-          "name": "Корзина фетровая, Home Time, 29х26х20 см, в ассортименте",
-          "price": 399,
-          "url": "https://fix-price.com/catalog/novinki/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
+          "id": "5230222",
+          "name": "Подсвечник \"Руби\", в ассортименте",
+          "price": 149,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230222-podsvechnik-rubi-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5230222-podsvechnik-rubi-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5246428",
+          "name": "Корзина для мелочей \"Леея\", в ассортименте",
+          "price": 549,
+          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5246428-korzina-dlya-melochey-leeya-v-assortimente",
+          "category": "Сувениры и подарки",
+          "path": "/catalog/suveniry-i-podarki/p-5246428-korzina-dlya-melochey-leeya-v-assortimente",
+          "price_match": true,
+          "focus_match": false,
+          "match_tags": [
+            "🎯 价位匹配"
+          ]
+        },
+        {
+          "id": "5231551",
+          "name": "Набор свечей для торта \"Звёздочки\", PARTY, в ассортименте",
+          "price": 79,
+          "url": "https://fix-price.com/catalog/novinki/p-5231551-nabor-svechey-dlya-torta-zvzdochki--v-assortimente",
           "category": "Новинки",
-          "path": "/catalog/novinki/p-5079379-korzina-fetrovaya-ome-ime-29h26h20-sm-v-assortimente",
+          "path": "/catalog/novinki/p-5231551-nabor-svechey-dlya-torta-zvzdochki--v-assortimente",
           "price_match": true,
           "focus_match": false,
           "match_tags": [
@@ -103,23 +208,10 @@
           "match_tags": [
             "🎯 价位匹配"
           ]
-        },
-        {
-          "id": "5230225",
-          "name": "Подсвечник \"Рубикон\", 9,5 см",
-          "price": 499,
-          "url": "https://fix-price.com/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
-          "category": "Сувениры и подарки",
-          "path": "/catalog/suveniry-i-podarki/p-5230225-podsvechnik-rubikon-95-sm",
-          "price_match": true,
-          "focus_match": false,
-          "match_tags": [
-            "🎯 价位匹配"
-          ]
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.0938,
+      "decor_ratio": 0.1282,
       "error": null
     },
     {
@@ -127,18 +219,18 @@
       "source": "sela_html",
       "url": "https://www.sela.ru/eshop/home/new/",
       "baseline": false,
-      "total": 267,
-      "fetched_total": 366,
-      "filtered_count": 99,
-      "new_count": 3,
+      "total": 249,
+      "fetched_total": 340,
+      "filtered_count": 91,
+      "new_count": 2,
       "new_items": [
         {
-          "id": "221383",
-          "name": "Хлопковая сервировочная салфетка с кисточками",
-          "price": 799,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226616_99/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6810226616_99/",
+          "id": "221448",
+          "name": "Елочное украшение из стекла",
+          "price": 599,
+          "url": "https://www.sela.ru/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
+          "category": "dekor / yelochnye-ukrasheniya",
+          "path": "/eshop/home/dekor/yelochnye-ukrasheniya/SL6810227012_41/",
           "price_match": false,
           "focus_match": true,
           "match_tags": [
@@ -146,25 +238,12 @@
           ]
         },
         {
-          "id": "221379",
-          "name": "Сервировочная салфетка из хлопка",
-          "price": 699,
-          "url": "https://www.sela.ru/eshop/home/kukhnya/SL6810226615_99/",
-          "category": "kukhnya",
-          "path": "/eshop/home/kukhnya/SL6810226615_99/",
-          "price_match": false,
-          "focus_match": true,
-          "match_tags": [
-            "✨ 品类对口"
-          ]
-        },
-        {
-          "id": "221907",
-          "name": "Металлическая подставка под яйцо",
-          "price": 399,
-          "url": "https://www.sela.ru/eshop/home/posuda/SL6810226923_7/",
-          "category": "posuda",
-          "path": "/eshop/home/posuda/SL6810226923_7/",
+          "id": "221774",
+          "name": "Набор столовых свечей с принтом, 2 шт.",
+          "price": 999,
+          "url": "https://www.sela.ru/eshop/home/dekor/svechi/SL6810227093_99/",
+          "category": "dekor / svechi",
+          "path": "/eshop/home/dekor/svechi/SL6810227093_99/",
           "price_match": false,
           "focus_match": false,
           "match_tags": []
@@ -285,7 +364,7 @@
         }
       ],
       "quality_note": null,
-      "decor_ratio": 0.7295,
+      "decor_ratio": 0.7324,
       "error": null
     },
     {
